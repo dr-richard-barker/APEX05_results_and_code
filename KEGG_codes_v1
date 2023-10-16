@@ -1,0 +1,248 @@
+---
+title: "KEGG Pathways"
+author: "Richard Barker"
+date: "December 19, 2019"
+output:
+  html_document:
+    code_folding: hide
+---
+
+A bit of setup: load packages.
+
+```{r warning = FALSE, message = FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+
+#library(enrichplot)
+library(pathview)
+#library(clusterProfiler)
+```
+
+Read in the results including log2 FC's, gene names, and adjusted p-values.
+
+```{r}
+#fold_changes <- read.csv("C:/Users/richardbarker/Downloads/full_table_Mutant-FL_vs_WT-FL_Gene.csv")
+#fold_changes <- read.csv("C:/Users/richardbarker/Downloads/full_table_Mutant-GC_vs_WT-GC_Gene.csv")
+#fold_changes <- read.csv("C:/Users/richardbarker/Documents/KEGG_pictures/APEX05_GeneData_KEGG/full_table_WT-FL_vs_WT-GC_gene.csv")
+#fold_changes <- read.csv("C:/Users/richardbarker/Documents/KEGG_pictures/APEX05_GeneData_KEGG/full_table_Mutant-FL_vs_mutant-GC_gene.csv")
+
+```
+# Note: the is removed from the code above to load each full table of data one at a time 
+
+Create a vector with log2 fold changes with gene IDs as names.
+
+```{r}
+original_gene_list <- setNames(fold_changes$log2FoldChange,
+                               fold_changes$Gene_ID)
+```
+
+Remove any `NA` values.
+
+```{r}
+gene_list <- na.omit(original_gene_list)
+```
+
+Create pretty plot from `pathview` package. Will be saved in same directory as this file. Is included using the last line of code `knitr::include_graphics`.
+
+```{r}
+dme <- pathview(gene.data = gene_list,
+                pathway.id="01100",
+                species = "ath",
+                gene.idtype = "TAIR",
+                low = list(gene = "red", cpd = "blue"),
+                mid = list(gene = "gray", cpd = "gray"),
+                high = list(gene = "blue", cpd = "red"))
+
+knitr::include_graphics("ath00020.pathview.png")
+```
+# Note: These colour scemes would not work if using compound data. 
+
+
+```{r}
+dme <- pathview(gene.data = gene_list,
+                pathway.id="ath00020",
+                species = "ath",
+                gene.idtype = "TAIR",
+                low = list(gene = "red", cpd = "blue"),
+                mid = list(gene = "gray", cpd = "gray"),
+                high = list(gene = "blue", cpd = "red"))
+
+knitr::include_graphics("ath00020.pathview.png")
+
+
+```{r}
+dme <- pathview(gene.data = gene_list,
+                pathway.id="ath00190",
+                species = "ath",
+                gene.idtype = "TAIR",
+                low = list(gene = "red", cpd = "blue"),
+                mid = list(gene = "gray", cpd = "gray"),
+                high = list(gene = "blue", cpd = "red"))
+
+knitr::include_graphics("ath00190.pathview.png")
+```
+
+```{r}
+dme <- pathview(gene.data = gene_list,
+                pathway.id="ath00960",
+                species = "ath",
+                gene.idtype = "TAIR",
+                low = list(gene = "red", cpd = "blue"),
+                mid = list(gene = "gray", cpd = "gray"),
+                high = list(gene = "blue", cpd = "yellow"))
+
+knitr::include_graphics("ath00960.pathview.png")
+```
+
+```{r}
+dme <- pathview(gene.data = gene_list,
+                pathway.id="ath00910",
+                species = "ath",
+                gene.idtype = "TAIR",
+                low = list(gene = "red", cpd = "blue"),
+                mid = list(gene = "gray", cpd = "gray"),
+                high = list(gene = "blue", cpd = "red"))
+
+knitr::include_graphics("ath00910.pathview.png")
+```
+
+```{r}
+dme <- pathview(gene.data = gene_list,
+                pathway.id="ath00195",
+                species = "ath",
+                gene.idtype = "TAIR",
+                low = list(gene = "red", cpd = "blue"),
+                mid = list(gene = "gray", cpd = "gray"),
+                high = list(gene = "blue", cpd = "red"))
+
+knitr::include_graphics("ath00195.pathview.png")
+```
+
+```{r}
+dme <- pathview(gene.data = gene_list,
+                pathway.id="ath00196",
+                species = "ath",
+                gene.idtype = "TAIR",
+                low = list(gene = "red", cpd = "blue"),
+                mid = list(gene = "gray", cpd = "gray"),
+                high = list(gene = "blue", cpd = "red"))
+
+knitr::include_graphics("ath00196.pathview.png")
+```
+
+```{r}
+dme <- pathview(gene.data = gene_list,
+                pathway.id="ath00940",
+                species = "ath",
+                gene.idtype = "TAIR",
+                low = list(gene = "red", cpd = "blue"),
+                mid = list(gene = "gray", cpd = "gray"),
+                high = list(gene = "blue", cpd = "red"))
+
+knitr::include_graphics("ath00940.pathview.png")
+```
+
+```{r}
+dme <- pathview(gene.data = gene_list,
+                pathway.id="ath00061",
+                species = "ath",
+                gene.idtype = "TAIR",
+                low = list(gene = "red", cpd = "blue"),
+                mid = list(gene = "gray", cpd = "gray"),
+                high = list(gene = "blue", cpd = "red"))
+
+knitr::include_graphics("ath00061.pathview.png")
+```
+
+```{r}
+dme <- pathview(gene.data = gene_list,
+                pathway.id="ath03440",
+                species = "ath",
+                gene.idtype = "TAIR",
+                low = list(gene = "red", cpd = "blue"),
+                mid = list(gene = "gray", cpd = "gray"),
+                high = list(gene = "blue", cpd = "red"))
+
+knitr::include_graphics("ath03440.pathview.png")
+```
+
+```{r}
+dme <- pathview(gene.data = gene_list,
+                pathway.id="ath00053",
+                species = "ath",
+                gene.idtype = "TAIR",
+                low = list(gene = "red", cpd = "blue"),
+                mid = list(gene = "gray", cpd = "gray"),
+                high = list(gene = "blue", cpd = "red"))
+
+knitr::include_graphics("ath00053.pathview.png")
+```
+
+```{r}
+dme <- pathview(gene.data = gene_list,
+                pathway.id="ath04075",
+                species = "ath",
+                gene.idtype = "TAIR",
+                low = list(gene = "red", cpd = "blue"),
+                mid = list(gene = "gray", cpd = "gray"),
+                high = list(gene = "blue", cpd = "red"))
+
+knitr::include_graphics("ath04075.pathview.png")
+```
+
+```{r}
+dme <- pathview(gene.data = gene_list,
+                pathway.id="ath02010",
+                species = "ath",
+                gene.idtype = "TAIR",
+                low = list(gene = "red", cpd = "blue"),
+                mid = list(gene = "gray", cpd = "gray"),
+                high = list(gene = "blue", cpd = "red"))
+
+knitr::include_graphics("ath02010.pathview.png")
+```
+
+```{r}
+dme <- pathview(gene.data = gene_list,
+                pathway.id="ath01110",
+                species = "ath",
+                gene.idtype = "TAIR",
+                low = list(gene = "red", cpd = "blue"),
+                mid = list(gene = "gray", cpd = "gray"),
+                high = list(gene = "blue", cpd = "red"))
+
+knitr::include_graphics("ath01110.pathview.png")
+```
+
+```{r}
+dme <- pathview(gene.data = gene_list,
+                pathway.id="ath00998",
+                species = "ath",
+                gene.idtype = "TAIR",
+                low = list(gene = "red", cpd = "blue"),
+                mid = list(gene = "gray", cpd = "gray"),
+                high = list(gene = "blue", cpd = "red"))
+
+knitr::include_graphics("ath00998.pathview.png")
+```
+
+#```{r}
+#dme <- pathview(gene.data = gene_list,
+#                pathway.id="ath00966",
+#                species = "ath",
+#                gene.idtype = "TAIR",
+#                low = list(gene = "red", cpd = "blue"),
+#                mid = list(gene = "gray", cpd = "gray"),
+#                high = list(gene = "blue", cpd = "red"))
+#knitr::include_graphics("ath00966.pathview.png")
+#```
+
+```{r}
+dme <- pathview(gene.data = gene_list,
+                pathway.id="ath00480",
+                species = "ath",
+                gene.idtype = "TAIR",
+                low = list(gene = "red", cpd = "blue"),
+                mid = list(gene = "gray", cpd = "gray"),
+                high = list(gene = "blue", cpd = "red"))
+
+knitr::include_graphics("ath00480.pathview.png")

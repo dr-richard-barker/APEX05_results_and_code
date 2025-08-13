@@ -1,0 +1,3827 @@
+APEX-05: 
+Calcium Signaling in Space
+Episode 4: “A New Hope”
+Richard Barker
+Arkadipta Bakshi,
+Richard Hillary,
+Won-Gyu Choi, Sarah Swanson  
+Simon Gilroy 
+& all the awesome folk at NASA & Gilroy Lab
+
+Seed microbiome contains penicillin…. Etc… the BRIC17
+https://www.nature.com/articles/s41598-019-54328-2
+
+https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.16424
+Hypothetical models for the origin of chronic hypoxia in plant cell niches. A generic structured cell mass is depicted and coloured in shades of blue to indicate relative respiratory activity. (a) High respiratory activity of the central‐localised cells could drive hypoxia. (b) Oxygen consumption by the outer niche cells limits oxygen diffusion to the niche core. (c) A physical barrier to oxygen diffusion promotes the establishment of hypoxia in the entire niche. Proposed metabolic pathways in the different regions of the niche are indicated at the bottom of the figure: oxidative phosphorylation via the mitochondrial electron transport chain that uses oxygen as the terminal electron acceptor (left) or glycolytic production of ATP sustained by NAD + regeneration via fermentation (right).
+
+
+
+
+REVIEW ARTICLE
+Front. Plant Sci., 22 March 2019 | https://doi.org/10.3389/fpls.2019.00340
+
+
+Summary
+Col-0 roots and Col-0 shoots both have a JAZ & downstream story.
+Col-0 Shoot experiences specific extra toxic metabolism and phenylpropanoid pathway changes.
+Col-0 roots change in Iron metabolism (Heme etc.) changes signaling, Chitin.
+Col-0 Shoot & RBOHD Shoot ROS, receptor, mitochondria story
+Col-0 Root & CAX22 Root & RBOHD Root experiences changes in metabolism related to seed dormancy
+Col-0 Shoot & CAX22 Shoot & RBOHD Shoots. JAZ related defence story 
+RBOHD Root specific "Signaling story"
+RBOHD Root & RBOHD Shoot have altered respiration story
+RBOHD Shoot Lots of specific “Stories”....
+CAX22 root specific plastid structure/function (Seed vs seedling metabolism).
+CAX22 roots and COL roots have a ROS story
+CAX22 shoots have a RCI3 ROS story 
+CAX22 shoot and RBOHD shoots both have a RAP12 hypoxia story
+Col-0 Root & Col-0 Shoot & RBOHD Root STRING Loads of stories about extracellular components of nitrate signaling, detoxification and more…
+Col-0 roots and RBOH roots have phenylpropanoid pathway modification, changes in anion transporters, peroxidases, nitrile hydratases, and iron related binding proteins all generally related to oxidoreductase activity in the cell membrane and extracellular region.
+Mitochondrial GLR1.2 story in Col-0 Shoot & RBOHD Root & RBOHD Shoot 
+Extra Chtin story Col-0 Shoot & RBOHD Root 
+WRKY (WRKY22) regulated detoxification system in operation in Col-0 Root & Col-0 Shoot & CAX22 Root & RBOHD Root.  
+
+Cell wall alteration - cax roots and rboh shoots
+Apotopsis pathways story ... COL00 Shoot & CAX22 Root & RBOHD Shoot 
+HAK5 found in the following ... COL00 Root & COL00 Shoot & CAX22 Shoot & RBOHD Root. 
+Jaz8 found in both  APEX05 COL00 Root & RBOHD Shoot. 
+
+Earth
+International Space Station
+
+CAX2 is a calcium transporter
+RBOHD makes apoplastic ROS 
+Steinhorst, Kudla (2013) Calcium and Reactive Oxygen Species Rule the Waves of Signaling (2013)
+Ca2+
+Ca2+
+
+Steinhorst, Kudla (2013) Calcium and Reactive Oxygen Species Rule the Waves of Signaling (2013)
+CAX2 is a calcium transporter
+RBOHD makes apoplastic ROS 
+Ca2+
+Ca2+
+
+
+
+Col-0 - RBOHD Roots
+Molecular function
+Cellular site
+Biological process
+
+Col-0 - RBOHD Roots
+PO location
+KEGG
+ARA CyC shoots and roots
+
+Col-0 - 
+RBOHD Shoots
+
+Col-0 - RBOHD Roots
+
+cax2-3 B7 GC
+cax2-2 B8 GC
+Col-0 B6 GC
+rbohD B4 GC
+ 
+cax2-3 B7 FL
+cax2-2 B8 FL
+rbohD B4 FL
+Col-0 B6 FL
+But it has to be high throughput 
+Thanks Scott Tingle
+
+Col-0 B6 GC
+rbohD B4 GC
+rbohD B4 FL
+Col-0 B6 FL
+
+Root System Growth Kinetics  
+Space Flight
+Ground control
+ArchiDart Root Growth Simulator
+
+Max Root hair length (micrometers)
+
+8 days old WT leaf area was reduced during space flight
+Black lines show the means; white lines represent individual data points; polygons represent the estimated density of the data.
+
+
+
+
+
+Height and volume
+cax22 GC vs FL cax22
+
+RBOHD
+
+Col-0
+
+cax2-3
+
+cax2-2
+
+Day 8 root “height”
+mm
+Col.0.GC
+Col.0.FL
+rbohD.GC
+rbohD.FL
+cax22.GC
+cax22.FL
+Upper whisker
+72.01
+61.02
+75.00
+74.60
+71.77
+75.24
+3rd quartile
+70.45
+45.48
+73.40
+60.20
+71.22
+62.22
+Median
+69.80
+37.65
+72.80
+53.80
+70.55
+54.05
+1st quartile
+69.62
+34.60
+70.00
+49.30
+67.92
+48.87
+Lower whisker
+69.20
+30.52
+69.52
+40.18
+62.70
+43.05
+Nr. of data points
+4.00
+4.00
+5.00
+5.00
+4.00
+4.00
+Mean
+70.28
+42.42
+72.20
+55.88
+68.60
+57.05
+Box plot statistics
+Box plot description for figure legend: Center lines show the medians; box limits indicate the 25th and 75th percentiles as determined by R software; whiskers extend to 5th and 95th percentiles, outliers are represented by dots; crosses represent sample means. n = 4, 4, 5, 5, 4, 4 sample points.
+
+
+
+Day 8 volume (mm2)
+Col.0.GC
+Col.0.FL
+rbohD.GC
+rbohD.FL
+cax22.GC
+cax22.FL
+Upper whisker
+40062.01
+32303.28
+43334.40
+37877.47
+38650.20
+44249.21
+3rd quartile
+39338.05
+28463.23
+42835.62
+32184.97
+34312.20
+34192.07
+Median
+38689.15
+22709.65
+40632.05
+28990.20
+28991.35
+29440.65
+1st quartile
+36214.18
+16495.52
+37980.75
+26578.07
+25288.12
+28617.05
+Lower whisker
+31107.63
+11550.14
+36407.43
+22763.94
+24832.42
+27986.69
+Nr. of data points
+4.00
+4.00
+4.00
+4.00
+4.00
+4.00
+Mean
+36863.07
+22249.10
+40184.32
+29772.85
+30608.97
+33368.47
+Box plot statistics
+mm2
+Box plot description for figure legend:
+Center lines show the medians; box limits indicate the 25th and 75th percentiles as determined by R software; whiskers extend to 5th and 95th percentiles, outliers are represented by dots; crosses represent sample means. n = 4 sample points.
+Further information to be added to the figure legend:
+
+
+
+CyVerse and iDep9.0 used to analyse RNAseq
+
+The core genetic response of the roots to spaceflight looks like this….
+
+Log Fold Change for all transcripts
+A vs A
+r= 1
+
+Shoots
+Roots
+WT vs RBOHD 
+WT vs cax22
+RBOHD vs cax22
+
+Comparison
+Design
+Organ
+R
+WT vs RBOHD 
+FL vs GC
+Roots
+0.47
+WT vs cax22
+FL vs GC
+Roots
+0.17
+RBOHD vs cax22
+FL vs GC
+Roots
+0.11
+WT vs RBOHD 
+FL vs GC
+Shoots
+0.26
+WT vs cax22
+FL vs GC
+Shoots
+-0.07
+RBOHD vs cax22
+FL vs GC
+Shoots
+0.07
+
+Comparison
+Design
+Organ
+R
+WT vs RBOHD 
+FL vs GC
+Roots
+0.47
+WT vs cax22
+FL vs GC
+Roots
+0.17
+RBOHD vs cax22
+FL vs GC
+Roots
+0.11
+WT vs RBOHD 
+FL vs GC
+Shoots
+0.26
+WT vs cax22
+FL vs GC
+Shoots
+-0.07
+RBOHD vs cax22
+FL vs GC
+Shoots
+0.07
+Comparison
+Col Root vs Shoot
+R = 0.17
+
+Comparison
+Design
+Organ
+R
+WT vs RBOHD 
+FL vs GC
+Roots
+0.47
+WT vs cax22
+FL vs GC
+Roots
+0.17
+RBOHD vs cax22
+FL vs GC
+Roots
+0.11
+WT vs RBOHD 
+FL vs GC
+Shoots
+0.26
+WT vs cax22
+FL vs GC
+Shoots
+-0.07
+RBOHD vs cax22
+FL vs GC
+Shoots
+0.07
+Comparison
+RBOHD Root vs Shoot
+R = 0.17
+
+Comparison
+Design
+Organ
+R
+WT vs RBOHD 
+FL vs GC
+Roots
+0.47
+WT vs cax22
+FL vs GC
+Roots
+0.17
+RBOHD vs cax22
+FL vs GC
+Roots
+0.11
+WT vs RBOHD 
+FL vs GC
+Shoots
+0.26
+WT vs cax22
+FL vs GC
+Shoots
+-0.07
+RBOHD vs cax22
+FL vs GC
+Shoots
+0.07
+Comparison cax22 
+Root vs Shoot
+R = -0.02
+
+Comparison
+Design
+Organ
+R
+WT vs RBOHD 
+FL vs GC
+Roots
+0.47
+WT vs cax22
+FL vs GC
+Roots
+0.17
+RBOHD vs cax22
+FL vs GC
+Roots
+0.11
+WT vs RBOHD 
+FL vs GC
+Shoots
+0.26
+WT vs cax22
+FL vs GC
+Shoots
+-0.07
+RBOHD vs cax22
+FL vs GC
+Shoots
+0.07
+Roots vs Shoots
+WT
+Both
+0.17
+Roots vs Shoots
+RBOHD
+Both
+0.17
+Roots vs Shoots
+CAX22
+Both
+-0.02
+Comparison cax22 
+Root vs Shoot
+R = -0.02
+
+Comparison
+LogFC 
+Design
+Organ
+R
+WT vs RBOHD 
+FL vs GC
+FL vs GC
+Roots
+0.47
+WT vs cax22
+FL vs GC
+FL vs GC
+Roots
+0.17
+RBOHD vs cax22
+FL vs GC
+FL vs GC
+Roots
+0.11
+WT vs RBOHD 
+FL vs GC
+FL vs GC
+Shoots
+0.26
+WT vs cax22
+FL vs GC
+FL vs GC
+Shoots
+-0.07
+RBOHD vs cax22
+FL vs GC
+FL vs GC
+Shoots
+0.07
+Roots vs Shoots
+FL vs GC
+WT
+Both
+0.17
+Roots vs Shoots
+FL vs GC
+RBOHD
+Both
+0.17
+Roots vs Shoots
+FL vs GC
+CAX22
+Both
+-0.02
+
+
+DESeq2 comparison
+
+Comparison of the number of genes affected in the shoots of 
+cax22, rbohD and Col-0 
+FL vs GC 
+
+Comparison of the number of genes affected in the roots of 
+cax22, rbohD and Col-0 
+FL vs GC 
+
+What’s happening in WT shoots during flight? 
+Black lines show the means; white lines represent individual data points; polygons represent the estimated density of the data.
+
+
+
+WT Shoot RNAseq data reveals changes in genes related to hypoxia
+
+WT Shoot GSEA analysis 
+Distinct mitochondrial changes
+
+WT Shoot GSEA analysis 
+Distinct mitochondrial changes
+
+WT Changed Shoot defence biochemical pathway
+
+WT changed root genetic pathway related to water transport
+
+WT Changed Shoot defence biochemical pathway
+
+WT changed root genetic pathway related to water transport
+
+WT changed root genetic pathway related to hypoxia
+
+WT root GSEA analysis 
+Distinct mitochondrial changes
+
+WT root GSEA analysis 
+Distinct mitochondrial changes
+
+WT root other clusters support the light pathway associated with Space flight response?
+PC1 light response
+PC2 Protein movement
+
+WT Root changed biochemical defence pathway
+
+WT Root also changed its biochemical pathway
+
+WT root other clusters support the light pathway associated with Space flight response?
+PC1 light response
+PC2 Protein movement
+
+WT Root changed biochemical defence pathway
+
+WT Root also changed its biochemical pathway
+
+Unique group of loci involved in spaceflight resistance
+
+Unique group of loci involved in spaceflight resistance
+
+rbohD shoots also don’t have the mitocondrial hypoxia clade activation
+
+Changes in rbohD shoots plastids 
+(& GSEA mitochondria node)
+RBOHD Shoots FL - GC
+We noticed the chloroplast removelding in either Cvi-0 or Ler-0
+
+RBOHD Shoots FL - GC: Changes in rbohD shoots plastids (& no GSEA mitochondria node)
+We noticed the chloroplast removelding in either Cvi-0 or Ler-0
+
+Col-0: Shoots FL vs GC
+RBOHD Roots FL vs GC
+We noticed the chloroplast removelding in either Cvi-0 or Ler-0
+
+rbohD shoots extracellular ROS detoxification activated 
+RBOHD Shoots FL - GC
+
+GEAS of rbohD roots in orbit doesn’t have the hypoxia response cluster
+RBOHD Roots FL - GC
+
+rbohD roots have changes in detoxification, antibiotic activity and drug metabolism loci.
+RBOHD Roots FL - GC
+
+rbohD roots have up regulation of loci involved in K+ transport 
+RBOHD Roots FL - GC
+
+RNAseq analysis reveals unique group of loci involved in spaceflight resistance
+Summary: Changes to K & glutamate signaling in rbohD roots
+
+rbohD roots have unique changes in respiration and glutamate signaling 
+
+Altered
+Respiration
+
+Toxic ROS
+Metabolism
+Systemic signaling
+
+SRG3 &
+
+NAC12
+Encodes a member of the NAC family of transcription factors. ANAC102 appears to have a role in mediating response to low oxygen stress (hypoxia) in germinating seedlings. Its expression can be induced by beta-cyclocitral, an oxidized by-product of beta-carotene generated in the chloroplasts, mediates a protective retrograde response that lowers the levels of toxic peroxides and carbonyls, limiting damage to intracellular components.
+
+NAC102
+SRG3
+WRKY70
+HSP
+
+WRKY70
+HSP
+
+
+
+Conserved
+
+RBOHD
+
+Col-0
+
+WT & RBOHD have different sugar and amino-acid metabolism
+
+
+
+
+WT has more responses to spaceflight
+
+WT has more responses to spaceflight
+Col-0
+
+WT has more responses to spaceflight
+Core
+
+WT has more responses to spaceflight
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Glutamate induced systemic stress signaling
+
+APEX-05: 
+Calcium Signaling in Time & Space
+Episode 4: “A New Hope”
+
+
+Space Symptoms
+Spindly seedlings
+Dwarf adult
+Systemic resistance activation
+Early flowering
+Germination issues
+
+Space Symptoms
+Across kingdoms
+Changes in NFY transcriptional complex
+
+Space Symptoms
+Across kingdoms
+Changes in NFY transcriptional complex
+Human (Hs), 
+Zebrafish (Dr), 
+Drosophila melanogaster (Dm), Aspergillus nidulans, 
+Saccharomyces cerevisiae, 
+and one of the Arabidopsis thaliana homologs for each NF-Y subunit (At NF-YA3, At NF-YB3 and At NF-YC1). 
+
+Changes in ratio of NFY transcriptional complex components changes binding sites
+General stress configuration
+
+Space Symptoms
+Changes in NFY transcriptional complex would lead to changes in flowering time
+
+Unpublished data (Manuscript under review) courtesy of  Dr Nicol Caplin, ESA.
+Research performed at UWE Bristol. 
+
+Developmental, Morphological and Physiological Traits in Plants Exposed for Five Generations to Chronic Low-Level Ionising Radiation 
+
+Finish
+
+Total
+Unique
+Col_Root_Up
+529
+529
+cax22_Root_Up
+99
+99
+rbohD_Root_Up
+390
+390
+
+
+Purple lines link the same gene that are shared by multiple gene lists.
+Blue lines link the different genes where they fall into the same ontology term (the term has to statistically significantly enriched and with size no larger than 100).
+The greater the number of purple links and the longer the dark orange arcs implies greater overlap among the input gene lists.  Blue links indicate the amount of functional overlap among the input gene lists.  It is common in meta-analysis that we observe little directly overlap among studies, due to the variations in the biological assays used, however, we tend to see a lot more functional overlap, as these studies probably captured different parts of the same biological processes.
+The Circos plot shows how genes from the input gene lists overlap.
+On the outside, each arc represents the identity of each gene list, using the same color code as the color used for table rows in slide #2.
+On the inside, each arc represent a gene list, where each gene has a spot on the arc.  Dark orange color represents the genes that appear in multiple lists and light orange color represents genes that are unique to that gene list.
+Purple lines link the same gene that are shared by multiple gene lists.
+The greater the number of purple links and the longer the dark orange arcs implies greater overlap among the input gene lists.
+Gene overlap
+Gene & GO overlap
+
+
+
+
+
+Total
+Col_Root_Down
+266
+cax22_Root_Down
+222
+rbohD_Root_Down
+231
+
+Gene overlap
+Gene & GO overlap
+
+
+
+
+
+Total
+Col_Shoot_Up
+557
+cax22_Shoot_Up
+45
+rbohD_Shoot_Up
+170
+
+Gene overlap
+Gene & GO overlap
+
+
+
+
+
+
+
+Clusters only activated in WT
+“DNA pattern binding”
+RBOHD activates most of the WT responses at a lower level
+
+Col-0 has lots of loci activated by spaceflight.
+CAX shoots hardly has any
+rbohD has small overlap with Col-0
+
+Total
+Col_Shoot_Down
+201
+cax22_Shoot_Down
+185
+rbohD_Shoot_Down
+285
+
+Gene overlap
+Gene & GO overlap
+
+
+
+
+
+
+
+
+
+
+
+
+Chloroplast
+
+
+
+Mitochondria
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Carbon modeling paper...
+https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-016-0868-3
+
+Fatty acids		
+Glucose		
+Amino acids
+Acetyl-CoA
+Citrate
+Oxalacetate
+(S)-Malate
+Fumarate
+Succinate
+Succinate-CoA
+D-Isocitrate 
+Phosphoenol-
+Pyruvate 
+“Glycolysis”
+Pyruvate 
+2-hydroxy-
+ethyl-ThPP
+S-Acetyl-
+Dihydro
+lipoamide-E
+H2O
+     NADH/H+
+
+NAD+
+FADH2
+
+  	FAD
+        Fdox
+
+Fd + CO2
+GTP	GDP+P
+Cis-Acontate
+H2O
+Oxalosuccinate
+Lipoamide-E
+& Dihydro
+lipoamide-E
+2-Oxoglutarate
+Succinyl-Dihydrolipoamide-E
+“Amino acid metabolism”
+TCA / KREB cycle
+ATP            ADP+P
+
+Col-0 APEX WT
+
+ARA CYC
+http://www.plantphysiol.org/content/132/2/453
+
+Col-0 APEX WT Leaf
+RBOHD APEX WT Leaf
+
+Glycolysis 
+TCA
+WT
+
+Glycolysis 
+TCA
+WT + RBOHD
+
+RBOHD has altered pyruvate dehydrase regulation
+
+Col-0 APEX WT Leaf
+Col-0 & RBOHD APEX WT Leaf
+This affects ethanol accumulation
+
+
+
+Col-0 & RBOHD APEX WT Leaf
+Check WT APEX WT Leaf
+
+AraCyc attempt 2 WT
+Shoot
+Root
+
+AraCyc attempt 2 RBOHD
+Shoot
+Root
+
+Shoot
+Glutathione 
+detoxification 
+NAD 
+phophorylation
+Detoxifcation of reactive 
+cabonlys in the plastids
+TCA
+cycle
+Alcohol metabolism
+Cytosolic glycolysis
+Photo-respiration
+ROS metabolism
+TCA
+cycle
+Fatty acid metabolism
+
+RBOHD
+
+Shoot
+RBOHD
+
+AraCyc attempt 2 RBOHD
+Shoot
+RBOHD
+
+
+Col-0 - RBOHD Shoots APEX GC v GC
+
+Col-0 - RBOHD Roots APEX GC vs GC
+
+Shoot
+RBOHD
+Root
+WT Col-0
+
+Shoot
+Glutathione 
+detoxification 
+NAD 
+phophorylation
+Detoxification of reactive 
+cabonlys in the plastids
+TCA
+cycle
+Alcohol metabolism
+Cytosolic glycolysis
+Photorespiration
+ROS 
+metabolism
+TCA
+cycle
+Fatty acid metabolism
+
+
+Root
+WT Col-0
+Glutathione 
+detoxification 
+NAD 
+phophorylation
+Detoxification of reactive 
+cabonlys in the plastids
+TCA
+cycle
+Alcohol metabolism
+Cytosolic glycolysis
+Photorespiration
+ROS 
+metabolism
+TCA
+cycle
+Fatty acid metabolism
+
+
+WT Col-0
+Root APEX5
+RBOHD
+Shoot APEX5
+
+WT Col-0
+Root APEX5
+RBOHD
+Root APEX5
+WT -RBOHD GC v GC
+Root APEX5
+
+RBOHD
+Shoot APEX5
+WT Col-0
+Shoot APEX5
+WT -RBOHD GC v GC
+Shoot APEX5
+
+
+Col-0 FL-GC  APEX5 ARACYC cell wall metabolism
+Roots							Shoots
+WT experiences the same cell wall changes measured in Johnson et al., 
+
+RBOHD FL-GC  APEX5 ARACYC cell wall metabolism
+Roots							Shoots
+
+WT - RBOHD GC APEX5 ARACYC cell wall metabolism
+Roots							Shoots
+
+Zeaxanthin
+
+Col-0 Leaves TCA log2 fold change
+
+Fatty acids		
+Glucose		
+Amino acids
+Acetyl-CoA
+Citrate
+Oxalacetate
+(S)-Malate
+Fumarate
+Succinate
+Succinate-CoA
+D-Isocitrate 
+Phosphoenol-
+Pyruvate 
+“Glycolysis”
+Pyruvate 
+2-hydroxy-
+ethyl-ThPP
+S-Acetyl-
+Dihydro
+lipoamide-E
+H2O
+     NADH/H+
+
+NAD+
+FADH2
+
+  	FAD
+        Fdox
+
+Fd + CO2
+GTP	GDP+P
+Cis-Aconitate
+H2O
+Oxalosuccinate
+Lipoamide-E
+& Dihydro
+lipoamide-E
+2-Oxoglutarate
+Succinyl-Dihydrolipoamide-E
+“Amino acid metabolism”
+TCA / KREB cycle
+RBOHD Leaves 
+ATP            ADP+P
+PHOSPHO-ENOL-PYRUVATE
+Phospho-enol-p
+
+Fatty acids		
+Glucose		
+Amino acids
+Acetyl-CoA
+Citrate
+Oxalacetate
+(S)-Malate
+Fumarate
+Succinate
+Succinate-CoA
+D-Isocitrate 
+Phosphoenol-
+Pyruvate 
+“Glycolysis”
+Pyruvate 
+2-hydroxy-
+ethyl-ThPP
+S-Acetyl-
+Dihydro
+lipoamide-E
+H2O
+     NADH/H+
+
+NAD+
+FADH2
+
+  	FAD
+        Fdox
+
+Fd + CO2
+GTP	GDP+P
+Cis-Aconitate
+H2O
+Oxalosuccinate
+Lipoamide-E
+& Dihydro
+lipoamide-E
+2-Oxoglutarate
+Succinyl-Dihydrolipoamide-E
+WT Leaves 
+TCA / KREB cycle
+“Amino acid metabolism”
+ATP            ADP+P
+
+Fatty acids		
+Glucose		
+Amino acids
+Acetyl-CoA
+Citrate
+Oxalacetate
+(S)-Malate
+Fumarate
+Succinate
+Succinate-CoA
+D-Isocitrate 
+Phosphoenol-
+Pyruvate 
+“Glycolysis”
+Pyruvate 
+TPP
+S-Acetyl-
+Dihydro
+lipoamide-E
+H2O
+     NADH/H+
+
+NAD+
+FADH2
+
+  	FAD
+ Fdox
+
+Fd + CO2
+GTP	GDP+P
+Cis-Aconitate
+H2O
+Oxalosuccinate
+Lipoamide-E
+& Dihydro
+lipoamide-E
+2-Oxoglutarate
+Succinyl-Dihydrolipoamide-E
+“Amino acid metabolism”
+TCA / KREB cycle
+APEX5 FL-GC
+Col / RBOHD 
+ATP            ADP+P
+ Col-0   rbohD 
+Co-enzyme A
+Co-enzyme A
+
+Fatty acids		
+Glucose		
+Amino acids
+Acetyl-CoA
+Citrate
+Oxalacetate
+(S)-Malate
+Fumarate
+Succinate
+Succinate-CoA
+D-Isocitrate 
+Phosphoenol-
+Pyruvate 
+“Glycolysis”
+Pyruvate 
+S-Acetyl-
+Dihydro
+lipoamide-E
+H2O
+     NADH/H+
+
+NAD+
+FADH2
+
+  	FAD
+ Fdox
+
+Fd + CO2
+GTP	GDP+P
+Cis-Aconitate
+H2O
+Oxalosuccinate
+Lipoamide-E
+& Dihydro
+lipoamide-E
+2-Oxoglutarate
+Succinyl-Dihydrolipoamide-E
+“Amino acid metabolism”
+TCA / KREB cycle
+APEX5 FL-GC
+Col / RBOHD 
+ATP            ADP+P
+ Col-0   rbohD 
+Co-enzyme A
+Co-enzyme A
+TPP
+Acetaldehyde
+Ethanol
+Acetaldehyde
+RNOH D keeps the products of glycolysis flowing while WT suppresses this pathway.
+RBOH promotes Lipoamide-R pathway while WT suppresses it. 
+RBOH promotes the creation of Citrate while WT down regulates it . 
+The only part of the TCA cycle suppressed in ROBH is the convertion of Oxalacetate to phosphoenol pyruvate. 
+
+Col-0 TCA log2 fold change
+RBOHD TCA log2 fold change
+CAX22 TCA log2 fold change
+ Leaf TCA response during APEX5 
+
+Col-0 Leaves TCA log2 fold change
+Cax22 Leaves TCA log2 fold change
+
+Col-0 Leaves TCA log2 fold change
+RBOHD Leaves TCA log2 fold change
+
+Col-0 Leaves log2 fold change
+
+Col-0 Leaves log2 fold change
+RBOHD log2 fold change
+CAX22 TCA fold change
+ Leaf oxidative phosphorylation response during APEX5 
+
+Col-0 Leaves log2 fold change
+
+Col-0 Leaves log2 fold change
+RBOHD log2 fold change
+CAX22 TCA fold change
+ Leaf photosynthesis response during APEX5 
+
+Col-0 Leaves log2 fold change
+RBOHD log2 fold change
+CAX22 TCA fold change
+ Leaf photosynthesis antenna response during APEX5 
+
+Col-0 Leaves log2 fold change
+
+Col-0 Leaves log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+ Leaf phenylpropanoid response during APEX5 
+
+Col-0 Leaves log2 fold change
+
+Col-0 Leaves log2 fold change
+RBOHD log2 fold change
+CAX22 TCA fold change
+ Leaf various secondary metabolites during APEX5 
+
+Col-0 Leaves log2 fold change
+
+Col-0 Leaves log2 fold change
+RBOHD log2 fold change
+CAX22 TCA fold change
+ Leaf glucosinolate response during APEX5 
+
+Col-0 Leaves log2 fold change
+
+Col-0 Leaves log2 fold change
+RBOHD log2 fold change
+CAX22 TCA fold change
+ Leaf plant hormone transduction response during APEX5 
+
+Col-0 Leaves log2 fold change
+
+Col-0 log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+ Leaf nitrogen metabolism response during APEX5 
+
+Col-0 Leaves log2 fold change
+
+Col-0 Leaves log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+ Leaf homologous recombination response during APEX5 
+
+Col-0 Leaves log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+ Leaf fatty acid response during APEX5 
+
+Col-0 log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+ Leaf ascorbate metabolism response during APEX5 
+
+Col-0 log2 fold change
+CAX22 log2 fold change
+ Leaf glutathione metabolism response during APEX5 
+RBOHD log2 fold change
+
+Col-0 log2 fold change
+CAX22 log2 fold change
+ Leaf alkaloid biosynthesis response during APEX5 
+RBOHD log2 fold change
+
+Col-0 log2 fold change
+CAX22 TCA fold change
+ Leaf ABCB transporters response during APEX5 
+RBOHD log2 fold change
+
+Col-0 Leaves log2 fold change
+
+Col-0 Leaves log2 fold change
+RBOHD log2 fold change
+CAX22 TCA fold change
+ Leaf metabolism overview response during APEX5 
+
+
+Col-0 Roots TCA log2 fold change
+
+Col-0 Roots TCA log2 fold change
+RBOHD Roots TCA log2 fold change
+
+Col-0 Roots TCA log2 fold change
+CAX22 Roots TCA log2 fold change
+
+Col-0 log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+Root TCA cycle response during APEX5 
+
+Col-0 Roots log2 fold change
+
+Col-0 log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+Root ascorbate metabolism response during APEX5 
+
+Col-0 Roots log2 fold change
+
+Col-0 log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+Root fatty acid biosynthesis response during APEX5 
+
+Col-0 Roots log2 fold change
+
+Col-0 log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+Root oxidative phosphorylation response during APEX5 
+
+Col-0 Roots log2 fold change
+
+Col-0 log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+Root photosynthesis response during APEX5 
+
+Col-0 Roots log2 fold change
+
+Col-0 log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+Root photosynethesis antenna response during APEX5 
+
+Col-0 Roots log2 fold change
+
+Col-0 log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+Root glutathione metabolism response during APEX5 
+
+Col-0 Roots log2 fold change
+
+Col-0 log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+Root nitrogen metabolism response during APEX5 
+
+Col-0 Roots log2 fold change
+
+Col-0 log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+Root phenylpropanoid biosynthesis response during APEX5 
+
+Col-0 Roots log2 fold change
+
+Col-0 log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+Root alkaloid biosynthesis response during APEX5 
+
+Col-0 Roots log2 fold change
+
+Col-0 log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+Root biosynthesis of secondary metabolites during APEX5 
+
+Col-0 Roots log2 fold change
+
+Col-0 log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+Root metabolism overview during APEX5 
+
+Col-0 Roots log2 fold change
+
+Col-0 log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+Root ACB transporters overview during APEX5 
+
+Col-0 Roots log2 fold change
+
+Col-0 log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+Root homologous recombination overview during APEX5 
+
+Col-0 Roots log2 fold change
+
+Col-0 log2 fold change
+RBOHD log2 fold change
+CAX22 log2 fold change
+Root hormone signal transduction overview during APEX5 
+
+Col-0 Roots log2 fold change
+
+APEX5 story board
+
+Summer Gene Lab Training
+Train teachers on the use of TOAST
+Train PEOPLE program students on Collaborative Science Environment AstroBiology methods
+
+Dr Barker: TOAST Training for 24 High School teachers at BTCI
+Key performance indicators:
+Train Trainers: 24 educators
+
+Teacher Distribution
+Mn - Rural agricultural school
+Wi - Madison: traditional & alternative Milwaukee Urban Schools & 
+South Chicago
+International: Nigeria
+
+CoSE GeneLab PEOPLE program 2019 
+
+Computer games (SSI Plants), Board Games (Settlers of Catan/Mars)
+Computer Science (TOAST), Lab Science (CoSE Clinostat and germination box) 
+Research Project based learning
+
+
+PEOPLE program: Class 1
+
+CoSE GeneLab PEOPLE program 2019 
+
+Key performance indicators:
+Education: 24 students
+Train Trainers: 5 educators
+Environmental: 24 tomato plants
+Science : 12 experiments performed
+Games played: 4
+
+
+PEOPLE program: Class 1
+
+Student Quote: 
+“I didn’t realize science could be so cool!”
+“We’re helping NASA and after the experiments i get to take some tomato plants home!”
+PEOPLE program: Class 2
+
+Student survey results
+73-82% say the was pace was right
+90-100% plenty of chanced to engage
+100% Would recommend the class
+
+The Artist said "I was originally given the idea for this drawing in an AstroBotany Class, but my love for space and steampunk helped fuel my imagination. As an artist I have learned that ideas are hard to come by, so coming across the science about colonizing the moon and Mars helped me generate a story.” 
+
+“The Story is about two siblings wanting more than just life on Earth. They go from the earth to the moon then fly on to Mars. This drawing was overall fun and I would do it again of I could another idea for an adventure story"
+
+https://www.deviantart.com/thenamesbeenweird/gallery/
+Former Deputy Administrator Dava Newman
+We need to put the A back into “STEAM”
+
+
+APEX-05: 
+Calcium Signaling in Space
+Richard Barker
+Arkadipta Bakshi,
+Richard Hillary,
+Won-Gyu Choi, Sarah Swanson  
+Simon Gilroy 
+& all the awesome folk at NASA
+
+cax2 mutants are resistant to flooded roots
+
+Wild Type Plants
+
+Col-0
+cax2-2
+cax2-3
+rbohD
+ 
+
+Steinhorst, Kudla (2013) Calcium and Reactive Oxygen Species Rule the Waves of Signaling (2013)
+CAX2 is a calcium transporter
+RBOHD makes apoplastic ROS 
+Ca2+
+Ca2+
+
+Steinhorst, Kudla (2013) Calcium and Reactive Oxygen Species Rule the Waves of Signaling (2013)
+CAX2 is a calcium transporter
+RBOHD makes apoplastic ROS 
+Ca2+
+Ca2+
+
+APEX5 sample preparation for launch
+Seeds sown				Far-red light treatment
+Hand over to NASA			Launch SpaceX13
+
+SpaceX-13 launched APEX-05 
+15th of December 2017
+
+APEX-05 Science Insertion into Veggie
+Astronaut Scott Tingle conducted on-orbit operations. 
+
+cax2-3 B7 GC
+cax2-2 B8 GC
+Col-0 B6 GC
+rbohD B4 GC
+ 
+cax2-3 B7 FL
+cax2-2 B8 FL
+rbohD B4 FL
+Col-0 B6 FL
+Plants were photographed on orbit
+Thanks Scott Tingle
+
+Game: Spot the difference?
+
+Earth
+International Space Station
+
+
+Adobe bridge was used to realign the original photos
+ImageJ was used to make binary images
+SmartRoot was used to measure root system architecture
+
+FL
+GC
+4dpg Treatment:
+289
+
+NMDS shows the genotype are similar but the treatments are different
+Treatment
+Genotypic comparison
+
+Direction and length of root growth (4dpg)
+
+Root System Growth Kinetics  
+ArchiDart Root Growth Simulator
+
+Root System Growth Kinetics  
+ArchiDart Root Growth Simulator
+
+8 days old WT leaf area was reduced during space flight
+Black lines show the means; white lines represent individual data points; polygons represent the estimated density of the data.
+
+
+
+8 days old WT leaf area was reduced during space flight
+Black lines show the means; white lines represent individual data points; polygons represent the estimated density of the data.
+
+
+
+Samples returned to Earth
+
+MIR398C	SOD1
+Transcript ID
+Root GC-FL log Fold Change
+Shoot GC-FL log Fold Change
+AT5G14565.1
+MIR398
+-1.298
+-
+AT1G12520.1
+SOD1
+-
+1.388
+APEX05 Col-0 samples
+
+Sunkar et al., 2006
+miR398b Promoter-GUS  
+Posttranscriptional Induction of Two Cu/Zn Superoxide Dismutase Genes in Arabidopsis Is Mediated by Downregulation of miR398 and Important for Oxidative Stress Tolerance
+(2006) The Plant Cell 18(8):2051-65
+DOI: 10.1105/tpc.106.041673
+miR398 targets two closely related Cu/Zn superoxide dismutases (cytosolic CSD1 and chloroplastic CSD2) that can detoxify superoxide radicals. CSD1 and CSD2 transcripts are induced in response to oxidative stress
+
+True for Rice 
+miR398 regulation in rice of the responses to abiotic and biotic stresses depends on CSD1 and CSD2 expression
+Author: Lu, Yuzhu, Feng, Zhen, Bian, Liying, Xie, Hong, Liang, Jiansheng
+Source: Functional plant biology 2011 v.38 no.1 pp. 44-53
+Paper on mir398 target protein tobacco suppression of CSD using GFP protein fusion in 
+http://www.plantcell.org/content/26/2/741
+
+Target gene
+MicroRNA
+Family
+Position
+Relative
+orientation
+Relative
+distance
+psRNATarget
+score
+AT2G03445.1
+MIR398B/C
+MIR398
+1041008
++
+73
+0.0
+AT5G14545.1
+MIR398B/C
+MIR398
+4691035
+-
+10
+2.5
+AT5G14545.1
+MIR398B/C
+MIR398
+4691110
++
+85
+0.0
+AT5G24100.1
+MIR398B/C
+MIR398
+8149283
++
+664
+2.5
+MicroRNA target map from Germany
+URL: http://www.athamap.de/
+https://www.ncbi.nlm.nih.gov/pubmed/22800758
+Target gene
+MicroRNA
+Family
+Position
+Relative
+orientation
+Relative
+distance
+psRNATarget
+score
+AT2G03445.1
+MIR398B/C
+MIR398
+1041008
++
+73
+0.0
+AT5G14545.1
+MIR398B/C
+MIR398
+4691035
+-
+10
+2.5
+AT5G14545.1
+MIR398B/C
+MIR398
+4691110
++
+85
+0.0
+AT5G24100.1
+MIR398B/C
+MIR398
+8149283
++
+664
+2.5
+
+
+MIR398C hairpin structure
+http://www.combio.pl/mirex1/?page=results/record&name=398c&web_temp=7697361&limit=yes&exref=pp2a
+
+Abstract Title: 
+Conserved plant transcriptional responses to microgravity from two consecutive spaceflight experiments. 
+
+Presenter: 
+Imara Y Perera 
+
+In addition, we analyzed the sRNA landscape of the 1g and micro g shoot samples from PRR. We identified three miRNAs (miR319c, miR398b and miR8683) that were up regulated in microgravity
+
+30 open access papers mention ath-MIR398c
+(122 sentences)
+Source: MirBase
+
+
+RNA extraction & submission for sequencing
+Qiagen vs Spectrum kits
+
+APEX5 Root FL
+APEX5 Shoot FL
+APEX5 Root GC
+APEX5 Shoot GC
+Average QC from Biotech
+AVG PF Clusters
+AVG % of the
+lane
+AVG % Perfect
+barcode
+AVG Yield (Mbases)
+AVG % PF
+Clusters
+AVG % >= Q30
+bases
+AVG Mean Quality
+Score
+cax22
+3962943.4
+1.4
+100.0
+400.2
+50.0
+93.9
+35.6
+cax23
+4036564.5
+1.5
+100.0
+407.7
+50.0
+93.8
+35.6
+COL00
+3889282.7
+1.4
+100.0
+392.8
+50.0
+93.8
+35.6
+rbohD
+4338963.5
+1.6
+100.0
+438.3
+50.0
+93.8
+35.6
+
+Distribution plot
+RNAseq analysis
+PCA bar plot
+HiSAT align
+HTseq BAM to Counts
+EdgeR, limma-zoom, DESeq2
+DEBrouser & iDEP.8
+
+
+Anomalies were detect in sample B7 (cax23)
+
+Anomalies were detect in sample B7 (cax23)
+Root
+Shoot
+
+Comparison of the Roots of 
+cax22, rbohD and Col-0 GC vs FL 
+
+Comparison of the Shoots of 
+cax22, rbohD and Col-0 GC vs FL 
+
+EdgeR comparison
+
+EdgeR comparison
+
+EdgeR comparison
+CAX22 SHOOT
+RBOHD SHOOT
+CAX22 ROOT
+RBOHD ROOT
+COL-0 SHOOT
+COL-0 ROOT
+500
+
+
+400
+
+
+300
+
+
+200
+
+
+100
+
+
+0
+
+
+Gene count
+Gene count
+500
+
+
+0
+
+
+750
+
+
+250
+
+
+
+
+RNAseq analysis reveals unique group of loci involved in spaceflight resistance
+
+Conserved response in all Shoots
+GC vs FL 
+35
+Enriched motif in promoter
+TF
+TF family
+P val.
+FDR
+Score
+Note
+TAT
+MOT2
+RRM
+2.2E-06
+1.1E-03
+6.0E+00
+600bp
+GTCA
+KNAT6
+Homeodomain
+5.6E-04
+1.5E-01
+1.1E+01
+
+600bp
+TAT
+MOT2
+RRM
+7.5E-07
+3.9E-04
+1.1E+01
+300bp
+ATATATTA
+PRH
+Homeodomain
+3.7E-04
+9.8E-02
+4.4E+01
+
+300bp
+Oxidative signaling, 
+bacteria response,
+secondary metabolism
+Conserved response in all Shoots GC vs FL 
+
+Oxidative signaling, 
+bacteria response,
+secondary metabolism
+
+
+37
+GoBio Function
+GoCellular Site
+GoMolecular function
+
+Enriched motif in promoter
+TF
+TF family
+P val.
+FDR
+Score
+Romo size
+TAT
+MOT2
+RRM
+3.4E-06
+1.8E-03
+5.0E+00
+600bp
+ATGTATAA
+Dmrtc2
+DM
+5.6E-04
+1.5E-01
+1.6E+01
+
+600bp
+TAT
+MOT2
+RRM
+1.6E-06
+8.1E-04
+8.0E+00
+300bp
+TAATTAT
+MedPost
+Homeodomain
+3.3E-04
+7.2E-02
+2.4E+01
+300bp
+ATATATTA
+PRH
+Homeodomain
+4.1E-04
+7.2E-02
+3.1E+01
+
+300bp
+Conserved response in all Roots
+GC vs FL 
+36
+Oxidative signaling, 
+bacteria response,
+Fungi response,
+Transmembrane transporters
+Conserved response in all Roots GC vs FL 
+Oxidative signaling, 
+bacteria response,
+Fungi response,
+Transmembrane transporters
+
+
+Just Col iDEP.8 analysis
+Comparisons
+Up
+Down
+GCShoot_COL00-GCRoot_COL00
+5147
+5193
+GCShoot_COL00-FLShoot_COL00
+72
+485
+GCRoot_COL00-FLShoot_COL00
+4710
+5103
+GCShoot_COL00-FLRoot_COL00
+5160
+5310
+GCRoot_COL00-FLRoot_COL00
+158
+324
+FLShoot_COL00-FLRoot_COL00
+5074
+4730
+
+
+WT shoot cellular response to hypoxia
+
+
+
+WT GC Roots vs GC shoots
+Direction
+GSEA analysis: GCShoot_COL00 vs GCRoot_COL00
+NES
+Genes
+adj.Pval
+Up
+Thylakoid
+3.038
+261
+5.30E-04
+Thylakoid part
+2.9964
+216
+5.30E-04
+Photosynthetic membrane
+2.9678
+203
+5.30E-04
+Chloroplast thylakoid
+2.9537
+194
+5.30E-04
+Plastid thylakoid
+2.9503
+195
+5.30E-04
+Thylakoid membrane
+2.9288
+185
+5.30E-04
+Chloroplast part
+2.9088
+504
+5.30E-04
+Plastid part
+2.9085
+521
+5.30E-04
+Chloroplast
+2.9079
+903
+5.30E-04
+Chloroplast thylakoid membrane
+2.8988
+156
+5.30E-04
+Plastid thylakoid membrane
+2.8954
+157
+5.30E-04
+Plastid
+2.8742
+955
+5.30E-04
+Photosynthesis
+2.8627
+128
+5.30E-04
+Photosystem
+2.7099
+59
+5.30E-04
+Plastid stroma
+2.7093
+260
+5.30E-04
+Chloroplast stroma
+2.6947
+250
+5.30E-04
+Organelle subcompartment
+2.6488
+450
+5.30E-04
+Chloroplast envelope
+2.6356
+204
+5.30E-04
+Plastid envelope
+2.6319
+213
+5.30E-04
+Membrane protein complex
+2.6316
+221
+5.30E-04
+Photosynthesis, light reaction
+2.6158
+61
+5.30E-04
+Photosystem II
+2.5746
+46
+5.30E-04
+Photosystem I
+2.51
+31
+5.30E-04
+Plastid organization
+2.4136
+100
+5.30E-04
+Thylakoid lumen
+2.3835
+35
+5.30E-04
+Protein-chromophore linkage
+2.3699
+25
+5.30E-04
+Chlorophyll binding
+2.3621
+23
+5.30E-04
+Chloroplast organization
+2.3171
+76
+5.30E-04
+Photosynthesis, light harvesting
+2.3007
+26
+5.30E-04
+Tetrapyrrole metabolic process
+2.2573
+58
+5.30E-04
+All chloroplast related Go terms are enriched in the shoots relative to the roots.
+Chloroplast & Mitochondria
+Pathway Analysis of PCA rotation
+WT GC Roots vs GC shoots
+Changes to plastids (Simple Root vs shoots plastids!!)
+Changes to plastids
+
+
+WT FL Roots vs FL shoots 
+Pathway Analysis of PCA rotation
+All chloroplast related Go terms are enriched in the shoots relative to the roots.
+& H2O2 catabolic process are suppressed
+WT FL Roots vs FL shoots 
+
+Changes to plastids (Simple Root vs shoots plastids!!)
+& Hydrogen peroxide catabolic process
+
+WT COL00 Roots GC vs FL
+Direction
+GSEA analysis: GCRoot_COL00 vs FLRoot_COL00
+NES
+Genes
+adj.Pval
+Down
+Response to decreased oxygen levels
+-2.2674
+65
+1.50E-03
+Response to hypoxia
+-2.2651
+59
+1.50E-03
+Cellular response to decreased oxygen levels
+-2.1721
+27
+1.50E-03
+Toxin metabolic process
+-2.0664
+65
+1.50E-03
+Glutathione metabolic process
+-2.0556
+66
+1.50E-03
+Toxin catabolic process
+-2.0295
+45
+3.00E-03
+Systemic acquired resistance
+-1.991
+67
+2.10E-03
+Defense response, incompatible interaction
+-1.8547
+173
+2.00E-03
+Glucosinolate biosynthetic process
+-1.8106
+44
+3.40E-02
+Response to bacterium
+-1.7918
+438
+1.50E-03
+Positive regulation of innate immune response
+-1.7715
+63
+3.70E-02
+Up
+Water transport
+1.9035
+41
+5.60E-02
+Fluid transport
+1.9035
+41
+5.60E-02
+Lipid storage
+1.876
+17
+5.60E-02
+Sterol biosynthetic process
+1.8235
+38
+8.50E-02
+WT COL00 Roots GC vs FL
+“Broad Changes to Plastids”,
+Response to bacteria
+Systemic acquired resistance,
+Response to decreased oxygen levels,
+Response to hypoxia
+Glucosinolate biosynthetic process
+
+WT COL00 Shoots GC vs FL
+Direction
+GSEA analysis: GCRoot_COL00 vs FLRoot_COL00
+NES
+Genes
+adj.Pval
+Down
+Response to decreased oxygen levels
+-2.2674
+65
+1.50E-03
+Response to hypoxia
+-2.2651
+59
+1.50E-03
+Cellular response to decreased oxygen levels
+-2.1721
+27
+1.50E-03
+Toxin metabolic process
+-2.0664
+65
+1.50E-03
+Glutathione metabolic process
+-2.0556
+66
+1.50E-03
+Toxin catabolic process
+-2.0295
+45
+3.00E-03
+Systemic acquired resistance
+-1.991
+67
+2.10E-03
+Defense response, incompatible interaction
+-1.8547
+173
+2.00E-03
+Glucosinolate biosynthetic process
+-1.8106
+44
+3.40E-02
+Response to bacterium
+-1.7918
+438
+1.50E-03
+Positive regulation of innate immune response
+-1.7715
+63
+3.70E-02
+Up
+Water transport
+1.9035
+41
+5.60E-02
+Fluid transport
+1.9035
+41
+5.60E-02
+Lipid storage
+1.876
+17
+5.60E-02
+Sterol biosynthetic process
+1.8235
+38
+8.50E-02
+WT COL00 Shoots GC vs FL
+
+“Broad Changes to Plastids”,
+Hydrogen peroxide metabolism
+Cellular oxidant detoxification,
+Response to hypoxia,
+Systemic acquired resistance, 
+Cellular response tp salicylic acid stimuli,
+Regulation of jasmonic acid mediated signaling pathways,
+Defense response to oomycetes,
+Chitin metabolism, 
+Chitin response
+
+
+
+
+WT Root also changed its biochemical pathway
+
+Just RBOHD iDEP.8 analysis
+Comparisons
+Up
+Down
+GCShoot_RBOHD-GCRoot_RBOHD
+5010
+4857
+GCShoot_RBOHD-FLShoot_RBOHD
+160
+46
+GCRoot_RBOHD-FLShoot_RBOHD
+5173
+5153
+GCShoot_RBOHD-FLRoot_RBOHD
+5006
+4943
+GCRoot_RBOHD-FLRoot_RBOHD
+160
+269
+FLShoot_RBOHD-FLRoot_RBOHD
+5109
+5216
+
+RBOHD Roots GC vs FL
+Summary: Potassium signaling clusters are enriched
+RBOHD Roots GC vs FL
+Hydrogen peroxide metabolism
+Antioxidant activity, 
+Cellular oxidant detoxification,
+Peroxidase activity,
+Phenylpropanoid biosynthesis,
+Extracellular region,
+Potassium ion transmembrane transporter activiy,
+Potassium ion transport
+ 
+
+
+RBOHD Shoots GC vs FL
+Summary: Some chloroplast related Go terms are enriched in the shoots relative to the roots.
+RBOHD Shoots GC vs FL
+Hydrogen peroxide metabolism
+Antioxidant activity, 
+Cellular oxidant detoxification,
+Peroxidase activity,
+Phenylpropanoid biosynthesis,
+Extracellular region,
+Cell wall organisation,
+
+
+Comparisons
+Up
+Down
+GCShoot_CAX22-GCRoot_CAX22
+4881
+4660
+GCShoot_CAX22-FLShoot_CAX22
+12
+2
+GCRoot_CAX22-FLShoot_CAX22
+4670
+4927
+GCShoot_CAX22-FLRoot_CAX22
+4799
+4613
+GCRoot_CAX22-FLRoot_CAX22
+12
+0
+FLShoot_CAX22-FLRoot_CAX22
+4787
+4662
+Just cax22 iDEP.8 analysis
+
+CAX22 Roots GC vs FL
+Summary: Changes to plastid function and ROS metabolism
+CAX22 Roots GC vs FL
+Hydrogen peroxide metabolism
+Antioxidant activity, 
+Peroxidase activity,
+“Broad Changes to Plastids”,
+Plastid thylakoid,
+Changes to thylakoid function
+
+
+
+
+CAX22 Shoots GC vs FL
+Summary: Increased response to hypoxia and repression of ROS signaling 
+CAX22 Shoots GC vs FL
+
+Hydrogen peroxide metabolism
+Antioxidant activity, 
+Peroxidase activity,
+Response to hypoxia,
+Response to decreased oxygen levels,
+Phenylpropanoid biosynthesis,
+Extracellular region,
+Cell wall organisation,
+
+Loci that are unique
+RBOHD roots GC vs FL
+Enriched motif in promoter
+TF
+TF family
+P val.
+FDR
+Score
+Note
+TAT
+MOT2
+RRM
+3.8E-05
+2.0E-02
+3.0E+00
+600bp
+ATATATTA
+PRH
+Homeodomain
+6.1E-04
+1.2E-01
+1.3E+01
+600bp
+TATAAAA
+TBP
+TBP
+6.7E-04
+1.2E-01
+8.0E+00
+
+600bp
+Enriched motif in promoter
+TF
+TF family
+P val.
+FDR
+Score
+Note
+TAT
+MOT2
+RRM
+1.8E-07
+9.5E-05
+5.0E+00
+TATA
+Tbp
+TBP
+4.0E-05
+9.6E-03
+4.0E+00
+ATA
+SPT15
+TBP
+5.5E-05
+9.6E-03
+4.0E+00
+TTAATATA
+MIMI_R749
+Homeodomain
+8.7E-05
+1.1E-02
+1.4E+01
+TATAAAA
+TBP
+TBP
+1.4E-04
+1.5E-02
+1.2E+01
+TAATTAT
+MedPost
+Homeodomain
+2.6E-04
+2.3E-02
+1.1E+01
+ATATATTA
+PRH
+Homeodomain
+5.8E-04
+4.3E-02
+1.6E+01
+AATAATAA
+mex-6
+CCCH ZF
+6.6E-04
+4.3E-02
+1.3E+01
+TAATTAT
+amel4_ncbi_hmm42917
+Homeodomain,POU
+1.2E-03
+6.8E-02
+8.0E+00
+TATTTTTA
+Mef2
+MADS box
+1.3E-03
+6.8E-02
+1.3E+01
+AAATATTT
+NCU01145
+AT hook
+1.6E-03
+7.4E-02
+1.1E+01
+TGT
+DMRTC2
+DM
+2.1E-03
+8.8E-02
+3.0E+00
+TA
+KLLA0D10043g
+Homeodomain
+2.2E-03
+8.8E-02
+3.0E+00
+TTATCACT
+ABF1
+ABF1
+2.6E-03
+9.7E-02
+1.4E+01
+CAATA
+ANIA_01217
+Homeodomain
+3.6E-03
+1.2E-01
+4.0E+00
+CCTTAT
+HLTF
+Unknown
+4.3E-03
+1.2E-01
+4.0E+00
+ATTAATTA
+Post-2
+Homeodomain
+4.5E-03
+1.2E-01
+1.0E+01
+ATGTAAATA
+P33205
+Forkhead
+4.8E-03
+1.2E-01
+1.2E+01
+AT
+Srf
+MADS box
+4.9E-03
+1.2E-01
+4.0E+00
+TATTAAT
+Arid3b
+ARID/BRIGHT
+5.3E-03
+1.2E-01
+1.1E+01
+A
+BRADI3G55950
+AT hook
+5.5E-03
+1.2E-01
+1.0E+00
+AA
+estExt_fgeneshNG_pg.C_820014
+AT hook
+6.3E-03
+1.2E-01
+1.0E+00
+TGCATGCG
+cgd2_3490
+AP2
+6.3E-03
+1.2E-01
+1.3E+01
+ATGCA
+stuA
+APSES
+6.7E-03
+1.2E-01
+7.0E+00
+ACAC
+TBX2
+T-box
+6.7E-03
+1.2E-01
+5.0E+00
+TATGCAT
+unc-86
+Homeodomain,POU
+6.9E-03
+1.2E-01
+1.1E+01
+AAT
+ENSPPYG00000004736
+AT hook
+7.2E-03
+1.2E-01
+1.0E+00
+CTACAAAGTTATTA
+dsx
+DM
+7.4E-03
+1.2E-01
+1.1E+01
+TGACA
+AO090005000304
+Homeodomain
+7.5E-03
+1.2E-01
+4.0E+00
+TGCA
+e_gw1.5.76.1
+APSES
+7.5E-03
+1.2E-01
+8.0E+00
+
+Summary: Changes to K & glutamate signaling
+Loci that are unique RBOHD roots GC vs FL
+
+Oxidation-reduction process,
+Cellular respiration,
+Chitinase activity,
+Chitin metabolism,
+Glucosamine metabolism,
+Glutamine receptor activity,
+Transmitter-gated ion channel,
+Cell wall catabolic process,
+Neurotransmitter receptor activity,
+
+
+
+
+
+Loci that are unique
+cax22 roots GC vs FL
+Summary: Changes to the plastids 
+Loci that are unique cax22 roots GC vs FL
+
+“Broad Changes to Plastids”,
+Plastid function remodeling, 
+Changes to plastid,
+Changes to photosystem,
+
+
+Loci that are unique
+RBOHD shoots GC vs FL
+Enriched motif in promoter
+TF
+TF family
+P val.
+FDR
+Score
+Note
+TA
+INO
+Sox
+3.9E-05
+2.0E-02
+3.0E+00
+600bp
+ATATT
+Arid5a
+ARID/BRIGHT
+1.5E-04
+3.1E-02
+3.0E+00
+600bp
+TATA
+Tbp
+TBP
+2.3E-04
+3.1E-02
+2.0E+00
+600bp
+TAATATATTA
+PHF21A
+AT hook
+2.4E-04
+3.1E-02
+3.0E+00
+600bp
+TAATTAT
+MedPost
+Homeodomain
+3.5E-04
+3.3E-02
+8.0E+00
+TGACGTGGC
+estExt_Genewise1.C_2060077
+bZIP
+3.9E-04
+3.3E-02
+1.8E+01
+CACGTG
+PK18474.1
+bHLH
+4.8E-04
+3.3E-02
+1.1E+01
+ATTAATTA
+Post-2
+Homeodomain
+5.1E-04
+3.3E-02
+1.2E+01
+TTTAAT
+DGIL_AUG5s5606g1t1
+ARID/BRIGHT
+8.6E-04
+4.7E-02
+3.0E+00
+CCACGT
+bzpJ
+bZIP
+9.0E-04
+4.7E-02
+1.3E+01
+TTTGAA
+fgeneshCV_pg.C_scaffold_18000164
+CxC
+1.1E-03
+5.3E-02
+5.0E+00
+ATGTAAATA
+P33205
+Forkhead
+1.4E-03
+5.8E-02
+1.2E+01
+ATTTGAAA
+GE12548
+CxC
+1.4E-03
+5.8E-02
+1.0E+01
+ATA
+SPT15
+TBP
+1.7E-03
+6.4E-02
+2.0E+00
+TTTGAA
+XP_001196208.1
+CxC
+2.0E-03
+6.5E-02
+5.0E+00
+ACAAT
+MATALPHA2
+Homeodomain
+2.0E-03
+6.5E-02
+7.0E+00
+TTAATATA
+MIMI_R749
+Homeodomain
+2.1E-03
+6.5E-02
+1.1E+01
+TA
+KLLA0D10043g
+Homeodomain
+2.4E-03
+7.0E-02
+2.0E+00
+CACGTG
+e_gw1.209.40.1
+bHLH
+2.8E-03
+7.7E-02
+1.5E+01
+GACACGTGC
+tai
+ABF1
+3.3E-03
+8.4E-02
+1.9E+01
+TTTGAA
+lin54
+CxC
+3.4E-03
+8.4E-02
+4.0E+00
+TGTAAACAA
+PsHNF3a
+Forkhead
+4.4E-03
+9.5E-02
+1.2E+01
+TTTGAAT
+LIN54
+CxC
+4.4E-03
+9.5E-02
+8.0E+00
+TAATTAT
+amel4_ncbi_hmm42917
+Homeodomain,POU
+4.4E-03
+9.5E-02
+6.0E+00
+AATAATAA
+mex-6
+CCCH ZF
+5.1E-03
+1.0E-01
+1.1E+01
+ATCGATAATTTTATCGAT
+CUX2
+CUT,Homeodomain
+5.3E-03
+1.0E-01
+1.6E+01
+ATATT
+zgc:158706
+ARID/BRIGHT
+5.3E-03
+1.0E-01
+3.0E+00
+TAAT
+ARID3A
+ARID/BRIGHT
+6.5E-03
+1.2E-01
+1.0E+00
+TTGAT
+retn
+ARID/BRIGHT
+6.8E-03
+1.2E-01
+2.0E+00
+CG
+Sp100
+SAND
+7.0E-03
+1.2E-01
+3.0E+00
+
+Enriched motif in promoter
+TF
+TF family
+P val.
+FDR
+Score
+Note
+TATA
+Tbp
+TBP
+5.4E-06
+2.0E-03
+6.0E+00
+300bp
+ATA
+SPT15
+TBP
+9.1E-06
+2.0E-03
+5.0E+00
+300bp
+
+TAT
+MOT2
+RRM
+1.1E-05
+2.0E-03
+5.0E+00
+300bp
+
+ATAAA
+HMD1_CHICK
+Homeodomain
+1.2E-04
+1.2E-02
+8.0E+00
+300bp
+
+TAATTAT
+amel4_ncbi_hmm42917
+Homeodomain,POU
+1.2E-04
+1.2E-02
+1.1E+01
+TAATTAT
+MedPost
+Homeodomain
+1.4E-04
+1.2E-02
+1.3E+01
+ATATATTA
+PRH
+Homeodomain
+2.5E-04
+1.9E-02
+1.8E+01
+ATGTAAATA
+P33205
+Forkhead
+3.9E-04
+2.5E-02
+1.7E+01
+TA
+INO
+Sox
+4.9E-04
+2.8E-02
+3.0E+00
+ATGTAATAGACAAAT
+BRC1_DROME
+ABF1,C2H2 ZF
+5.8E-04
+2.9E-02
+1.4E+01
+TTAATATA
+MIMI_R749
+Homeodomain
+6.2E-04
+2.9E-02
+1.5E+01
+TAACAATA
+NCU02326
+Sox
+1.5E-03
+6.5E-02
+1.2E+01
+TATAAAA
+TBP
+TBP
+2.1E-03
+8.0E-02
+1.2E+01
+TTTTTATT
+ATGRP2B
+CSD
+2.3E-03
+8.0E-02
+1.3E+01
+ATGTATAA
+Dmrtc2
+DM
+2.3E-03
+8.0E-02
+1.1E+01
+CTAAAAATAG
+MEF2A
+MADS box
+2.5E-03
+8.3E-02
+1.4E+01
+GTACGG
+estExt_fgenesh1_pg.C_1940033
+SBP
+3.1E-03
+9.6E-02
+1.1E+01
+GTAC
+fgenesh1_pg.scaffold_194000034
+SBP
+3.7E-03
+1.0E-01
+8.0E+00
+TAATATATTA
+PHF21A
+AT hook
+3.7E-03
+1.0E-01
+3.0E+00
+AATAATAA
+mex-6
+CCCH ZF
+4.0E-03
+1.0E-01
+1.2E+01
+ATTAATTA
+Post-2
+Homeodomain
+4.1E-03
+1.0E-01
+1.1E+01
+TATTTTTA
+Mef2
+MADS box
+4.6E-03
+1.1E-01
+1.3E+01
+ATTAATTA
+FGSG_01100T0
+Homeodomain
+5.0E-03
+1.1E-01
+1.1E+01
+TTTAC
+LOC_Os02g01380
+MADF
+5.2E-03
+1.1E-01
+9.0E+00
+TA
+athp-1
+Unknown
+5.8E-03
+1.2E-01
+4.0E+00
+TTAATTAC
+Ci-Hox12
+Homeodomain
+6.7E-03
+1.2E-01
+9.0E+00
+CCACGT
+bzpJ
+bZIP
+7.1E-03
+1.2E-01
+1.0E+01
+AAT
+GRF10
+Homeodomain
+7.3E-03
+1.2E-01
+4.0E+00
+TTAATTAC
+HOXD12
+Homeodomain
+7.3E-03
+1.2E-01
+9.0E+00
+TTTGAA
+lin54
+CxC
+7.5E-03
+1.2E-01
+5.0E+00
+
+Summary: Changes in response to sugar, defence signaling, lignin and phenylpropanoid metabolism.  
+Loci that are unique RBOHD shoots GC vs FL
+
+Extracellular region,
+Defence response to fungus
+Phenylpropanoid biosynthetic process,
+Response to sucrose, 
+
+Loci that are unique
+cax22 shoots GC vs FL
+Enriched motif in promoter
+TF
+TF family
+P val.
+FDR
+Score
+Note
+TATA
+Tbp
+TBP
+3.1E-05
+1.5E-02
+6.0E+00
+300bp
+TAT
+MOT2
+RRM
+5.8E-05
+1.5E-02
+6.0E+00
+TA
+athp-1
+Unknown
+1.6E-04
+2.3E-02
+7.0E+00
+TATAAAA
+TBP
+TBP
+1.7E-04
+2.3E-02
+2.0E+01
+TTTAAA
+LIN54
+CxC
+2.9E-04
+2.8E-02
+1.0E+01
+AG
+Q1T448
+Homeodomain
+3.2E-04
+2.8E-02
+6.0E+00
+ATGTTCTAT
+hsf2
+HSF
+5.1E-04
+3.8E-02
+1.6E+01
+AAAATAAT
+Medtr8g106590.1
+AT hook
+7.7E-04
+5.0E-02
+1.5E+01
+TAATATATTA
+PHF21A
+AT hook
+8.7E-04
+5.1E-02
+4.0E+00
+TTTTAAATT
+BGIBMGA008956
+CxC
+1.2E-03
+6.1E-02
+2.2E+01
+TA
+KLLA0D10043g
+Homeodomain
+1.4E-03
+6.2E-02
+5.0E+00
+TATTTTTA
+Mef2
+MADS box
+1.4E-03
+6.2E-02
+1.6E+01
+ATA
+SPT15
+TBP
+1.6E-03
+6.5E-02
+4.0E+00
+AATCAT
+estExt_gwp_gw1.C_70211
+Homeodomain
+2.2E-03
+8.3E-02
+9.0E+00
+TTATGTTAAATC
+CDC5L
+Myb/SANT
+3.5E-03
+1.2E-01
+1.9E+01
+CTAAAAATAG
+MEF2A
+MADS box
+3.7E-03
+1.2E-01
+2.0E+01
+CAATA
+ANIA_01217
+Homeodomain
+4.3E-03
+1.3E-01
+6.0E+00
+AAT
+GRF10
+Homeodomain
+4.4E-03
+1.3E-01
+5.0E+00
+TTTAAA
+AT2G20110
+CxC
+4.9E-03
+1.3E-01
+1.5E+01
+TAATT
+antpC
+Homeodomain
+5.3E-03
+1.4E-01
+1.1E+01
+TTAATATA
+MIMI_R749
+Homeodomain
+6.2E-03
+1.5E-01
+1.7E+01
+ATATATTA
+PRH
+Homeodomain
+6.8E-03
+1.6E-01
+1.8E+01
+TTTGCAT
+POU2F3
+Homeodomain,POU
+7.3E-03
+1.7E-01
+7.0E+00
+ATAAGGTACATA
+AtSPL8
+SBP
+8.3E-03
+1.7E-01
+1.3E+01
+AA
+Xrp1
+AT hook
+8.3E-03
+1.7E-01
+3.0E+00
+TTT
+GSPATP00010696001
+CxC
+9.5E-03
+1.9E-01
+3.0E+00
+TAATATTA
+tag-347
+SAND
+1.2E-02
+2.2E-01
+8.0E+00
+AAATATTT
+NCU01145
+AT hook
+1.2E-02
+2.2E-01
+1.2E+01
+TTTGAA
+fgeneshCV_pg.C_scaffold_18000164
+CxC
+1.2E-02
+2.2E-01
+5.0E+00
+TAATTAT
+MedPost
+Homeodomain
+1.2E-02
+2.2E-01
+9.0E+00
+
+Enriched motif in promoter
+TF
+TF family
+P val.
+FDR
+Score
+Note
+AA
+SUM1
+AT hook
+1.3E-03
+1.7E-01
+1.0E+00
+TAT
+MOT2
+RRM
+3.8E-05
+2.0E-02
+3.0E+00
+AATCAT
+estExt_gwp_gw1.C_70211
+Homeodomain
+2.1E-04
+5.5E-02
+7.0E+00
+AG
+Q1T448
+Homeodomain
+8.2E-04
+1.4E-01
+5.0E+00
+Summary: ROS signaling, peroxidases, extra-cellular changes and cell wall modifications
+Loci that are unique cax22 shoots GC vs FL
+
+Plant-type cell wall process,
+Extracellular region,
+Defence response to fungus
+Antioxidant activity,
+Peroxidase activity, 
+
+
+Loci that are unique
+COL00 shoots GC vs FL
+Enriched motif in promoter
+TF
+TF family
+P val.
+FDR
+Score
+Note
+TAT
+MOT2
+RRM
+3.8E-05
+2.0E-02
+3.0E+00
+600bp
+AATCAT
+estExt_gwp_gw1.C_70211
+Homeodomain
+2.1E-04
+5.5E-02
+7.0E+00
+600bp
+AG
+Q1T448
+Homeodomain
+8.2E-04
+1.4E-01
+5.0E+00
+600bp
+AA
+SUM1
+AT hook
+1.3E-03
+1.7E-01
+1.0E+00
+
+600bp
+Enriched motif in promoter
+TF
+TF family
+P val.
+FDR
+Score
+Note
+ATA
+SPT15
+TBP
+0.0E+00
+0.0E+00
+5.0E+00
+300bp
+TAT
+MOT2
+RRM
+6.6E-13
+1.2E-10
+5.0E+00
+300bp
+TATA
+Tbp
+TBP
+6.6E-13
+1.2E-10
+5.0E+00
+GTCAAC
+WRKY14
+WRKY
+9.6E-13
+1.2E-10
+1.7E+01
+ATATATTA
+PRH
+Homeodomain
+5.0E-11
+5.2E-09
+2.1E+01
+GGTCAAC
+0700010421
+WRKY
+1.3E-09
+1.2E-07
+1.4E+01
+TGAC
+NR2E1
+Nuclear receptor
+1.6E-09
+1.2E-07
+7.0E+00
+TATGCAT
+unc-86
+Homeodomain,POU
+3.2E-09
+2.1E-07
+1.8E+01
+AAATATTT
+NCU01145
+AT hook
+9.6E-09
+5.3E-07
+1.1E+01
+TATAAAA
+TBP
+TBP
+1.0E-08
+5.3E-07
+1.2E+01
+TATTTTTA
+Mef2
+MADS box
+2.3E-08
+1.1E-06
+1.5E+01
+TA
+KLLA0D10043g
+Homeodomain
+3.2E-08
+1.4E-06
+3.0E+00
+ATGTATAA
+Dmrtc2
+DM
+6.8E-08
+2.7E-06
+1.1E+01
+ATAAA
+HMD1_CHICK
+Homeodomain
+1.6E-07
+5.9E-06
+5.0E+00
+TAATTAT
+amel4_ncbi_hmm42917
+Homeodomain,POU
+6.8E-07
+2.4E-05
+8.0E+00
+TAATTAT
+MedPost
+Homeodomain
+1.1E-06
+3.4E-05
+9.0E+00
+G
+DMRTC2
+DM
+2.9E-06
+9.0E-05
+1.0E+00
+TAACAATA
+NCU02326
+Sox
+1.8E-05
+5.0E-04
+1.0E+01
+TGACCT
+nr2f2
+Nuclear receptor
+1.8E-05
+5.0E-04
+7.0E+00
+ATGTCAAG
+LOC_Os03g03164
+Homeodomain
+3.0E-05
+7.9E-04
+1.0E+00
+TGT
+DMRTC2
+DM
+3.3E-05
+8.3E-04
+3.0E+00
+TGACC
+Rarg
+Nuclear receptor
+3.8E-05
+9.0E-04
+6.0E+00
+TAATATATTA
+PHF21A
+AT hook
+4.4E-05
+9.9E-04
+2.0E+00
+ACGT
+0100010379
+bZIP
+4.7E-05
+1.0E-03
+5.0E+00
+TGACCT
+bhr-2
+Nuclear receptor
+5.0E-05
+1.0E-03
+9.0E+00
+ATTA
+AAH72060
+Homeodomain,POU
+5.9E-05
+1.2E-03
+3.0E+00
+TGACGT
+GSPATP00028385001
+bZIP
+7.1E-05
+1.3E-03
+4.0E+00
+TTAAGCAAACA
+fkh
+Forkhead
+7.1E-05
+1.3E-03
+9.0E+00
+TGACATGTCA
+CIMG_06089T0
+Homeodomain
+7.1E-05
+1.3E-03
+2.0E+00
+ATTA
+ENSDARG00000044872
+Homeodomain,POU
+1.0E-04
+1.7E-03
+3.0E+00
+
+Summary: Changes to ROS, SA signaling, extra-cellular signaling and changes to system resistance signaling
+Loci that are unique COL00 shoots GC vs FL
+
+Plant-type cell wall process,
+Plasma membrane,
+Extracellular region,
+Apolast, 
+Oxidation-reduction process,
+Defence response,
+Immune response,
+Systemic acquired resistance, 
+Cellular response to salicylic acid, 
+
+GC Shoots & GC Root comparisons
+
+GC Shoots COL00 vs CAX22
+CELL ONTOLOGY
+BIOLOGICAL  ONTOLOGY
+MOLECULAR  ONTOLOGY
+ALL AVAILABLE GENE SETS.
+GC Shoots COL00 vs CAX22
+
+“Broad Changes to Plastids”,
+Changes to the photosystem,
+Hydrogen peroxide catabolic,
+Reactive oxygen species metabolic process,
+Peroxidase activity, 
+Antioxidant activity,
+Response to chitin,
+
+GC Roots COL00 vs CAX22
+CELL ONTOLOGY
+BIOLOGICAL  ONTOLOGY
+MOLECULAR  ONTOLOGY
+ALL AVAILABLE GENE SETS.
+GC Roots COL00 vs CAX22
+“Broad Changes to Plastids”,
+Changes to the photosystem,
+Response to chitin,
+Changes to meristem development,
+RNA processing
+
+GC Shoots RBOHD VS COL00
+CELL ONTOLOGY
+BIOLOGICAL  ONTOLOGY
+MOLECULAR  ONTOLOGY
+ALL AVAILABLE GENE SETS.
+GC Shoots RBOHD VS COL00
+“Broad Changes to Plastids”,
+Changes to the photosystem,
+Response to chitin,
+Changes to cell cycle process,
+Plant epidermal morphogenesis,
+Trichome morphogenesis,
+Microtubule-based process, 
+Hydrogeon peroxide metabolism
+
+GC Roots RBOHD vs COL00
+CELL ONTOLOGY
+BIOLOGICAL  ONTOLOGY
+MOLECULAR  ONTOLOGY
+ALL AVAILABLE GENE SETS.
+GC Roots RBOHD vs COL00
+Changes to the ribosome,
+Response to chitin,
+Changes to RNA processing,
+Chromatin organisation
+
+
+
+Life in microgravity is confusing for biology
+Root System Growth Kinetics  
+
+Gilroy Astro-Botany Lab
+www.astrobotany.com
+Undergraduate Research Based Project Learning
+
+& all the undergraduate and high school students 
+https://drrichardbarker.wordpress.com/
+Richard Barker
+Arkadipta Bakshi,
+Richard Hillary,
+Won-Gyu Choi, Sarah Swanson  
+Simon Gilroy 
+& all the awesome folk at NASA
+
+The international space station shows us how life adapts to space flight 
+But SpaceX’s current job is resupplying the space station
+
+Smart Root: No noticeable / reliable difference in root diameter
+
+FL
+GC
+FL vs GSEach individual plate can be compared
+day 4 samples
+
+FL
+GC
+Treatment Color
+Orientation Color 
+day 4 samples
+351
+
+NMDS plot
+FL vs GC
+Genotypic comparison
+day 4 samples
+
+Total Root System length.
+Depth vs length
+day 4 samples
+
+Root system depth
+Root system Orientation
+day 4 samples
+
+4 day old origination plot at root level
+4 day old counts plot at root level densities plot
+4 day old root origination plot 
+4 day old root origination densities plot 
+Many ways to plot direction of root growth
+
+Angle density distribution 
+day 4 samples
+
+Time series data
+MDS plot comparing FL vs GC using all corner samples
+Corner samples
+
+Coloring based on direction on growth
+Corner samples
+
+Angle density distribution 
+Corner samples
+
+APEX5 leaf area
+TTEST
+GC vs FL
+Col
+0.08526706
+rbohD
+0.8088536
+cax22
+0.91546647
+cax23
+0.44751879
+Mean
+Mean GC
+Mean FL
+SE GC
+SE FL
+Col
+4.06333333
+2.76666667
+0.360136
+0.575672
+rbohD
+3.65833333
+3.73833333
+0.279075
+0.160757
+cax22
+2.69333333
+2.63833333
+0.312908
+0.396673
+cax23
+2.67833333
+2.35833333
+0.137996
+0.380503
+P=<0.1 GC vs FL
+Day 8 Lids Off
+https://github.com/heaslon/Easy-Leaf-Area
+
+APEX5 petiole length bar plot
+Day 8 Lids Off
+Ttest
+rbohD 
+2.8555E-14
+Col
+1.4293E-13
+cax22
+2.3836E-05
+cax23
+5.3582E-05
+Ttest
+Col-0 FL vs cax22 GC
+0.073469055
+Col-0 FL vs cax23 GC
+0.018503086
+Col-0 FL vs rbohD GC
+1.82044E-06
+
+Center lines show the medians; box limits indicate the 25th and 75th percentiles as determined by R software; whiskers extend to 5th and 95th percentiles, outliers are represented by dots; crosses represent sample means; data points are plotted as open circles. n = 6 sample points.
+Col.
+GC
+Col.
+FL
+rbohD.GC
+rbohD.
+FL
+cax22.
+GC
+cax22.
+FL
+cax23.
+GC
+cax23.
+FL
+Upper whisker
+5.64
+4.46
+4.55
+4.14
+3.53
+3.72
+3.14
+3.75
+3rd quartile
+4.28
+4.06
+4.33
+4.13
+3.21
+3.53
+2.83
+2.93
+Median
+3.9
+2.87
+3.49
+3.73
+2.94
+2.78
+2.75
+2.21
+1st quartile
+3.37
+1.45
+3.42
+3.6
+1.89
+1.64
+2.42
+1.66
+Lower whisker
+3.3
+0.89
+2.67
+3.1
+1.66
+1.38
+2.18
+1.38
+N #
+6
+6
+6
+6
+6
+6
+6
+6
+APEX5 leaf area box plot
+Day 8 Lids Off
+
+Easy Leaf Area
+Easy Leaf Area: Automated Digital Image Analysis for Rapid and Accurate Measurement of Leaf AreaHsien Ming Easlon, Arnold J. BloomApplications in Plant Sciences, 2017
+https://github.com/heaslon/Easy-Leaf-Area
+Day 8 Lids Off
+
+PCA (corner plates)
+Corner samples
+
+PCA plot using corner plates time series data and center plates day 4 data
+PCA (corner plates & day 4 middle)
+
+Black lines show the means; white lines represent individual data points; polygons represent the estimated density of the data.
+
+APEX5 leaf area bean plot
+Day 8 Lids Off
+
+Coloring based on root order 
+Coloring based on root depth
+Corner samples
+
+Variance on cax22 GC
+Analysis of day 4 main plates.
+Root system length.
+V1
+V2
+V3
+day 4 samples
+
+Plot at count direction of growth at root level (central plates day 4)
+day 4 samples
+
+Flight root tip angle 
+
+
+Shreya root hair data
+Root hair length (pixcel)
+T.TEST(A2:A87, B2:B114, 2, 1)
+P-value
+t- test Two-Sample Assuming Equal Variance
+
+t- test Two-Sample Assuming Equal Variance
+cax22 fl vs GC
+0.000000000294
+Yes
+cax23 fl vs GC
+0.04869226086
+Yes
+col fl vs GC
+0.4912376993
+No
+rbohD fl vs GC
+0.5970355293
+No
+Box plot description for figure legend:
+Center lines show the medians; box limits indicate the 25th and 75th percentiles as determined by R software; whiskers extend to 5th and 95th percentiles, outliers are represented by dots; crosses represent sample means. n = 85, 113, 62, 63, 49, 56, 53, 52 sample points.
+
+APEX5
+Entrez Arabidopsis ID
+Symbol
+Transcript ID
+GCRootCOL00-FLRootCOL00_logFC
+GCRootCOL00-FLRootCOL00_PValue
+GCShootCOL00-FLShootCOL00_logFC
+GCShootCOL00-FLShootCOL00_PValue
+28721157
+MIR398C
+AT5G14565.1
+-1.272
+0.000
+-
+-
+Entrez Arabidopsis ID
+Symbol
+Transcript ID
+GCRootRBOHD-FLRootRBOHD_logFC
+GCRootRBOHD-FLRootRBOHD_PValue
+GCShootRBOHD-FLShootRBOHD_logFC
+GCShootRBOHD-FLShootRBOHD_PValue
+28721157
+MIR398C
+AT5G14565.1
+-1.298
+0.000
+-
+-
+SOD1 is targeted by MIR398C
+Entrez Arabidopsis ID
+Symbol
+Transcript ID
+GCRootCOL00-FLRootCOL00_logFC
+GCRootCOL00-FLRootCOL00_PValue
+GCShootCOL00-FLShootCOL00_logFC
+GCShootCOL00-FLShootCOL00_PValue
+837808
+SOD1
+AT1G12520.1
+-
+-
+1.388
+0.000
+837808
+SOD1
+AT1G12520.2
+-
+-
+1.378
+0.000
+837808
+SOD1
+AT1G12520.3
+-
+-
+1.363
+0.000
+BRIC19
+Entrez Arabidopsis ID
+Symbol
+Transcript ID
+WS-2 P-Value
+WS-2 BRIC19 Log10 FC
+837808
+SOD1,
+AT1G12520.1
+0.00235
+0.241387811
+837808
+SOD1,
+AT1G12520.2
+0.00235
+0.241387811
+837808
+SOD1,
+AT1G12520.3
+0.00235
+0.241387811
+SOD1 is targeted by MIR398C: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3001559/

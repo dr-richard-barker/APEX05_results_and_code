@@ -1,0 +1,5 @@
+﻿Study_Design,FLRootCAX23_1,FLShoot_CAX23_1,FLRootCAX23_2,FLShoot_CAX23_2,GCRootCAX23_2,GCShoot_CAX23_2,FLRootCAX23_3,FLShoot_CAX23_3,GCRootCAX23_3,GCShoot_CAX23_3,FLRootCAX23_4,FLShoot_CAX23_4,GCRootCAX23_4,GCShoot_CAX23_4
+tissue,Root,Shoot,Root,Shoot,Root,Shoot,Root,Shoot,Root,Shoot,Root,Shoot,Root,Shoot
+genotype,FLRootCAX23_,FLShoot_CAX23,FLRootCAX23_,FLShoot_CAX23,GCRootCAX23_,GCShoot_CAX23,FLRootCAX23_,FLShoot_CAX23,GCRootCAX23_,GCShoot_CAX23,FLRootCAX23_,FLShoot_CAX23,GCRootCAX23_,GCShoot_CAX23
+group,FLRoot,FLShoot,FLRoot,FLShoot,GCRoot,GCShoot,FLRoot,FLShoot,GCRoot,GCShoot,FLRoot,FLShoot,GCRoot,GCShoot
+cond,FL,FL,FL,FL,GC,GC,FL,FL,GC,GC,FL,FL,GC,GC

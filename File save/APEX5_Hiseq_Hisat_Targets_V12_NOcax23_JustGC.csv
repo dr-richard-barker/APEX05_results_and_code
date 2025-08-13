@@ -1,0 +1,9 @@
+file,group,cond,label
+APEX5_HiSeq_HiSat_counts_out_V8,RootCOL00,GC,GCRoot_COL00_1
+APEX5_HiSeq_HiSat_counts_out_V8,ShootCOL00,GC,GCShoot_COL00_1
+APEX5_HiSeq_HiSat_counts_out_V8,RootCOL00,GC,GCRoot_COL00_2
+APEX5_HiSeq_HiSat_counts_out_V8,ShootCOL00,GC,GCShoot_COL00_2
+APEX5_HiSeq_HiSat_counts_out_V8,RootCOL00,GC,GCRoot_COL00_3
+APEX5_HiSeq_HiSat_counts_out_V8,ShootCOL00,GC,GCShoot_COL00_3
+APEX5_HiSeq_HiSat_counts_out_V8,RootCOL00,GC,GCRoot_COL00_4
+APEX5_HiSeq_HiSat_counts_out_V8,ShootCOL00,GC,GCShoot_COL00_4

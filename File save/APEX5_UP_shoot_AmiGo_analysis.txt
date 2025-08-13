@@ -1,0 +1,50 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20181113)
+Annotation Version and Release Date:	GO Ontology database  Released 2018-12-01
+Analyzed List:	upload_1 (Arabidopsis thaliana)
+Reference List:	Arabidopsis thaliana (all genes in database)
+Test Type:	FISHER
+Correction:	BONFERRONI
+Bonferroni count:	2709
+GO biological process complete	Arabidopsis thaliana - REFLIST (27581)	upload_1 (327)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (P-value)
+S-glycoside biosynthetic process (GO:0016144)	42	10	.50	+	20.08	1.18E-06
+glucosinolate biosynthetic process (GO:0019761)	42	10	.50	+	20.08	1.18E-06
+glycosinolate biosynthetic process (GO:0019758)	42	10	.50	+	20.08	1.18E-06
+response to insect (GO:0009625)	30	6	.36	+	16.87	9.70E-03
+regulation of jasmonic acid mediated signaling pathway (GO:2000022)	39	7	.46	+	15.14	2.79E-03
+glycosyl compound biosynthetic process (GO:1901659)	63	10	.75	+	13.39	3.72E-05
+S-glycoside metabolic process (GO:0016143)	136	13	1.61	+	8.06	6.72E-05
+glucosinolate metabolic process (GO:0019760)	136	13	1.61	+	8.06	6.72E-05
+glycosinolate metabolic process (GO:0019757)	136	13	1.61	+	8.06	6.72E-05
+response to wounding (GO:0009611)	215	19	2.55	+	7.45	1.35E-07
+response to jasmonic acid (GO:0009753)	215	18	2.55	+	7.06	9.89E-07
+sulfur compound biosynthetic process (GO:0044272)	146	11	1.73	+	6.35	7.17E-03
+glycosyl compound metabolic process (GO:1901657)	202	14	2.39	+	5.85	8.10E-04
+secondary metabolite biosynthetic process (GO:0044550)	180	12	2.13	+	5.62	8.34E-03
+response to toxic substance (GO:0009636)	208	12	2.47	+	4.87	3.34E-02
+response to water deprivation (GO:0009414)	344	16	4.08	+	3.92	1.71E-02
+secondary metabolic process (GO:0019748)	371	17	4.40	+	3.86	1.06E-02
+response to water (GO:0009415)	351	16	4.16	+	3.84	2.18E-02
+response to oxidative stress (GO:0006979)	417	18	4.94	+	3.64	1.22E-02
+response to osmotic stress (GO:0006970)	662	24	7.85	+	3.06	6.12E-03
+response to temperature stimulus (GO:0009266)	611	22	7.24	+	3.04	1.81E-02
+response to salt stress (GO:0009651)	587	21	6.96	+	3.02	3.22E-02
+response to acid chemical (GO:0001101)	1162	39	13.78	+	2.83	2.71E-05
+response to inorganic substance (GO:0010035)	933	31	11.06	+	2.80	1.21E-03
+response to oxygen-containing compound (GO:1901700)	1577	49	18.70	+	2.62	3.36E-06
+oxoacid metabolic process (GO:0043436)	1029	30	12.20	+	2.46	3.15E-02
+organic acid metabolic process (GO:0006082)	1031	30	12.22	+	2.45	3.22E-02
+response to external biotic stimulus (GO:0043207)	1001	29	11.87	+	2.44	4.88E-02
+response to other organism (GO:0051707)	1001	29	11.87	+	2.44	4.88E-02
+response to biotic stimulus (GO:0009607)	1002	29	11.88	+	2.44	4.94E-02
+response to stress (GO:0006950)	3157	85	37.43	+	2.27	1.32E-09
+response to external stimulus (GO:0009605)	1390	37	16.48	+	2.25	1.69E-02
+response to chemical (GO:0042221)	2755	68	32.66	+	2.08	2.40E-05
+response to abiotic stimulus (GO:0009628)	2069	51	24.53	+	2.08	2.38E-03
+response to stimulus (GO:0050896)	5704	118	67.63	+	1.74	4.73E-07
+Unclassified (UNCLASSIFIED)	6312	72	74.83	-	.96	0.00E00
+cellular macromolecule metabolic process (GO:0044260)	3828	20	45.38	-	.44	3.13E-02

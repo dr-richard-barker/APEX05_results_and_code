@@ -1,0 +1,212 @@
+---
+title: "APEX5 DESeq2 Analysis"
+author: "Jules"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: hide
+---
+
+# Introduction
+
+This report details the differential expression analysis of the APEX5 RNA-seq data using the DESeq2 package. This document is an R Markdown template for reproducible analysis.
+
+# Setup
+
+## Load Libraries
+
+First, we load the R libraries required for the analysis.
+
+```{r setup, message=FALSE, warning=FALSE}
+library(DESeq2)
+library(ggplot2)
+library(pheatmap)
+library(RColorBrewer)
+library(plotly)
+```
+
+## Define Parameters
+
+Here, we define the parameters for the analysis, such as file paths and significance cutoffs.
+
+```{r parameters}
+# --- Parameters to set ---
+
+# Input data
+counts_file <- "../data/apex5_hiseq_hisat_targets.txt" # Example file, needs to be adjusted
+metadata_file <- "../data/metadata.csv" # To be created by the user
+
+# Output directories
+results_dir <- "../results/tables"
+plots_dir <- "../results/plots"
+
+# Analysis parameters
+p_val_cutoff <- 0.05
+min_lfc <- 1
+
+# Create output directories if they don''t exist
+dir.create(results_dir, showWarnings = FALSE, recursive = TRUE)
+dir.create(plots_dir, showWarnings = FALSE, recursive = TRUE)
+```
+
+# Data Loading and Preparation
+
+## Load Count Data
+
+We load the raw count data from the specified file.
+
+```{r load_counts}
+# Note: The original script had a hardcoded path. Here, we use a relative path.
+# The user will need to provide the correct path to the counts file.
+# For this template, we will generate some dummy data as a placeholder.
+
+# As a placeholder, let's create some dummy data
+# In a real analysis, you would load your data like this:
+# raw_counts <- read.table(counts_file, header = TRUE, row.names = 1, sep = "\t")
+set.seed(42)
+dummy_counts <- matrix(rnbinom(n=1000*16, mu=100, size=1/0.5), ncol=16)
+rownames(dummy_counts) <- paste0("gene", 1:1000)
+colnames(dummy_counts) <- paste0("sample", 1:16)
+raw_counts <- as.data.frame(dummy_counts)
+
+# Clean up column names if necessary (e.g., remove "X" prefix)
+# colnames(raw_counts) <- sub("^X", "", colnames(raw_counts))
+
+# Ensure no missing values
+raw_counts[is.na(raw_counts)] <- 0
+
+# Display the first few rows of the count matrix
+head(raw_counts)
+```
+
+## Load Metadata
+
+We load the sample metadata from the `metadata.csv` file. This file should contain information about each sample, such as genotype, tissue, and treatment.
+
+```{r load_metadata}
+# The metadata file needs to be created by the user.
+# It should have columns like 'sample_id', 'genotype', 'tissue', 'treatment'.
+# For this template, we will create a dummy metadata data frame.
+
+# In a real analysis, you would load your metadata like this:
+# metadata <- read.csv(metadata_file, row.names = "sample_id")
+dummy_metadata <- data.frame(
+  row.names = colnames(raw_counts),
+  genotype = rep(c("WT", "Mutant"), each = 8),
+  tissue = rep(c("Root", "Shoot"), each = 4, times = 2)
+)
+
+# Combine genotype and tissue to create experimental groups
+dummy_metadata$group <- factor(paste(dummy_metadata$genotype, dummy_metadata$tissue, sep = "_"))
+
+# Display the metadata
+dummy_metadata
+```
+
+# DESeq2 Analysis
+
+Now we will proceed with the DESeq2 analysis. We will create a DESeqDataSet object, estimate size factors and dispersions, and then run the differential expression analysis.
+
+## Create DESeqDataSet Object
+
+We create a `DESeqDataSet` object from the count matrix and the metadata. The design formula `~ group` tells DESeq2 to model the counts based on the `group` variable.
+
+```{r deseq_dataset}
+dds <- DESeqDataSetFromMatrix(countData = raw_counts,
+                              colData = dummy_metadata,
+                              design = ~ group)
+
+# Pre-filter rows with low counts (optional, but recommended)
+keep <- rowSums(counts(dds)) >= 10
+dds <- dds[keep,]
+```
+
+## Run Differential Expression Analysis
+
+We run the main DESeq2 pipeline with a single command. This will perform size factor estimation, dispersion estimation, and model fitting.
+
+```{r deseq_run}
+dds <- DESeq(dds)
+```
+
+# Quality Control
+
+## PCA Plot
+
+A Principal Component Analysis (PCA) plot is useful for visualizing the overall effect of experimental covariates and batch effects.
+
+```{r pca_plot}
+vsd <- vst(dds, blind = FALSE)
+pcaData <- plotPCA(vsd, intgroup = c("genotype", "tissue"), returnData = TRUE)
+percentVar <- round(100 * attr(pcaData, "percentVar"))
+
+ggplot(pcaData, aes(x = PC1, y = PC2, color = genotype, shape = tissue)) +
+  geom_point(size = 3) +
+  xlab(paste0("PC1: ", percentVar[1], "% variance")) +
+  ylab(paste0("PC2: ", percentVar[2], "% variance")) +
+  coord_fixed() +
+  ggtitle("PCA Plot") +
+  theme_bw()
+```
+
+## Interactive PCA Plot
+
+We can also create an interactive version of the PCA plot using the `plotly` library. This allows you to hover over the points to see sample information.
+
+```{r interactive_pca_plot}
+# Make sure plotly is loaded
+# library(plotly)
+
+p <- ggplot(pcaData, aes(x = PC1, y = PC2, color = genotype, shape = tissue, text = paste("Sample:", rownames(pcaData)))) +
+  geom_point(size = 3) +
+  xlab(paste0("PC1: ", percentVar[1], "% variance")) +
+  ylab(paste0("PC2: ", percentVar[2], "% variance")) +
+  coord_fixed() +
+  ggtitle("Interactive PCA Plot") +
+  theme_bw()
+
+ggplotly(p, tooltip = "text")
+```
+
+# Differential Expression Results
+
+## Extracting Results
+
+We can now extract the results of the differential expression analysis for specific contrasts. For example, to compare Mutant vs. WT in the Root tissue.
+
+```{r results}
+# To see which comparisons can be made
+resultsNames(dds)
+
+# Example: Contrast Mutant_Root vs WT_Root
+res <- results(dds, contrast = c("group", "Mutant_Root", "WT_Root"))
+res <- res[order(res$pvalue),]
+
+# Summary of the results
+summary(res)
+
+# Save the results to a CSV file
+write.csv(as.data.frame(res),
+          file = file.path(results_dir, "deseq2_results_mutant-vs-wt_root.csv"))
+
+# Display the top significant genes
+head(res)
+```
+
+## MA Plot
+
+The MA plot shows the log2 fold change against the mean of normalized counts. It's a good way to visualize the results of a differential expression analysis.
+
+```{r ma_plot}
+plotMA(res, ylim = c(-2, 2))
+```
+
+# Session Information
+
+This section provides information about the R session and the versions of the packages used for this analysis, which is important for reproducibility.
+
+```{r session_info}
+sessionInfo()
+```

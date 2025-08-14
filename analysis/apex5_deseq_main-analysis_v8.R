@@ -1,3 +1,9 @@
+#
+# NOTE: This script has been refactored into an R Markdown template.
+# For the latest version of this analysis, please use:
+# analysis/apex5_deseq_analysis-template.Rmd
+#
+
 ##
 # generic template for loading the raw count data
 ##

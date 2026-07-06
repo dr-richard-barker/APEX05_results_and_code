@@ -1,14 +1,15 @@
+# NOTE: This script is a legacy duplicate of:
+# analysis/apex5_drb_rsml-analysis.R
+# It has been maintained for reproducibility but is deprecated in favor of the cleaner version.
 
-## Shiny tools
-install.packages("shiny")
+# install.packages("shiny")
 
 library(shiny)
-shiny::runGitHub("plantmodelling/archishiny", "plantmodelling")
+# shiny::runGitHub("plantmodelling/archishiny", "plantmodelling")
 
-## Shiny tools'
-install.packages("shiny")
+# install.packages("shiny")
 library(shiny)
-shiny::runGitHub("archidart/astrodart", "astridart")
+# shiny::runGitHub("archidart/astrodart", "astridart")
 
 ## Using this RSML & archiDART package will link into the Primal Machine learning system
 ##library(shiny)
@@ -29,27 +30,33 @@ library(vegan)
 
 ########################################//
 
-##path <- "~/Desktop/EVT_and_SVT_RSML_format_v2/"
-path<- "~/Desktop/Desktop - Richard’s MacBook Air/APEX5_RSML_day4/FL_&_GC"
-path<-"/Users/richardbarker/Desktop/Desktop - Richard’s MacBook Air/APEX5_RSML_day4_/FL_&_GC"
+# Default path pointing to unzipped RSML files (can extract from clutter ZIP)
+path <- "../data/RSML"
+# Previous private paths are commented out below to prevent syntax errors:
+# path <- "~/Desktop/Desktop - Richard’s MacBook Air/APEX5_RSML_day4/FL_&_GC"
+# /Users/richardbarker/Desktop/Desktop - Richard’s MacBook Air/APEX5_RSML_day4_/FL_&_GC
+# /Users/richardbarker/Desktop/APEX_RSML_corners_fixed_2_7_18
+# /Users/richardbarker/Desktop/Desktop_Mac_Mini/Soil Root Scans/Cotton_RSML_Soil
+# path <- "~/Users/richardbarker/Desktop/DataRevised"
 
-##Location/path
-/Users/richardbarker/Desktop/Desktop - Richard’s MacBook Air/APEX5_RSML_day4_/FL_&_GC
-/Users/richardbarker/Desktop/APEX_RSML_corners_fixed_2_7_18
-/Users/richardbarker/Desktop/Desktop_Mac_Mini/Soil Root Scans/Cotton_RSML_Soil
-##Dexter
-path<- "~/Users/richardbarker/Desktop/DataRevised"
+if (dir.exists(path)) {
+  table <- rsmlToTable(inputrsml=path, rsml.connect=TRUE)
+} else {
+  warning("RSML path '", path, "' does not exist. Please extract the RSML zip archive first.")
+  table <- data.frame(file=character(), x1=numeric(), y1=numeric(), x2=numeric(), y2=numeric())
+}
 
-table <- rsmlToTable(inputrsml=path, rsml.connect=TRUE)
-archi <- architect(inputrsml=table, fitter=FALSE)
-
-##archi <- rsmlToTable(path, fitter=T, rsml.connect = T, rsml.date="age")
-location <- unlist(lapply(strsplit(as.character(archi$FileName), "_"), `[[`, 1))[]
-treatment <- unlist(lapply(strsplit(as.character(archi$FileName), "_"), `[[`, 2))[]
-genotypes <- unlist(lapply(strsplit(as.character(archi$FileName), "_"), `[[`, 3))[]
-archi$genotypes <- genotypes
-archi$location <- location
-archi$treatment <- treatment
+if (nrow(table) > 0) {
+  archi <- architect(inputrsml=table, fitter=FALSE)
+  location <- unlist(lapply(strsplit(as.character(archi$FileName), "_"), `[[`, 1))[]
+  treatment <- unlist(lapply(strsplit(as.character(archi$FileName), "_"), `[[`, 2))[]
+  genotypes <- unlist(lapply(strsplit(as.character(archi$FileName), "_"), `[[`, 3))[]
+  archi$genotypes <- genotypes
+  archi$location <- location
+  archi$treatment <- treatment
+} else {
+  archi <- data.frame(FileName=character(), TRL=numeric(), genotypes=character(), location=character(), treatment=character())
+}
 
 ### archi$age <- as.numeric(archi$age)
 ### If you had time series data you could try this filter
@@ -201,115 +208,126 @@ ggplot(data2) +
   xlab("NMDS-1") +
   ylab("NMDS-2")
 
-#########################################
-##Fail#### Location = MDS2 plot for SVT vs EVT
-ggplot(data4) +
-  geom_point(aes(MDS1, MDS2, colour=location)) +
-  stat_ellipse(aes(MDS1, MDS2, colour=location), level = 0.9, size=1) +
-  theme_bw() +
-  xlab("NMDS-1") +
-  ylab("NMDS-2")
-
-##Fail## Location = MDS2 plot for treatment
-ggplot(data3) +
-  geom_point(aes(MDS1, MDS2, colour=location)) +
-  stat_ellipse(aes(MDS1, MDS2, colour=location), level = 0.9, size=1) +
-  theme_bw() +
-  xlab("NMDS-1") +
-  ylab("NMDS-2")
-
-
-
-#########################################
-# FAIL ## Genotype = MDS2 plot for SVT vs EVT
-ggplot(data2= reprex, aes(x, y)) +
-  geom_point(aes(MDS1, MDS2, colour=genotypes)) +
-  stat_ellipse(aes(MDS1, MDS2, colour=gentotypes), level = 0.9, size=1) +
-  theme_bw() +
-  xlab("NMDS-1") +
-  ylab("NMDS-2")
+# Note: The following blocks are commented out or wrapped in checks as they reference undefined or legacy variables (data4, data3, reprex)
+# #########################################
+# ## Location = MDS2 plot for SVT vs EVT
+# if (exists("data4")) {
+#   ggplot(data4) +
+#     geom_point(aes(MDS1, MDS2, colour=location)) +
+#     stat_ellipse(aes(MDS1, MDS2, colour=location), level = 0.9, size=1) +
+#     theme_bw() +
+#     xlab("NMDS-1") +
+#     ylab("NMDS-2")
+# }
+# 
+# ## Location = MDS2 plot for treatment
+# if (exists("data3")) {
+#   ggplot(data3) +
+#     geom_point(aes(MDS1, MDS2, colour=location)) +
+#     stat_ellipse(aes(MDS1, MDS2, colour=location), level = 0.9, size=1) +
+#     theme_bw() +
+#     xlab("NMDS-1") +
+#     ylab("NMDS-2")
+# }
+# 
+# ## Genotype = MDS2 plot for SVT vs EVT
+# if (exists("data2")) {
+#   ggplot(data2, aes(MDS1, MDS2, colour=genotypes)) +
+#     geom_point() +
+#     stat_ellipse(level = 0.9, size=1) +
+#     theme_bw() +
+#     xlab("NMDS-1") +
+#     ylab("NMDS-2")
+# }
 
 ## archiHomology
 ########################################
 ## archibarcodes
 # Compile the data in a table
-perhomology <- perhomology(archi, FUN="")
-names  <- names(perhomology)
-perh <- NULL
-for(i in c(1:length(perhomology))){
-  temp <- data.frame(perhomology[[i]])
-  temp$y <- c(1:nrow(temp))
-  temp$file <- names[i]
-  perh <- rbind(perh, temp)
+if (exists("archi") && nrow(archi) > 0) {
+  perhomology <- perhomology(archi, FUN="")
+  names  <- names(perhomology)
+  perh <- NULL
+  for(i in c(1:length(perhomology))){
+    temp <- data.frame(perhomology[[i]])
+    temp$y <- c(1:nrow(temp))
+    temp$file <- names[i]
+    perh <- rbind(perh, temp)
+  }
+  genotypes_split <- unlist(lapply(strsplit(as.character(perh$file), "-"), `[[`, 1))[]
+  rep_split <- unlist(lapply(strsplit(as.character(perh$file), "-"), `[[`, 3))[]
+  perh$genotype <- genotypes_split
+  perh$rep <- rep_split
+  
+  ggplot(perh) + 
+    geom_segment(aes(x = birth, y=y, xend=death, yend=y, alpha=0.1)) + 
+    facet_wrap(~genotype) + 
+    theme_classic() +
+    theme(legend.position = "none")+
+    ylab("H0") + 
+    xlab(" distance (cm)")
 }
-genotypes <- unlist(lapply(strsplit(as.character(perh$file), "-"), `[[`, 1))[]
-rep <- unlist(lapply(strsplit(as.character(perh$file), "-"), `[[`, 3))[]
-perh$genotype <- genotypes
-perh$rep <- rep
-
-ggplot(perh) + 
-  geom_segment(aes(x = birth, y=y, xend=death, yend=y, alpha=0.1)) + 
-  facet_wrap(~genotype) + 
-  theme_classic() +
-  theme(legend.position = "none")+
-  ylab("H0") + 
-  xlab(" distance (cm)")
 
 ########################################
 ### Where does the rs come from?
 ####PCA plot  # Do the PCA analysis
-plants <- rs$architect$FileName
-genotypes <- rs$architect$genotype
-temp <- rs$architect[,c(Total root system length,Growth rate of the root system,First-order root length,First-order root growth rate,Total number of first-order roots,Total number of lateral roots,Total lateral root length,Mean length of lateral roots,Growth rate of lateral roots,Density of secondary roots,Topological magnitude,External path length)]
-pca <- prcomp(temp, retx = T, scale=T)  # Make the PCA
-pca.results <- cbind(plant=plants, genotype=genotypes, data.frame(pca$x)[,])
-
-vars <- apply(pca$x, 2, var)  
-props <- round((vars / sum(vars) * 100), 1)
-xl <- paste0("Principal Component 1 (",props[1],"%)")
-yl <-paste0("Principal Component 2 (",props[2],"%)
-            ")
-
-pl1 <- ggplot(data = pca.results) + 
-  geom_point(aes(PC1, PC2, colour=genotype)) +
-  stat_ellipse(aes(PC1, PC2, colour=genotype), level = 0.9, size=1) + 
-  theme_bw() + 
-  xlab(xl) + 
-  ylab(yl)
-
-z2 <- data.frame(var_names = rownames(pca$rotation), pca$rotation[, 1:2])
-z2$var_names <- gsub("_", " ", z2$var_names)
-
-pl2 <- ggplot(data=z2, aes(0, 0, xend=PC1, yend=PC2)) + 
-  geom_segment(col="grey", size=1.2, arrow = arrow(length = unit(0.5,"cm")), alpha=0.9) +
-  geom_text_repel(data=z2, aes(PC1, PC2, label=var_names), col="black", size=9) +
-  geom_point(aes(x=0, y=0), colour="grey") +
-  #scale_y_continuous(limits = c(-1, 0.3)) +
-  theme_classic() +
-  xlab(xl) + ylab(yl)
-
-pl <- grid.arrange(pl1, pl2, ncol=1)
-
-
+if (exists("rs")) {
+  plants <- rs$architect$FileName
+  genotypes_pca <- rs$architect$genotype
+  temp <- rs$architect[, c("Total root system length", "Growth rate of the root system", 
+                           "First-order root length", "First-order root growth rate", 
+                           "Total number of first-order roots", "Total number of lateral roots", 
+                           "Total lateral root length", "Mean length of lateral roots", 
+                           "Growth rate of lateral roots", "Density of secondary roots", 
+                           "Topological magnitude", "External path length")]
+  pca <- prcomp(temp, retx = T, scale=T)  # Make the PCA
+  pca.results <- cbind(plant=plants, genotype=genotypes_pca, data.frame(pca$x)[,])
+  
+  vars <- apply(pca$x, 2, var)  
+  props <- round((vars / sum(vars) * 100), 1)
+  xl <- paste0("Principal Component 1 (",props[1],"%)")
+  yl <- paste0("Principal Component 2 (",props[2],"%)\n")
+  
+  pl1 <- ggplot(data = pca.results) + 
+    geom_point(aes(PC1, PC2, colour=genotype)) +
+    stat_ellipse(aes(PC1, PC2, colour=genotype), level = 0.9, size=1) + 
+    theme_bw() + 
+    xlab(xl) + 
+    ylab(yl)
+  
+  z2 <- data.frame(var_names = rownames(pca$rotation), pca$rotation[, 1:2])
+  z2$var_names <- gsub("_", " ", z2$var_names)
+  
+  pl2 <- ggplot(data=z2, aes(0, 0, xend=PC1, yend=PC2)) + 
+    geom_segment(col="grey", size=1.2, arrow = arrow(length = unit(0.5,"cm")), alpha=0.9) +
+    geom_text_repel(data=z2, aes(PC1, PC2, label=var_names), col="black", size=9) +
+    geom_point(aes(x=0, y=0), colour="grey") +
+    #scale_y_continuous(limits = c(-1, 0.3)) +
+    theme_classic() +
+    xlab(xl) + ylab(yl)
+  
+  pl <- grid.arrange(pl1, pl2, ncol=1)
+}
 
 ##Growth over time ## This data set contains only one time point
 ####Plot individuals by genotype
 library(ggplot2)
-ggplot(data = architect) +  
-  xlab("Time [days]") + 
-  ylab("Total root system length") + 
-  ggtitle("Total root system length") + 
-  theme_classic() +
-  stat_smooth(aes(Time,Total root system length, colour = genotype))
-
-
-####Plot average by genotype
-library(ggplot2)
-ggplot(data = architect) +  
-  xlab("Time [days]") + 
-  ylab("Total root system length") + 
-  ggtitle("Total root system length") + 
-  theme_classic() +
-  geom_line(aes(Time,Total root system length, colour = genotype, group = FileName))
+if (exists("archi") && nrow(archi) > 0) {
+  ggplot(data = archi) +  
+    xlab("Time [days]") + 
+    ylab("Total root system length") + 
+    ggtitle("Total root system length") + 
+    theme_classic() +
+    stat_smooth(aes(Time, `Total root system length`, colour = genotypes))
+  
+  
+  ####Plot average by genotype
+  ggplot(data = archi) +  
+    xlab("Time [days]") + 
+    ylab("Total root system length") + 
+    ggtitle("Total root system length") + 
+    theme_classic() +
+    geom_line(aes(Time, `Total root system length`, colour = genotypes, group = FileName))
+}
 
 

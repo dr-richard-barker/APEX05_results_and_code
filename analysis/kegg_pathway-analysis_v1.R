@@ -1,23 +1,30 @@
-
 #######################################################################
 ## import data from .csv
-data <- read.csv("newlines.csv", stringsAsFactors = FALSE)
-gene.data <- read.csv("/Users/drbhomeoffice/Desktop/APEX5_RNAseq_data/APEX5_DESeq_RobiNA_FullTable_GENES/full_table_GCShootCOL00-FLShootCOL00.csv")
+# Relative path placeholder
+data_path <- "../results/tables/apex5_col0_shoot_deg.csv" # Example placeholder
+if (file.exists("newlines.csv")) {
+  data <- read.csv("newlines.csv", stringsAsFactors = FALSE)
+}
+# Note: The absolute local path below has been parameterized:
+# /Users/drbhomeoffice/Desktop/APEX5_RNAseq_data/APEX5_DESeq_RobiNA_FullTable_GENES/full_table_GCShootCOL00-FLShootCOL00.csv
+local_csv <- "../results/tables/full_table_GCShootCOL00-FLShootCOL00.csv"
+if (file.exists(local_csv)) {
+  gene.data <- read.csv(local_csv)
+} else {
+  # Mock or check alternative files in results/tables/
+  warning("CSV file '", local_csv, "' not found. Using dummy counts for execution safety.")
+  gene.data <- data.frame(Gene_ID=character(), log2FoldChange=numeric())
+}
 #######################################################################
 ## import data from excel
-install.packages("readxl")
+if (!requireNamespace("readxl", quietly = TRUE)) install.packages("readxl")
 library("readxl")
 # xlsx files
-swd 
-my_data <- read_excel("my_file.xlsx")
-my_data <- read_excel("my_file.xlsx", na = "---")
-#previous example# my_data <- read_excel("/Users/drbhomeoffice/Desktop/BRIC19_tch2_DESeq_EdgeR_Tux")
-
-#######################################################################
-## import data from excel altnertive
-install.packages("xlsx")
-library("xlsx")
-read.xlsx(file, sheetIndex, header=TRUE)
+# Note: 'swd' syntax error has been removed.
+if (file.exists("my_file.xlsx")) {
+  my_data <- read_excel("my_file.xlsx")
+  my_data <- read_excel("my_file.xlsx", na = "---")
+}
 #######################################################################
 #######################################################################
 ## Try to insert this example pathway.... pathway.id =  00020 -Citrate cycle (TCA cycle)	
@@ -91,7 +98,7 @@ head(pv.out$plot.data.gene)
 ##                   species = "hsa", out.suffix = "gse16873.2layer", kegg.native = T,
 ##                   same.layer = F)
 
-pv.out <- pathview(gene.data [, 1], pathway.id = 00020 $sel.paths[i],
+pv.out <- pathview(gene.data = gene.data[, 1, drop=FALSE], pathway.id = "00020",
                    species = "ath", out.suffix = "gene.data layer", kegg.native = T,
                    same.layer = F)
 

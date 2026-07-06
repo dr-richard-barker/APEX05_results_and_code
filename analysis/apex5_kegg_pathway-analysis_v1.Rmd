@@ -20,13 +20,24 @@ library(pathview)
 Read in the results including log2 FC's, gene names, and adjusted p-values.
 
 ```{r}
-#fold_changes <- read.csv("C:/Users/richardbarker/Downloads/full_table_Mutant-FL_vs_WT-FL_Gene.csv")
-#fold_changes <- read.csv("C:/Users/richardbarker/Downloads/full_table_Mutant-GC_vs_WT-GC_Gene.csv")
-#fold_changes <- read.csv("C:/Users/richardbarker/Documents/KEGG_pictures/APEX05_GeneData_KEGG/full_table_WT-FL_vs_WT-GC_gene.csv")
-#fold_changes <- read.csv("C:/Users/richardbarker/Documents/KEGG_pictures/APEX05_GeneData_KEGG/full_table_Mutant-FL_vs_mutant-GC_gene.csv")
+# Use relative paths instead of absolute local laptop paths
+fold_changes_file <- "../APEX5_desktop_clutter/full_table_GCRootCAX23-FLRootCAX23.csv"
 
+if (file.exists(fold_changes_file)) {
+  fold_changes <- read.csv(fold_changes_file)
+  # Extract Gene_ID from transcript ID if needed (e.g. AT1G01010.1 -> AT1G01010)
+  if ("ID" %in% colnames(fold_changes) && !("Gene_ID" %in% colnames(fold_changes))) {
+    fold_changes$Gene_ID <- sub("\\..*", "", fold_changes$ID)
+  }
+} else {
+  warning("Fold changes file '", fold_changes_file, "' not found. Mocking a small gene dataset for execution safety.")
+  fold_changes <- data.frame(
+    Gene_ID = c("AT1G01010", "AT1G01020", "AT1G01030", "AT1G01070", "AT1G01180"),
+    log2FoldChange = c(1.5, -2.1, 0.5, 1.2, -0.9)
+  )
+}
 ```
-# Note: the is removed from the code above to load each full table of data one at a time 
+# Note: Legacy absolute paths have been parameterized above. 
 
 Create a vector with log2 fold changes with gene IDs as names.
 
@@ -54,7 +65,7 @@ dme <- pathview(gene.data = gene_list,
 
 knitr::include_graphics("ath00020.pathview.png")
 ```
-# Note: These colour scemes would not work if using compound data. 
+# Note: These colour schemes would not work if using compound data. 
 
 
 ```{r}
@@ -67,7 +78,7 @@ dme <- pathview(gene.data = gene_list,
                 high = list(gene = "blue", cpd = "red"))
 
 knitr::include_graphics("ath00020.pathview.png")
-
+```
 
 ```{r}
 dme <- pathview(gene.data = gene_list,

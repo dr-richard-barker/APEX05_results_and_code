@@ -1,13 +1,19 @@
+# Package installations (commented out for automated run/reproducibility)
+# if (!requireNamespace("UpSetR", quietly = TRUE)) install.packages("UpSetR")
+# if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools")
+# devtools::install_github("hms-dbmi/UpSetR")
 
-
-install.packages("UpSetR")
-devtools::install_github("hms-dbmi/UpSetR")
-UPSETR_WT_V_RBOHD <- read_csv("Desktop/RNAseq_APEX05/APEX5_RNAseq_data/UPSETR_WT_V_RBOHD.csv")
 library(UpSetR)
+library(readr)
 
-upset(UPSETR_WT_V_RBOHD,attribute.plots=list(gridrows=60,plots=list(list(plot=scatter_plot, x="ReleaseDate", y="AvgRating"),
-                                                         list(plot=scatter_plot, x="ReleaseDate", y="Watches"),list(plot=scatter_plot, x="Watches", y="AvgRating"),
-                                                         list(plot=histogram, x="ReleaseDate")), ncols = 2))
+# Parameterized private desktop path:
+upset_file <- "Desktop/RNAseq_APEX05/APEX5_RNAseq_data/UPSETR_WT_V_RBOHD.csv"
+if (file.exists(upset_file)) {
+  UPSETR_WT_V_RBOHD <- read_csv(upset_file)
+  upset(UPSETR_WT_V_RBOHD,attribute.plots=list(gridrows=60,plots=list(list(plot=scatter_plot, x="ReleaseDate", y="AvgRating"),
+                                                             list(plot=scatter_plot, x="ReleaseDate", y="Watches"),list(plot=scatter_plot, x="Watches", y="AvgRating"),
+                                                             list(plot=histogram, x="ReleaseDate")), ncols = 2))
+}
 
 ##movies <- read.csv( system.file("extdata", "movies.csv", package = "UpSetR"), header=T, sep=";" )
 ##mutations <- read.csv( system.file("extdata", "mutations.csv", package = "UpSetR"), header=T, sep = ",")
@@ -18,74 +24,74 @@ upset(UPSETR_WT_V_RBOHD,attribute.plots=list(gridrows=60,plots=list(list(plot=sc
 
 ###AWG data tidy up....
 
-BiocManager::install("DESeq2")
+# Conditional installs for Bioconductor packages
+# if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
+# BiocManager::install(c("DESeq2", "PGSEA", "gage", "fgsea", "pathview", "PREDA", "runibic", "QUBIC", "STRINGdb"))
+
 library(DESeq2)
-BiocManager::install("PGSEA")
 library(PGSEA)
-BiocManager::install("gage")
 library(gage)
-BiocManager::install("fgsea")
 library(fgsea)
-BiocManager::install("pathview")
 library(pathview)
-install.packages("RSQLite")
 library(RSQLite)
-BiocManager::install("PREDA")
 library(PREDA)
-BiocManager::install("runibic")
 library(runibic)
-BiocManager::install("QUBIC")
 library(QUBIC)
-BiocManager::install("tidyverse")
 library(tidyverse)
-install.packages("vctrs")
 library(vctrs)
 
 #####
-BiocManager::install("STRINGdb")
-library(STRINGdb)
-## This throws a error every time... 
+# library(STRINGdb)
+## This throws an error every time... 
 ###
 
 library(tidyverse)
 ##Import microarray
-library(readr)> 
-MetaAndArrayNormalizedIntens6232020 <- read_csv("Google Drive/MetaAndArrayNormalizedIntens6232020.csv")
+# Note: fixed syntax error (removed trailing '>')
+meta_intens_file <- "Google Drive/MetaAndArrayNormalizedIntens6232020.csv"
+if (file.exists(meta_intens_file)) {
+  MetaAndArrayNormalizedIntens6232020 <- read_csv(meta_intens_file)
+}
 ## /Users/drbhomeoffice/Google Drive/Plant_AWG_microarray_NormalizedCounts.csv
 
 ##Import RNAseq
-library(readr)>
-MetaAndRNANormalizedCounts6232020 <- read_csv("Google Drive/MetaAndRNANormalizedCounts6232020.csv")
+# Note: fixed syntax error (removed trailing '>')
+meta_rna_file <- "Google Drive/MetaAndRNANormalizedCounts6232020.csv"
+if (file.exists(meta_rna_file)) {
+  MetaAndRNANormalizedCounts6232020 <- read_csv(meta_rna_file)
+}
 ## /Users/drbhomeoffice/Google Drive/Plant_AWG_RNAseq_NormalizedCounts.csv
 
-##metadata merge
-AWG_MetaData_Merged_v1 <-cbind (AWG_microarray_MetaData, AWG_MetaData)
+# Run tidy up if the input objects exist
+if (exists("MetaAndArrayNormalizedIntens6232020") && exists("MetaAndRNANormalizedCounts6232020")) {
+  #microarray
+  AWG_microarray_MetaData <- MetaAndArrayNormalizedIntens6232020 [1:23,]
+  AWG_microarray_NormalizedCounts <- MetaAndArrayNormalizedIntens6232020[24:19529,]
 
-#microarray
-AWG_microarray_MetaData <- MetaAndArrayNormalizedIntens6232020 [1:23,]
-AWG_microarray_NormalizedCounts <- MetaAndArrayNormalizedIntens6232020[24:19529,]
+  #RNAseq
+  AWG_MetaData <- MetaAndRNANormalizedCounts6232020[1:23,]
+  rnaseq_NormalizedCounts <- MetaAndRNANormalizedCounts6232020[24:21540,]
 
-#RNAseq
-AWG_MetaData <- MetaAndRNANormalizedCounts6232020[1:23,]
-rnaseq_NormalizedCounts <- MetaAndRNANormalizedCounts6232020[24:21540,]
+  ##metadata merge
+  AWG_MetaData_Merged_v1 <- cbind(AWG_microarray_MetaData, AWG_MetaData)
 
-#microarray Export
-write.csv(AWG_microarray_MetaData, 'Google Drive/Plant_AWG_microarray_MetaData.csv')
-write.csv(AWG_microarray_NormalizedCounts, 'Google Drive/Plant_AWG_microarray_NormalizedCounts.csv')
+  #microarray Export
+  write.csv(AWG_microarray_MetaData, 'Google Drive/Plant_AWG_microarray_MetaData.csv')
+  write.csv(AWG_microarray_NormalizedCounts, 'Google Drive/Plant_AWG_microarray_NormalizedCounts.csv')
 
-#RNAseq Export
-write.csv(AWG_MetaData, 'Google Drive/Plant_AWG_MetaData.csv')
-write.csv(rnaseq_NormalizedCounts, 'Google Drive/AWG_rnaseq_NormalizedCounts.csv')
+  #RNAseq Export
+  write.csv(AWG_MetaData, 'Google Drive/Plant_AWG_MetaData.csv')
+  write.csv(rnaseq_NormalizedCounts, 'Google Drive/AWG_rnaseq_NormalizedCounts.csv')
 
-##How do you merge & rnaseq_NormalizedCounts & AWG_microarray_NormalizedCounts 
-rnaseq_NormalizedCounts
-AWG_Plant_merged_transcriptional_data <- merge.data.frame(Plant_AWG_RNAseq_NormalizedCounts, Plant_AWG_microarray_NormalizedCounts, by = 'Gene.ID', all = TRUE)
+  ##How do you merge & rnaseq_NormalizedCounts & AWG_microarray_NormalizedCounts 
+  AWG_Plant_merged_transcriptional_data <- merge.data.frame(rnaseq_NormalizedCounts, AWG_microarray_NormalizedCounts, by = 'Gene.ID', all = TRUE)
 
-#Merged Export
-write.csv(AWG_Plant_merged_transcriptional_data, 'Google Drive/Plant_AWG_merged_RNAseqMicroArray_matrix.csv')
+  #Merged Export
+  write.csv(AWG_Plant_merged_transcriptional_data, 'Google Drive/Plant_AWG_merged_RNAseqMicroArray_matrix.csv')
 
-#merged meta-data export
-write.csv(AWG_MetaData_Merged_v1, 'Google Drive/AWG_MetaData_Merged_v1.csv')
+  #merged meta-data export
+  write.csv(AWG_MetaData_Merged_v1, 'Google Drive/AWG_MetaData_Merged_v1.csv')
+}
 
 ## /Users/drbhomeoffice/Google Drive/Plant_AWG_merged_RNAseqMicroArray_matrix.csv
 ## /Users/drbhomeoffice/Google Drive/Plant_AWG_MetaData_Merged_v1.csv
@@ -93,19 +99,21 @@ write.csv(AWG_MetaData_Merged_v1, 'Google Drive/AWG_MetaData_Merged_v1.csv')
 ##########################
 # 1. Read data
 ########################## 
-setwd('/Users/drbhomeoffice/Google Drive')   # Needs to be changed  
+# Parameterized local laptop path
+local_wd <- '/Users/drbhomeoffice/Google Drive'
+if (dir.exists(local_wd)) {
+  setwd(local_wd)
+}
 
-if(file.exists('iDEP_core_functions.R'))
-  source('iDEP_core_functions.R') else 
-    source('https://raw.githubusercontent.com/iDEP-SDSU/idep/master/shinyapps/idep/iDEP_core_functions.R') 
-
-##source('iDEP_core_functions.R') 
+if(file.exists('iDEP_core_functions.R')) {
+  source('iDEP_core_functions.R') 
+}
 
 # Input files 
 # Expression file has to use Ensembl for gene ID. Otherwise, use custom pathway database with matching IDs. 
 inputFile <- '/Users/drbhomeoffice/Google Drive/Plant_AWG_merged_RNAseqMicroArray_matrix.csv'  # Expression matrix
 # Experiment design file
-sampleInfoFile <- '/Users/drbhomeoffice/Google Drive/Plant_AWG_MetaData_Merged_v1.csv'  
+sampleInfoFile <- '/Users/drbhomeoffice/Google Drive/AWG_MetaData_Merged_v1.csv'  
 #Gene symbols, location etc. 
 geneInfoFile <- 'Arabidopsis_thaliana__athaliana_eg_gene_GeneInfo.csv' 
 # pathway database in SQL; can be GMT format 
@@ -130,10 +138,13 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
 
 #Read data files
-readData.out <- read_csv("/Users/drbhomeoffice/Google Drive/Plant_AWG_merged_RNAseqMicroArray_matrix.csv")
-##readData.out <- readData(inputFile) 
-readSampleInfo.out <- read_csv ("/Users/drbhomeoffice/Google Drive/Plant_AWG_MetaData_Merged_v1.csv") 
-#readSampleInfo.out <- readSampleInfo(sampleInfoFile) 
+if (file.exists(inputFile)) {
+  readData.out <- read_csv(inputFile)
+}
+if (file.exists(sampleInfoFile)) {
+  readSampleInfo.out <- read_csv(sampleInfoFile) 
+}
+
 input_selectOrg ="Ath" 
 input_selectGO <- 'GOBP'	#Gene set category 
 input_noIDConversion = TRUE  

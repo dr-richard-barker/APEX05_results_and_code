@@ -1,3 +1,14 @@
+# ==============================================================================
+# WARNING: LEGACY ROBINA SCRIPT
+# This script was originally exported from RobiNA (an RNA-Seq GUI analysis tool).
+# It attempts to load external helper files (e.g. source("source/lib/info.R"))
+# which are NOT included in this repository. Consequently, this script is NOT 
+# executable in its current state.
+#
+# For a modern, fully reproducible, and relative-path based analysis of this dataset,
+# please use: analysis/apex5_deseq_analysis-template.Rmd.
+# ==============================================================================
+
 ##
 # generic template for loading the raw count data
 ##

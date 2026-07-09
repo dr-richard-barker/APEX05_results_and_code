@@ -1,0 +1,28 @@
+{
+  "thresholds": {
+    "padj": 0.05,
+    "abs_log2FC": 1.0,
+    "pseudocount": 1.0
+  },
+  "root": {
+    "cax2-2_DEGs": 324,
+    "cax2-3_DEGs_thresholded": 1280,
+    "shared_DEGs": 216,
+    "cax2-3_orientation_vs_cax2-2": "flipped",
+    "direction_agreement_on_shared": 0.972,
+    "concordant_core_size": 210,
+    "core_up_in_flight": 203,
+    "core_down_in_flight": 7
+  },
+  "shoot": {
+    "cax2-2_DEGs": 230,
+    "cax2-3_DEGs_thresholded": 1670,
+    "shared_DEGs": 151,
+    "cax2-3_orientation_vs_cax2-2": "flipped",
+    "direction_agreement_on_shared": 0.967,
+    "concordant_core_size": 146,
+    "core_up_in_flight": 144,
+    "core_down_in_flight": 2
+  },
+  "loci_in_both_tissues": []
+}

@@ -1,0 +1,62 @@
+query_label,genotype,tissue,subset,source,native,name,p_value,term_size,query_size,intersection_size
+cax2-2:shoot:all,cax2-2,shoot,all,GO:CC,GO:0005576,extracellular region,3.08350656179965e-09,1484,222,41
+cax2-2:shoot:all,cax2-2,shoot,all,GO:MF,GO:0005199,structural constituent of cell wall,2.3773839672408774e-08,28,222,8
+cax2-2:shoot:all,cax2-2,shoot,all,KEGG,KEGG:00940,Phenylpropanoid biosynthesis,3.5945096561965484e-08,127,222,12
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0009664,plant-type cell wall organization,4.153860794148435e-08,153,222,14
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0071555,cell wall organization,7.433243492006255e-08,513,222,23
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0045229,external encapsulating structure organization,3.2190271883043354e-07,553,222,23
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0071554,cell wall organization or biogenesis,1.246964377861906e-06,646,222,24
+cax2-2:shoot:all,cax2-2,shoot,all,GO:MF,GO:0140825,lactoperoxidase activity,5.621906834127623e-06,75,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,GO:MF,GO:0020037,heme binding,7.514234038676559e-06,368,222,17
+cax2-2:shoot:all,cax2-2,shoot,all,GO:MF,GO:0046906,tetrapyrrole binding,2.9000033917625954e-05,404,222,17
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0071669,plant-type cell wall organization or biogenesis,4.874308493371212e-05,264,222,14
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0042744,hydrogen peroxide catabolic process,5.979298037303114e-05,91,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0042743,hydrogen peroxide metabolic process,0.00035907787182989025,112,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,GO:MF,GO:0016491,oxidoreductase activity,0.0005299763716711244,1418,222,31
+cax2-2:shoot:all,cax2-2,shoot,all,GO:MF,GO:0004601,peroxidase activity,0.000540767216404329,127,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,GO:MF,GO:0016684,"oxidoreductase activity, acting on peroxide as acceptor",0.0007944672957151563,133,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,GO:MF,GO:0016209,antioxidant activity,0.0019154803682504022,148,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0042221,response to chemical,0.0025458087419723886,2872,222,48
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0072593,reactive oxygen species metabolic process,0.003009862676571699,184,222,10
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0098869,cellular oxidant detoxification,0.00563562777896638,156,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,0.00648146533079736,1327,222,25
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:1990748,cellular detoxification,0.010226885385223837,168,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0097237,cellular response to toxic substance,0.010723121502428079,169,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0098754,detoxification,0.01591353372645107,271,222,11
+cax2-2:shoot:all,cax2-2,shoot,all,KEGG,KEGG:00901,Indole alkaloid biosynthesis,0.025462080349483277,5,222,2
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0050896,response to stimulus,0.025471103393648983,5736,222,75
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0009664,plant-type cell wall organization,3.5727542063124227e-09,153,183,14
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:MF,GO:0005199,structural constituent of cell wall,4.823518828042805e-09,28,183,8
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:CC,GO:0005576,extracellular region,3.087951751846855e-08,1484,183,35
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,KEGG,KEGG:00940,Phenylpropanoid biosynthesis,5.7605022822808486e-08,127,183,11
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0071555,cell wall organization,8.306145743364694e-08,513,183,21
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0045229,external encapsulating structure organization,3.254588701917505e-07,553,183,21
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:MF,GO:0020037,heme binding,3.8491028740573016e-07,368,183,17
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0071554,cell wall organization or biogenesis,9.269220152914383e-07,646,183,22
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:MF,GO:0140825,lactoperoxidase activity,9.929953501682025e-07,75,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:MF,GO:0046906,tetrapyrrole binding,1.5633140344111091e-06,404,183,17
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0071669,plant-type cell wall organization or biogenesis,4.89751191109788e-06,264,183,14
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0042744,hydrogen peroxide catabolic process,1.3129598820891852e-05,91,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0042743,hydrogen peroxide metabolic process,8.110633939165858e-05,112,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:MF,GO:0004601,peroxidase activity,0.00010243427500143345,127,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:MF,GO:0016684,"oxidoreductase activity, acting on peroxide as acceptor",0.00015170582499723245,133,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:MF,GO:0016209,antioxidant activity,0.0003731811298421687,148,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0072593,reactive oxygen species metabolic process,0.0006124483034918803,184,183,10
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:MF,GO:0016491,oxidoreductase activity,0.0008145504357669336,1418,183,27
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0098869,cellular oxidant detoxification,0.0013501960404679917,156,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:1990748,cellular detoxification,0.0024897135908422273,168,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0097237,cellular response to toxic substance,0.0026140023315498768,169,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0048364,root development,0.005667614546305791,610,183,16
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0022622,root system development,0.005784626354262894,611,183,16
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,0.015217306283300057,1327,183,21
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,KEGG,KEGG:00901,Indole alkaloid biosynthesis,0.01651160392766352,5,183,2
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0009698,phenylpropanoid metabolic process,0.01677501719550637,163,183,8
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0010015,root morphogenesis,0.017352402152001956,327,183,11
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0098754,detoxification,0.018860151543778073,271,183,10
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:CC,GO:0005773,vacuole,0.03057630281916678,1083,183,19
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0006979,response to oxidative stress,0.03800475012690371,422,183,12
+cax2-2:shoot:flight_down,cax2-2,shoot,flight_down,GO:BP,GO:0006858,extracellular transport,0.0066925019333782775,4,39,2
+cax2-2:shoot:flight_down,cax2-2,shoot,flight_down,GO:MF,GO:0035197,siRNA binding,0.015986013977328073,9,39,2
+cax2-2:shoot:flight_down,cax2-2,shoot,flight_down,GO:BP,GO:1990428,miRNA transport,0.016699542725715093,6,39,2
+cax2-2:shoot:flight_down,cax2-2,shoot,flight_down,GO:MF,GO:0035198,miRNA binding,0.02922444910997023,12,39,2
+cax2-2:shoot:flight_down,cax2-2,shoot,flight_down,GO:MF,GO:0061980,regulatory RNA binding,0.04636142129499031,15,39,2

@@ -1,0 +1,189 @@
+query_label,source,native,name,p_value,term_size,query_size,intersection_size
+root:all,GO:CC,GO:0009579,thylakoid,9.242387860051672e-58,592,208,68
+root:all,GO:CC,GO:0009534,chloroplast thylakoid,1.0009024162465898e-50,515,208,60
+root:all,GO:CC,GO:0031976,plastid thylakoid,1.1262293673546055e-50,516,208,60
+root:all,GO:CC,GO:0009535,chloroplast thylakoid membrane,1.7673177360515139e-47,422,208,54
+root:all,GO:CC,GO:0055035,plastid thylakoid membrane,2.0141557186120197e-47,423,208,54
+root:all,GO:CC,GO:0042651,thylakoid membrane,1.5583115989511367e-46,439,208,54
+root:all,GO:CC,GO:0034357,photosynthetic membrane,1.765966818738612e-46,440,208,54
+root:all,GO:BP,GO:0015979,photosynthesis,8.455727156159366e-46,281,208,47
+root:all,GO:CC,GO:0009526,plastid envelope,5.403539655967959e-43,983,208,68
+root:all,GO:CC,GO:0009522,photosystem I,2.12178973413905e-42,43,208,26
+root:all,GO:CC,GO:0031968,organelle outer membrane,1.6117018179385628e-41,543,208,54
+root:all,GO:CC,GO:0019867,outer membrane,1.6117018179385628e-41,543,208,54
+root:all,GO:CC,GO:0009521,photosystem,1.1735838177361685e-39,97,208,31
+root:all,GO:CC,GO:0042170,plastid membrane,4.88235820701118e-39,670,208,56
+root:all,GO:CC,GO:0009507,chloroplast,2.840996200647236e-35,2339,208,87
+root:all,GO:CC,GO:0031967,organelle envelope,2.5900445217448827e-33,1446,208,69
+root:all,GO:CC,GO:0009536,plastid,4.043116590118939e-32,2841,208,91
+root:all,KEGG,KEGG:00196,Photosynthesis - antenna proteins,9.298988132795854e-26,22,208,15
+root:all,KEGG,KEGG:00195,Photosynthesis,3.1553152612302615e-25,45,208,18
+root:all,GO:MF,GO:0019904,protein domain specific binding,2.2900845480932016e-24,91,208,22
+root:all,GO:BP,GO:0009765,"photosynthesis, light harvesting",1.0171694782691862e-23,37,208,17
+root:all,GO:BP,GO:0019684,"photosynthesis, light reaction",2.0030849757294776e-23,146,208,25
+root:all,GO:CC,GO:0009523,photosystem II,6.177113083094171e-23,78,208,20
+root:all,GO:CC,GO:0048046,apoplast,6.644065765150447e-22,466,208,35
+root:all,GO:CC,GO:0098796,membrane protein complex,5.561713950862148e-21,426,208,33
+root:all,GO:CC,GO:0098588,bounding membrane of organelle,7.569854781011622e-21,1396,208,54
+root:all,GO:MF,GO:0016168,chlorophyll binding,8.362574581705143e-21,34,208,15
+root:all,GO:CC,GO:0043232,intracellular membraneless organelle,9.476832032969754e-21,2482,208,71
+root:all,GO:CC,GO:0043228,membraneless organelle,9.476832032969754e-21,2482,208,71
+root:all,GO:CC,GO:0009570,chloroplast stroma,1.2906029366525072e-19,757,208,40
+root:all,GO:CC,GO:0009532,plastid stroma,1.8009226298574694e-19,764,208,40
+root:all,GO:BP,GO:0006091,generation of precursor metabolites and energy,4.5157727812065694e-17,460,208,31
+root:all,GO:CC,GO:0009941,chloroplast envelope,2.4085375703173613e-16,692,208,35
+root:all,GO:BP,GO:0009768,"photosynthesis, light harvesting in photosystem I",7.956570371623565e-16,10,208,9
+root:all,KEGG,KEGG:01100,Metabolic pathways,8.296174620321979e-15,2323,208,59
+root:all,GO:CC,GO:0005576,extracellular region,2.069566283428817e-14,1545,208,48
+root:all,GO:CC,GO:0031090,organelle membrane,1.2453317961226849e-13,2391,208,59
+root:all,GO:CC,GO:0098807,chloroplast thylakoid membrane protein complex,3.106932330218765e-13,17,208,9
+root:all,GO:CC,GO:0009538,photosystem I reaction center,1.854076565938317e-12,8,208,7
+root:all,GO:CC,GO:0010287,plastoglobule,7.111068626902939e-12,61,208,12
+root:all,GO:BP,GO:0019253,reductive pentose-phosphate cycle,2.169738988254916e-11,21,208,9
+root:all,GO:BP,GO:0019685,"photosynthesis, dark reaction",2.169738988254916e-11,21,208,9
+root:all,GO:BP,GO:0015977,carbon fixation,3.321134073172023e-10,27,208,9
+root:all,GO:CC,GO:0016020,membrane,3.6199031636397985e-10,7859,208,110
+root:all,GO:BP,GO:0009645,response to low light intensity stimulus,7.408300788477428e-10,19,208,8
+root:all,GO:CC,GO:0005737,cytoplasm,1.499021310936111e-09,9408,208,122
+root:all,GO:CC,GO:0110165,cellular anatomical structure,1.6562076544386633e-09,17571,208,181
+root:all,GO:MF,GO:0046906,tetrapyrrole binding,3.203196435520404e-09,403,208,21
+root:all,KEGG,KEGG:00710,Carbon fixation by Calvin cycle,6.619727311483378e-09,70,208,10
+root:all,GO:CC,GO:0009517,PSII associated light-harvesting complex II,2.3575402116911633e-08,6,208,5
+root:all,GO:CC,GO:0010598,NAD(P)H dehydrogenase complex (plastoquinone),2.7045470562222962e-08,12,208,6
+root:all,GO:CC,GO:0031977,thylakoid lumen,4.722765918997001e-08,74,208,10
+root:all,GO:MF,GO:0016984,ribulose-bisphosphate carboxylase activity,1.8174883974826395e-07,7,208,5
+root:all,GO:CC,GO:0005829,cytosol,1.8369397330070632e-07,2404,208,48
+root:all,GO:CC,GO:0009503,thylakoid light-harvesting complex,2.172230158164655e-07,8,208,5
+root:all,GO:CC,GO:0030076,light-harvesting complex,2.172230158164655e-07,8,208,5
+root:all,KEGG,KEGG:00630,Glyoxylate and dicarboxylate metabolism,4.2595664067271375e-07,79,208,9
+root:all,GO:CC,GO:0043231,intracellular membrane-bounded organelle,2.23896752502116e-06,11408,208,130
+root:all,GO:CC,GO:0043227,membrane-bounded organelle,2.4625169697636266e-06,11423,208,130
+root:all,GO:BP,GO:0009769,"photosynthesis, light harvesting in photosystem II",3.0335926227134785e-06,4,208,4
+root:all,GO:MF,GO:0003729,mRNA binding,4.974743223102281e-06,1397,208,33
+root:all,GO:BP,GO:0009767,photosynthetic electron transport chain,5.901822829730878e-06,52,208,8
+root:all,KEGG,KEGG:01200,Carbon metabolism,9.050315583030096e-06,271,208,13
+root:all,GO:CC,GO:0005575,cellular_component,9.073683150075982e-06,18845,208,181
+root:all,GO:CC,GO:0099503,secretory vesicle,1.5850597992292852e-05,170,208,11
+root:all,GO:BP,GO:0009644,response to high light intensity,3.201203634770007e-05,64,208,8
+root:all,GO:BP,GO:0022900,electron transport chain,3.628729724911647e-05,192,208,12
+root:all,GO:CC,GO:0043229,intracellular organelle,4.232784175916071e-05,11895,208,130
+root:all,GO:CC,GO:0043226,organelle,4.5852554453958895e-05,11909,208,130
+root:all,GO:CC,GO:0010319,stromule,6.810543066863442e-05,38,208,6
+root:all,GO:CC,GO:0005622,intracellular anatomical structure,8.70050219320159e-05,13057,208,138
+root:all,GO:BP,GO:0009773,photosynthetic electron transport in photosystem I,9.552423344774032e-05,16,208,5
+root:all,GO:BP,GO:0009416,response to light stimulus,0.0005320756845409471,756,208,21
+root:all,GO:BP,GO:0009409,response to cold,0.0007105715928746026,405,208,15
+root:all,GO:BP,GO:0009314,response to radiation,0.0007596577502534308,773,208,21
+root:all,GO:CC,GO:0032991,protein-containing complex,0.0015443839976094175,2496,208,40
+root:all,GO:BP,GO:0009642,response to light intensity,0.003162601825774749,154,208,9
+root:all,GO:CC,GO:0009543,chloroplast thylakoid lumen,0.006915920669510293,51,208,5
+root:all,GO:CC,GO:0031978,plastid thylakoid lumen,0.006915920669510293,51,208,5
+root:all,KEGG,KEGG:00000,KEGG root term,0.009356912375013437,5836,208,68
+root:all,GO:MF,GO:0036094,small molecule binding,0.011308148970055606,6574,208,78
+root:all,GO:MF,GO:0046872,metal ion binding,0.013160062825889477,3824,208,52
+root:all,GO:BP,GO:1903428,positive regulation of reactive oxygen species biosynthetic process,0.013340171867119707,7,208,3
+root:all,GO:MF,GO:0043169,cation binding,0.014515085922087197,3838,208,52
+root:all,GO:BP,GO:0010119,regulation of stomatal movement,0.018537474997327916,107,208,7
+root:all,GO:MF,GO:0043531,ADP binding,0.019384845109468436,170,208,8
+root:all,GO:CC,GO:0030093,chloroplast photosystem I,0.025109514921785717,3,208,2
+root:all,GO:BP,GO:0010118,stomatal movement,0.033810321843042744,160,208,8
+root:all,GO:MF,GO:0048038,quinone binding,0.03426028112431983,32,208,4
+root:all,GO:MF,GO:0043167,ion binding,0.03677417731686399,6457,208,75
+root:all,GO:BP,GO:0009266,response to temperature stimulus,0.04114734079751506,638,208,16
+root:all,GO:BP,GO:2000379,positive regulation of reactive oxygen species metabolic process,0.0449436786682246,10,208,3
+root:up,GO:CC,GO:0009579,thylakoid,6.764255526411708e-59,592,201,68
+root:up,GO:CC,GO:0009534,chloroplast thylakoid,1.0696514943376936e-51,515,201,60
+root:up,GO:CC,GO:0031976,plastid thylakoid,1.2039085689881963e-51,516,201,60
+root:up,GO:CC,GO:0009535,chloroplast thylakoid membrane,2.4506467973352792e-48,422,201,54
+root:up,GO:CC,GO:0055035,plastid thylakoid membrane,2.793666884823386e-48,423,201,54
+root:up,GO:CC,GO:0042651,thylakoid membrane,2.1706221939962109e-47,439,201,54
+root:up,GO:CC,GO:0034357,photosynthetic membrane,2.4605264090384927e-47,440,201,54
+root:up,GO:BP,GO:0015979,photosynthesis,1.5525913279108426e-46,281,201,47
+root:up,GO:CC,GO:0009526,plastid envelope,4.395893854417656e-44,983,201,68
+root:up,GO:CC,GO:0009522,photosystem I,8.821505304979143e-43,43,201,26
+root:up,GO:CC,GO:0031968,organelle outer membrane,2.3080925406777533e-42,543,201,54
+root:up,GO:CC,GO:0019867,outer membrane,2.3080925406777533e-42,543,201,54
+root:up,GO:CC,GO:0009521,photosystem,4.052735650523562e-40,97,201,31
+root:up,GO:CC,GO:0042170,plastid membrane,6.5862118897978685e-40,670,201,56
+root:up,GO:CC,GO:0009507,chloroplast,9.533511845017935e-36,2339,201,86
+root:up,GO:CC,GO:0031967,organelle envelope,2.272784746718018e-34,1446,201,69
+root:up,GO:CC,GO:0009536,plastid,1.071576001045062e-32,2841,201,90
+root:up,KEGG,KEGG:00196,Photosynthesis - antenna proteins,5.58477458494447e-26,22,201,15
+root:up,KEGG,KEGG:00195,Photosynthesis,1.7038526404383217e-25,45,201,18
+root:up,GO:MF,GO:0019904,protein domain specific binding,1.0528445341861435e-24,91,201,22
+root:up,GO:BP,GO:0009765,"photosynthesis, light harvesting",5.961441431169339e-24,37,201,17
+root:up,GO:BP,GO:0019684,"photosynthesis, light reaction",8.887481263187419e-24,146,201,25
+root:up,GO:CC,GO:0009523,photosystem II,3.2687668341020154e-23,78,201,20
+root:up,GO:CC,GO:0043228,membraneless organelle,1.0042665925804367e-21,2482,201,71
+root:up,GO:CC,GO:0043232,intracellular membraneless organelle,1.0042665925804367e-21,2482,201,71
+root:up,GO:CC,GO:0098588,bounding membrane of organelle,1.3657931814791418e-21,1396,201,54
+root:up,GO:CC,GO:0098796,membrane protein complex,1.929255318013473e-21,426,201,33
+root:up,GO:CC,GO:0048046,apoplast,2.686889952906732e-21,466,201,34
+root:up,GO:MF,GO:0016168,chlorophyll binding,4.93608694653104e-21,34,201,15
+root:up,GO:CC,GO:0009570,chloroplast stroma,3.649488158740078e-20,757,201,40
+root:up,GO:CC,GO:0009532,plastid stroma,5.102044989596454e-20,764,201,40
+root:up,GO:BP,GO:0006091,generation of precursor metabolites and energy,1.712875821561052e-17,460,201,31
+root:up,GO:CC,GO:0009941,chloroplast envelope,8.254397971651713e-17,692,201,35
+root:up,GO:BP,GO:0009768,"photosynthesis, light harvesting in photosystem I",6.212923057567152e-16,10,201,9
+root:up,KEGG,KEGG:01100,Metabolic pathways,1.461253548946752e-15,2323,201,59
+root:up,GO:CC,GO:0031090,organelle membrane,2.34416754012045e-14,2391,201,59
+root:up,GO:CC,GO:0005576,extracellular region,1.3270076622397774e-13,1545,201,46
+root:up,GO:CC,GO:0098807,chloroplast thylakoid membrane protein complex,2.431972692538761e-13,17,201,9
+root:up,GO:CC,GO:0009538,photosystem I reaction center,1.5555626380634934e-12,8,201,7
+root:up,GO:CC,GO:0010287,plastoglobule,5.047498666402677e-12,61,201,12
+root:up,GO:BP,GO:0019685,"photosynthesis, dark reaction",1.6987375096144276e-11,21,201,9
+root:up,GO:BP,GO:0019253,reductive pentose-phosphate cycle,1.6987375096144276e-11,21,201,9
+root:up,GO:CC,GO:0016020,membrane,1.9922692152035277e-11,7859,201,110
+root:up,GO:CC,GO:0005737,cytoplasm,1.6402345050269486e-10,9408,201,121
+root:up,GO:BP,GO:0015977,carbon fixation,2.603941418357875e-10,27,201,9
+root:up,GO:BP,GO:0009645,response to low light intensity stimulus,6.008848304859882e-10,19,201,8
+root:up,GO:CC,GO:0110165,cellular anatomical structure,1.0100696550862894e-09,17571,201,176
+root:up,GO:MF,GO:0046906,tetrapyrrole binding,1.6572589546953131e-09,403,201,21
+root:up,KEGG,KEGG:00710,Carbon fixation by Calvin cycle,4.829938683865209e-09,70,201,10
+root:up,GO:CC,GO:0009517,PSII associated light-harvesting complex II,2.1221242305313135e-08,6,201,5
+root:up,GO:CC,GO:0010598,NAD(P)H dehydrogenase complex (plastoquinone),2.353239414004198e-08,12,201,6
+root:up,GO:CC,GO:0031977,thylakoid lumen,3.615546464565455e-08,74,201,10
+root:up,GO:CC,GO:0005829,cytosol,5.7597104875477805e-08,2404,201,48
+root:up,GO:MF,GO:0016984,ribulose-bisphosphate carboxylase activity,1.5296449467537858e-07,7,201,5
+root:up,GO:CC,GO:0030076,light-harvesting complex,1.9561891344597209e-07,8,201,5
+root:up,GO:CC,GO:0009503,thylakoid light-harvesting complex,1.9561891344597209e-07,8,201,5
+root:up,KEGG,KEGG:00630,Glyoxylate and dicarboxylate metabolism,3.22840588034526e-07,79,201,9
+root:up,GO:CC,GO:0043231,intracellular membrane-bounded organelle,1.3476001281229962e-06,11408,201,127
+root:up,GO:CC,GO:0043227,membrane-bounded organelle,1.4820835890038077e-06,11423,201,127
+root:up,GO:MF,GO:0003729,mRNA binding,2.0857387873345822e-06,1397,201,33
+root:up,GO:BP,GO:0009769,"photosynthesis, light harvesting in photosystem II",2.8249483601744226e-06,4,201,4
+root:up,GO:BP,GO:0009767,photosynthetic electron transport chain,4.82449124146261e-06,52,201,8
+root:up,GO:CC,GO:0005575,cellular_component,5.279976592976494e-06,18845,201,176
+root:up,KEGG,KEGG:01200,Carbon metabolism,6.222640073208579e-06,271,201,13
+root:up,GO:CC,GO:0099503,secretory vesicle,1.1980818162026122e-05,170,201,11
+root:up,GO:CC,GO:0043229,intracellular organelle,2.5553353088068295e-05,11895,201,127
+root:up,GO:BP,GO:0009644,response to high light intensity,2.624268965721738e-05,64,201,8
+root:up,GO:BP,GO:0022900,electron transport chain,2.6578258371202415e-05,192,201,12
+root:up,GO:CC,GO:0043226,organelle,2.768737683991981e-05,11909,201,127
+root:up,GO:CC,GO:0005622,intracellular anatomical structure,4.2371503295307535e-05,13057,201,135
+root:up,GO:CC,GO:0010319,stromule,5.961124446638956e-05,38,201,6
+root:up,GO:BP,GO:0009773,photosynthetic electron transport in photosystem I,8.61122269248374e-05,16,201,5
+root:up,GO:BP,GO:0009416,response to light stimulus,0.000322005342342533,756,201,21
+root:up,GO:BP,GO:0009314,response to radiation,0.0004617279525368808,773,201,21
+root:up,GO:BP,GO:0009409,response to cold,0.0004917934965760104,405,201,15
+root:up,GO:CC,GO:0032991,protein-containing complex,0.0007002849304136257,2496,201,40
+root:up,GO:BP,GO:0009642,response to light intensity,0.0025558640765787326,154,201,9
+root:up,KEGG,KEGG:00000,KEGG root term,0.003060209018503796,5836,201,68
+root:up,GO:MF,GO:0046872,metal ion binding,0.004846511523515875,3824,201,52
+root:up,GO:MF,GO:0036094,small molecule binding,0.005355513846550615,6574,201,77
+root:up,GO:MF,GO:0043169,cation binding,0.005367330531087753,3838,201,52
+root:up,GO:CC,GO:0009543,chloroplast thylakoid lumen,0.006287513380729753,51,201,5
+root:up,GO:CC,GO:0031978,plastid thylakoid lumen,0.006287513380729753,51,201,5
+root:up,GO:BP,GO:1903428,positive regulation of reactive oxygen species biosynthetic process,0.012872143196793053,7,201,3
+root:up,GO:MF,GO:0043531,ADP binding,0.015238837652447912,170,201,8
+root:up,GO:BP,GO:0010119,regulation of stomatal movement,0.015901734834489308,107,201,7
+root:up,GO:MF,GO:0043167,ion binding,0.018910380049763306,6457,201,74
+root:up,GO:CC,GO:0030093,chloroplast photosystem I,0.025084031213945368,3,201,2
+root:up,GO:MF,GO:0003723,RNA binding,0.02601050957159232,2244,201,34
+root:up,GO:BP,GO:0010118,stomatal movement,0.02834628865574054,160,201,8
+root:up,GO:BP,GO:0009266,response to temperature stimulus,0.029086147670962684,638,201,16
+root:up,GO:MF,GO:0048038,quinone binding,0.03002354259226457,32,201,4
+root:up,GO:BP,GO:0016051,carbohydrate biosynthetic process,0.03946758140797659,327,201,11
+root:up,GO:BP,GO:2000379,positive regulation of reactive oxygen species metabolic process,0.043392833210358216,10,201,3
+root:up,GO:BP,GO:0104004,cellular response to environmental stimulus,0.04912849511930608,223,201,9
+root:up,GO:BP,GO:0071214,cellular response to abiotic stimulus,0.04912849511930608,223,201,9

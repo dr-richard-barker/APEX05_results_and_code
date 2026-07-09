@@ -1,0 +1,100 @@
+{
+  "thresholds": {
+    "padj": 0.05,
+    "abs_log2FC": 1.0
+  },
+  "direction_concordance": {
+    "root": {
+      "cax2-2_deg": 324,
+      "cax2-3_deg_thresholded": 1280,
+      "n_shared": 216,
+      "frac_same_direction": 0.972
+    },
+    "shoot": {
+      "cax2-2_deg": 230,
+      "cax2-3_deg_thresholded": 1670,
+      "n_shared": 151,
+      "frac_same_direction": 0.967
+    }
+  },
+  "root": {
+    "deg_set_sizes": {
+      "Col-0": 767,
+      "cax2-2": 473,
+      "cax2-3": 4539,
+      "rbohD": 619
+    },
+    "jaccard_matrix": {
+      "Col-0": {
+        "Col-0": 1.0,
+        "cax2-2": 0.082,
+        "cax2-3": 0.1089,
+        "rbohD": 0.3314
+      },
+      "cax2-2": {
+        "Col-0": 0.082,
+        "cax2-2": 1.0,
+        "cax2-3": 0.0687,
+        "rbohD": 0.0716
+      },
+      "cax2-3": {
+        "Col-0": 0.1089,
+        "cax2-2": 0.0687,
+        "cax2-3": 1.0,
+        "rbohD": 0.0795
+      },
+      "rbohD": {
+        "Col-0": 0.3314,
+        "cax2-2": 0.0716,
+        "cax2-3": 0.0795,
+        "rbohD": 1.0
+      }
+    },
+    "cax2-2_vs_cax2-3_jaccard": 0.0687,
+    "cax2-2_vs_others_jaccard": {
+      "Col-0": 0.082,
+      "rbohD": 0.0716
+    },
+    "cax2-3_to_cax2-2_size_ratio": 9.6
+  },
+  "shoot": {
+    "deg_set_sizes": {
+      "Col-0": 650,
+      "cax2-2": 174,
+      "cax2-3": 2980,
+      "rbohD": 376
+    },
+    "jaccard_matrix": {
+      "Col-0": {
+        "Col-0": 1.0,
+        "cax2-2": 0.0715,
+        "cax2-3": 0.127,
+        "rbohD": 0.2361
+      },
+      "cax2-2": {
+        "Col-0": 0.0715,
+        "cax2-2": 1.0,
+        "cax2-3": 0.0451,
+        "rbohD": 0.1179
+      },
+      "cax2-3": {
+        "Col-0": 0.127,
+        "cax2-2": 0.0451,
+        "cax2-3": 1.0,
+        "rbohD": 0.0875
+      },
+      "rbohD": {
+        "Col-0": 0.2361,
+        "cax2-2": 0.1179,
+        "cax2-3": 0.0875,
+        "rbohD": 1.0
+      }
+    },
+    "cax2-2_vs_cax2-3_jaccard": 0.0451,
+    "cax2-2_vs_others_jaccard": {
+      "Col-0": 0.0715,
+      "rbohD": 0.1179
+    },
+    "cax2-3_to_cax2-2_size_ratio": 17.13
+  }
+}

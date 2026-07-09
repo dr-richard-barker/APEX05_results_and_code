@@ -26,7 +26,7 @@ repository root.
 | S15 | GO enrichment (all-roots; core-shoot bio/molecular function) | `results/tables/apex5_all-roots_2018-11-16_go-enrichment.tsv`, `apex5_core-shoot_2018-11-16_go-enrichment_*.tsv` | TSV |
 | S16 | Root–shoot edgeR enrichment (GO CC/MF, pathway, protein domain) | `results/tables/apex5_root-shoot_edger_enrichment_*.tsv` | TSV |
 | S17 | Shoot core enrichment | `results/tables/apex5_shoots_core-enrichment.csv` | CSV |
-| S18 | Metascape gene lists (Col/cax2; cax23 root) | `results/tables/apex5_col-cax22-cax23_2022_metascape_*.csv`, `apex5_col_cax2_metascape_*.csv`, `data/genesets/apex05_cax23_root_metascape.*` | CSV/XLSX |
+| S18 | Metascape gene lists (Col/cax2; cax2-3 root, excluded) | `results/tables/apex5_col-cax22-cax23_2022_metascape_*.csv`, `apex5_col_cax2_metascape_*.csv`, `archive/excluded_cax2-3/apex05_cax23_root_metascape.*` | CSV/XLSX |
 | S19 | jVenn transcript membership: roots vs shoots; WT vs *rbohD* (root, leaf) | `results/tables/apex5_roots-vs-shoots_jvenn_transcripts.csv`, `apex5_wt-vs-rbohd_root_jvenn.csv`, `apex5_wt-vs-rbohd_leaf_jvenn.csv` | CSV |
 | S20 | Col-0 root Trichoderma-response gene overlap | `results/tables/apex5_col_root_trichoderma-response-genes.xls` | XLS |
 | S21 | Transcription-factor summary (grouped) | `data/genesets/apex05_transcription-factor_summary.xlsx` | XLSX |
@@ -35,6 +35,8 @@ repository root.
 | S24 | Root system architecture — WT vs *rbohD* RSML export | `data/morphometrics/apex05_wt-rbohd_rsml_roots.csv` | CSV |
 | S25 | Machine-learning QC — per-well outlier & CV-mismatch scores | `results/ml/tableB_well_outlier_scores.csv` | CSV |
 | S26 | Machine-learning QC — headline metrics | `results/ml/ml_metrics.json` | JSON |
+| S27 | CAX2 allele concordance QC — metrics (basis for cax2-3 exclusion) | `results/ml/cax2_concordance_metrics.json` | JSON |
+| S28 | Excluded cax2-3 derived result tables (retained for auditability) | `archive/excluded_cax2-3/` | CSV/XLSX |
 
 ## Supplementary figures
 See [`../figure_legends.md`](../figure_legends.md) (Figures S1–S4).

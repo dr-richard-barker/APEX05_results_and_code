@@ -32,7 +32,7 @@ Released tables only (all in this repo):
   of the exclusive-region columns naming it, then pairwise **Jaccard** overlap is
   computed at the locus level.
 - **DEG count cross-check** — the cax2-3 full FL-vs-GC contrast tables
-  (`data/expression/contrasts_full/apex05_cax23_{root,shoot}_fl-vs-gc_full.csv`)
+  (`archive/excluded_cax2-3/apex05_cax23_{root,shoot}_fl-vs-gc_full.csv`)
   thresholded at `padj < 0.05 & |log2FC| > 1`.
 - **Direction concordance** — cax2-2 DEG identities/directions from the up/down
   workbooks (`results/tables/apex5_cax22_{root,shoot}_{up,down}-regulated-*.xlsx`)
@@ -95,19 +95,26 @@ documented adjacent-well labelling anomaly
 cax2-3 sat beside cax2-2 on the plate, and its DEG set-membership is what the
 original "CAX23oddity" QC screen flagged.
 
-## Recommendation (decision is the PI's)
+## Decision (recorded 2026-07-09)
 
-The data support **treating cax2-3 as unreliable in its current form**. Three
-defensible options, in order of increasing conservatism:
+**cax2-3 is excluded from the APEX-05 primary analysis; cax2-2 is reported as the
+*CAX2* representative.** This concordance analysis is retained as the QC
+justification.
 
-1. **Report cax2-2 as the CAX2 representative; drop cax2-3** from the primary
-   flight-response analysis, and present this concordance analysis as the QC
-   justification. *(Simplest; matches the PI's inclination.)*
-2. **Restrict cax2-3 to its cax2-2-concordant core** (the ~216 root / 151 shoot
-   shared, 97%-direction-agreeing DEGs) and analyse that intersection only.
-3. **Retain cax2-3 but flag it**, adding this analysis as an explicit caveat.
+Implementation:
 
-If you choose option 1 or 2, I can regenerate the downstream DEG/enrichment/ML
-outputs on the reduced genotype set (Col-0, cax2-2, rbohD [+ optional cax2-3
-core]) and update the manuscript accordingly. **No genotype has been removed
-yet** — this document only quantifies the case.
+- cax2-3's derived primary-analysis result tables were relocated to
+  [`../archive/excluded_cax2-3/`](../archive/excluded_cax2-3/) (retained, not
+  deleted, for auditability — see that folder's README).
+- The primary genotype set throughout the manuscript and README is now **Col-0,
+  cax2-2, rbohD**.
+- cax2-3 is **deliberately retained inside the two QC analyses that justify the
+  exclusion** — this concordance analysis and the morphometric genotype-confusion
+  QC (`apex05_ml_anomaly_detection.py`, Part B) — because removing it there would
+  erase the evidence.
+- The raw cax2-3 measurements remain in `data/` (shared per-genotype targets and
+  morphometrics); only cax2-3's *derived result tables* were moved.
+
+> **If the decision is revisited:** option (2) — restricting cax2-3 to its
+> cax2-2-concordant core (~216 root / 151 shoot genes, 97% direction-agreeing) —
+> remains available and can be reinstated from the retained files.

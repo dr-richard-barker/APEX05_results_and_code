@@ -9,18 +9,22 @@ genotypes flown on the International Space Station (**spaceflight, FL**) against
 matched **ground controls (GC)**, profiling both the **shoot and root
 transcriptome** (RNA-seq) and **root system architecture** (RSML morphometrics).
 
-| Genotype (code) | Gene / allele | Pathway |
-| :-- | :-- | :-- |
-| **Col-0** | wild type | reference |
-| ***rbohD*** | *RBOHD* — Respiratory Burst Oxidase Homolog D | reactive-oxygen (ROS) production |
-| ***cax2-2*** (`cax22`) | *CAX2* — cation/H⁺ exchanger, **allele 2** | calcium transport |
-| ***cax2-3*** (`cax23`) | *CAX2* — cation/H⁺ exchanger, **allele 3** | calcium transport |
+| Genotype (code) | Gene / allele | Pathway | Status |
+| :-- | :-- | :-- | :-- |
+| **Col-0** | wild type | reference | primary |
+| ***rbohD*** | *RBOHD* — Respiratory Burst Oxidase Homolog D | reactive-oxygen (ROS) production | primary |
+| ***cax2-2*** (`cax22`) | *CAX2* — cation/H⁺ exchanger, **allele 2** | calcium transport | primary |
+| ***cax2-3*** (`cax23`) | *CAX2* — cation/H⁺ exchanger, **allele 3** | calcium transport | **excluded (QC)** |
 
 > **Note on the *cax* lines.** `cax22` and `cax23` are shorthand for **`cax2-2`**
 > and **`cax2-3`** — **two independent mutant alleles of the *same* gene, `CAX2`**
-> (not mutations in two different genes). A QC comparison of their spaceflight
-> responses found them strongly discordant; see
-> [`docs/cax2_allele_concordance.md`](docs/cax2_allele_concordance.md).
+> (not mutations in two different genes). A QC comparison found their spaceflight
+> responses **strongly discordant** (cax2-3's DEG set is ~10–17× inflated and no
+> more similar to cax2-2 than to unrelated genotypes), so **cax2-3 is excluded
+> from the primary analysis** and cax2-2 is the *CAX2* representative. The primary
+> genotype set is **Col-0, cax2-2, rbohD**. Evidence and decision:
+> [`docs/cax2_allele_concordance.md`](docs/cax2_allele_concordance.md); retained
+> cax2-3 result files: [`archive/excluded_cax2-3/`](archive/excluded_cax2-3/).
 
 > **Headline biology.** Wild-type leaf area is reduced under spaceflight, and the
 > ROS- and calcium-signalling mutants respond differently — implicating both

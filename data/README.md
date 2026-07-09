@@ -40,8 +40,9 @@ Design factors throughout: **genotype** (Col-0, cax22, cax23, rbohD) ×
 ## `genesets/`
 Pathway/enrichment inputs: `apex05_idep_gmt.txt` (iDEP GMT),
 `apex05_metascape_jvenn_genes.txt`, `apex05_rbohd_aracyc_cellwall.txt`
-(curated cell-wall AraCyc list), `apex05_cax23_root_metascape.{csv,xlsx}`,
-`apex05_transcription-factor_summary.xlsx`.
+(curated cell-wall AraCyc list), `apex05_transcription-factor_summary.xlsx`.
+(The cax2-3 Metascape input was relocated to `../archive/excluded_cax2-3/` when
+cax2-3 was excluded — see that folder's README.)
 
 ## `summaries/`
 Tabulated up-/down-regulated gene summaries for root and shoot

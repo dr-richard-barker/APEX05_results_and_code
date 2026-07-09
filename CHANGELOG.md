@@ -5,6 +5,22 @@ This project adheres to [Semantic Versioning](https://semver.org/) for releases.
 
 ## [Unreleased] — FAIR reorganisation, ML QC, and manuscript scaffold
 
+### Changed — CAX2 allele nomenclature & cax2-3 exclusion (2026-07-09)
+- **Corrected nomenclature.** `cax22`/`cax23` are **cax2-2 / cax2-3 — two
+  independent alleles of the *same* gene *CAX2***, not mutants of two different
+  genes (CAX2 vs CAX3). Fixed across README, `data/README.md`, the provenance
+  doc, and the manuscript.
+- **Excluded cax2-3 from the primary analysis** on QC grounds. A new concordance
+  analysis (`analysis/ml/apex05_cax2_allele_concordance.py`,
+  `docs/cax2_allele_concordance.md`, Fig. 6) showed cax2-3's flight-response DEG
+  set is 9.6× (root) / 17.1× (shoot) larger than cax2-2's and no more similar to
+  cax2-2 than to unrelated genotypes, despite 97% direction agreement on the
+  small shared core. Primary genotype set is now **Col-0, cax2-2, rbohD**.
+- **Retained, not deleted.** cax2-3's derived result tables were relocated to
+  `archive/excluded_cax2-3/` (with a README) for auditability; cax2-3 remains
+  inside the two QC analyses that justify the exclusion. Raw cax2-3 measurements
+  stay in `data/`.
+
 ### Added
 - **Machine-learning QC pipeline** (`analysis/ml/apex05_ml_anomaly_detection.py`,
   scikit-learn) that recovers tissue identity from expression (100% leave-one-out

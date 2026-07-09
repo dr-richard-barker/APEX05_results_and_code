@@ -35,7 +35,11 @@ Col-0, a mutant in reactive-oxygen (ROS) production (*rbohD*), and **two
 independent alleles of the calcium/H⁺ exchanger *CAX2* (*cax2-2* and *cax2-3*)**
 — aboard the International Space Station, alongside
 matched ground controls, and profiled both the shoot and root transcriptome
-(RNA-seq) and root system architecture (RSML morphometrics). Wild-type rosette
+(RNA-seq) and root system architecture (RSML morphometrics). A QC concordance
+test between the two *CAX2* alleles found *cax2-3* strongly discordant with its
+sibling *cax2-2* (DEG set ~10–17× inflated and no more similar to cax2-2 than to
+unrelated genotypes); *cax2-3* was therefore excluded, leaving a primary set of
+three genotypes (Col-0, *cax2-2*, *rbohD*). Wild-type rosette
 leaf area was reduced under spaceflight [TO CONFIRM: exact means/CI from the
 leaf-area analysis; storyboard indicates ~4.0 cm² ground control vs ~2.7 cm²
 flight], and this response was altered in the ROS- and calcium-signalling
@@ -180,8 +184,11 @@ The genuine shared core is small but real: of genes DE in both alleles (216 root
 direction-concordant core beneath a large, non-preferential *cax2-3*-exclusive
 excess — indicates the *cax2-3* libraries carry substantial technical variance
 rather than a real allelic divergence, consistent with the adjacent-well anomaly.
-[DECISION PENDING: whether to drop *cax2-3*, restrict it to its *cax2-2*-concordant
-core, or retain-with-caveat; see `docs/cax2_allele_concordance.md`.]
+**We therefore excluded *cax2-3* from the primary analysis and report *cax2-2* as
+the *CAX2* representative** (retained cax2-3 result tables:
+`archive/excluded_cax2-3/`; decision record: `docs/cax2_allele_concordance.md`).
+*cax2-3* is retained only within the QC analyses (this concordance test and the
+morphometric confusion of Fig. 5) that justify its exclusion.
 
 ---
 

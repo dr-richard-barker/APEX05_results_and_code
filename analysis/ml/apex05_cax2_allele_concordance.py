@@ -118,7 +118,9 @@ def analyse_tissue(tissue: str, jvenn_csv: Path) -> dict:
 
 def cax23_full_deg(tissue: str) -> tuple[set, dict]:
     """Threshold the cax2-3 full contrast table -> DEG loci + sign map."""
-    f = REPO / f"data/expression/contrasts_full/apex05_cax23_{tissue}_fl-vs-gc_full.csv"
+    # cax2-3 contrast tables live under archive/excluded_cax2-3/ (this analysis is
+    # the QC that justifies that exclusion, so it legitimately reads them there).
+    f = REPO / f"archive/excluded_cax2-3/apex05_cax23_{tissue}_fl-vs-gc_full.csv"
     d = pd.read_csv(f)
     d.columns = [c.strip().lstrip("﻿") for c in d.columns]
     d["padj"] = pd.to_numeric(d["padj"], errors="coerce")

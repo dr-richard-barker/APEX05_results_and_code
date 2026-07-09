@@ -2,6 +2,22 @@
 
 Outstanding items to take this package from working draft to submission + archive.
 
+## Final manuscript (WT / cax2-2 / rbohD) — multi-step
+Full staged plan + feasibility in [`docs/final_manuscript_plan.md`](docs/final_manuscript_plan.md).
+- [ ] **D1 decision:** how to handle the single-cell-dependent aims (dataset is bulk) —
+  published Arabidopsis atlas (recommended) / provide single-cell data / drop those stages.
+- [ ] **D2 decision:** source per-sample counts for cax2-2 & rbohD (OSDR accession / upload / Col-0-only).
+- [ ] Stage 0–1: assemble 3-genotype per-sample counts; re-run DESeq2/edgeR (or reuse released DEGs).
+- [ ] Stage 2: **LASSO** flight-signature to support DESeq (Col-0 now; mutants after D2).
+- [ ] Stage 3: cell-type resolution via reference atlas (deconvolution + autoencoder) — after D1.
+- [ ] Stage 4: **ggPlantmap** anatomical visualisation of the resolved response.
+- [ ] Stage 5: **GO** per cluster (extends existing g:Profiler enrichment).
+- [ ] Stage 6: **PhysioSpace** stress-resemblance projection (needs a plant stress reference).
+- [ ] Stage 7: **PlantCellChat** ligand–receptor / cell–cell communication — after D1 (needs cell types).
+- [ ] Stage 8: **ggKEGG + Reactome** systems-biology pathway grouping (doable now).
+- [ ] Stage 9: write the **Final manuscript** (3-genotype biological narrative).
+- [ ] Stage 10: add a **"Final manuscript" website tab** and wire into `website/build_site.py`.
+
 ## Website
 - [ ] **Maintain the manuscript website.** Rebuild after every manuscript/figure
   change (`python website/build_site.py`, then commit `docs/`). Keep the live

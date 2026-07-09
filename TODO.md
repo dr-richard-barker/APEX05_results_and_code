@@ -14,7 +14,7 @@ Full staged plan + feasibility in [`docs/final_manuscript_plan.md`](docs/final_m
 - [ ] Optional: paired/blocked DE (well as block) once rep→well is confirmed.
 - [ ] Stage 3b: **integrate RNA-seq DE with RSML root morphometrics per well** (multi-omics).
 - [ ] Stage 2: **LASSO** flight-signature to support DESeq (Col-0 now; mutants after D2).
-- [ ] Stage 3: cell-type resolution via reference atlas (deconvolution + autoencoder) — after D1.
+- [x] Stage 3: cell-type resolution via PCMDB marker projection (DEG enrichment + signature shift). Col-0/rbohD root → epidermis/columella/cortex; cax2-2 flat.
 - [ ] Stage 4: **ggPlantmap** anatomical visualisation of the resolved response.
 - [ ] Stage 5: **GO** per cluster (extends existing g:Profiler enrichment).
 - [ ] Stage 6: **PhysioSpace** stress-resemblance projection (needs a plant stress reference).

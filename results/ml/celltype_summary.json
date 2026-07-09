@@ -1,0 +1,130 @@
+{
+  "reference": "PCMDB (Zenodo 10.5281/zenodo.5101271)",
+  "thresholds": {
+    "padj": 0.05,
+    "abs_log2FC": 1.0,
+    "min_markers": 5
+  },
+  "top_enrichments": [
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "cell_type": "non-hair root epidermal cell",
+      "deg_in_set": 8,
+      "n_markers": 98,
+      "p_hyper": 7.47e-06
+    },
+    {
+      "genotype": "rbohD",
+      "tissue": "root",
+      "cell_type": "non-hair root epidermal cell",
+      "deg_in_set": 7,
+      "n_markers": 98,
+      "p_hyper": 6.16e-05
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "cell_type": "columella",
+      "deg_in_set": 6,
+      "n_markers": 67,
+      "p_hyper": 6.27e-05
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "cell_type": "root cortex",
+      "deg_in_set": 6,
+      "n_markers": 72,
+      "p_hyper": 9.41e-05
+    },
+    {
+      "genotype": "rbohD",
+      "tissue": "shoot",
+      "cell_type": "leaf mesophyll",
+      "deg_in_set": 7,
+      "n_markers": 978,
+      "p_hyper": 0.000161
+    },
+    {
+      "genotype": "rbohD",
+      "tissue": "root",
+      "cell_type": "columella",
+      "deg_in_set": 5,
+      "n_markers": 67,
+      "p_hyper": 0.000579
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "cell_type": "root stele",
+      "deg_in_set": 7,
+      "n_markers": 182,
+      "p_hyper": 0.00272
+    },
+    {
+      "genotype": "rbohD",
+      "tissue": "root",
+      "cell_type": "root cortex",
+      "deg_in_set": 4,
+      "n_markers": 72,
+      "p_hyper": 0.00605
+    },
+    {
+      "genotype": "rbohD",
+      "tissue": "root",
+      "cell_type": "trichoblast",
+      "deg_in_set": 2,
+      "n_markers": 16,
+      "p_hyper": 0.011
+    },
+    {
+      "genotype": "cax2-2",
+      "tissue": "root",
+      "cell_type": "root cap",
+      "deg_in_set": 1,
+      "n_markers": 107,
+      "p_hyper": 0.0192
+    },
+    {
+      "genotype": "rbohD",
+      "tissue": "root",
+      "cell_type": "root hair cell",
+      "deg_in_set": 3,
+      "n_markers": 90,
+      "p_hyper": 0.0627
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "cell_type": "root hair cell",
+      "deg_in_set": 3,
+      "n_markers": 90,
+      "p_hyper": 0.0644
+    },
+    {
+      "genotype": "rbohD",
+      "tissue": "root",
+      "cell_type": "root cap",
+      "deg_in_set": 3,
+      "n_markers": 107,
+      "p_hyper": 0.0938
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "cell_type": "root cap",
+      "deg_in_set": 3,
+      "n_markers": 107,
+      "p_hyper": 0.0962
+    },
+    {
+      "genotype": "rbohD",
+      "tissue": "root",
+      "cell_type": "root stele",
+      "deg_in_set": 4,
+      "n_markers": 182,
+      "p_hyper": 0.112
+    }
+  ]
+}

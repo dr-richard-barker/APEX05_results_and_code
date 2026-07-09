@@ -31,8 +31,9 @@ Spaceflight imposes a unique combination of microgravity and space-radiation
 stress on plants, yet the signalling pathways that translate the orbital
 environment into altered growth remain incompletely mapped. The Advanced Plant
 Experiment-05 (APEX-05) flew four *Arabidopsis thaliana* genotypes — wild-type
-Col-0 and mutants in reactive-oxygen (ROS) production (*rbohD*) and calcium
-transport (*cax22*, *cax23*) — aboard the International Space Station, alongside
+Col-0, a mutant in reactive-oxygen (ROS) production (*rbohD*), and **two
+independent alleles of the calcium/H⁺ exchanger *CAX2* (*cax2-2* and *cax2-3*)**
+— aboard the International Space Station, alongside
 matched ground controls, and profiled both the shoot and root transcriptome
 (RNA-seq) and root system architecture (RSML morphometrics). Wild-type rosette
 leaf area was reduced under spaceflight [TO CONFIRM: exact means/CI from the
@@ -68,8 +69,12 @@ community.
   oxidase RBOHD, and calcium fluxes mediated by CAX-family exchangers, are
   central to plant environmental sensing and have been proposed as early relays
   in the spaceflight response. APEX-05 was designed to test their contribution
-  directly by flying loss-of-function/altered lines (*rbohD*, *cax22*, *cax23*)
-  against Col-0. [TO CONFIRM: precise allele descriptions and prior hypotheses.]
+  directly by flying *rbohD* and **two independent alleles of the *same* gene
+  *CAX2* — *cax2-2* and *cax2-3*** — against Col-0. Including two alleles of one
+  gene provides a built-in reproducibility control: concordant responses
+  corroborate a genuine *CAX2* phenotype, whereas divergence flags an allele- or
+  sample-specific artefact. [TO CONFIRM: precise allele identifiers / T-DNA
+  insertion lines and prior hypotheses.]
 
 - **This study.** We report the paired shoot/root transcriptome and root-
   architecture response, and — reflecting community priorities around
@@ -134,8 +139,8 @@ enrichment statistics.]
 
 ### 5. Machine-learning quality control detects mislabelled samples and validates the corrected design
 
-Because *cax22* and *cax23* were grown in physically adjacent plate wells, an
-early QC screen flagged a *cax23* labelling anomaly (the "CAX23oddity"; full
+Because *cax2-2* and *cax2-3* were grown in physically adjacent plate wells, an
+early QC screen flagged a *cax2-3* labelling anomaly (the "CAX23oddity"; full
 history in `docs/PROVENANCE_cax23_mislabelling.md`). We built an independent
 machine-learning check (`analysis/ml/apex05_ml_anomaly_detection.py`, Fig. 5):
 
@@ -159,6 +164,24 @@ machine-learning check (`analysis/ml/apex05_ml_anomaly_detection.py`, Fig. 5):
   60-sample master design.
 
 All metrics are reproducible from `results/ml/ml_metrics.json` (seed 42).
+
+### 6. The two *CAX2* alleles are transcriptionally discordant
+
+Because *cax2-2* and *cax2-3* disrupt the **same gene**, their spaceflight
+responses should agree. Instead, a concordance analysis of the released DEG sets
+(`analysis/ml/apex05_cax2_allele_concordance.py`, Fig. 6) found *cax2-3* with a
+grossly inflated flight-response — **4,539 root / 2,980 shoot** DEGs versus
+**473 / 174** for *cax2-2*, i.e. **9.6× / 17.1×** larger and exceeding every
+other genotype including wild type (Fig. 6a). Critically, *cax2-2* overlapped its
+own sibling allele **no more than it overlapped the unrelated genotypes** (DEG-set
+Jaccard 0.069 root / 0.045 shoot vs 0.072–0.118 for Col-0 and *rbohD*; Fig. 6b).
+The genuine shared core is small but real: of genes DE in both alleles (216 root,
+151 shoot), fold-change direction agreed **97%**. This pattern — a modest
+direction-concordant core beneath a large, non-preferential *cax2-3*-exclusive
+excess — indicates the *cax2-3* libraries carry substantial technical variance
+rather than a real allelic divergence, consistent with the adjacent-well anomaly.
+[DECISION PENDING: whether to drop *cax2-3*, restrict it to its *cax2-2*-concordant
+core, or retain-with-caveat; see `docs/cax2_allele_concordance.md`.]
 
 ---
 

@@ -9,12 +9,18 @@ genotypes flown on the International Space Station (**spaceflight, FL**) against
 matched **ground controls (GC)**, profiling both the **shoot and root
 transcriptome** (RNA-seq) and **root system architecture** (RSML morphometrics).
 
-| Genotype | Gene | Pathway |
+| Genotype (code) | Gene / allele | Pathway |
 | :-- | :-- | :-- |
 | **Col-0** | wild type | reference |
-| ***rbohD*** | Respiratory Burst Oxidase Homolog D | reactive-oxygen (ROS) production |
-| ***cax22*** | Cation/H⁺ Exchanger | calcium transport |
-| ***cax23*** | Cation/H⁺ Exchanger | calcium transport |
+| ***rbohD*** | *RBOHD* — Respiratory Burst Oxidase Homolog D | reactive-oxygen (ROS) production |
+| ***cax2-2*** (`cax22`) | *CAX2* — cation/H⁺ exchanger, **allele 2** | calcium transport |
+| ***cax2-3*** (`cax23`) | *CAX2* — cation/H⁺ exchanger, **allele 3** | calcium transport |
+
+> **Note on the *cax* lines.** `cax22` and `cax23` are shorthand for **`cax2-2`**
+> and **`cax2-3`** — **two independent mutant alleles of the *same* gene, `CAX2`**
+> (not mutations in two different genes). A QC comparison of their spaceflight
+> responses found them strongly discordant; see
+> [`docs/cax2_allele_concordance.md`](docs/cax2_allele_concordance.md).
 
 > **Headline biology.** Wild-type leaf area is reduced under spaceflight, and the
 > ROS- and calcium-signalling mutants respond differently — implicating both

@@ -5,6 +5,11 @@ Design factors throughout: **genotype** (Col-0, cax22, cax23, rbohD) ×
 **tissue** (Root/Shoot) × **treatment** (Space Flight `FL` vs Ground Control
 `GC`) × **replicate**, keyed on **plate-well ID**.
 
+> **Genotype codes.** `cax22` = **cax2-2** and `cax23` = **cax2-3** are **two
+> independent mutant alleles of the same gene, *CAX2*** (not two different
+> genes). `rbohD` mutates *RBOHD*. A QC comparison found the two *CAX2* alleles
+> strongly discordant — see [`../docs/cax2_allele_concordance.md`](../docs/cax2_allele_concordance.md).
+
 ## `metadata/`
 | File | Description |
 | :-- | :-- |

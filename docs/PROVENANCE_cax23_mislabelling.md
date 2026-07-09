@@ -12,9 +12,13 @@ files themselves are preserved under
 
 ## 1. Executive summary
 
-The APEX-05 growth plate carried the two Ca²⁺/H⁺-exchanger mutants **cax22** and
-**cax23** in **physically adjacent wells** (well pairs A3↔A4, B4↔B3, B8↔B7,
-A7↔A8). A quality-control screen of differentially-expressed-gene (DEG) overlap
+The APEX-05 growth plate carried **cax2-2** (`cax22`) and **cax2-3** (`cax23`) —
+**two independent mutant alleles of the same gene, *CAX2*** (a Ca²⁺/H⁺
+exchanger), *not* two different genes — in **physically adjacent wells** (well
+pairs A3↔A4, B4↔B3, B8↔B7, A7↔A8). That same-gene relationship is what makes the
+divergence diagnostic: two alleles of one gene should respond alike, so a
+`cax2-3`-specific anomaly stands out sharply (quantified in
+[`cax2_allele_concordance.md`](cax2_allele_concordance.md)). A quality-control screen of differentially-expressed-gene (DEG) overlap
 — archived as the **"CAX23oddity"** diagnostic — showed *cax23* behaving
 anomalously: its DEG set did not partition cleanly against the other genotypes,
 the classic signature of an adjacent-well sample swap / cross-labelling between

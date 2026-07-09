@@ -64,6 +64,21 @@ motivating the provenance-based (well-ID) correction described in the text.
 `figA2_expression_recovery_scores.png`, `figB1_genotype_confusion_matrix.png`,
 `figB2_morphometric_pca.png`; metrics in `results/ml/ml_metrics.json`.
 
+**Figure 6 | The two *CAX2* alleles are transcriptionally discordant.**
+Produced by `analysis/ml/apex05_cax2_allele_concordance.py`. *cax2-2* (`cax22`)
+and *cax2-3* (`cax23`) are two independent mutant alleles of the same gene,
+*CAX2*, and should respond alike to spaceflight. **(a)** Flight-responsive DEG
+set size per genotype (root and shoot): *cax2-3* is inflated 9.6× (root) / 17.1×
+(shoot) relative to *cax2-2* and exceeds all other genotypes. **(b)** Pairwise
+DEG-set Jaccard heatmaps (root, shoot); *cax2-2* overlaps *cax2-3* no more than
+it overlaps the unrelated Col-0 and *rbohD*. Of genes DE in both alleles,
+fold-change direction agrees 97%, indicating a small genuine shared core beneath
+a large *cax2-3*-specific excess. Interpreted as technical/background variance in
+the *cax2-3* libraries rather than a real allelic divergence.
+*Source panels:* `results/ml/figC1_cax2_deg_set_sizes.png`,
+`figC2_cax2_jaccard.png`; metrics in `results/ml/cax2_concordance_metrics.json`;
+full write-up in `docs/cax2_allele_concordance.md`.
+
 ---
 
 ## Supplementary figures

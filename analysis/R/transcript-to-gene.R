@@ -1,3 +1,24 @@
+# ==============================================================================
+# APEX-05 | Transcript-level -> gene-level count collapsing
+# ==============================================================================
+# PURPOSE:
+#   Utility to convert a transcript-level count/result CSV into a gene-level one
+#   by stripping the transcript suffix from the identifier (e.g. "AT1G01010.1" ->
+#   "AT1G01010") and summing the numeric columns of all transcripts that share a
+#   gene. Used to aggregate APEX-05 DE tables / count tables before pathway
+#   analysis (KEGG/pathview expects gene-level TAIR IDs).
+#
+# INPUTS:  Any CSV with an `ID` column of transcript IDs plus numeric columns.
+#          In the reorganised repo these live under
+#          data/expression/transcript_tables/ (per-contrast full_table_*.csv) or
+#          data/expression/counts_cpm/ (count matrices).
+# OUTPUTS: For input "<name>.csv" writes "<name>_Gene.csv" alongside it, with the
+#          `ID` column replaced by `Gene_ID` and one row per unique gene.
+# KEY DEPENDENCIES: readr, dplyr, stringr (tidyverse).
+# USAGE:   source() this file, then call transcript_to_gene("path/to/file.csv").
+#          Example batch calls are gated behind `if (FALSE)` at the bottom.
+# ==============================================================================
+
 ## Bret Larget
 ## 2019 January 16
 

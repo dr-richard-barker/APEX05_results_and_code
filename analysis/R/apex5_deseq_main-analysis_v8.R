@@ -1,18 +1,53 @@
 # ==============================================================================
-# WARNING: LEGACY ROBINA SCRIPT
-# This script was originally exported from RobiNA (an RNA-Seq GUI analysis tool).
-# It attempts to load external helper files (e.g. source("source/lib/info.R"))
-# which are NOT included in this repository. Consequently, this script is NOT 
-# executable in its current state.
+# APEX-05 | DESeq (v1) differential expression -- MAIN ANALYSIS
+# ==============================================================================
+# PURPOSE:
+#   Pairwise flight-vs-ground (FL vs GC) differential expression for the APEX-05
+#   Arabidopsis spaceflight RNA-seq experiment across four genotypes
+#   (Col-0/COL00, cax22, cax23, rbohD) in root and shoot tissue. For each of the
+#   16 sample groups it fits a negative-binomial model with DESeq (v1), computes
+#   the eight FL-vs-GC contrasts, and writes per-contrast fold-change /
+#   significance tables together with QC plots (MA, PCA, hierarchical clustering,
+#   Venn diagrams).
 #
-# For a modern, fully reproducible, and relative-path based analysis of this dataset,
-# please use: analysis/apex5_deseq_analysis-template.Rmd (which uses DESeq2).
+# INPUTS:
+#   - Raw count matrix: detailed_results/<PROJECT>_raw_countstable.txt
+#       tab-delimited, genes in rows, 64 columns = 16 groups x 4 replicates.
+#       In the reorganised repo this maps to a raw-count table under
+#       data/expression/counts_cpm/.
+#   - Sample-to-group assignment is hard-coded below in the `groups` vector.
+#
+# OUTPUTS (relative to the RobiNA project working directory):
+#   - detailed_results/full_table_<contrast>.txt   per-contrast full result
+#   - <PROJECT>_results.txt                         combined logFC + up/down calls
+#   - plots/MAplot_<contrast>.png, plots/PCAplot.{png,pdf},
+#     plots/hclust.png, plots/vennDiagram_*.png
+#   (For the FAIR release, equivalent outputs belong under results/tables/ and
+#    results/plots/.)
+#
+# KEY DEPENDENCIES: DESeq (Bioconductor, v1 API -- NOT DESeq2) plus RobiNA GUI
+#   helper sources (source/lib/*.R).
+#
+# USAGE: Legacy / non-runnable as-is (see PROVENANCE). Historically executed
+#   inside the RobiNA project directory after the GUI produced the count table.
+#
+# PROVENANCE: Auto-exported from RobiNA (an RNA-Seq GUI). It sources external
+#   helpers (source/lib/info.R, ellipse.R, robinVennDiagram.R, malowess.R) that
+#   are NOT in this repository and hard-codes a Windows project path, so it is
+#   NOT executable in its current state. Retained for provenance. For a modern,
+#   reproducible, relative-path DESeq2 analysis use
+#   analysis/apex5_deseq_analysis-template.Rmd.
 # ==============================================================================
 
 ##
 # generic template for loading the raw count data
 ##
 
+# NOTE: absolute laptop path retained deliberately -- PROJECT_NAME (below) is
+#   derived from basename(PROJECT_DIR) and feeds every output filename, so
+#   changing it would alter result file names. For a portable run point this at
+#   the repo counts directory, e.g.:
+#   PROJECT_DIR <- "data/expression/counts_cpm/DESeq_V8"  # was: C:/Users/robot/Documents/APEX5/DESeq_V8
 PROJECT_DIR <- "C:/Users/robot/Documents/APEX5/DESeq_V8"
 PROJECT_NAME <- basename(PROJECT_DIR)
 
@@ -27,7 +62,10 @@ raw <- raw[, order(colnames(raw))]
 raw[is.na(raw)] <- 0
 
 
-groups <- as.factor( 
+# Experimental design encoded as one factor over the 64 columns: 16 groups
+# (condition x tissue x genotype) each with 4 replicates, in the column order
+# expected after alphabetical sorting of the count table above.
+groups <- as.factor(
     as.factor( c(rep("FLRootCAX22", 4), rep("FLRootCAX23", 4), rep("FLRootCOL00", 4), rep("FLRootRBOHD", 4), rep("FLShootCAX22", 4), rep("FLShootCAX23", 4), rep("FLShootCOL00", 4), rep("FLShootRBOHD", 4), rep("GCRootCAX22", 4), rep("GCRootCAX23", 4), rep("GCRootCOL00", 4), rep("GCRootRBOHD", 4), rep("GCShootCAX22", 4), rep("GCShootCAX23", 4), rep("GCShootCOL00", 4), rep("GCShootRBOHD", 4)))
 )
 

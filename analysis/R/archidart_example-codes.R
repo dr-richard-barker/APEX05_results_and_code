@@ -1,6 +1,27 @@
-# NOTE: This script is a legacy duplicate of:
-# analysis/apex5_drb_rsml-analysis.R
-# It has been maintained for reproducibility but is deprecated in favor of the cleaner version.
+# ==============================================================================
+# APEX-05 | archiDART RSML example/worked code (LEGACY DUPLICATE)
+# ==============================================================================
+# PURPOSE:
+#   Working/scratch version of the root-architecture (RSML/archiDART) analysis:
+#   reads RSML tracings, computes per-plant architecture traits, and draws TRL
+#   boxplots, root maps, persistent-homology NMDS, and a trait PCA for the
+#   APEX-05 genotypes (Col-0, cax22, cax23, rbohD) under FL vs GC.
+#
+# INPUTS:  A directory of RSML files named <location>_<treatment>_<genotype>_...
+#          Point `path` at the unzipped RSML directory (repo location:
+#          data/morphometrics/; archive in
+#          APEX5_desktop_clutter/APEX_RSML_corners_fixed_2_7_18_Col_cax22.zip).
+# OUTPUTS: On-screen ggplot figures only (no files written by default).
+# KEY DEPENDENCIES: archiDART, ggplot2, tidyverse, vegan, gridExtra, ggrepel,
+#          Hmisc, plotly, shiny/shinyBS/DT.
+# USAGE:   Interactive; set `path` then run block by block.
+#
+# PROVENANCE / NOTE: This is a legacy duplicate of the cleaner
+#   analysis/apex5_drb_rsml-analysis.R. Retained for reproducibility but
+#   DEPRECATED in favour of that file. Contains private macOS Desktop paths (now
+#   parameterised) and exploratory dead-code blocks; install_github()'s archiDART
+#   on load.
+# ==============================================================================
 
 # install.packages("shiny")
 
@@ -31,7 +52,7 @@ library(vegan)
 ########################################//
 
 # Default path pointing to unzipped RSML files (can extract from clutter ZIP)
-path <- "../data/RSML"
+path <- "../data/morphometrics/RSML"  # was: /Users/richardbarker/Desktop/... (see below)
 # Previous private paths are commented out below to prevent syntax errors:
 # path <- "~/Desktop/Desktop - Richard’s MacBook Air/APEX5_RSML_day4/FL_&_GC"
 # /Users/richardbarker/Desktop/Desktop - Richard’s MacBook Air/APEX5_RSML_day4_/FL_&_GC
@@ -170,23 +191,27 @@ ggplot(table) +
 ### archiDraw stage
 ######################################## Fail?
 ### Box plot of ?....
-#archi_summary <- plyr::ddply(archi, .(file, genotypes, location, treatment), summarise, 
+# FIX: dead-code fragment -- only the first two lines of the original
+#   plyr::ddply() and ggplot() calls were commented out, leaving these argument
+#   lines orphaned at top level (a parse error). Fully commented out so the
+#   script parses; the summary was already disabled, so intent is preserved.
+#archi_summary <- plyr::ddply(archi, .(file, genotypes, location, treatment), summarise,
 #                             n_root=length(x1),
-depth = max(y1),
-tot_length = sum(length),
-max_magnitude = max(magnitude),
-max_path_length = max(pathlength),
-mean_magnitude = mean(magnitude),
-mean_path_length = mean(pathlength))
+#depth = max(y1),
+#tot_length = sum(length),
+#max_magnitude = max(magnitude),
+#max_path_length = max(pathlength),
+#mean_magnitude = mean(magnitude),
+#mean_path_length = mean(pathlength))
 
-#libpl <- ggplot(archi_summary, aes(genotype, n_root, fill=genotype)) + 
-#  geom_boxplot() + 
-theme_classic() +
-  theme(legend.position = "none",
-        text=element_text(size=15),
-        axis.text.x = element_text(angle = 45, hjust = 1))+
-  ylab(n_root) + 
-  xlab("Genotype")
+#libpl <- ggplot(archi_summary, aes(genotype, n_root, fill=genotype)) +
+#  geom_boxplot() +
+#theme_classic() +
+#  theme(legend.position = "none",
+#        text=element_text(size=15),
+#        axis.text.x = element_text(angle = 45, hjust = 1))+
+#  ylab(n_root) +
+#  xlab("Genotype")
 
 ## archiHomology
 ####################################################

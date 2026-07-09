@@ -1,18 +1,48 @@
 # ==============================================================================
-# WARNING: LEGACY ROBINA SCRIPT
-# This script was originally exported from RobiNA (an RNA-Seq GUI analysis tool).
-# It attempts to load external helper files (e.g. source("source/lib/info.R"))
-# which are NOT included in this repository. Consequently, this script is NOT 
-# executable in its current state.
+# APEX-05 | edgeR (GLM) differential expression -- OUTLIER-REMOVED ANALYSIS
+# ==============================================================================
+# PURPOSE:
+#   Same edgeR GLM pipeline as apex5_edger_main-analysis_v8.R, but run on a
+#   count table from which outlier samples have already been dropped. Genotypes
+#   are collapsed here: the design uses only four pooled groups (FLRoot, FLShoot,
+#   GCRoot, GCShoot) with unequal replicate counts (16/15/15/15), and two
+#   flight-vs-ground contrasts are tested (GCShoot-FLShoot, GCRoot-FLRoot).
 #
-# For a modern, fully reproducible, and relative-path based analysis of this dataset,
-# please use: analysis/apex5_deseq_analysis-template.Rmd.
+# INPUTS:
+#   - Raw count matrix (outliers already removed):
+#       detailed_results/<PROJECT>_raw_countstable.txt (tab-delimited, genes in
+#       rows). In the reorganised repo this maps to an outlier-removed raw-count
+#       table under data/expression/counts_cpm/.
+#   - Sample-to-group assignment is hard-coded below in the `groups` vector.
+#
+# OUTPUTS (relative to the RobiNA project working directory):
+#   - detailed_results/full_table_<contrast>.txt, significant_<contrast>.txt
+#   - <PROJECT>_results.txt
+#   - plots/MAplot_<contrast>.png, plots/vennDiagram_*.png, plots/MDSplot.png
+#   (For the FAIR release, equivalent outputs belong under results/tables/ and
+#    results/plots/.)
+#
+# KEY DEPENDENCIES: edgeR (Bioconductor) plus RobiNA GUI helper sources
+#   (source/lib/*.R).
+#
+# USAGE: Legacy / non-runnable as-is (see PROVENANCE).
+#
+# PROVENANCE: Auto-exported from RobiNA (an RNA-Seq GUI). It sources external
+#   helpers (source/lib/*.R) that are NOT in this repository and hard-codes a
+#   Windows project path, so it is NOT executable in its current state. Retained
+#   for provenance. For a modern reproducible analysis use
+#   analysis/apex5_deseq_analysis-template.Rmd.
 # ==============================================================================
 
 ##
 # generic template for loading the raw count data
 ##
 
+# NOTE: absolute laptop path retained deliberately -- PROJECT_NAME (below) is
+#   derived from basename(PROJECT_DIR) and feeds every output filename, so
+#   changing it would alter result file names. For a portable run point this at
+#   the repo counts directory, e.g.:
+#   PROJECT_DIR <- "data/expression/counts_cpm/APEX5_outlier_removed"  # was: C:/Users/robot/Documents/APEX5_outlier_removed
 PROJECT_DIR <- "C:/Users/robot/Documents/APEX5_outlier_removed"
 PROJECT_NAME <- basename(PROJECT_DIR)
 

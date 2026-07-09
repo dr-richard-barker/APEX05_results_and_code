@@ -1,3 +1,33 @@
+# ==============================================================================
+# APEX-05 | Root architecture (RSML / archiDART) analysis
+# ==============================================================================
+# PURPOSE:
+#   Quantify and visualise root-system architecture for the APEX-05 spaceflight
+#   experiment from RSML (Root System Markup Language) tracings. Reads RSML files,
+#   derives per-plant architecture traits with archiDART, and produces boxplots of
+#   total root length (TRL) by genotype/treatment/location, root-map segment
+#   plots, persistent-homology NMDS ordination, and a trait PCA. Genotypes:
+#   Col-0, cax22, cax23, rbohD; treatments: FL (flight) vs GC (ground control).
+#
+# INPUTS:
+#   - A directory of RSML files, one per scanned root system, named
+#     <location>_<treatment>_<genotype>_... so the underscore-split below can
+#     recover metadata. Point `path` at the unzipped RSML directory; in the
+#     reorganised repo this belongs under data/morphometrics/ (RSML archive is in
+#     APEX5_desktop_clutter/APEX_RSML_corners_fixed_2_7_18_Col_cax22.zip).
+# OUTPUTS: On-screen ggplot figures (TRL boxplots, root maps, NMDS, barcodes,
+#   trait PCA). No files are written by default; export the plots as needed to
+#   results/plots/.
+# KEY DEPENDENCIES: archiDART, ggplot2, tidyverse, vegan (NMDS), gridExtra,
+#   ggrepel, Hmisc, plotly, shiny/shinyBS/DT (interactive helpers).
+# USAGE: Set `path` to your RSML directory, then run interactively (many blocks
+#   are exploratory / plot-by-plot).
+#
+# PROVENANCE: Legacy interactive script with private macOS Desktop paths (now
+#   parameterised) and several exploratory dead-code blocks. It also
+#   install_github()'s archiDART on load.
+# ==============================================================================
+
 # install.packages("shiny")
 
 library(shiny)
@@ -33,9 +63,9 @@ library(ggrepel) #
 library(vegan)
 
 # Default path pointing to unzipped RSML files
-# Note: You can extract APEX5_desktop_clutter/APEX_RSML_corners_fixed_2_7_18_Col_cax22.zip 
-# to a local directory (e.g. "data/RSML") and point this variable to it.
-path <- "../data/RSML"
+# Extract APEX5_desktop_clutter/APEX_RSML_corners_fixed_2_7_18_Col_cax22.zip into
+# the repo's morphometrics folder and point this variable at it.
+path <- "../data/morphometrics/RSML"  # was: /Users/richardbarker/Desktop/... (see below)
 # Previous private paths are commented out below:
 # path <- "~/Desktop/Desktop - Richard’s MacBook Air/APEX5_RSML_day4/FL_&_GC"
 # path <- "/Users/richardbarker/Desktop/APEX_RSML_corners_fixed_2_7_18"
@@ -172,23 +202,27 @@ ggplot(table) +
 ### archiDraw stage
 ######################################## Fail?
 ### Box plot of ?....
-#archi_summary <- plyr::ddply(archi, .(file, genotypes, location, treatment), summarise, 
+# FIX: the block below is a dead-code fragment -- only the first two lines of the
+#   original plyr::ddply() call and the ggplot() call were commented out, leaving
+#   these argument lines orphaned at top level (a parse error). Fully commented
+#   out to make the script parse; intent (this summary was disabled) is preserved.
+#archi_summary <- plyr::ddply(archi, .(file, genotypes, location, treatment), summarise,
 #                             n_root=length(x1),
-                             depth = max(y1),
-                             tot_length = sum(length),
-                             max_magnitude = max(magnitude),
-                             max_path_length = max(pathlength),
-                             mean_magnitude = mean(magnitude),
-                             mean_path_length = mean(pathlength))
+#                             depth = max(y1),
+#                             tot_length = sum(length),
+#                             max_magnitude = max(magnitude),
+#                             max_path_length = max(pathlength),
+#                             mean_magnitude = mean(magnitude),
+#                             mean_path_length = mean(pathlength))
 
-#libpl <- ggplot(archi_summary, aes(genotype, n_root, fill=genotype)) + 
-#  geom_boxplot() + 
-  theme_classic() +
-  theme(legend.position = "none",
-        text=element_text(size=15),
-        axis.text.x = element_text(angle = 45, hjust = 1))+
-  ylab(n_root) + 
-  xlab("Genotype")
+#libpl <- ggplot(archi_summary, aes(genotype, n_root, fill=genotype)) +
+#  geom_boxplot() +
+#  theme_classic() +
+#  theme(legend.position = "none",
+#        text=element_text(size=15),
+#        axis.text.x = element_text(angle = 45, hjust = 1))+
+#  ylab(n_root) +
+#  xlab("Genotype")
 
 ## archiHomology
 ####################################################

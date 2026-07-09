@@ -1,3 +1,25 @@
+# ==============================================================================
+# APEX-05 | UpSetR set-intersection plot of DEGs
+# ==============================================================================
+# PURPOSE:
+#   Build an UpSet plot summarising how differentially expressed gene (DEG) sets
+#   overlap across the APEX-05 comparisons (e.g. Col-0 vs rbohD, root vs shoot,
+#   up- vs down-regulated). Includes a patched fromList() that preserves gene IDs
+#   as row names, optional per-set metadata colouring, and SVG export.
+#
+# INPUTS:  A CSV of named columns, one column per DEG set, values = gene IDs
+#          (input_filepath = "UPSETR_WT_V_RBOHD.csv"). In the reorganised repo
+#          this belongs under data/genesets/ (or results/tables/).
+# OUTPUTS: myupset_plot.svg (and an on-screen UpSet plot). For the FAIR release
+#          this belongs under results/plots/.
+# KEY DEPENDENCIES: UpSetR, dplyr, tidyverse, ggplot2.
+# USAGE:   Knit as R Markdown (e.g. rmarkdown::render()) after setting
+#          input_filepath.
+#
+# NOTE: This is an R Markdown notebook (YAML front matter plus ```{r} chunks);
+#   it will NOT run with source(). It was originally distributed with a .R
+#   extension and has been renamed to .Rmd here so the extension matches content.
+# ==============================================================================
 ---
   title: "UpsetR_Tools"
 author: "Jonathan Lombardino"
@@ -33,7 +55,8 @@ fromList <- function (input) {
 }
 ```
 ## Wrangle Data ##
-```{r make_table, include=True}
+<!-- FIX: chunk option below was `include=True` (Python-style); R uses the constant TRUE. -->
+```{r make_table, include=TRUE}
 #### Read in input csv file that is a dataframe of named lists ####
 input_filepath = "UPSETR_WT_V_RBOHD.csv" #####
 input_csv <- read.csv(input_filepath)
@@ -66,6 +89,10 @@ col_names
 #meta
 ```
 ## Plot UpsetR
+<!-- NOTE: the first upset() call below passes set.metadata = list(data = meta, ...),
+     but `meta` is only built in the (commented-out) "metadata table" chunk above.
+     Uncomment and adapt that chunk before running the metadata-coloured plot, or
+     use the "No Meta" call. Left as-is to avoid changing analysis intent. -->
 ```{r plot, echo=FALSE}
 ### Make output image file###
 fileout="myupset_plot.svg"

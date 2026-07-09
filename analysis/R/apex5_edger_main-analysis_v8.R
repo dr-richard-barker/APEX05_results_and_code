@@ -1,18 +1,51 @@
 # ==============================================================================
-# WARNING: LEGACY ROBINA SCRIPT
-# This script was originally exported from RobiNA (an RNA-Seq GUI analysis tool).
-# It attempts to load external helper files (e.g. source("source/lib/info.R"))
-# which are NOT included in this repository. Consequently, this script is NOT 
-# executable in its current state.
+# APEX-05 | edgeR (GLM) differential expression -- MAIN ANALYSIS
+# ==============================================================================
+# PURPOSE:
+#   edgeR generalized-linear-model counterpart of the DESeq main analysis for the
+#   APEX-05 spaceflight RNA-seq experiment. Fits a negative-binomial GLM over the
+#   16 condition x tissue x genotype groups (Col-0/COL00, cax22, cax23, rbohD;
+#   root/shoot; FL vs GC) and runs likelihood-ratio tests for the eight FL-vs-GC
+#   contrasts, writing full and significant-only result tables plus QC plots.
 #
-# For a modern, fully reproducible, and relative-path based analysis of this dataset,
-# please use: analysis/apex5_deseq_analysis-template.Rmd.
+# INPUTS:
+#   - Raw count matrix: detailed_results/<PROJECT>_raw_countstable.txt
+#       tab-delimited, genes in rows, 64 columns = 16 groups x 4 replicates.
+#       In the reorganised repo this maps to a raw-count table under
+#       data/expression/counts_cpm/.
+#   - Sample-to-group assignment is hard-coded below in the `groups` vector.
+#
+# OUTPUTS (relative to the RobiNA project working directory):
+#   - detailed_results/full_table_<contrast>.txt      full topTags table
+#   - detailed_results/significant_<contrast>.txt      FDR < cutoff subset
+#   - <PROJECT>_results.txt                             combined logFC + calls
+#   - plots/MAplot_<contrast>.png, plots/vennDiagram_*.png, plots/MDSplot.png
+#   (For the FAIR release, equivalent outputs belong under results/tables/ and
+#    results/plots/.)
+#
+# KEY DEPENDENCIES: edgeR (Bioconductor) plus RobiNA GUI helper sources
+#   (source/lib/*.R).
+#
+# USAGE: Legacy / non-runnable as-is (see PROVENANCE). Historically executed
+#   inside the RobiNA project directory after the GUI produced the count table.
+#
+# PROVENANCE: Auto-exported from RobiNA (an RNA-Seq GUI). It sources external
+#   helpers (source/lib/info.R, ellipse.R, robinVennDiagram.R, malowess.R,
+#   robinPlotMDS.dge.R) that are NOT in this repository and hard-codes a Windows
+#   project path, so it is NOT executable in its current state. Retained for
+#   provenance. For a modern reproducible analysis use
+#   analysis/apex5_deseq_analysis-template.Rmd.
 # ==============================================================================
 
 ##
 # generic template for loading the raw count data
 ##
 
+# NOTE: absolute laptop path retained deliberately -- PROJECT_NAME (below) is
+#   derived from basename(PROJECT_DIR) and feeds every output filename, so
+#   changing it would alter result file names. For a portable run point this at
+#   the repo counts directory, e.g.:
+#   PROJECT_DIR <- "data/expression/counts_cpm/EdgeR_V8"  # was: C:/Users/robot/Documents/APEX5/EdgeR_V8
 PROJECT_DIR <- "C:/Users/robot/Documents/APEX5/EdgeR_V8"
 PROJECT_NAME <- basename(PROJECT_DIR)
 

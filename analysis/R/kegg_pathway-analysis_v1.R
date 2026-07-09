@@ -1,3 +1,34 @@
+# ==============================================================================
+# APEX-05 | KEGG pathway visualisation with pathview (v1, exploratory)
+# ==============================================================================
+# PURPOSE:
+#   Render KEGG pathway maps coloured by differential expression using the
+#   pathview package. The APEX-05-specific step maps Col-0 shoot fold-changes
+#   onto the Arabidopsis (species = "ath") TCA cycle (KEGG 00020). The bulk of
+#   the file is the annotated pathview vignette (human gse16873 demo) kept as a
+#   worked reference for the various pathview modes (KEGG-native vs Graphviz,
+#   single/multi-sample, gene+compound, ID conversion, GAGE pipeline).
+#
+# INPUTS:
+#   - A DE table CSV with a gene-level fold-change in its first usable column;
+#     in the reorganised repo these live under results/tables/ (e.g.
+#     full_table_GCShootCOL00-FLShootCOL00.csv) or data/expression/
+#     transcript_tables/. The demo blocks instead use pathview's built-in
+#     datasets (gse16873.d, demo.paths).
+# OUTPUTS: KEGG pathview PNG/PDF pathway images written to the working directory
+#   (e.g. ath00020.<suffix>.png). For the FAIR release these belong in
+#   results/plots/.
+# KEY DEPENDENCIES: pathview (Bioconductor), BiocManager; demo blocks also use
+#   org.Hs.eg.db and gage.
+# USAGE: Run interactively. Only the "ath"/00020 block is APEX-specific; the
+#   remaining numbered "code chunk" blocks are the upstream pathview vignette and
+#   require the demo data / human annotation packages.
+#
+# PROVENANCE: Adapted from the Bioconductor pathview vignette
+#   (https://bioconductor.org/packages/release/bioc/html/pathview.html); original
+#   absolute laptop input paths have been parameterised near the top.
+# ==============================================================================
+
 #######################################################################
 ## import data from .csv
 # Relative path placeholder

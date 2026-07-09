@@ -13,6 +13,38 @@ output:
 
 This report details the differential expression analysis of the APEX5 RNA-seq data using the DESeq2 package. This document is an R Markdown template for reproducible analysis.
 
+<!--
+================================================================================
+APEX-05 | DESeq2 differential expression -- REPRODUCIBLE TEMPLATE
+================================================================================
+PURPOSE:
+  Modern, relative-path replacement for the legacy RobiNA DESeq/edgeR scripts.
+  Loads a raw count matrix + sample metadata, builds a DESeqDataSet with design
+  ~ group (genotype x tissue), runs the DESeq2 pipeline, and produces QC (PCA,
+  interactive PCA, MA plot) plus per-contrast result tables for the APEX-05
+  spaceflight experiment (Col-0, cax22, cax23, rbohD; root/shoot; FL vs GC).
+
+INPUTS (edit in the `parameters`/`load_*` chunks):
+  - counts_file:   raw count matrix, genes in rows x 16 samples in columns.
+                   Repo location: data/expression/counts_cpm/ (raw variant).
+  - metadata_file: sample sheet with sample_id + genotype/tissue/treatment.
+                   Repo location: data/metadata/.
+  NOTE: as shipped, the load chunks generate DUMMY count/metadata so the
+        template knits without data; swap in the commented read.table/read.csv
+        lines to run on the real APEX-05 data.
+
+OUTPUTS:
+  - results/tables/deseq2_results_<contrast>.csv (per-contrast DE results)
+  - PCA / interactive PCA / MA-plot figures (save to results/plots/ as needed)
+
+KEY DEPENDENCIES: DESeq2, ggplot2, pheatmap, RColorBrewer, plotly.
+
+USAGE: Set the paths in the `parameters` chunk, replace the dummy-data blocks
+  with the real read-in lines, then Knit (or run chunk by chunk).
+================================================================================
+-->
+
+
 # Setup
 
 ## Load Libraries

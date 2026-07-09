@@ -7,6 +7,40 @@ output:
     code_folding: hide
 ---
 
+<!--
+================================================================================
+APEX-05 | KEGG pathway visualisation with pathview (Rmd, v1)
+================================================================================
+PURPOSE:
+  Map APEX-05 differential-expression log2 fold-changes onto a curated list of
+  Arabidopsis (species = "ath") KEGG pathways using pathview, producing one
+  coloured pathway PNG per KEGG map (global metabolism 01100, TCA 00020,
+  oxidative phosphorylation 00190, and many secondary-metabolism / signalling
+  maps). Gene colour scale is set per chunk.
+
+INPUTS:
+  - A per-contrast DE table CSV with gene IDs + log2FoldChange
+    (fold_changes_file, default the CAX23 root FL-vs-GC full table). Repo
+    location: data/expression/transcript_tables/ or results/tables/. Transcript
+    IDs (AT1G01010.1) are collapsed to gene IDs (AT1G01010) if no Gene_ID column
+    exists. Falls back to a small mock gene set if the file is missing.
+OUTPUTS:
+  - ath<pathway>.pathview.png images written next to this file (one per chunk);
+    embedded via knitr::include_graphics. For the FAIR release these belong in
+    results/plots/.
+KEY DEPENDENCIES: pathview (Bioconductor). enrichplot/clusterProfiler imports
+  are commented out.
+USAGE: Point fold_changes_file at your DE table, then Knit.
+
+PROVENANCE: Legacy absolute laptop input paths have been parameterised into the
+  file-existence-guarded `fold_changes_file` block below.
+
+NOTE: In the first pathway chunk the map requested is pathway.id="01100" but the
+  embedded image is include_graphics("ath00020.pathview.png"); this pre-existing
+  id/image mismatch is left unchanged to avoid altering intent.
+================================================================================
+-->
+
 A bit of setup: load packages.
 
 ```{r warning = FALSE, message = FALSE}
@@ -257,3 +291,6 @@ dme <- pathview(gene.data = gene_list,
                 high = list(gene = "blue", cpd = "red"))
 
 knitr::include_graphics("ath00480.pathview.png")
+```
+<!-- FIX: added the closing ``` above; this final chunk was left unterminated,
+     which would break knitting of the whole document. -->

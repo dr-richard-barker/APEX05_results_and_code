@@ -1,3 +1,39 @@
+# ==============================================================================
+# APEX-05 | Transcriptomics data wrangling + iDEP stand-alone analysis (LEGACY)
+# ==============================================================================
+# PURPOSE:
+#   Grab-bag / provenance script covering three stages: (1) an UpSetR set-overlap
+#   plot of WT-vs-rbohD DEGs; (2) tidy-up that merges the plant AWG microarray and
+#   RNA-seq normalized-count matrices (and their metadata) into combined tables;
+#   and (3) a full iDEP 0.92 stand-alone workflow (read counts -> pre-process ->
+#   heatmap -> k-means -> PCA -> DEG -> pathway/GAGE/fgsea/PGSEA -> chromosome ->
+#   biclustering -> WGCNA co-expression).
+#
+# INPUTS:
+#   - UPSETR_WT_V_RBOHD.csv (binary membership table for the UpSet plot).
+#   - AWG microarray / RNA-seq normalized counts + metadata CSVs (parameterised
+#     near the top; originally on Google Drive).
+#   - iDEP inputs: an expression matrix (Ensembl/gene IDs), a sample-design CSV,
+#     a gene-info CSV, and a gene-set .db (Arabidopsis "Ath"). In the reorganised
+#     repo, expression tables live under data/expression/ and gene sets under
+#     data/genesets/.
+# OUTPUTS: Merged AWG matrices/metadata CSVs; iDEP figures and exported tables
+#   (heatmap.data.csv, DEG.data.csv, AllGeneListsGMT.gmt, heatmap.tiff,
+#   PPI_results.html). For the FAIR release, tables belong under results/tables/
+#   and figures under results/plots/.
+# KEY DEPENDENCIES: UpSetR, readr, tidyverse; DESeq2, PGSEA, gage, fgsea,
+#   pathview, RSQLite, PREDA, runibic, QUBIC (and STRINGdb) for the iDEP stage,
+#   plus iDEP's own iDEP_core_functions.R.
+# USAGE: Legacy / largely non-runnable outside the original iDEP environment
+#   (depends on iDEP_core_functions.R and many Bioconductor packages). Run
+#   interactively, stage by stage.
+#
+# PROVENANCE: The iDEP portion is an auto-generated stand-alone export from
+#   iDEP 0.92 (Steven Xijin Ge, SDSU; http://ge-lab.org/idep/, 2020-07-01).
+#   Original absolute /Users/drbhomeoffice/... and Google Drive paths have been
+#   parameterised into file-existence-guarded variables near the top.
+# ==============================================================================
+
 # Package installations (commented out for automated run/reproducibility)
 # if (!requireNamespace("UpSetR", quietly = TRUE)) install.packages("UpSetR")
 # if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools")

@@ -190,6 +190,18 @@ the *CAX2* representative** (retained cax2-3 result tables:
 *cax2-3* is retained only within the QC analyses (this concordance test and the
 morphometric confusion of Fig. 5) that justify its exclusion.
 
+To preserve the corroborated part of the *CAX2* signal, we additionally define
+the **CAX2 concordant core** — genes differentially expressed under spaceflight
+in *both* alleles with agreeing direction (Fig. 7,
+`analysis/ml/apex05_cax2_concordant_core.py`). This yields **210 root / 146 shoot**
+high-confidence *CAX2* flight-responsive genes (of 216 / 151 shared; 97%
+direction agreement). The core is overwhelmingly flight-*induced* (≈97% up) and
+entirely tissue-partitioned (no gene shared between the root and shoot cores),
+and is released as a supplementary table
+(`results/tables/apex05_cax2_concordant-core_*.csv`) as the defensible *CAX2*
+flight signature. [TO CONFIRM: enrichment of the core; candidate genes include
+*LHB1B1*, *WRKY51*, *AP2*, *MC3*.]
+
 ---
 
 ## Discussion

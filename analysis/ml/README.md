@@ -1,10 +1,16 @@
 # Machine-learning QC & anomaly detection — APEX-05
 
-`apex05_ml_anomaly_detection.py` is a self-contained, reproducible pipeline that
-uses the released APEX-05 data to (1) recover the study's design factors from the
-data and (2) demonstrate detection of mislabelled samples — the class of error
-behind the historical *cax23* anomaly (see
-[`../../docs/PROVENANCE_cax23_mislabelling.md`](../../docs/PROVENANCE_cax23_mislabelling.md)).
+This folder holds three self-contained, reproducible analyses on the released
+APEX-05 data:
+
+| Script | Purpose |
+| :-- | :-- |
+| `apex05_ml_anomaly_detection.py` | Recover design factors (tissue, genotype) and demonstrate mislabel detection — the class of error behind the historical *cax2-3* anomaly. |
+| `apex05_cax2_allele_concordance.py` | QC comparison of the two *CAX2* alleles (cax2-2 vs cax2-3); the basis for excluding cax2-3. See [`../../docs/cax2_allele_concordance.md`](../../docs/cax2_allele_concordance.md). |
+| `apex05_cax2_concordant_core.py` | Extract the *CAX2* concordant core — genes DE under flight in **both** alleles, same direction (210 root / 146 shoot); the defensible *CAX2* flight signature. |
+
+The first script is documented in detail below; provenance of the anomaly is in
+[`../../docs/PROVENANCE_cax23_mislabelling.md`](../../docs/PROVENANCE_cax23_mislabelling.md).
 
 ## Run it
 

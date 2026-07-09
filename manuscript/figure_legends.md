@@ -79,6 +79,18 @@ the *cax2-3* libraries rather than a real allelic divergence.
 `figC2_cax2_jaccard.png`; metrics in `results/ml/cax2_concordance_metrics.json`;
 full write-up in `docs/cax2_allele_concordance.md`.
 
+**Figure 7 | CAX2 concordant core — the high-confidence flight signature.**
+Produced by `analysis/ml/apex05_cax2_concordant_core.py`. Per-gene spaceflight
+log2 fold-change (FL/GC) in *cax2-2* (x) vs *cax2-3* (y) for genes differentially
+expressed in **both** alleles, root (left) and shoot (right). cax2-2's direction
+is computed from its labelled `baseMeanA_FL`/`baseMeanB_GC` columns; cax2-3's
+orientation is resolved empirically against cax2-2 (it is flipped — its raw
+`log2FoldChange` is log2 GC/FL). Orange = concordant core (agreeing direction:
+210 root / 146 shoot of 216 / 151 shared, 97%); grey = discordant. Points lie
+predominantly in the upper-right (flight-induced in both) and above the identity
+line (cax2-3 magnitudes inflated, but directionally concordant). The core is
+released as `results/tables/apex05_cax2_concordant-core_{root,shoot,combined}.csv`.
+
 ---
 
 ## Supplementary figures

@@ -37,6 +37,8 @@ repository root.
 | S26 | Machine-learning QC — headline metrics | `results/ml/ml_metrics.json` | JSON |
 | S27 | CAX2 allele concordance QC — metrics (basis for cax2-3 exclusion) | `results/ml/cax2_concordance_metrics.json` | JSON |
 | S28 | Excluded cax2-3 derived result tables (retained for auditability) | `archive/excluded_cax2-3/` | CSV/XLSX |
+| S29 | **CAX2 concordant-core flight signature** (genes DE in both alleles, same direction; root/shoot/combined) | `results/tables/apex05_cax2_concordant-core_{root,shoot,combined}.csv` | CSV |
+| S30 | CAX2 concordant-core summary metrics | `results/ml/cax2_concordant_core_summary.json` | JSON |
 
 ## Supplementary figures
 See [`../figure_legends.md`](../figure_legends.md) (Figures S1–S4).

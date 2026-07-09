@@ -118,3 +118,35 @@ Implementation:
 > **If the decision is revisited:** option (2) — restricting cax2-3 to its
 > cax2-2-concordant core (~216 root / 151 shoot genes, 97% direction-agreeing) —
 > remains available and can be reinstated from the retained files.
+
+## Concordant-core variant (the high-confidence *CAX2* signature)
+
+As a conservative alternative to full exclusion, we also extracted the **CAX2
+concordant core**: genes differentially expressed under spaceflight in **both**
+alleles **with agreeing fold-change direction**. This is the part of the cax2-3
+signal that cax2-2 corroborates — the defensible *CAX2* flight signature.
+
+**Analysis:** [`analysis/ml/apex05_cax2_concordant_core.py`](../analysis/ml/apex05_cax2_concordant_core.py)
+**Outputs:** `results/tables/apex05_cax2_concordant-core_{root,shoot,combined}.csv`,
+`results/ml/figC3_cax2_concordant_core.png`, `results/ml/cax2_concordant_core_summary.json`
+
+Direction handling is explicit, not assumed: cax2-2's flight fold-change comes
+from its workbook's **labelled** `baseMeanA_FL` / `baseMeanB_GC` columns
+(log2 FL/GC), and cax2-3's orientation is resolved **empirically** against
+cax2-2 — it came out **flipped** (cax2-3's raw `log2FoldChange` is log2 GC/FL).
+
+| Tissue | shared DEGs | **concordant core** | up in flight | down | direction agreement |
+| :-- | --: | --: | --: | --: | --: |
+| Root | 216 | **210** | 203 | 7 | 97% |
+| Shoot | 151 | **146** | 144 | 2 | 97% |
+
+Two features stand out: the core is **overwhelmingly flight-*induced*** (≈97% up)
+and **entirely tissue-partitioned** (0 loci shared between the root and shoot
+cores). cax2-3's fold-changes are systematically larger than cax2-2's (points
+above the identity line in Fig. C3) — the same inflation seen at the set level —
+but their **direction** agrees, which is why this core is trustworthy. Example
+core genes include *LHB1B1* (light harvesting), *WRKY51*, *AP2*, *MC3*
+(metacaspase) and an invertase.
+
+This core is released as a supplementary table and can serve as the *CAX2*
+flight signature in place of the discarded genotype-level cax2-3 analysis.

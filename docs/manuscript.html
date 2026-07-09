@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Manuscript · APEX-05</title>
+<meta name="description" content="APEX-05: Arabidopsis spaceflight transcriptomics, root architecture and ML sample QC — FAIR data and code.">
+<link rel="stylesheet" href="assets/style.css">
+</head><body>
+<header class="site"><nav><span class="brand">🌱 APEX-05</span><a href="index.html">Home</a><a href="manuscript.html" style="color:var(--accent)">Manuscript</a><a href="figures.html">Figures</a><a href="cax2-story.html">CAX2 QC story</a><a href="https://github.com/dr-richard-barker/APEX05_results_and_code">GitHub ↗</a></nav></header>
+<main><div class="note">This is the working manuscript scaffold. Bracketed <code>[TO CONFIRM]</code> markers denote fields for the authors to finalise.</div><div class="content"><hr />
+<p>title: "Reactive-oxygen and calcium signalling shape the <em>Arabidopsis</em> transcriptomic and root-architectural response to spaceflight (APEX-05)"
+running_title: "ROS and Ca2+ signalling in the APEX-05 spaceflight response"
+target_journal: "npj Microgravity (Article)"
+manuscript_status: "DRAFT SCAFFOLD — assembled from released data, storyboard, and reanalysis outputs. Passages marked [TO CONFIRM] require the authors to insert or verify exact values before submission; no quantitative claim here should be treated as final until checked against the source tables."
+authors:
+  - name: "Richard Barker"
+    affiliation: 1
+    corresponding: true
+    email: "admin@cosecloud.com"
+  - name: "[TO CONFIRM: co-authors, ORCID iDs, affiliations]"
+affiliations:
+  - id: 1
+    name: "[TO CONFIRM: institution, city, country]"
+keywords: [spaceflight, Arabidopsis thaliana, transcriptomics, root system architecture, reactive oxygen species, RBOHD, calcium, CAX, FAIR data]</p>
+<hr />
+<blockquote>
+<p><strong>Editorial note (remove before submission).</strong> This file is a <em>scaffold</em>. Its
+structure and section flow follow npj Microgravity's Article format. Numerical
+results are drawn directly from the released tables in this repository and are
+cited by filename; where a number could not be verified from the released
+files it is written as <code>[TO CONFIRM]</code>. The machine-learning quality-control
+results (Fig. 5) were produced by <code>analysis/ml/apex05_ml_anomaly_detection.py</code>
+in this repository and are reproducible from <code>results/ml/ml_metrics.json</code>.</p>
+</blockquote>
+<hr />
+<h2 id="abstract">Abstract</h2>
+<p>Spaceflight imposes a unique combination of microgravity and space-radiation
+stress on plants, yet the signalling pathways that translate the orbital
+environment into altered growth remain incompletely mapped. The Advanced Plant
+Experiment-05 (APEX-05) flew four <em>Arabidopsis thaliana</em> genotypes — wild-type
+Col-0, a mutant in reactive-oxygen (ROS) production (<em>rbohD</em>), and <strong>two
+independent alleles of the calcium/H⁺ exchanger <em>CAX2</em> (<em>cax2-2</em> and <em>cax2-3</em>)</strong>
+— aboard the International Space Station, alongside
+matched ground controls, and profiled both the shoot and root transcriptome
+(RNA-seq) and root system architecture (RSML morphometrics). A QC concordance
+test between the two <em>CAX2</em> alleles found <em>cax2-3</em> strongly discordant with its
+sibling <em>cax2-2</em> (DEG set ~10–17× inflated and no more similar to cax2-2 than to
+unrelated genotypes); <em>cax2-3</em> was therefore excluded, leaving a primary set of
+three genotypes (Col-0, <em>cax2-2</em>, <em>rbohD</em>). Wild-type rosette
+leaf area was reduced under spaceflight [TO CONFIRM: exact means/CI from the
+leaf-area analysis; storyboard indicates ~4.0 cm² ground control vs ~2.7 cm²
+flight], and this response was altered in the ROS- and calcium-signalling
+mutants, implicating both pathways in the spaceflight growth response.
+Differential-expression analysis identified hundreds of flight-responsive genes
+in each genotype and tissue (e.g. Col-0 root: 799 DEGs, 268 flight-induced / 531
+flight-repressed; see Table 1 and the direction note in §2), enriched for
+photosynthesis, stress-response, cell-wall and redox pathways (Fig. 9;
+<code>results/tables/apex05_primary_enrichment_*</code>). Beyond the biology, we release APEX-05 as a
+FAIR, reproducible data package and demonstrate a machine-learning
+quality-control workflow that (i) recovers tissue identity from expression with
+100% leave-one-out accuracy and detects deliberately mislabelled samples at ~97%
+recall, and (ii) shows that day-4 primary-root morphology only weakly
+distinguishes these subtle mutants — the finding that motivated our provenance-
+based correction of a historical <em>cax23</em> sample-labelling anomaly. Together the
+data and tooling provide a reusable resource for the plant space-biology
+community.</p>
+<hr />
+<h2 id="introduction">Introduction</h2>
+<p>[Scaffold — 3–4 paragraphs. Suggested content, to be written/verified by authors:]</p>
+<ul>
+<li>
+<p><strong>The problem.</strong> Plants are candidate life-support organisms for long-duration
+  spaceflight, but microgravity perturbs gravitropic, hydrotropic, oxidative and
+  cell-wall processes. Prior spaceflight transcriptomics (e.g. the GeneLab /
+  Open Science Data Repository corpus) established broad reprogramming but the
+  causal signalling nodes are debated. [TO CONFIRM: citations.]</p>
+</li>
+<li>
+<p><strong>The candidate pathways.</strong> Reactive oxygen species produced by the NADPH
+  oxidase RBOHD, and calcium fluxes mediated by CAX-family exchangers, are
+  central to plant environmental sensing and have been proposed as early relays
+  in the spaceflight response. APEX-05 was designed to test their contribution
+  directly by flying <em>rbohD</em> and <strong>two independent alleles of the <em>same<em> gene
+  </em>CAX2<em> — </em>cax2-2<em> and </em>cax2-3</em></strong> — against Col-0. Including two alleles of one
+  gene provides a built-in reproducibility control: concordant responses
+  corroborate a genuine <em>CAX2</em> phenotype, whereas divergence flags an allele- or
+  sample-specific artefact. [TO CONFIRM: precise allele identifiers / T-DNA
+  insertion lines and prior hypotheses.]</p>
+</li>
+<li>
+<p><strong>This study.</strong> We report the paired shoot/root transcriptome and root-
+  architecture response, and — reflecting community priorities around
+  reproducibility — package the analysis to FAIR standards and add an
+  independent machine-learning QC layer. We use that layer to document and
+  resolve a sample-labelling anomaly that arose because <em>cax22</em> and <em>cax23</em> were
+  grown in physically adjacent plate wells.</p>
+</li>
+</ul>
+<hr />
+<h2 id="results">Results</h2>
+<h3 id="1-spaceflight-reduces-wild-type-leaf-area-and-the-mutants-respond-differently">1. Spaceflight reduces wild-type leaf area and the mutants respond differently</h3>
+<p>Rosette leaf area measured at [TO CONFIRM: 8 days] showed a reduction in
+wild-type Col-0 under spaceflight relative to ground control (Fig. 1). The
+ROS-signalling mutant <em>rbohD</em> and the calcium-transport mutants <em>cax22</em>/<em>cax23</em>
+displayed [TO CONFIRM: describe the direction and magnitude of the genotype ×
+environment interaction from the leaf-area dataset]. This phenotype frames the
+transcriptomic analysis that follows: if ROS and Ca²⁺ signalling gate the
+growth response, the flight-responsive transcriptomes of these mutants should
+diverge from wild type.</p>
+<p><em>Source:</em> <code>reports/apex05_storyboard.png</code>; leaf-area measurements [TO CONFIRM:
+add the underlying leaf-area table to <code>data/</code> and cite it here].</p>
+<h3 id="2-hundreds-of-genes-respond-to-spaceflight-in-each-genotype-and-tissue">2. Hundreds of genes respond to spaceflight in each genotype and tissue</h3>
+<p>Flight-versus-ground-control differential expression (edgeR; [TO CONFIRM:
+thresholds, e.g. FDR &lt; 0.05, |log2FC| &gt; 1]) identified robust, tissue-specific
+responses (Table 1, Fig. 2). In wild-type Col-0 we detected <strong>799</strong> flight-
+responsive genes in root (<strong>268 induced / 531 repressed</strong> by flight) and <strong>604</strong>
+in shoot (<strong>201 induced / 403 repressed</strong>). The mutants showed responses of
+comparable scale but distinct composition: <em>rbohD</em> (root 626: 233 induced / 393
+repressed; shoot 456: 286 induced / 170 repressed) and <em>cax2-2</em> (root 324: 223
+induced / 101 repressed; shoot 230: 185 induced / 45 repressed).</p>
+<blockquote>
+<p><strong>Direction convention.</strong> Throughout this manuscript, differential-expression
+directions are <strong>flight-referenced</strong>: <em>induced</em> = higher in spaceflight (FL),
+<em>repressed</em> = higher in ground control (GC). Note that the underlying released
+DEG workbooks are named <code>*_up-regulated_*</code> / <code>*_down-regulated_*</code> on the
+opposite, <strong>ground-control-referenced</strong> basis — their "up-regulated" genes are
+100% higher in GC (i.e. flight-<em>repressed</em>), verified directly from the labelled
+<code>baseMeanA_FL</code> / <code>baseMeanB_GC</code> columns. We re-derived every direction from
+those columns so that the counts and enrichment reported here follow the
+flight-referenced convention.</p>
+</blockquote>
+<p><em>Source tables:</em> <code>results/tables/apex5_col_root_edger_*</code>,
+<code>apex5_col_shoot_edger_*</code>, <code>apex5_rbohd_root_*</code>, <code>apex5_rbohd_shoot_*</code>,
+<code>apex5_cax22_root_*</code>, <code>apex5_cax22_shoot_*</code>, and the combined
+<code>apex5_edger_deg_all-samples.csv</code>.</p>
+<p>Genotype-resolved over-representation analysis of these flight-DEG sets
+(g:Profiler, g:SCS-corrected <em>p</em> &lt; 0.05, tissue-specific tested-gene background;
+Fig. 9, <code>analysis/ml/apex05_primary_genotype_enrichment.py</code>) revealed distinct
+functional signatures. Wild-type Col-0 mounted a broad <strong>stress/stimulus and
+transmembrane-transport</strong> response in both organs (root "response to chemical"
+<em>p</em> = 4×10⁻²²; flight-induced aquaporin/water-transport genes). <em>rbohD</em> was
+distinguished by a <strong>redox/detoxification</strong> signature (glutathione-transferase
+and oxidoreductase activity, response to toxic substance; shoot glutathione and
+glucosinolate metabolism), consistent with its role in ROS production. <em>cax2-2</em>
+was the most distinctive: its flight-<strong>induced</strong> genes were dominated by
+<strong>photosynthesis/thylakoid</strong> in root (<em>p</em> = 5×10⁻⁵⁶) and <strong>cell-wall
+organisation and phenylpropanoid biosynthesis</strong> in shoot — reproducing, from the
+retained allele alone, the <em>CAX2</em> concordant-core signature of §6. Full term
+tables: <code>results/tables/apex05_primary_enrichment_{col0,cax22,rbohd}_{root,shoot}.csv</code>.</p>
+<h3 id="3-root-and-shoot-deploy-largely-distinct-flight-responsive-programmes">3. Root and shoot deploy largely distinct flight-responsive programmes</h3>
+<p>Comparison of root versus shoot responses (Fig. 3; jVenn/UpSet in
+<code>results/plots/apex05_col-cax22-cax23_upset.svg</code> and
+<code>results/tables/apex5_roots-vs-shoots_jvenn_transcripts.csv</code>) showed [TO CONFIRM:
+the overlap statistics — number of shared vs organ-specific DEGs]. Functional
+enrichment (Table 2) implicated [TO CONFIRM: top terms from
+<code>apex5_root-shoot_edger_enrichment_*.tsv</code>, <code>apex5_shoots_core-enrichment.csv</code>],
+consistent with organ-specialised remodelling of [TO CONFIRM: e.g. cell-wall,
+photosynthesis, defence] processes.</p>
+<h3 id="4-cell-wall-and-ros-pathways-are-enriched-in-the-rbohd-response">4. Cell-wall and ROS pathways are enriched in the <em>rbohD</em> response</h3>
+<p>Mapping the <em>rbohD</em> flight response onto AraCyc/KEGG pathways
+(<code>results/plots/apex05_rbohd_roots_aracyc.png</code>,
+<code>data/genesets/apex05_rbohd_aracyc_cellwall.txt</code>) highlighted cell-wall
+biosynthesis and [TO CONFIRM] pathways, linking altered ROS production to
+structural remodelling under spaceflight. [TO CONFIRM: quantitative pathway
+enrichment statistics.]</p>
+<h3 id="5-machine-learning-quality-control-detects-mislabelled-samples-and-validates-the-corrected-design">5. Machine-learning quality control detects mislabelled samples and validates the corrected design</h3>
+<p>Because <em>cax2-2</em> and <em>cax2-3</em> were grown in physically adjacent plate wells, an
+early QC screen flagged a <em>cax2-3</em> labelling anomaly (the "CAX23oddity"; full
+history in <code>docs/PROVENANCE_cax23_mislabelling.md</code>). We built an independent
+machine-learning check (<code>analysis/ml/apex05_ml_anomaly_detection.py</code>, Fig. 5):</p>
+<ul>
+<li>
+<p><strong>Expression carries an unambiguous tissue signal.</strong> A leave-one-out
+  classifier separated Col-0 root from shoot transcriptomes with <strong>100%</strong>
+  accuracy (16 samples, 8,068 shared genes). Injecting known label swaps and
+  asking the detector to recover them yielded <strong>~97%</strong> recall (top-2 of 200
+  trials) with near-complete score separation between swapped (mean 0.98) and
+  correctly-labelled (mean 0.09) samples (Fig. 5a,b). This is the modality in
+  which a mislabelled sample is detectable — the same principle that surfaced
+  the original oddity.</p>
+</li>
+<li>
+<p><strong>Root morphology alone cannot re-derive genotype.</strong> A leave-one-well-out
+  classifier on aggregated RSML primary-root features reached only <strong>~44%</strong>
+  genotype accuracy (chance 25%; Fig. 5c,d), with the genotypes overlapping in
+  morphometric space. This negative result is informative: because these subtle
+  ROS/Ca²⁺ mutants are not phenotypically separable at day 4, labels cannot be
+  rescued from phenotype, and the correct remedy is <strong>provenance-based</strong> — we
+  re-keyed every sample to its plate-well ID, removing the ambiguous <em>cax22</em>
+  well A7 and the anomalous <em>cax23</em> ground-control replicate to yield the clean
+  60-sample master design.</p>
+</li>
+</ul>
+<p>All metrics are reproducible from <code>results/ml/ml_metrics.json</code> (seed 42).</p>
+<h3 id="6-the-two-cax2-alleles-are-transcriptionally-discordant">6. The two <em>CAX2</em> alleles are transcriptionally discordant</h3>
+<p>Because <em>cax2-2</em> and <em>cax2-3</em> disrupt the <strong>same gene</strong>, their spaceflight
+responses should agree. Instead, a concordance analysis of the released DEG sets
+(<code>analysis/ml/apex05_cax2_allele_concordance.py</code>, Fig. 6) found <em>cax2-3</em> with a
+grossly inflated flight-response — <strong>4,539 root / 2,980 shoot</strong> DEGs versus
+<strong>473 / 174</strong> for <em>cax2-2</em>, i.e. <strong>9.6× / 17.1×</strong> larger and exceeding every
+other genotype including wild type (Fig. 6a). Critically, <em>cax2-2</em> overlapped its
+own sibling allele <strong>no more than it overlapped the unrelated genotypes</strong> (DEG-set
+Jaccard 0.069 root / 0.045 shoot vs 0.072–0.118 for Col-0 and <em>rbohD</em>; Fig. 6b).
+The genuine shared core is small but real: of genes DE in both alleles (216 root,
+151 shoot), fold-change direction agreed <strong>97%</strong>. This pattern — a modest
+direction-concordant core beneath a large, non-preferential <em>cax2-3</em>-exclusive
+excess — indicates the <em>cax2-3</em> libraries carry substantial technical variance
+rather than a real allelic divergence, consistent with the adjacent-well anomaly.
+<strong>We therefore excluded <em>cax2-3</em> from the primary analysis and report <em>cax2-2</em> as
+the <em>CAX2</em> representative</strong> (retained cax2-3 result tables:
+<code>archive/excluded_cax2-3/</code>; decision record: <code>docs/cax2_allele_concordance.md</code>).
+<em>cax2-3</em> is retained only within the QC analyses (this concordance test and the
+morphometric confusion of Fig. 5) that justify its exclusion.</p>
+<p>To preserve the corroborated part of the <em>CAX2</em> signal, we additionally define
+the <strong>CAX2 concordant core</strong> — genes differentially expressed under spaceflight
+in <em>both</em> alleles with agreeing direction (Fig. 7,
+<code>analysis/ml/apex05_cax2_concordant_core.py</code>). This yields <strong>210 root / 146 shoot</strong>
+high-confidence <em>CAX2</em> flight-responsive genes (of 216 / 151 shared; 97%
+direction agreement). The core is overwhelmingly flight-<em>induced</em> (≈97% up) and
+entirely tissue-partitioned (no gene shared between the root and shoot cores),
+and is released as a supplementary table
+(<code>results/tables/apex05_cax2_concordant-core_*.csv</code>) as the defensible <em>CAX2</em>
+flight signature.</p>
+<p>Over-representation analysis of the core (g:Profiler, g:SCS-corrected, against
+the tissue-specific tested-gene background; Fig. 8,
+<code>analysis/ml/apex05_cax2_core_enrichment.py</code>) shows the two tissues respond
+through <strong>distinct programmes</strong>. The (flight-induced) <strong>root</strong> core is dominated
+by <strong>photosynthesis / thylakoid</strong> terms (GO:CC thylakoid <em>p</em> = 9×10⁻⁵⁸;
+photosynthesis, photosystem I), indicating ectopic induction of the
+photosynthetic apparatus in roots under spaceflight. The <strong>shoot</strong> core is
+enriched for <strong>cell-wall organisation and phenylpropanoid biosynthesis</strong>
+(plant-type cell wall organisation <em>p</em> = 1×10⁻¹⁰; KEGG phenylpropanoid
+biosynthesis; structural constituent of cell wall) together with
+<strong>peroxidase / hydrogen-peroxide-catabolic</strong> terms (lactoperoxidase activity,
+hydrogen peroxide catabolic process, heme binding) — connecting the <em>CAX2</em>
+flight response to cell-wall remodelling and the ROS axis also probed by <em>rbohD</em>.
+Full term lists: <code>results/tables/apex05_cax2_core_enrichment_{root,shoot}.csv</code>.</p>
+<hr />
+<h2 id="discussion">Discussion</h2>
+<p>[Scaffold — to be written by authors. Key points supported by this repository:]</p>
+<ol>
+<li><strong>Biology.</strong> ROS (RBOHD) and calcium (CAX) signalling both modulate the
+   <em>Arabidopsis</em> spaceflight response, evidenced by genotype-specific leaf-area
+   phenotypes and divergent flight-responsive transcriptomes. [TO CONFIRM:
+   integrate with prior spaceflight ROS/Ca²⁺ literature and OSDR datasets.]</li>
+<li><strong>Organ specialisation.</strong> Root and shoot mount largely separate programmes,
+   arguing against a single systemic flight signal. [TO CONFIRM.]</li>
+<li><strong>Reproducibility as a result.</strong> Adjacent-well genotype confusion is a
+   generic risk in multi-genotype spaceflight hardware; keying samples on
+   physical position and validating with an ML QC layer is a transferable
+   practice for the field.</li>
+<li><strong>Limitations.</strong> Per-sample expression matrices are released here for Col-0
+   only; the mutant contrasts are provided as summary/DEG tables. [TO CONFIRM:
+   note replicate numbers, power, and any batch structure.]</li>
+</ol>
+<hr />
+<h2 id="methods">Methods</h2>
+<p>[Scaffold — expand/verify. Anchor each subsection to the released files.]</p>
+<ul>
+<li><strong>Plant material and spaceflight hardware.</strong> Four genotypes (Col-0, <em>rbohD</em>,
+  <em>cax22</em>, <em>cax23</em>); [TO CONFIRM: growth hardware, light, media, flight profile,
+  fixation]. Sample design in
+  <code>data/metadata/apex05_sample_metadata.csv</code> (60 samples; genotype × tissue ×
+  flight/ground × replicate, keyed on plate-well ID).</li>
+<li><strong>RNA-seq and read processing.</strong> HiSeq sequencing; HISAT2 alignment;
+  targets/BAM maps in <code>data/metadata/</code> (see also archived Targets File revisions
+  in <code>archive/targets_file_versions/</code>). [TO CONFIRM: genome build, aligner
+  version, counting.]</li>
+<li><strong>Differential expression.</strong> edgeR and DESeq2 (<code>analysis/R/</code>), FL vs GC per
+  genotype × tissue; [TO CONFIRM: thresholds]. Outlier-handling variant in
+  <code>analysis/R/apex5_edger_outlier-removed-main-analysis.R</code>. All directions are
+  reported <strong>flight-referenced</strong> (induced = higher in FL), re-derived from the
+  labelled <code>baseMeanA_FL</code> / <code>baseMeanB_GC</code> columns; the archived DEG workbooks'
+  <code>up</code>/<code>down</code> file labels are ground-control-referenced and therefore inverted.</li>
+<li><strong>Functional enrichment.</strong> Manuscript enrichment (Figs 8–9) uses g:Profiler
+  g:GOSt (organism <em>A. thaliana</em>; g:SCS-corrected <em>p</em> &lt; 0.05; custom
+  tissue-specific tested-gene background) via
+  <code>analysis/ml/apex05_cax2_core_enrichment.py</code> and
+  <code>analysis/ml/apex05_primary_genotype_enrichment.py</code>; outputs in
+  <code>results/tables/apex05_*_enrichment_*.csv</code>. Legacy GO/KEGG/AraCyc exports
+  (iDEP/Metascape/pathview) are retained in <code>results/tables/apex5_*enrichment*</code>
+  and <code>data/genesets/</code>.</li>
+<li><strong>Root system architecture.</strong> RSML exported from Fiji/archidart
+  (<code>analysis/R/apex5_drb_rsml-analysis.R</code>,
+  <code>data/morphometrics/apex05_rsml_day4_morphometrics.csv</code>). [TO CONFIRM:
+  imaging, day, traits.]</li>
+<li><strong>Machine-learning QC.</strong> <code>analysis/ml/apex05_ml_anomaly_detection.py</code>
+  (scikit-learn; leave-one-out / leave-one-well-out CV; IsolationForest; seed
+  42). See <code>analysis/ml/README.md</code>.</li>
+<li><strong>Sample-label provenance.</strong> The <em>cax23</em> anomaly and its resolution are
+  documented in <code>docs/PROVENANCE_cax23_mislabelling.md</code>.</li>
+</ul>
+<hr />
+<h2 id="data-availability">Data availability</h2>
+<p>The complete data package — metadata, expression tables, root morphometrics,
+gene sets, results and figures — is in this repository and archived at Zenodo
+(DOI: [TO CONFIRM after Zenodo deposit]). Raw sequencing reads are available
+from NASA OSDR / GeneLab under accession [TO CONFIRM: OSD-###].</p>
+<h2 id="code-availability">Code availability</h2>
+<p>All analysis code (R differential-expression/pathway pipelines and the Python ML
+QC pipeline) is in <code>analysis/</code>, released under the MIT License. The ML results
+are fully reproducible via <code>analysis/ml/apex05_ml_anomaly_detection.py</code>.</p>
+<h2 id="acknowledgements-author-contributions-competing-interests">Acknowledgements / Author contributions / Competing interests</h2>
+<p>[TO CONFIRM.]</p>
+<h2 id="references">References</h2>
+<p>[TO CONFIRM — populate from the Introduction/Discussion citations.]</p>
+<hr />
+<h1 id="apex-05-figure-legends">APEX-05 — Figure legends</h1>
+<p>Legends for the main-text and machine-learning QC figures. Each entry names the
+source file(s) in this repository so figures can be regenerated or traced.
+Values marked <code>[TO CONFIRM]</code> must be verified against the source data before
+submission.</p>
+<hr />
+<h2 id="main-figures">Main figures</h2>
+<p><strong>Figure 1 | Spaceflight reduces wild-type leaf area and the ROS/Ca²⁺ mutants
+respond differently.</strong>
+Violin plots of rosette leaf area (cm²) at [TO CONFIRM: 8 days] for Col-0,
+<em>rbohD</em>, <em>cax22</em> (cax2.2) and <em>cax23</em> (cax2.3) under ground control (GC) and
+spaceflight (FL). Horizontal bars, group means; dashed line, [TO CONFIRM:
+grand mean / wild-type GC reference]. Wild-type leaf area is reduced under
+flight (~4.0 → ~2.7 cm² [TO CONFIRM]); the mutants show an altered
+genotype × environment response. <em>n</em> = [TO CONFIRM] plants per group.
+<em>Source:</em> <code>reports/apex05_storyboard.png</code> (regenerate from the underlying
+leaf-area table once added to <code>data/</code>).</p>
+<p><strong>Figure 2 | Flight-responsive differential expression across genotypes and
+tissues.</strong>
+[TO CONFIRM: chosen visualisation — e.g. bar plot of up/down DEG counts per
+genotype × tissue, or volcano panels.] DEG counts (FL vs GC; [TO CONFIRM:
+FDR/|log2FC| cut-offs]): Col-0 root 531↑/268↓, Col-0 shoot 403↑/201↓, <em>rbohD</em>
+root 393↑/233↓, <em>rbohD</em> shoot 170↑/286↓, <em>cax22</em> root 100↑/223↓, <em>cax22</em> shoot
+45↑/185↓.
+<em>Source:</em> <code>results/tables/apex5_*_edger_*regulated-*.xlsx</code>,
+<code>results/tables/apex5_edger_deg_all-samples.csv</code>.</p>
+<p><strong>Figure 3 | Root and shoot deploy largely distinct flight-responsive
+programmes.</strong>
+UpSet / Venn comparison of up- and down-regulated gene sets between root and
+shoot (and across genotypes). [TO CONFIRM: describe the largest intersections
+and the organ-specific fractions.]
+<em>Source:</em> <code>results/plots/apex05_col-cax22-cax23_upset.svg</code>,
+<code>results/plots/apex05_roots-vs-shoots_jvenn_transcripts.png</code>,
+<code>results/tables/apex5_roots-vs-shoots_jvenn_transcripts.csv</code>.</p>
+<p><strong>Figure 4 | Cell-wall and ROS pathways in the <em>rbohD</em> flight response.</strong>
+AraCyc/KEGG pathway projection of the <em>rbohD</em> root flight response, highlighting
+cell-wall biosynthesis and [TO CONFIRM] pathways. [TO CONFIRM: legend detail on
+colour scale = log2 fold change.]
+<em>Source:</em> <code>results/plots/apex05_rbohd_roots_aracyc.png</code>,
+<code>data/genesets/apex05_rbohd_aracyc_cellwall.txt</code>.</p>
+<p><strong>Figure 5 | Machine-learning quality control detects mislabelled samples and
+validates the corrected design.</strong>
+Produced by <code>analysis/ml/apex05_ml_anomaly_detection.py</code> (scikit-learn; seed 42).
+<strong>(a)</strong> PCA of Col-0 transcriptomes (log-CPM, 8,068 genes) coloured by tissue;
+root and shoot separate completely (leave-one-out classifier accuracy 100%).
+<strong>(b)</strong> Distribution of the per-sample mislabel score (1 − P[stated label]) over
+200 controlled label-swap injections; deliberately swapped samples (mean 0.98)
+separate cleanly from correctly-labelled samples (mean 0.09), recovered at ~97%
+recall. <strong>(c)</strong> Leave-one-well-out genotype confusion matrix from aggregated
+day-4 primary-root RSML morphometrics (48 well × treatment profiles); overall
+accuracy ~44% (chance 25%), i.e. genotypes overlap in morphometric space.
+<strong>(d)</strong> PCA of the aggregated morphometric space by genotype, showing the same
+overlap. Panels (c–d) establish that labels cannot be rescued from phenotype,
+motivating the provenance-based (well-ID) correction described in the text.
+<em>Source panels:</em> <code>results/ml/figA1_tissue_expression_pca.png</code>,
+<code>figA2_expression_recovery_scores.png</code>, <code>figB1_genotype_confusion_matrix.png</code>,
+<code>figB2_morphometric_pca.png</code>; metrics in <code>results/ml/ml_metrics.json</code>.</p>
+<p><strong>Figure 6 | The two <em>CAX2</em> alleles are transcriptionally discordant.</strong>
+Produced by <code>analysis/ml/apex05_cax2_allele_concordance.py</code>. <em>cax2-2</em> (<code>cax22</code>)
+and <em>cax2-3</em> (<code>cax23</code>) are two independent mutant alleles of the same gene,
+<em>CAX2</em>, and should respond alike to spaceflight. <strong>(a)</strong> Flight-responsive DEG
+set size per genotype (root and shoot): <em>cax2-3</em> is inflated 9.6× (root) / 17.1×
+(shoot) relative to <em>cax2-2</em> and exceeds all other genotypes. <strong>(b)</strong> Pairwise
+DEG-set Jaccard heatmaps (root, shoot); <em>cax2-2</em> overlaps <em>cax2-3</em> no more than
+it overlaps the unrelated Col-0 and <em>rbohD</em>. Of genes DE in both alleles,
+fold-change direction agrees 97%, indicating a small genuine shared core beneath
+a large <em>cax2-3</em>-specific excess. Interpreted as technical/background variance in
+the <em>cax2-3</em> libraries rather than a real allelic divergence.
+<em>Source panels:</em> <code>results/ml/figC1_cax2_deg_set_sizes.png</code>,
+<code>figC2_cax2_jaccard.png</code>; metrics in <code>results/ml/cax2_concordance_metrics.json</code>;
+full write-up in <code>docs/cax2_allele_concordance.md</code>.</p>
+<p><strong>Figure 7 | CAX2 concordant core — the high-confidence flight signature.</strong>
+Produced by <code>analysis/ml/apex05_cax2_concordant_core.py</code>. Per-gene spaceflight
+log2 fold-change (FL/GC) in <em>cax2-2</em> (x) vs <em>cax2-3</em> (y) for genes differentially
+expressed in <strong>both</strong> alleles, root (left) and shoot (right). cax2-2's direction
+is computed from its labelled <code>baseMeanA_FL</code>/<code>baseMeanB_GC</code> columns; cax2-3's
+orientation is resolved empirically against cax2-2 (it is flipped — its raw
+<code>log2FoldChange</code> is log2 GC/FL). Orange = concordant core (agreeing direction:
+210 root / 146 shoot of 216 / 151 shared, 97%); grey = discordant. Points lie
+predominantly in the upper-right (flight-induced in both) and above the identity
+line (cax2-3 magnitudes inflated, but directionally concordant). The core is
+released as <code>results/tables/apex05_cax2_concordant-core_{root,shoot,combined}.csv</code>.</p>
+<p><strong>Figure 8 | Functional enrichment of the CAX2 concordant core.</strong>
+Produced by <code>analysis/ml/apex05_cax2_core_enrichment.py</code> (g:Profiler g:GOSt,
+organism <em>A. thaliana</em>, g:SCS-corrected <em>p</em> &lt; 0.05, custom background = the
+tissue-specific set of genes tested for differential expression). Top terms
+(bars = −log₁₀ adjusted <em>p</em>, coloured by source: GO:BP/MF/CC, KEGG, Reactome,
+WikiPathways) for the root core (left; 92 significant terms) and shoot core
+(right; 32 terms). The root core is dominated by photosynthesis/thylakoid terms;
+the shoot core by cell-wall organisation, phenylpropanoid biosynthesis and
+peroxidase/H₂O₂-catabolic terms. Full tables:
+<code>results/tables/apex05_cax2_core_enrichment_{root,shoot,all}.csv</code>.</p>
+<p><strong>Figure 9 | Genotype-resolved functional enrichment of the flight response.</strong>
+Produced by <code>analysis/ml/apex05_primary_genotype_enrichment.py</code> (g:Profiler
+g:GOSt, <em>A. thaliana</em>, g:SCS-corrected <em>p</em> &lt; 0.05, custom tissue-specific
+tested-gene background). Top enriched terms (−log₁₀ adjusted <em>p</em>, coloured by
+source) for the union flight-DEG set of each primary genotype — Col-0, cax2-2,
+rbohD (columns) — in root (top) and shoot (bottom). Directions used throughout
+are flight-referenced (see §2 direction note). Col-0 shows a broad
+stress/transport response; rbohD a redox/detoxification signature; cax2-2 a
+photosynthesis (root) / cell-wall (shoot) signature that mirrors the CAX2
+concordant core (Fig. 8). Full tables:
+<code>results/tables/apex05_primary_enrichment_*.csv</code>.</p>
+<hr />
+<h2 id="supplementary-figures">Supplementary figures</h2>
+<p><strong>Figure S1 | CAX23oddity diagnostic that first flagged the labelling anomaly.</strong>
+jVenn/UpSet DEG set-membership across the four root genotypes; <em>cax23</em>'s overlap
+pattern is inconsistent with a clean genotype cluster.
+<em>Source:</em> <code>archive/diagnostics/apex05_roots_v11_cax23-oddity.png</code>,
+<code>results/plots/apex05_cax23_shoot_v11_cax23-oddity.png</code>.</p>
+<p><strong>Figure S2 | WT-vs-<em>rbohD</em> differential expression (jVenn).</strong>
+Root and leaf/shoot overlaps between wild type and <em>rbohD</em>.
+<em>Source:</em> <code>results/plots/apex05_root_wt-vs-rbohd_jvenn.png</code>,
+<code>results/plots/apex05_leaf_wt-vs-rbohd_jvenn.png</code>.</p>
+<p><strong>Figure S3 | Per-genotype/pathway summary panels.</strong>
+[TO CONFIRM: curate from <code>results/plots/apex5_col0.png</code>, <code>apex5_cipk20.png</code>,
+<code>apex5_genotype-plot.png</code>, <code>apex5_upsetr-plot.png</code>, and the DESeq/edgeR summary
+PDFs in <code>archive/superseded/</code>.]</p>
+<p><strong>Figure S4 | Root system architecture example and time-lapse.</strong>
+Representative Col-0 GC/FL root imaging.
+<em>Source:</em> <code>media/apex05_col0_gc-fl_timelapse_1080p.mov</code>,
+<code>data/morphometrics/apex05_rsml_source_col-cax22.zip</code>.</p></div></main>
+<footer class="site">
+  APEX-05 — Advanced Plant Experiment-05 · FAIR data &amp; code ·
+  <a href="https://github.com/dr-richard-barker/APEX05_results_and_code">GitHub</a> · Generated by <code>website/build_site.py</code>.
+</footer></body></html>

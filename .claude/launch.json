@@ -1,0 +1,7 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "apex05-site", "runtimeExecutable": "python",
+      "runtimeArgs": ["website/_serve.py"], "autoPort": true }
+  ]
+}

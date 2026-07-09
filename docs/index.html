@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home · APEX-05</title>
+<meta name="description" content="APEX-05: Arabidopsis spaceflight transcriptomics, root architecture and ML sample QC — FAIR data and code.">
+<link rel="stylesheet" href="assets/style.css">
+</head><body>
+<header class="site"><nav><span class="brand">🌱 APEX-05</span><a href="index.html" style="color:var(--accent)">Home</a><a href="manuscript.html">Manuscript</a><a href="figures.html">Figures</a><a href="cax2-story.html">CAX2 QC story</a><a href="https://github.com/dr-richard-barker/APEX05_results_and_code">GitHub ↗</a></nav></header>
+<main>
+<section class="hero">
+  <h1>APEX-05 — <em>Arabidopsis</em> spaceflight transcriptomics, root architecture &amp; ML sample QC</h1>
+  <p class="lede">A FAIR, reproducible data-and-code package comparing four <em>Arabidopsis thaliana</em>
+     genotypes flown on the ISS against matched ground controls — paired shoot/root RNA-seq and RSML
+     root-architecture morphometrics, with a machine-learning quality-control layer.</p>
+  <div class="badges"><span class="badge">MIT licensed</span><span class="badge">FAIR</span>
+    <span class="badge">RNA-seq + RSML</span><span class="badge">g:Profiler enrichment</span>
+    <span class="badge">scikit-learn QC</span></div>
+  <div class="btnrow">
+    <a class="btn primary" href="manuscript.html">Read the manuscript →</a>
+    <a class="btn" href="figures.html">Figures</a>
+    <a class="btn" href="cax2-story.html">CAX2 QC story</a>
+    <a class="btn" href="https://github.com/dr-richard-barker/APEX05_results_and_code">Code &amp; data (GitHub)</a>
+  </div>
+</section>
+
+<h2>Abstract</h2>
+<div class="content"><p>Spaceflight imposes a unique combination of microgravity and space-radiation
+stress on plants, yet the signalling pathways that translate the orbital
+environment into altered growth remain incompletely mapped. The Advanced Plant
+Experiment-05 (APEX-05) flew four <em>Arabidopsis thaliana</em> genotypes — wild-type
+Col-0, a mutant in reactive-oxygen (ROS) production (<em>rbohD</em>), and <strong>two
+independent alleles of the calcium/H⁺ exchanger <em>CAX2</em> (<em>cax2-2</em> and <em>cax2-3</em>)</strong>
+— aboard the International Space Station, alongside
+matched ground controls, and profiled both the shoot and root transcriptome
+(RNA-seq) and root system architecture (RSML morphometrics). A QC concordance
+test between the two <em>CAX2</em> alleles found <em>cax2-3</em> strongly discordant with its
+sibling <em>cax2-2</em> (DEG set ~10–17× inflated and no more similar to cax2-2 than to
+unrelated genotypes); <em>cax2-3</em> was therefore excluded, leaving a primary set of
+three genotypes (Col-0, <em>cax2-2</em>, <em>rbohD</em>). Wild-type rosette
+leaf area was reduced under spaceflight [TO CONFIRM: exact means/CI from the
+leaf-area analysis; storyboard indicates ~4.0 cm² ground control vs ~2.7 cm²
+flight], and this response was altered in the ROS- and calcium-signalling
+mutants, implicating both pathways in the spaceflight growth response.
+Differential-expression analysis identified hundreds of flight-responsive genes
+in each genotype and tissue (e.g. Col-0 root: 799 DEGs, 268 flight-induced / 531
+flight-repressed; see Table 1 and the direction note in §2), enriched for
+photosynthesis, stress-response, cell-wall and redox pathways (Fig. 9;
+<code>results/tables/apex05_primary_enrichment_*</code>). Beyond the biology, we release APEX-05 as a
+FAIR, reproducible data package and demonstrate a machine-learning
+quality-control workflow that (i) recovers tissue identity from expression with
+100% leave-one-out accuracy and detects deliberately mislabelled samples at ~97%
+recall, and (ii) shows that day-4 primary-root morphology only weakly
+distinguishes these subtle mutants — the finding that motivated our provenance-
+based correction of a historical <em>cax23</em> sample-labelling anomaly. Together the
+data and tooling provide a reusable resource for the plant space-biology
+community.</p>
+<hr /></div>
+
+<h2>Highlights</h2>
+<div class="cards">
+  <div class="card"><h3>4 genotypes × 2 tissues × 2 conditions</h3>
+    <p>Col-0, <em>cax2-2</em>, <em>cax2-3</em>, <em>rbohD</em>; root &amp; shoot; spaceflight vs ground control.</p></div>
+  <div class="card"><h3>ML sample QC</h3>
+    <p><span class="k">100%</span> leave-one-out tissue recovery; <span class="k">~97%</span> recall detecting injected label-swaps.</p></div>
+  <div class="card"><h3>CAX2 allele concordance</h3>
+    <p><em>cax2-3</em>'s flight-DEG set is <span class="k">10–17×</span> inflated and discordant with its sibling allele — excluded on QC grounds.</p></div>
+  <div class="card"><h3>Functional signatures</h3>
+    <p>Root core → photosynthesis; shoot core → cell wall + peroxidase; <em>rbohD</em> → redox/detox.</p></div>
+</div>
+
+<h2>Selected figures</h2>
+<div class="gallery"><figure><a href="figures.html"><img src="assets/figures/figC1_cax2_deg_set_sizes.png" alt="Fig 6a — cax2-3's flight-DEG set is 10–17× inflated vs its sibling allele cax2-2."></a><figcaption>Fig 6a — cax2-3's flight-DEG set is 10–17× inflated vs its sibling allele cax2-2.</figcaption></figure><figure><a href="figures.html"><img src="assets/figures/figC4_cax2_core_enrichment.png" alt="Fig 8 — Core enrichment: root = photosynthesis; shoot = cell wall + peroxidase."></a><figcaption>Fig 8 — Core enrichment: root = photosynthesis; shoot = cell wall + peroxidase.</figcaption></figure><figure><a href="figures.html"><img src="assets/figures/figD1_primary_genotype_enrichment.png" alt="Fig 9 — Genotype-resolved flight-DEG enrichment (Col-0, cax2-2, rbohD)."></a><figcaption>Fig 9 — Genotype-resolved flight-DEG enrichment (Col-0, cax2-2, rbohD).</figcaption></figure></div>
+
+<h2>Data &amp; code</h2>
+<div class="content"><ul>
+  <li><b>Manuscript &amp; legends:</b> <a href="manuscript.html">rendered here</a> ·
+      source in <a href="https://github.com/dr-richard-barker/APEX05_results_and_code/tree/main/manuscript"><code>manuscript/</code></a></li>
+  <li><b>Data:</b> <a href="https://github.com/dr-richard-barker/APEX05_results_and_code/tree/main/data"><code>data/</code></a>
+      (metadata, expression, morphometrics, gene sets)</li>
+  <li><b>Analysis code:</b> <a href="https://github.com/dr-richard-barker/APEX05_results_and_code/tree/main/analysis"><code>analysis/</code></a>
+      (R pipelines + Python ML/enrichment)</li>
+  <li><b>Results:</b> <a href="https://github.com/dr-richard-barker/APEX05_results_and_code/tree/main/results"><code>results/</code></a>
+      (tables, plots, ML outputs)</li>
+  <li><b>Provenance:</b> <a href="provenance.html">cax2-3 mislabelling record</a></li>
+</ul></div>
+</main>
+<footer class="site">
+  APEX-05 — Advanced Plant Experiment-05 · FAIR data &amp; code ·
+  <a href="https://github.com/dr-richard-barker/APEX05_results_and_code">GitHub</a> · Generated by <code>website/build_site.py</code>.
+</footer></body></html>

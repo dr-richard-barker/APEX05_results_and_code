@@ -2,6 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![FAIR](https://img.shields.io/badge/data-FAIR-blue.svg)](#fair-compliance)
+[![Website](https://img.shields.io/badge/website-live-brightgreen.svg)](https://dr-richard-barker.github.io/APEX05_results_and_code/)
+
+**🌐 Project website:** https://dr-richard-barker.github.io/APEX05_results_and_code/ — manuscript, figures and the CAX2 QC story (built from `manuscript/` by [`website/build_site.py`](website/build_site.py)).
 
 A **FAIR**, reproducible data-and-code package for the **Advanced Plant
 Experiment-05 (APEX-05)**. The study compares four *Arabidopsis thaliana*

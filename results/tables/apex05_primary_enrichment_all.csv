@@ -1,0 +1,1029 @@
+query_label,genotype,tissue,subset,source,native,name,p_value,term_size,query_size,intersection_size
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0042221,response to chemical,4.291033177889722e-22,2891,785,186
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0050896,response to stimulus,6.1819391141576535e-21,5781,785,294
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0022857,transmembrane transporter activity,3.1089227811518e-11,1129,785,82
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0005215,transporter activity,3.8578143212084616e-11,1155,785,83
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0009636,response to toxic substance,3.9796319089784797e-11,314,785,39
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0055085,transmembrane transport,1.1861680286634012e-10,1206,785,85
+Col-0:root:all,Col-0,root,all,GO:CC,GO:0005576,extracellular region,1.6708244417411653e-10,1545,785,98
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0016491,oxidoreductase activity,2.661391127805332e-10,1421,785,93
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0003824,catalytic activity,2.678881870869075e-09,8921,785,356
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0006950,response to stress,3.927273960135594e-09,3579,785,176
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0016798,"hydrolase activity, acting on glycosyl bonds",2.7269369477105836e-08,432,785,41
+Col-0:root:all,Col-0,root,all,KEGG,KEGG:01100,Metabolic pathways,3.799460437361817e-08,2323,785,121
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0006790,sulfur compound metabolic process,7.939755399095042e-08,298,785,33
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0015698,inorganic anion transport,1.2363439714984613e-07,114,785,20
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0004497,monooxygenase activity,3.5384440998197303e-07,325,785,33
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0009407,toxin catabolic process,4.069462269249066e-07,46,785,13
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0004364,glutathione transferase activity,6.572986947104286e-07,60,785,14
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0098754,detoxification,6.751424095929698e-07,273,785,30
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0009404,toxin metabolic process,1.4141881007406191e-06,60,785,14
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0006749,glutathione metabolic process,3.939634325473055e-06,45,785,12
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0004568,chitinase activity,4.0174523958020134e-06,17,785,8
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0009628,response to abiotic stimulus,4.151487023217892e-06,2112,785,110
+Col-0:root:all,Col-0,root,all,GO:BP,GO:1901700,response to oxygen-containing compound,5.143565581754756e-06,1638,785,91
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0004553,"hydrolase activity, hydrolyzing O-glycosyl compounds",5.985814233746593e-06,364,785,33
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0010038,response to metal ion,7.166324070714986e-06,218,785,25
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0006026,aminoglycan catabolic process,8.643609700058878e-06,17,785,8
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0006030,chitin metabolic process,8.643609700058878e-06,17,785,8
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0006022,aminoglycan metabolic process,8.643609700058878e-06,17,785,8
+Col-0:root:all,Col-0,root,all,GO:BP,GO:1901072,glucosamine-containing compound catabolic process,8.643609700058878e-06,17,785,8
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0046348,amino sugar catabolic process,8.643609700058878e-06,17,785,8
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0006032,chitin catabolic process,8.643609700058878e-06,17,785,8
+Col-0:root:all,Col-0,root,all,KEGG,KEGG:00480,Glutathione metabolism,1.6467467033837717e-05,102,785,15
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0020037,heme binding,2.446374100553486e-05,367,785,32
+Col-0:root:all,Col-0,root,all,GO:BP,GO:1902025,nitrate import,2.684729107336757e-05,34,785,10
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0005372,water transmembrane transporter activity,4.6296787707097295e-05,22,785,8
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0015250,water channel activity,4.6296787707097295e-05,22,785,8
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0006979,response to oxidative stress,5.0316959173374675e-05,424,785,35
+Col-0:root:all,Col-0,root,all,GO:CC,GO:0071944,cell periphery,0.00010112681206616913,2868,785,130
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0006810,transport,0.00010284012053821903,2406,785,116
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0009414,response to water deprivation,0.00010989275439245436,418,785,34
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0001101,response to acid chemical,0.00011068513565938515,458,785,36
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0016705,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",0.00013704499888999875,396,785,32
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0071456,cellular response to hypoxia,0.0001776361663445412,239,785,24
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0015116,sulfate transmembrane transporter activity,0.00019062374256973046,12,785,6
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0008271,secondary active sulfate transmembrane transporter activity,0.00019062374256973046,12,785,6
+Col-0:root:all,Col-0,root,all,KEGG,KEGG:00460,Cyanoamino acid metabolism,0.00019950379161335122,67,785,11
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0046906,tetrapyrrole binding,0.00020179320021395232,403,785,32
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0036294,cellular response to decreased oxygen levels,0.0002072720483735993,241,785,24
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0071453,cellular response to oxygen levels,0.0002072720483735993,241,785,24
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0009415,response to water,0.00021353870149558646,430,785,34
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0006865,amino acid transport,0.0002285903897774149,75,785,13
+Col-0:root:all,Col-0,root,all,GO:CC,GO:0048046,apoplast,0.00027044568689684996,466,785,34
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0051234,establishment of localization,0.0002897958712358158,2455,785,116
+Col-0:root:all,Col-0,root,all,GO:BP,GO:1902358,sulfate transmembrane transport,0.0004101298703772989,12,785,6
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0005506,iron ion binding,0.0004194168362744287,337,785,28
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0051179,localization,0.0004526225722787672,2559,785,119
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0005975,carbohydrate metabolic process,0.0005051905807820974,1055,785,61
+Col-0:root:all,Col-0,root,all,GO:MF,GO:1901682,sulfur compound transmembrane transporter activity,0.0008197685205418876,22,785,7
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0000103,sulfate assimilation,0.0008445261563694003,20,785,7
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0031667,response to nutrient levels,0.0008794139559524673,225,785,22
+Col-0:root:all,Col-0,root,all,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,0.0008985395308569044,1329,785,67
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0001666,response to hypoxia,0.0012345392101772916,266,785,24
+Col-0:root:all,Col-0,root,all,KEGG,KEGG:00999,Biosynthesis of various plant secondary metabolites,0.0012909129561259624,67,785,10
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0071705,nitrogen compound transport,0.0014250694568955342,306,785,26
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0006833,water transport,0.0014760568341986272,30,785,8
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0042044,fluid transport,0.0014760568341986272,30,785,8
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0036293,response to decreased oxygen levels,0.001605527336428851,270,785,24
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0070482,response to oxygen levels,0.0017129845894494444,271,785,24
+Col-0:root:all,Col-0,root,all,GO:CC,GO:0042807,central vacuole,0.001720177583226524,6,785,4
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0006040,amino sugar metabolic process,0.0019377084531177347,31,785,8
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0015112,nitrate transmembrane transporter activity,0.0021372959220702344,25,785,7
+Col-0:root:all,Col-0,root,all,GO:CC,GO:0099503,secretory vesicle,0.0021442389715377215,170,785,17
+Col-0:root:all,Col-0,root,all,GO:CC,GO:0005886,plasma membrane,0.00236581187125841,2484,785,110
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0015291,secondary active transmembrane transporter activity,0.0027736242880992317,272,785,23
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0003700,DNA-binding transcription factor activity,0.0029510522387523456,1502,785,75
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0006575,modified amino acid metabolic process,0.003236255685854012,94,785,13
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0098771,inorganic ion homeostasis,0.0040690944286596075,126,785,15
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0015706,nitrate transmembrane transport,0.0045984245596056555,25,785,7
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0016998,cell wall macromolecule catabolic process,0.0048345575256189995,17,785,6
+Col-0:root:all,Col-0,root,all,WP,WP:000000,WIKIPATHWAYS,0.005221557535246964,617,785,33
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0016765,"transferase activity, transferring alkyl or aryl (other than methyl) groups",0.005389170730475187,154,785,16
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0015293,symporter activity,0.006429316649938228,92,785,12
+Col-0:root:all,Col-0,root,all,KEGG,KEGG:00500,Starch and sucrose metabolism,0.006505921585878274,166,785,15
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0070887,cellular response to chemical stimulus,0.006696299131591325,1636,785,80
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0055071,manganese ion homeostasis,0.006960399472704144,11,785,5
+Col-0:root:all,Col-0,root,all,KEGG,KEGG:00920,Sulfur metabolism,0.007460572023326993,40,785,7
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0010167,response to nitrate,0.008065116833554927,27,785,7
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0009725,response to hormone,0.008523100327201116,1594,785,78
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0009719,response to endogenous stimulus,0.008712939311400492,1595,785,78
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0008061,chitin binding,0.008897624230541287,21,785,6
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0004604,phosphoadenylyl-sulfate reductase (thioredoxin) activity,0.00925545070356001,3,785,3
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0009973,adenylyl-sulfate reductase activity,0.00925545070356001,3,785,3
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0033741,adenylyl-sulfate reductase (glutathione) activity,0.00925545070356001,3,785,3
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0051707,response to other organism,0.010464791223429231,1341,785,68
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0043207,response to external biotic stimulus,0.010464791223429231,1341,785,68
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0009607,response to biotic stimulus,0.010728271975576239,1368,785,69
+Col-0:root:all,Col-0,root,all,GO:BP,GO:1901698,response to nitrogen compound,0.011114105318390967,105,785,13
+Col-0:root:all,Col-0,root,all,GO:CC,GO:0030312,external encapsulating structure,0.011254424671199055,421,785,28
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0044419,biological process involved in interspecies interaction between organisms,0.015254048808752415,1357,785,68
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0009723,response to ethylene,0.015697174392517072,269,785,22
+Col-0:root:all,Col-0,root,all,GO:CC,GO:0016020,membrane,0.016148748282610207,7859,785,282
+Col-0:root:all,Col-0,root,all,GO:CC,GO:0110165,cellular anatomical structure,0.016639027906714076,17571,785,571
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0042594,response to starvation,0.017824941308938514,177,785,17
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0010438,cellular response to sulfur starvation,0.019237826450635036,7,785,4
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0019379,"sulfate assimilation, phosphoadenylyl sulfate reduction by phosphoadenylyl-sulfate reductase (thioredoxin)",0.01991324242281093,3,785,3
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0140110,transcription regulator activity,0.02225378095961145,1596,785,75
+Col-0:root:all,Col-0,root,all,GO:CC,GO:0005618,cell wall,0.023709239441167124,395,785,26
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0009605,response to external stimulus,0.024353749568260863,1563,785,75
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0030275,LRR domain binding,0.02623069644586166,25,785,6
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0005381,iron ion transmembrane transporter activity,0.027016621425745575,16,785,5
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0015175,neutral L-amino acid transmembrane transporter activity,0.027016621425745575,16,785,5
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0005384,manganese ion transmembrane transporter activity,0.027016621425745575,16,785,5
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0006082,organic acid metabolic process,0.029464780305118895,1024,785,54
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0043436,oxoacid metabolic process,0.029464780305118895,1024,785,54
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0022804,active transmembrane transporter activity,0.02948040634303758,515,785,32
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0019748,secondary metabolic process,0.042437349769297826,267,785,21
+Col-0:root:all,Col-0,root,all,GO:MF,GO:0008422,beta-glucosidase activity,0.04297659490190199,95,785,11
+Col-0:root:all,Col-0,root,all,GO:BP,GO:0031669,cellular response to nutrient levels,0.045088321275808044,154,785,15
+Col-0:root:flight_up,Col-0,root,flight_up,GO:MF,GO:0005372,water transmembrane transporter activity,1.0511467127897309e-08,22,259,8
+Col-0:root:flight_up,Col-0,root,flight_up,GO:MF,GO:0015250,water channel activity,1.0511467127897309e-08,22,259,8
+Col-0:root:flight_up,Col-0,root,flight_up,GO:BP,GO:0042044,fluid transport,2.359420185756877e-07,30,259,8
+Col-0:root:flight_up,Col-0,root,flight_up,GO:BP,GO:0006833,water transport,2.359420185756877e-07,30,259,8
+Col-0:root:flight_up,Col-0,root,flight_up,GO:MF,GO:0005215,transporter activity,1.6341925287201518e-06,1155,259,35
+Col-0:root:flight_up,Col-0,root,flight_up,GO:MF,GO:0022857,transmembrane transporter activity,3.2718780849457276e-06,1129,259,34
+Col-0:root:flight_up,Col-0,root,flight_up,GO:BP,GO:0055085,transmembrane transport,2.155398612944602e-05,1206,259,34
+Col-0:root:flight_up,Col-0,root,flight_up,GO:CC,GO:0042807,central vacuole,2.315976406431186e-05,6,259,4
+Col-0:root:flight_up,Col-0,root,flight_up,GO:MF,GO:0015267,channel activity,2.8211865237937766e-05,191,259,13
+Col-0:root:flight_up,Col-0,root,flight_up,GO:MF,GO:0022803,passive transmembrane transporter activity,2.8211865237937766e-05,191,259,13
+Col-0:root:flight_up,Col-0,root,flight_up,GO:CC,GO:0005576,extracellular region,0.004004766502223247,1545,259,33
+Col-0:root:flight_up,Col-0,root,flight_up,GO:BP,GO:0080170,hydrogen peroxide transmembrane transport,0.011455471661042192,6,259,3
+Col-0:root:flight_up,Col-0,root,flight_up,GO:MF,GO:0016798,"hydrolase activity, acting on glycosyl bonds",0.013025684550210453,432,259,15
+Col-0:root:flight_up,Col-0,root,flight_up,GO:CC,GO:0016020,membrane,0.02407779573995254,7859,259,105
+Col-0:root:flight_up,Col-0,root,flight_up,GO:BP,GO:0051179,localization,0.02615529368458518,2559,259,46
+Col-0:root:flight_up,Col-0,root,flight_up,GO:BP,GO:0006810,transport,0.02641548897436345,2406,259,44
+Col-0:root:flight_up,Col-0,root,flight_up,GO:MF,GO:0030246,carbohydrate binding,0.03560444346786472,366,259,13
+Col-0:root:flight_up,Col-0,root,flight_up,GO:CC,GO:0048046,apoplast,0.03969058409769045,466,259,14
+Col-0:root:flight_up,Col-0,root,flight_up,GO:BP,GO:0051234,establishment of localization,0.04236008818348904,2455,259,44
+Col-0:root:flight_up,Col-0,root,flight_up,GO:MF,GO:0005275,amine transmembrane transporter activity,0.045764563567030556,2,259,2
+Col-0:root:flight_up,Col-0,root,flight_up,GO:MF,GO:0015200,methylammonium transmembrane transporter activity,0.045764563567030556,2,259,2
+Col-0:root:flight_up,Col-0,root,flight_up,GO:MF,GO:0015112,nitrate transmembrane transporter activity,0.04656473689209877,25,259,4
+Col-0:root:flight_up,Col-0,root,flight_up,GO:BP,GO:0019755,one-carbon compound transport,0.04707143165042969,9,259,3
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0042221,response to chemical,1.0149201229084816e-21,2891,526,141
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0050896,response to stimulus,1.198680992117456e-18,5781,526,211
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0009636,response to toxic substance,1.3422112636380588e-13,314,526,35
+Col-0:root:flight_down,Col-0,root,flight_down,KEGG,KEGG:01100,Metabolic pathways,3.4159084715434285e-11,2323,526,98
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0016491,oxidoreductase activity,3.816160407016536e-11,1421,526,73
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0006790,sulfur compound metabolic process,2.9079539321034587e-10,298,526,30
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0003824,catalytic activity,3.193561650561948e-10,8921,526,256
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0006950,response to stress,4.800202125151262e-10,3579,526,132
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0098754,detoxification,1.127547672374137e-09,273,526,28
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0009407,toxin catabolic process,2.542936656308948e-09,46,526,13
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0004364,glutathione transferase activity,3.297986821435048e-09,60,526,14
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0009404,toxin metabolic process,6.639946800489232e-09,60,526,14
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0006749,glutathione metabolic process,3.69468390819744e-08,45,526,12
+Col-0:root:flight_down,Col-0,root,flight_down,KEGG,KEGG:00480,Glutathione metabolism,7.769640840945845e-08,102,526,15
+Col-0:root:flight_down,Col-0,root,flight_down,GO:CC,GO:0005576,extracellular region,1.3913520388512427e-06,1545,526,65
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0006979,response to oxidative stress,1.7663263153310865e-06,424,526,30
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0004497,monooxygenase activity,3.6269528194959397e-06,325,526,25
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0015698,inorganic anion transport,5.8660471712002025e-06,114,526,15
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0004568,chitinase activity,6.541341794384938e-06,17,526,7
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:1901072,glucosamine-containing compound catabolic process,1.3169901479361676e-05,17,526,7
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0006022,aminoglycan metabolic process,1.3169901479361676e-05,17,526,7
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0006026,aminoglycan catabolic process,1.3169901479361676e-05,17,526,7
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0006030,chitin metabolic process,1.3169901479361676e-05,17,526,7
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0006032,chitin catabolic process,1.3169901479361676e-05,17,526,7
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0046348,amino sugar catabolic process,1.3169901479361676e-05,17,526,7
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:1901700,response to oxygen-containing compound,2.900933469384266e-05,1638,526,66
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0006575,modified amino acid metabolic process,3.146461791377674e-05,94,526,13
+Col-0:root:flight_down,Col-0,root,flight_down,KEGG,KEGG:00460,Cyanoamino acid metabolism,3.4742471520158944e-05,67,526,10
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0071456,cellular response to hypoxia,5.489482641358766e-05,239,526,20
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0036294,cellular response to decreased oxygen levels,6.294578511131461e-05,241,526,20
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0071453,cellular response to oxygen levels,6.294578511131461e-05,241,526,20
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0009723,response to ethylene,8.534305483185306e-05,269,526,21
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0070887,cellular response to chemical stimulus,0.00013694957760671935,1636,526,64
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0020037,heme binding,0.00014641440397885429,367,526,24
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0016705,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",0.000162546519393817,396,526,25
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0016765,"transferase activity, transferring alkyl or aryl (other than methyl) groups",0.00016559081030350636,154,526,15
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0016798,"hydrolase activity, acting on glycosyl bonds",0.00023840781663495958,432,526,26
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0022857,transmembrane transporter activity,0.00026090734125052393,1129,526,48
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0055085,transmembrane transport,0.000273282046109157,1206,526,51
+Col-0:root:flight_down,Col-0,root,flight_down,KEGG,KEGG:00999,Biosynthesis of various plant secondary metabolites,0.00030287514873604315,67,526,9
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0001666,response to hypoxia,0.00030941651485713004,266,526,20
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0036293,response to decreased oxygen levels,0.0003918203796255837,270,526,20
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0070482,response to oxygen levels,0.00041533693652668117,271,526,20
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0004553,"hydrolase activity, hydrolyzing O-glycosyl compounds",0.0004579747559488081,364,526,23
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0043436,oxoacid metabolic process,0.0004870425360599955,1024,526,45
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0006082,organic acid metabolic process,0.0004870425360599955,1024,526,45
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0005215,transporter activity,0.0004930572157473809,1155,526,48
+Col-0:root:flight_down,Col-0,root,flight_down,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,0.0005908615377982705,1329,526,50
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0008271,secondary active sulfate transmembrane transporter activity,0.0007238534712809755,12,526,5
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0015116,sulfate transmembrane transporter activity,0.0007238534712809755,12,526,5
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0046906,tetrapyrrole binding,0.000763961791520768,403,526,24
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0009414,response to water deprivation,0.0008783857994260705,418,526,25
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:1901682,sulfur compound transmembrane transporter activity,0.0011528967346655233,22,526,6
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0000103,sulfate assimilation,0.001247423083901736,20,526,6
+Col-0:root:flight_down,Col-0,root,flight_down,KEGG,KEGG:00500,Starch and sucrose metabolism,0.0013015480722217007,166,526,13
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0010038,response to metal ion,0.0013589313406083949,218,526,17
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0006040,amino sugar metabolic process,0.0013976048063448507,31,526,7
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0001101,response to acid chemical,0.001419208208506057,458,526,26
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:1902358,sulfate transmembrane transport,0.0014573583221790308,12,526,5
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0009415,response to water,0.0014585085369830555,430,526,25
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0006865,amino acid transport,0.0015843896629525937,75,526,10
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0005506,iron ion binding,0.0016261405014338175,337,526,21
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0009628,response to abiotic stimulus,0.0019070090740594646,2112,526,73
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0009725,response to hormone,0.002467691559552723,1594,526,59
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0009719,response to endogenous stimulus,0.002515757889509699,1595,526,59
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0004604,phosphoadenylyl-sulfate reductase (thioredoxin) activity,0.0026135921807316632,3,526,3
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0033741,adenylyl-sulfate reductase (glutathione) activity,0.0026135921807316632,3,526,3
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0009973,adenylyl-sulfate reductase activity,0.0026135921807316632,3,526,3
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0015291,secondary active transmembrane transporter activity,0.0034057425584919543,272,526,18
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0010438,cellular response to sulfur starvation,0.0034824959746889658,7,526,4
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0015175,neutral L-amino acid transmembrane transporter activity,0.0037365745941435836,16,526,5
+Col-0:root:flight_down,Col-0,root,flight_down,WP,WP:000000,WIKIPATHWAYS,0.003954889913394262,617,526,25
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0019379,"sulfate assimilation, phosphoadenylyl sulfate reduction by phosphoadenylyl-sulfate reductase (thioredoxin)",0.005262032257206416,3,526,3
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0019748,secondary metabolic process,0.005321388117589673,267,526,18
+Col-0:root:flight_down,Col-0,root,flight_down,KEGG,KEGG:00920,Sulfur metabolism,0.005598143457569551,40,526,6
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0022804,active transmembrane transporter activity,0.005640890938982096,515,526,26
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0043207,response to external biotic stimulus,0.005667062180526333,1341,526,51
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0051707,response to other organism,0.005667062180526333,1341,526,51
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0005975,carbohydrate metabolic process,0.0057575336050251415,1055,526,43
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0098771,inorganic ion homeostasis,0.005796352889464777,126,526,12
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0008422,beta-glucosidase activity,0.006722739272599941,95,526,10
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0044419,biological process involved in interspecies interaction between organisms,0.007812545816956168,1357,526,51
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0031667,response to nutrient levels,0.008700687372838366,225,526,16
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0042594,response to starvation,0.009139511462599278,177,526,14
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0031669,cellular response to nutrient levels,0.009222148484753922,154,526,13
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0009607,response to biotic stimulus,0.00970011677776683,1368,526,51
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0016998,cell wall macromolecule catabolic process,0.010482908309886452,17,526,5
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0015171,amino acid transmembrane transporter activity,0.014205956960951812,33,526,6
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0015804,neutral amino acid transport,0.01427707004304884,18,526,5
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0015926,glucosidase activity,0.014802676101926907,104,526,10
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0009751,response to salicylic acid,0.015030686402327778,185,526,14
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0051716,cellular response to stimulus,0.015274325635974183,2813,526,87
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0009267,cellular response to starvation,0.015705854984152758,139,526,12
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0010150,leaf senescence,0.01583329247520825,162,526,13
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0008061,chitin binding,0.016028462636699894,21,526,5
+Col-0:root:flight_down,Col-0,root,flight_down,GO:CC,GO:0099503,secretory vesicle,0.020942170892488513,170,526,12
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0043295,glutathione binding,0.022592019347617738,12,526,4
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:1900750,oligopeptide binding,0.022592019347617738,12,526,4
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0090693,plant organ senescence,0.024702556408195055,169,526,13
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0015186,L-glutamine transmembrane transporter activity,0.02536442630925045,5,526,3
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0009056,catabolic process,0.025448162271095042,1307,526,48
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0015293,symporter activity,0.03097143463063506,92,526,9
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0071369,cellular response to ethylene stimulus,0.03180633448955133,198,526,14
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0019760,glucosinolate metabolic process,0.03236119679669236,105,526,10
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0042910,xenobiotic transmembrane transporter activity,0.033935603891595105,73,526,8
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:1902025,nitrate import,0.03414841486907639,34,526,6
+Col-0:root:flight_down,Col-0,root,flight_down,GO:BP,GO:0006952,defense response,0.03484121389753792,1513,526,53
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0003674,molecular_function,0.03870725206407,21302,526,457
+Col-0:root:flight_down,Col-0,root,flight_down,GO:MF,GO:0030275,LRR domain binding,0.039181086981598216,25,526,5
+Col-0:root:flight_down,Col-0,root,flight_down,GO:CC,GO:0071944,cell periphery,0.04214408922298566,2868,526,83
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0050896,response to stimulus,2.1275578932617926e-25,5736,548,235
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0006950,response to stress,8.401374388491742e-21,3548,548,164
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0042221,response to chemical,4.1294546739679495e-19,2872,548,140
+Col-0:shoot:all,Col-0,shoot,all,GO:MF,GO:0016491,oxidoreductase activity,1.8576900830963777e-11,1418,548,76
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0051707,response to other organism,3.048982182511361e-11,1318,548,73
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0043207,response to external biotic stimulus,3.048982182511361e-11,1318,548,73
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0044419,biological process involved in interspecies interaction between organisms,5.163474773595344e-11,1332,548,73
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0009607,response to biotic stimulus,8.054791214873239e-11,1344,548,73
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0009605,response to external stimulus,1.2556138993805693e-10,1537,548,79
+Col-0:shoot:all,Col-0,shoot,all,GO:MF,GO:0003824,catalytic activity,8.063706300566068e-10,8835,548,264
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0033554,cellular response to stress,4.389602586960912e-09,1071,548,60
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0051716,cellular response to stimulus,4.43356515577932e-09,2796,548,113
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0070887,cellular response to chemical stimulus,4.996024319976743e-09,1621,548,78
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0009636,response to toxic substance,2.0502926923876135e-08,312,548,29
+Col-0:shoot:all,Col-0,shoot,all,KEGG,KEGG:01100,Metabolic pathways,1.466499852846457e-07,2306,548,91
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0071456,cellular response to hypoxia,2.0141984704744953e-07,238,548,24
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0071453,cellular response to oxygen levels,2.3924568702498864e-07,240,548,24
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0036294,cellular response to decreased oxygen levels,2.3924568702498864e-07,240,548,24
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0006979,response to oxidative stress,3.7366392841988364e-07,422,548,32
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0006952,defense response,3.989260962605277e-07,1483,548,69
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0098754,detoxification,5.629612736175003e-07,271,548,25
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:1901700,response to oxygen-containing compound,6.688834629242302e-07,1632,548,73
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0006790,sulfur compound metabolic process,6.891322461305213e-07,295,548,26
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0001666,response to hypoxia,1.777382614729722e-06,265,548,24
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0036293,response to decreased oxygen levels,2.394097670980984e-06,269,548,24
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0070482,response to oxygen levels,2.5768276359985854e-06,270,548,24
+Col-0:shoot:all,Col-0,shoot,all,GO:MF,GO:0004568,chitinase activity,8.065395141168355e-06,17,548,7
+Col-0:shoot:all,Col-0,shoot,all,KEGG,KEGG:00480,Glutathione metabolism,8.407855229798493e-06,101,548,13
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0009628,response to abiotic stimulus,8.441434311291215e-06,2114,548,84
+Col-0:shoot:all,Col-0,shoot,all,GO:MF,GO:0004364,glutathione transferase activity,1.2430381390898768e-05,60,548,11
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0006749,glutathione metabolic process,1.4572927234918833e-05,44,548,10
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0006082,organic acid metabolic process,1.943252809642515e-05,1015,548,50
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0043436,oxoacid metabolic process,1.943252809642515e-05,1015,548,50
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0006032,chitin catabolic process,2.0220286410253058e-05,17,548,7
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0046348,amino sugar catabolic process,2.0220286410253058e-05,17,548,7
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:1901072,glucosamine-containing compound catabolic process,2.0220286410253058e-05,17,548,7
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0006030,chitin metabolic process,2.0220286410253058e-05,17,548,7
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0006026,aminoglycan catabolic process,2.0220286410253058e-05,17,548,7
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0006022,aminoglycan metabolic process,2.0220286410253058e-05,17,548,7
+Col-0:shoot:all,Col-0,shoot,all,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,2.6740376212882917e-05,1327,548,56
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0009404,toxin metabolic process,3.1163491374365926e-05,60,548,11
+Col-0:shoot:all,Col-0,shoot,all,WP,WP:WP4597,Glucosinolate biosynthesis from methionine,4.801008505692973e-05,15,548,5
+Col-0:shoot:all,Col-0,shoot,all,GO:MF,GO:0046527,glucosyltransferase activity,0.00014243473857620566,187,548,17
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0009751,response to salicylic acid,0.0003066015247076318,185,548,17
+Col-0:shoot:all,Col-0,shoot,all,GO:MF,GO:0016798,"hydrolase activity, acting on glycosyl bonds",0.00034376064409212173,421,548,26
+Col-0:shoot:all,Col-0,shoot,all,WP,WP:WP2579,Cadmium and glutathione,0.00037262593181367274,22,548,5
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0009737,response to abscisic acid,0.0004187747265633325,598,548,33
+Col-0:shoot:all,Col-0,shoot,all,KEGG,KEGG:00966,Glucosinolate biosynthesis,0.0005472033650896213,26,548,6
+Col-0:shoot:all,Col-0,shoot,all,GO:MF,GO:0004553,"hydrolase activity, hydrolyzing O-glycosyl compounds",0.0005769305061897237,353,548,23
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0097305,response to alcohol,0.0005827566532571742,607,548,33
+Col-0:shoot:all,Col-0,shoot,all,GO:CC,GO:0005576,extracellular region,0.0006480073314870131,1484,548,58
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0002239,response to oomycetes,0.0007399733056706536,81,548,11
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0019748,secondary metabolic process,0.0007602162818651862,266,548,20
+Col-0:shoot:all,Col-0,shoot,all,GO:MF,GO:0071949,FAD binding,0.0008422741034612346,73,548,10
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0019752,carboxylic acid metabolic process,0.0009829120209720876,897,548,42
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0009620,response to fungus,0.0009867661446262888,535,548,30
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0001101,response to acid chemical,0.0013069091536652222,458,548,27
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0009627,systemic acquired resistance,0.0021410844431721003,90,548,11
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0006040,amino sugar metabolic process,0.0026600130091280405,32,548,7
+Col-0:shoot:all,Col-0,shoot,all,KEGG,KEGG:00940,Phenylpropanoid biosynthesis,0.0032321064856385335,127,548,11
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0009407,toxin catabolic process,0.0033496577039965844,46,548,8
+Col-0:shoot:all,Col-0,shoot,all,GO:CC,GO:0071944,cell periphery,0.0033677967003154395,2860,548,92
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0009617,response to bacterium,0.004311712912181717,460,548,26
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0019761,glucosinolate biosynthetic process,0.005477200095846866,49,548,8
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0016144,S-glycoside biosynthetic process,0.005477200095846866,49,548,8
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0044272,sulfur compound biosynthetic process,0.0056005704285598595,160,548,14
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0044281,small molecule metabolic process,0.007601464217160742,1527,548,58
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:1990748,cellular detoxification,0.009789874242148925,168,548,14
+Col-0:shoot:all,Col-0,shoot,all,GO:MF,GO:0072341,modified amino acid binding,0.01042138275416312,19,548,5
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0097237,cellular response to toxic substance,0.010471672006309576,169,548,14
+Col-0:shoot:all,Col-0,shoot,all,KEGG,KEGG:01210,2-Oxocarboxylic acid metabolism,0.012358601114437946,102,548,9
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0016998,cell wall macromolecule catabolic process,0.014397430252770226,17,548,5
+Col-0:shoot:all,Col-0,shoot,all,GO:MF,GO:0047893,flavonol 3-O-glucosyltransferase activity,0.01605577402312505,11,548,4
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0170033,L-amino acid metabolic process,0.016889958252969118,224,548,16
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0006575,modified amino acid metabolic process,0.017147498065465245,92,548,10
+Col-0:shoot:all,Col-0,shoot,all,GO:MF,GO:0051213,dioxygenase activity,0.018172977322030822,146,548,12
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0098869,cellular oxidant detoxification,0.019732845067501042,156,548,13
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0170039,proteinogenic amino acid metabolic process,0.020963756109647503,228,548,16
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0031669,cellular response to nutrient levels,0.021108126234577772,157,548,13
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0050832,defense response to fungus,0.02322220139996579,448,548,24
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:1901659,glycosyl compound biosynthetic process,0.02536911733297607,60,548,8
+Col-0:shoot:all,Col-0,shoot,all,GO:MF,GO:0035251,UDP-glucosyltransferase activity,0.026799892624087267,152,548,12
+Col-0:shoot:all,Col-0,shoot,all,GO:MF,GO:0016765,"transferase activity, transferring alkyl or aryl (other than methyl) groups",0.026799892624087267,152,548,12
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0072593,reactive oxygen species metabolic process,0.027070815026357567,184,548,14
+Col-0:shoot:all,Col-0,shoot,all,WP,WP:000000,WIKIPATHWAYS,0.027108954026199752,612,548,23
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0009611,response to wounding,0.028706497646917458,234,548,16
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0015698,inorganic anion transport,0.03136126094879299,119,548,11
+Col-0:shoot:all,Col-0,shoot,all,GO:CC,GO:0030312,external encapsulating structure,0.03204544396499512,416,548,21
+Col-0:shoot:all,Col-0,shoot,all,GO:MF,GO:0050660,flavin adenine dinucleotide binding,0.03229763742744636,155,548,12
+Col-0:shoot:all,Col-0,shoot,all,GO:MF,GO:0020037,heme binding,0.03400939126378274,368,548,20
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0009415,response to water,0.03452867386965873,430,548,23
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0009267,cellular response to starvation,0.03474521347595724,142,548,12
+Col-0:shoot:all,Col-0,shoot,all,GO:BP,GO:0009056,catabolic process,0.037177984550813774,1289,548,49
+Col-0:shoot:all,Col-0,shoot,all,GO:CC,GO:0099503,secretory vesicle,0.038328210230486416,170,548,12
+Col-0:shoot:all,Col-0,shoot,all,GO:CC,GO:0005618,cell wall,0.04038997516515003,393,548,20
+Col-0:shoot:all,Col-0,shoot,all,GO:MF,GO:0030247,polysaccharide binding,0.04305711254749513,93,548,9
+Col-0:shoot:all,Col-0,shoot,all,GO:MF,GO:0016758,hexosyltransferase activity,0.048811207941997004,349,548,19
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,WP,WP:WP4597,Glucosinolate biosynthesis from methionine,4.142689061187117e-07,15,197,5
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:BP,GO:0009628,response to abiotic stimulus,1.5866206403908194e-06,2114,197,43
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,KEGG,KEGG:00966,Glucosinolate biosynthesis,4.7856592106864784e-05,26,197,5
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,KEGG,KEGG:01210,2-Oxocarboxylic acid metabolism,0.00045175687006935905,102,197,7
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:BP,GO:0050896,response to stimulus,0.0009819289368674482,5736,197,73
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:BP,GO:0009416,response to light stimulus,0.0012503189480672105,759,197,20
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,WP,WP:000000,WIKIPATHWAYS,0.001567657896363675,612,197,14
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:BP,GO:0019761,glucosinolate biosynthetic process,0.0016073484701399669,49,197,6
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:BP,GO:0016144,S-glycoside biosynthetic process,0.0016073484701399669,49,197,6
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:BP,GO:0009314,response to radiation,0.0017505259581064936,776,197,20
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:BP,GO:0042221,response to chemical,0.0032920538376622075,2872,197,44
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,WP,WP:WP2579,Cadmium and glutathione,0.003670770521174363,22,197,3
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:MF,GO:0005507,copper ion binding,0.004214131862540756,188,197,9
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:BP,GO:0009415,response to water,0.004847939353238064,430,197,14
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:BP,GO:1901700,response to oxygen-containing compound,0.005106308898175251,1632,197,30
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:BP,GO:1901659,glycosyl compound biosynthetic process,0.0053701788957599295,60,197,6
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:BP,GO:0001101,response to acid chemical,0.009878495835091369,458,197,14
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,0.016898197201315104,1327,197,22
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:MF,GO:0001786,phosphatidylserine binding,0.01698447885556188,2,197,2
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:BP,GO:0009414,response to water deprivation,0.017060932564521437,418,197,13
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,KEGG,KEGG:01100,Metabolic pathways,0.02085336065393139,2306,197,32
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:MF,GO:0050997,quaternary ammonium group binding,0.026636203852799467,12,197,3
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:BP,GO:0042752,regulation of circadian rhythm,0.04361070173849938,53,197,5
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:BP,GO:0009737,response to abscisic acid,0.04747772467844473,598,197,15
+Col-0:shoot:flight_up,Col-0,shoot,flight_up,GO:BP,GO:0090559,regulation of membrane permeability,0.049196421512661986,2,197,2
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0050896,response to stimulus,4.515985025626034e-21,5736,351,162
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0006950,response to stress,4.596082860390784e-19,3548,351,118
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0042221,response to chemical,9.621857982982629e-15,2872,351,96
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0043207,response to external biotic stimulus,2.573002186378961e-13,1318,351,59
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0051707,response to other organism,2.573002186378961e-13,1318,351,59
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0044419,biological process involved in interspecies interaction between organisms,4.1363752690694704e-13,1332,351,59
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0009607,response to biotic stimulus,6.179607051565041e-13,1344,351,59
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0009605,response to external stimulus,5.074189653406931e-12,1537,351,62
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0006952,defense response,4.59547348771745e-11,1483,351,59
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0003824,catalytic activity,4.0660449185827843e-10,8835,351,183
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0009636,response to toxic substance,7.997736521908326e-10,312,351,25
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0033554,cellular response to stress,2.7716692805065244e-09,1071,351,46
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0016491,oxidoreductase activity,4.674307790013257e-09,1418,351,53
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0051716,cellular response to stimulus,1.3036374133295143e-08,2796,351,81
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0098754,detoxification,1.43461054793007e-08,271,351,22
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0004364,glutathione transferase activity,1.2054650845302564e-07,60,351,11
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0070887,cellular response to chemical stimulus,1.637091915307135e-07,1621,351,55
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0009404,toxin metabolic process,2.812751863903932e-07,60,351,11
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0004568,chitinase activity,3.65078292058286e-07,17,351,7
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,KEGG,KEGG:00480,Glutathione metabolism,4.482242571373708e-07,101,351,12
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0006022,aminoglycan metabolic process,8.518493481360007e-07,17,351,7
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0006026,aminoglycan catabolic process,8.518493481360007e-07,17,351,7
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:1901072,glucosamine-containing compound catabolic process,8.518493481360007e-07,17,351,7
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0046348,amino sugar catabolic process,8.518493481360007e-07,17,351,7
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0006030,chitin metabolic process,8.518493481360007e-07,17,351,7
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0006032,chitin catabolic process,8.518493481360007e-07,17,351,7
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0009620,response to fungus,3.4504674277946486e-06,535,351,27
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0006749,glutathione metabolic process,4.01464624820225e-06,44,351,9
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0071456,cellular response to hypoxia,1.8879048457639455e-05,238,351,17
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0071453,cellular response to oxygen levels,2.134741236899782e-05,240,351,17
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0036294,cellular response to decreased oxygen levels,2.134741236899782e-05,240,351,17
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0009627,systemic acquired resistance,2.381156934030571e-05,90,351,11
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,KEGG,KEGG:00940,Phenylpropanoid biosynthesis,4.65070332171432e-05,127,351,11
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,KEGG,KEGG:01100,Metabolic pathways,4.785132075800367e-05,2306,351,59
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0006790,sulfur compound metabolic process,8.154229155565447e-05,295,351,18
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0001666,response to hypoxia,8.972602047391286e-05,265,351,17
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0002239,response to oomycetes,9.07067247616704e-05,81,351,10
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0019748,secondary metabolic process,9.469125236484585e-05,266,351,17
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0009407,toxin catabolic process,0.00010860054517161027,46,351,8
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0036293,response to decreased oxygen levels,0.00011112760700371547,269,351,17
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0070482,response to oxygen levels,0.00011715875120963419,270,351,17
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0006040,amino sugar metabolic process,0.00012386326881005713,32,351,7
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0009751,response to salicylic acid,0.00015669017759417468,185,351,14
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0071949,FAD binding,0.00016707615620521597,73,351,9
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0006979,response to oxidative stress,0.0002265095338035862,422,351,21
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0009617,response to bacterium,0.00023335877085006403,460,351,22
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0046527,glucosyltransferase activity,0.00047144855157309673,187,351,13
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0050832,defense response to fungus,0.0005961926584571289,448,351,21
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0020037,heme binding,0.000854618894660784,368,351,18
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0098542,defense response to other organism,0.0008615616988853961,383,351,19
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0031669,cellular response to nutrient levels,0.001023619373088833,157,351,12
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:CC,GO:0071944,cell periphery,0.0014124563966632872,2860,351,66
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0016998,cell wall macromolecule catabolic process,0.0015094709228557171,17,351,5
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0016765,"transferase activity, transferring alkyl or aryl (other than methyl) groups",0.002019650803566648,152,351,11
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0035251,UDP-glucosyltransferase activity,0.002019650803566648,152,351,11
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0050660,flavin adenine dinucleotide binding,0.0024336510590826526,155,351,11
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0009267,cellular response to starvation,0.002446035293615449,142,351,11
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0047893,flavonol 3-O-glucosyltransferase activity,0.0027416747011326783,11,351,4
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0006575,modified amino acid metabolic process,0.0027866224142044484,92,351,9
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0046906,tetrapyrrole binding,0.003073091574832647,404,351,18
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0016036,cellular response to phosphate starvation,0.0033032499311468617,71,351,8
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0009056,catabolic process,0.00368047462479127,1289,351,38
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0140546,defense response to symbiont,0.006015154954763705,323,351,16
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0098869,cellular oxidant detoxification,0.006036717004652731,156,351,11
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0042742,defense response to bacterium,0.0061575625055459654,361,351,17
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0080134,regulation of response to stress,0.00818624005450394,408,351,18
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:CC,GO:0005576,extracellular region,0.008561384234520669,1484,351,39
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0010150,leaf senescence,0.00862764334556028,162,351,11
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0031667,response to nutrient levels,0.009547996745100838,228,351,13
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,0.010057037672488297,1327,351,34
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:1990748,cellular detoxification,0.012134085412492602,168,351,11
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0090693,plant organ senescence,0.012824810540476623,169,351,11
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0097237,cellular response to toxic substance,0.012824810540476623,169,351,11
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:1901700,response to oxygen-containing compound,0.013797091302633494,1632,351,43
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0042743,hydrogen peroxide metabolic process,0.013919537544108695,112,351,9
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0048584,positive regulation of response to stimulus,0.01421699933953861,272,351,14
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0043436,oxoacid metabolic process,0.014317010580316246,1015,351,31
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0006082,organic acid metabolic process,0.014317010580316246,1015,351,31
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0016798,"hydrolase activity, acting on glycosyl bonds",0.018367345700750035,421,351,17
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0140825,lactoperoxidase activity,0.019046181351668797,75,351,7
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0042744,hydrogen peroxide catabolic process,0.02088731632336545,91,351,8
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0022804,active transmembrane transporter activity,0.02139207761881668,512,351,19
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0015698,inorganic anion transport,0.02256353967671797,119,351,9
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0042594,response to starvation,0.02297627121962344,180,351,11
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0015291,secondary active transmembrane transporter activity,0.025304699683984386,272,351,13
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0032107,regulation of response to nutrient levels,0.025353443007834833,15,351,4
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:CC,GO:0005886,plasma membrane,0.0255643511336338,2481,351,55
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:CC,GO:0030896,checkpoint clamp complex,0.027510623342419105,2,351,2
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0004553,"hydrolase activity, hydrolyzing O-glycosyl compounds",0.027983169303473648,353,351,15
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0008061,chitin binding,0.029564391182340933,19,351,4
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0080135,regulation of cellular response to stress,0.03118038804423107,71,351,7
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0042537,benzene-containing compound metabolic process,0.03179013054517539,49,351,6
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:MF,GO:0008066,glutamate receptor activity,0.036563556303577716,20,351,4
+Col-0:shoot:flight_down,Col-0,shoot,flight_down,GO:BP,GO:0048583,regulation of response to stimulus,0.04339840408395898,781,351,25
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0009579,thylakoid,3.713204113022244e-44,592,318,68
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0009534,chloroplast thylakoid,5.832909807745537e-39,515,318,60
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0031976,plastid thylakoid,6.53571595813268e-39,516,318,60
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0009522,photosystem I,2.2166590249245476e-37,43,318,26
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0009535,chloroplast thylakoid membrane,5.629354180628111e-37,422,318,54
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0055035,plastid thylakoid membrane,6.3887997196929935e-37,423,318,54
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0015979,photosynthesis,9.222290960115161e-37,281,318,47
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0042651,thylakoid membrane,4.622632683019934e-36,439,318,54
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0034357,photosynthetic membrane,5.2167369240465756e-36,440,318,54
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0009521,photosystem,1.089141381508343e-33,97,318,31
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0019867,outer membrane,3.090787933364639e-31,543,318,54
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0031968,organelle outer membrane,3.090787933364639e-31,543,318,54
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0009526,plastid envelope,5.404818738224727e-31,983,318,69
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0042170,plastid membrane,1.6268037423597844e-28,670,318,56
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0031967,organelle envelope,3.481789829088939e-23,1446,318,72
+cax2-2:root:all,cax2-2,root,all,KEGG,KEGG:00196,Photosynthesis - antenna proteins,6.976368014780399e-23,22,318,15
+cax2-2:root:all,cax2-2,root,all,KEGG,KEGG:00195,Photosynthesis,8.503249298149045e-22,45,318,18
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0009507,chloroplast,9.069845578659609e-22,2339,318,90
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0009765,"photosynthesis, light harvesting",1.2884936453905408e-20,37,318,17
+cax2-2:root:all,cax2-2,root,all,GO:MF,GO:0019904,protein domain specific binding,3.395250831729541e-20,91,318,22
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0009536,plastid,5.792320389372263e-20,2841,318,97
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0009523,photosystem II,3.352436293033367e-19,78,318,20
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0019684,"photosynthesis, light reaction",6.761102767535221e-19,146,318,25
+cax2-2:root:all,cax2-2,root,all,GO:MF,GO:0016168,chlorophyll binding,6.206627717577092e-18,34,318,15
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0048046,apoplast,1.6076242860667008e-17,466,318,37
+cax2-2:root:all,cax2-2,root,all,KEGG,KEGG:01100,Metabolic pathways,4.589897398117551e-16,2323,318,79
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0098796,membrane protein complex,3.5475815486646802e-15,426,318,33
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0009768,"photosynthesis, light harvesting in photosystem I",3.0567079045142545e-14,10,318,9
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0009570,chloroplast stroma,1.2820391708573113e-13,757,318,41
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0009532,plastid stroma,1.7546566417558267e-13,764,318,41
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0098588,bounding membrane of organelle,2.5181697790514414e-13,1396,318,56
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0005576,extracellular region,3.4985388701628235e-13,1545,318,59
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0006091,generation of precursor metabolites and energy,1.1136131005346674e-12,460,318,32
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0098807,chloroplast thylakoid membrane protein complex,1.4743714784167735e-11,17,318,9
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0009941,chloroplast envelope,2.7522970192555263e-11,692,318,36
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0009538,photosystem I reaction center,3.767590059036061e-11,8,318,7
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0043228,membraneless organelle,6.737754254990046e-11,2482,318,73
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0043232,intracellular membraneless organelle,6.737754254990046e-11,2482,318,73
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0019685,"photosynthesis, dark reaction",7.995625612668073e-10,21,318,9
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0019253,reductive pentose-phosphate cycle,7.995625612668073e-10,21,318,9
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0010287,plastoglobule,1.0825998662278064e-09,61,318,12
+cax2-2:root:all,cax2-2,root,all,GO:MF,GO:0046906,tetrapyrrole binding,9.904224574313416e-09,403,318,25
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0015977,carbon fixation,1.1964105290683391e-08,27,318,9
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0009645,response to low light intensity stimulus,1.7689010590356908e-08,19,318,8
+cax2-2:root:all,cax2-2,root,all,KEGG,KEGG:00710,Carbon fixation by Calvin cycle,2.810479522929272e-08,70,318,11
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0031090,organelle membrane,1.2937609736425057e-07,2391,318,64
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0009517,PSII associated light-harvesting complex II,2.0119647033638792e-07,6,318,5
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0010598,NAD(P)H dehydrogenase complex (plastoquinone),3.494911555769595e-07,12,318,6
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0005737,cytoplasm,5.561104090257644e-07,9408,318,164
+cax2-2:root:all,cax2-2,root,all,KEGG,KEGG:00630,Glyoxylate and dicarboxylate metabolism,1.4448275604680678e-06,79,318,10
+cax2-2:root:all,cax2-2,root,all,GO:MF,GO:0016984,ribulose-bisphosphate carboxylase activity,1.7550773258407064e-06,7,318,5
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0016020,membrane,1.7764663789780828e-06,7859,318,142
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0009503,thylakoid light-harvesting complex,1.8408746526651118e-06,8,318,5
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0030076,light-harvesting complex,1.8408746526651118e-06,8,318,5
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0031977,thylakoid lumen,2.8103330987731437e-06,74,318,10
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0005829,cytosol,6.258121214110221e-06,2404,318,60
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0009769,"photosynthesis, light harvesting in photosystem II",1.3307105593940924e-05,4,318,4
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0099503,secretory vesicle,2.2353147418915218e-05,170,318,13
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0110165,cellular anatomical structure,2.9649687599157042e-05,17571,318,253
+cax2-2:root:all,cax2-2,root,all,KEGG,KEGG:01200,Carbon metabolism,4.450711371602033e-05,271,318,15
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0009767,photosynthetic electron transport chain,0.00012463179913390672,52,318,8
+cax2-2:root:all,cax2-2,root,all,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,0.00019781750334323505,1329,318,36
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0009773,photosynthetic electron transport in photosystem I,0.0006206257232634176,16,318,5
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0009644,response to high light intensity,0.0006466182233270747,64,318,8
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0010319,stromule,0.0008017664844130786,38,318,6
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0050896,response to stimulus,0.0010452275658411627,5781,318,106
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0022900,electron transport chain,0.002630516514839063,192,318,12
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0016051,carbohydrate biosynthetic process,0.0075471688320865185,327,318,15
+cax2-2:root:all,cax2-2,root,all,GO:MF,GO:0016491,oxidoreductase activity,0.00781071488596823,1421,318,36
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0043231,intracellular membrane-bounded organelle,0.008346381089320063,11408,318,172
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0043227,membrane-bounded organelle,0.009080672444561308,11423,318,172
+cax2-2:root:all,cax2-2,root,all,GO:MF,GO:0016831,carboxy-lyase activity,0.009870747179650795,73,318,7
+cax2-2:root:all,cax2-2,root,all,GO:MF,GO:0003729,mRNA binding,0.012829719313662212,1397,318,35
+cax2-2:root:all,cax2-2,root,all,GO:MF,GO:0036094,small molecule binding,0.014335256306649353,6574,318,111
+cax2-2:root:all,cax2-2,root,all,KEGG,KEGG:00000,KEGG root term,0.017717863247047022,5836,318,96
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0005575,cellular_component,0.017970430778614713,18845,318,256
+cax2-2:root:all,cax2-2,root,all,GO:MF,GO:0016830,carbon-carbon lyase activity,0.024138516993034122,113,318,8
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0009409,response to cold,0.02415862663502258,405,318,16
+cax2-2:root:all,cax2-2,root,all,GO:MF,GO:0043167,ion binding,0.02927716133720328,6457,318,108
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0009416,response to light stimulus,0.03346094816751673,756,318,23
+cax2-2:root:all,cax2-2,root,all,GO:MF,GO:0035251,UDP-glucosyltransferase activity,0.03627199202416431,153,318,9
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:1903428,positive regulation of reactive oxygen species biosynthetic process,0.03760649664478785,7,318,3
+cax2-2:root:all,cax2-2,root,all,GO:MF,GO:0046527,glucosyltransferase activity,0.038260119791985306,190,318,10
+cax2-2:root:all,cax2-2,root,all,WP,WP:000000,WIKIPATHWAYS,0.04412246478232398,617,318,15
+cax2-2:root:all,cax2-2,root,all,KEGG,KEGG:00960,"Tropane, piperidine and pyridine alkaloid biosynthesis",0.045332371851696675,39,318,4
+cax2-2:root:all,cax2-2,root,all,GO:CC,GO:0005622,intracellular anatomical structure,0.04669366779092829,13057,318,188
+cax2-2:root:all,cax2-2,root,all,GO:BP,GO:0009314,response to radiation,0.046747878485764324,773,318,23
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0009579,thylakoid,4.973735583912889e-56,592,219,68
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0009534,chloroplast thylakoid,3.0842170967476954e-49,515,219,60
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0031976,plastid thylakoid,3.4689462701867724e-49,516,219,60
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0009535,chloroplast thylakoid membrane,3.710114827783625e-46,422,219,54
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0055035,plastid thylakoid membrane,4.226532676403002e-46,423,219,54
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0042651,thylakoid membrane,3.2481809719157024e-45,439,219,54
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0034357,photosynthetic membrane,3.679483187784138e-45,440,219,54
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0015979,photosynthesis,1.056086759049844e-44,281,219,47
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0009522,photosystem I,8.739843064538422e-42,43,219,26
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0009526,plastid envelope,2.4625251779692936e-41,983,219,68
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0031968,organelle outer membrane,3.2162408723077917e-40,543,219,54
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0019867,outer membrane,3.2162408723077917e-40,543,219,54
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0009521,photosystem,6.374298791269153e-39,97,219,31
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0042170,plastid membrane,1.0614351620186948e-37,670,219,56
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0009507,chloroplast,2.314360607649276e-32,2339,219,86
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0031967,organelle envelope,1.0427247201951753e-31,1446,219,69
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0009536,plastid,5.354589494858867e-30,2841,219,91
+cax2-2:root:flight_up,cax2-2,root,flight_up,KEGG,KEGG:00196,Photosynthesis - antenna proteins,2.1799882844152985e-25,22,219,15
+cax2-2:root:flight_up,cax2-2,root,flight_up,KEGG,KEGG:00195,Photosynthesis,8.67311300728769e-25,45,219,18
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:MF,GO:0019904,protein domain specific binding,8.024642698613849e-24,91,219,22
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0009765,"photosynthesis, light harvesting",2.2542630015809003e-23,37,219,17
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0019684,"photosynthesis, light reaction",6.72351945417439e-23,146,219,25
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0009523,photosystem II,1.771601451337476e-22,78,219,20
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:MF,GO:0016168,chlorophyll binding,2.0165200023510166e-20,34,219,15
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0098796,membrane protein complex,2.9808116832820627e-20,426,219,33
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0048046,apoplast,4.4755155708992024e-20,466,219,34
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0098588,bounding membrane of organelle,1.0507174467679379e-19,1396,219,54
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0043228,membraneless organelle,2.8079099003985395e-19,2482,219,71
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0043232,intracellular membraneless organelle,2.8079099003985395e-19,2482,219,71
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0009570,chloroplast stroma,9.318142443809706e-19,757,219,40
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0009532,plastid stroma,1.2964600368276144e-18,764,219,40
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0006091,generation of precursor metabolites and energy,1.904583856529113e-16,460,219,31
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0009768,"photosynthesis, light harvesting in photosystem I",1.1465951732949768e-15,10,219,9
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0009941,chloroplast envelope,1.3072048380957714e-15,692,219,35
+cax2-2:root:flight_up,cax2-2,root,flight_up,KEGG,KEGG:01100,Metabolic pathways,1.6978654396624276e-15,2323,219,62
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0005576,extracellular region,1.7957103634065766e-13,1545,219,48
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0098807,chloroplast thylakoid membrane protein complex,4.956162859247932e-13,17,219,9
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0031090,organelle membrane,1.5836504643710636e-12,2391,219,59
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0009538,photosystem I reaction center,2.6650358268425922e-12,8,219,7
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0010287,plastoglobule,1.3129871086147514e-11,61,219,12
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0019685,"photosynthesis, dark reaction",3.113766767049396e-11,21,219,9
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0019253,reductive pentose-phosphate cycle,3.113766767049396e-11,21,219,9
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0015977,carbon fixation,4.75533416659924e-10,27,219,9
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0009645,response to low light intensity stimulus,1.0081648290953144e-09,19,219,8
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:MF,GO:0046906,tetrapyrrole binding,1.2378400324785008e-09,403,219,22
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0016020,membrane,1.4689044327876709e-09,7859,219,113
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0005737,cytoplasm,1.6972831264211444e-09,9408,219,127
+cax2-2:root:flight_up,cax2-2,root,flight_up,KEGG,KEGG:00710,Carbon fixation by Calvin cycle,1.1575759051916092e-08,70,219,10
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0009517,PSII associated light-harvesting complex II,3.04857006831054e-08,6,219,5
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0010598,NAD(P)H dehydrogenase complex (plastoquinone),3.6801343949167584e-08,12,219,6
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0031977,thylakoid lumen,7.782158214561657e-08,74,219,10
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0110165,cellular anatomical structure,8.441078657783704e-08,17571,219,186
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:MF,GO:0016984,ribulose-bisphosphate carboxylase activity,2.572763202638992e-07,7,219,5
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0009503,thylakoid light-harvesting complex,2.8069783414386685e-07,8,219,5
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0030076,light-harvesting complex,2.8069783414386685e-07,8,219,5
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0005829,cytosol,3.7374953957141376e-07,2404,219,49
+cax2-2:root:flight_up,cax2-2,root,flight_up,KEGG,KEGG:00630,Glyoxylate and dicarboxylate metabolism,7.033733068298863e-07,79,219,9
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0009769,"photosynthesis, light harvesting in photosystem II",3.354742494095306e-06,4,219,4
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0009767,photosynthetic electron transport chain,7.933544084674931e-06,52,219,8
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0043231,intracellular membrane-bounded organelle,8.753207579126172e-06,11408,219,134
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0043227,membrane-bounded organelle,9.612254183574873e-06,11423,219,134
+cax2-2:root:flight_up,cax2-2,root,flight_up,KEGG,KEGG:01200,Carbon metabolism,1.7243666540203515e-05,271,219,13
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:MF,GO:0003729,mRNA binding,1.9502474128788155e-05,1397,219,33
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0099503,secretory vesicle,2.65809630916428e-05,170,219,11
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0009644,response to high light intensity,4.284125945034989e-05,64,219,8
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0022900,electron transport chain,5.739508657780553e-05,192,219,12
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0010319,stromule,9.181305494125921e-05,38,219,6
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0009773,photosynthetic electron transport in photosystem I,0.00011090590601877233,16,219,5
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0005575,cellular_component,0.00011354230252937455,18845,219,187
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0043229,intracellular organelle,0.0001563119194685269,11895,219,134
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0043226,organelle,0.00016901708260305326,11909,219,134
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0009416,response to light stimulus,0.00028399476449934635,756,219,22
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0009314,response to radiation,0.0004121140186491363,773,219,22
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0005622,intracellular anatomical structure,0.00042771481083945004,13057,219,142
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0009409,response to cold,0.001219136232982973,405,219,15
+cax2-2:root:flight_up,cax2-2,root,flight_up,KEGG,KEGG:00000,KEGG root term,0.0030627098440353267,5836,219,73
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0009642,response to light intensity,0.004318009005462158,154,219,9
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0032991,protein-containing complex,0.0053154398681393485,2496,219,40
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:MF,GO:0046872,metal ion binding,0.007676506234525364,3824,219,55
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:MF,GO:0036094,small molecule binding,0.008460036300655479,6574,219,82
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:MF,GO:0043169,cation binding,0.008518648427167548,3838,219,55
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0009543,chloroplast thylakoid lumen,0.008804479894107445,51,219,5
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0031978,plastid thylakoid lumen,0.008804479894107445,51,219,5
+cax2-2:root:flight_up,cax2-2,root,flight_up,KEGG,KEGG:00960,"Tropane, piperidine and pyridine alkaloid biosynthesis",0.010748811796355564,39,219,4
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:1903428,positive regulation of reactive oxygen species biosynthetic process,0.013983544259161021,7,219,3
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0042579,microbody,0.0230823449242959,348,219,11
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0005777,peroxisome,0.0230823449242959,348,219,11
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0010119,regulation of stomatal movement,0.023157944312508207,107,219,7
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:MF,GO:0043167,ion binding,0.026522721080033014,6457,219,79
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:CC,GO:0030093,chloroplast photosystem I,0.027759092602845092,3,219,2
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:MF,GO:0043531,ADP binding,0.030327741930030162,170,219,8
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0010118,stomatal movement,0.04368017585941311,160,219,8
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:0050896,response to stimulus,0.045559873295537845,5781,219,73
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:MF,GO:0048038,quinone binding,0.045620327690233636,32,219,4
+cax2-2:root:flight_up,cax2-2,root,flight_up,GO:BP,GO:2000379,positive regulation of reactive oxygen species metabolic process,0.0470669355892874,10,219,3
+cax2-2:root:flight_down,cax2-2,root,flight_down,GO:MF,GO:0035251,UDP-glucosyltransferase activity,0.0006515261674899883,153,99,7
+cax2-2:root:flight_down,cax2-2,root,flight_down,WP,WP:000000,WIKIPATHWAYS,0.0014152289241827285,617,99,9
+cax2-2:root:flight_down,cax2-2,root,flight_down,GO:MF,GO:0046527,glucosyltransferase activity,0.0027244540003866506,190,99,7
+cax2-2:root:flight_down,cax2-2,root,flight_down,GO:MF,GO:0008194,UDP-glycosyltransferase activity,0.003121349230048838,272,99,8
+cax2-2:root:flight_down,cax2-2,root,flight_down,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,0.013871698936883082,1329,99,14
+cax2-2:root:flight_down,cax2-2,root,flight_down,GO:MF,GO:0016629,12-oxophytodienoate reductase activity,0.014807990414134676,3,99,2
+cax2-2:root:flight_down,cax2-2,root,flight_down,WP,WP:WP2945,Cytokinin auxin interactions in plant development,0.01616093968067337,31,99,2
+cax2-2:root:flight_down,cax2-2,root,flight_down,WP,WP:WP2279,Seed development,0.025867301985664597,344,99,5
+cax2-2:root:flight_down,cax2-2,root,flight_down,GO:MF,GO:0015291,secondary active transmembrane transporter activity,0.02705750812094258,272,99,7
+cax2-2:root:flight_down,cax2-2,root,flight_down,GO:MF,GO:0004857,enzyme inhibitor activity,0.04015026381651328,201,99,6
+cax2-2:root:flight_down,cax2-2,root,flight_down,GO:MF,GO:0140678,molecular function inhibitor activity,0.04840159840700084,208,99,6
+cax2-2:root:flight_down,cax2-2,root,flight_down,GO:MF,GO:0022804,active transmembrane transporter activity,0.0499147316601845,515,99,9
+cax2-2:shoot:all,cax2-2,shoot,all,GO:CC,GO:0005576,extracellular region,3.08350656179965e-09,1484,222,41
+cax2-2:shoot:all,cax2-2,shoot,all,GO:MF,GO:0005199,structural constituent of cell wall,2.3773839672408774e-08,28,222,8
+cax2-2:shoot:all,cax2-2,shoot,all,KEGG,KEGG:00940,Phenylpropanoid biosynthesis,3.5945096561965484e-08,127,222,12
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0009664,plant-type cell wall organization,4.153860794148435e-08,153,222,14
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0071555,cell wall organization,7.433243492006255e-08,513,222,23
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0045229,external encapsulating structure organization,3.2190271883043354e-07,553,222,23
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0071554,cell wall organization or biogenesis,1.246964377861906e-06,646,222,24
+cax2-2:shoot:all,cax2-2,shoot,all,GO:MF,GO:0140825,lactoperoxidase activity,5.621906834127623e-06,75,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,GO:MF,GO:0020037,heme binding,7.514234038676559e-06,368,222,17
+cax2-2:shoot:all,cax2-2,shoot,all,GO:MF,GO:0046906,tetrapyrrole binding,2.9000033917625954e-05,404,222,17
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0071669,plant-type cell wall organization or biogenesis,4.874308493371212e-05,264,222,14
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0042744,hydrogen peroxide catabolic process,5.979298037303114e-05,91,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0042743,hydrogen peroxide metabolic process,0.00035907787182989025,112,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,GO:MF,GO:0016491,oxidoreductase activity,0.0005299763716711244,1418,222,31
+cax2-2:shoot:all,cax2-2,shoot,all,GO:MF,GO:0004601,peroxidase activity,0.000540767216404329,127,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,GO:MF,GO:0016684,"oxidoreductase activity, acting on peroxide as acceptor",0.0007944672957151563,133,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,GO:MF,GO:0016209,antioxidant activity,0.0019154803682504022,148,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0042221,response to chemical,0.0025458087419723886,2872,222,48
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0072593,reactive oxygen species metabolic process,0.003009862676571699,184,222,10
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0098869,cellular oxidant detoxification,0.00563562777896638,156,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,0.00648146533079736,1327,222,25
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:1990748,cellular detoxification,0.010226885385223837,168,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0097237,cellular response to toxic substance,0.010723121502428079,169,222,9
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0098754,detoxification,0.01591353372645107,271,222,11
+cax2-2:shoot:all,cax2-2,shoot,all,KEGG,KEGG:00901,Indole alkaloid biosynthesis,0.025462080349483277,5,222,2
+cax2-2:shoot:all,cax2-2,shoot,all,GO:BP,GO:0050896,response to stimulus,0.025471103393648983,5736,222,75
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0009664,plant-type cell wall organization,3.5727542063124227e-09,153,183,14
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:MF,GO:0005199,structural constituent of cell wall,4.823518828042805e-09,28,183,8
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:CC,GO:0005576,extracellular region,3.087951751846855e-08,1484,183,35
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,KEGG,KEGG:00940,Phenylpropanoid biosynthesis,5.7605022822808486e-08,127,183,11
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0071555,cell wall organization,8.306145743364694e-08,513,183,21
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0045229,external encapsulating structure organization,3.254588701917505e-07,553,183,21
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:MF,GO:0020037,heme binding,3.8491028740573016e-07,368,183,17
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0071554,cell wall organization or biogenesis,9.269220152914383e-07,646,183,22
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:MF,GO:0140825,lactoperoxidase activity,9.929953501682025e-07,75,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:MF,GO:0046906,tetrapyrrole binding,1.5633140344111091e-06,404,183,17
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0071669,plant-type cell wall organization or biogenesis,4.89751191109788e-06,264,183,14
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0042744,hydrogen peroxide catabolic process,1.3129598820891852e-05,91,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0042743,hydrogen peroxide metabolic process,8.110633939165858e-05,112,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:MF,GO:0004601,peroxidase activity,0.00010243427500143345,127,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:MF,GO:0016684,"oxidoreductase activity, acting on peroxide as acceptor",0.00015170582499723245,133,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:MF,GO:0016209,antioxidant activity,0.0003731811298421687,148,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0072593,reactive oxygen species metabolic process,0.0006124483034918803,184,183,10
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:MF,GO:0016491,oxidoreductase activity,0.0008145504357669336,1418,183,27
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0098869,cellular oxidant detoxification,0.0013501960404679917,156,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:1990748,cellular detoxification,0.0024897135908422273,168,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0097237,cellular response to toxic substance,0.0026140023315498768,169,183,9
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0048364,root development,0.005667614546305791,610,183,16
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0022622,root system development,0.005784626354262894,611,183,16
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,0.015217306283300057,1327,183,21
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,KEGG,KEGG:00901,Indole alkaloid biosynthesis,0.01651160392766352,5,183,2
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0009698,phenylpropanoid metabolic process,0.01677501719550637,163,183,8
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0010015,root morphogenesis,0.017352402152001956,327,183,11
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0098754,detoxification,0.018860151543778073,271,183,10
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:CC,GO:0005773,vacuole,0.03057630281916678,1083,183,19
+cax2-2:shoot:flight_up,cax2-2,shoot,flight_up,GO:BP,GO:0006979,response to oxidative stress,0.03800475012690371,422,183,12
+cax2-2:shoot:flight_down,cax2-2,shoot,flight_down,GO:BP,GO:0006858,extracellular transport,0.0066925019333782775,4,39,2
+cax2-2:shoot:flight_down,cax2-2,shoot,flight_down,GO:MF,GO:0035197,siRNA binding,0.015986013977328073,9,39,2
+cax2-2:shoot:flight_down,cax2-2,shoot,flight_down,GO:BP,GO:1990428,miRNA transport,0.016699542725715093,6,39,2
+cax2-2:shoot:flight_down,cax2-2,shoot,flight_down,GO:MF,GO:0035198,miRNA binding,0.02922444910997023,12,39,2
+cax2-2:shoot:flight_down,cax2-2,shoot,flight_down,GO:MF,GO:0061980,regulatory RNA binding,0.04636142129499031,15,39,2
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0042221,response to chemical,1.5325171089246843e-24,2891,611,162
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0050896,response to stimulus,1.2712695694377958e-20,5781,611,242
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0016491,oxidoreductase activity,1.0185734493382028e-15,1421,611,90
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0009636,response to toxic substance,7.452589555484553e-14,314,611,38
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0004364,glutathione transferase activity,6.284382968680119e-12,60,611,17
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0006950,response to stress,2.378160238940683e-11,3579,611,152
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0055085,transmembrane transport,5.8060756054374706e-11,1206,611,73
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0003824,catalytic activity,6.925445303045513e-11,8921,611,293
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0022857,transmembrane transporter activity,7.20793464017837e-11,1129,611,69
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0006790,sulfur compound metabolic process,1.0618861547815449e-10,298,611,33
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0005215,transporter activity,2.0962823144373594e-10,1155,611,69
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0009404,toxin metabolic process,2.8062117667536817e-10,60,611,16
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0004497,monooxygenase activity,4.5638226349257246e-10,325,611,33
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0009407,toxin catabolic process,1.1403344840307405e-09,46,611,14
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0098754,detoxification,1.7058267447294794e-09,273,611,30
+rbohD:root:all,rbohD,root,all,KEGG,KEGG:00480,Glutathione metabolism,8.409874143805288e-09,102,611,17
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0071456,cellular response to hypoxia,6.420180747433616e-08,239,611,26
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0071453,cellular response to oxygen levels,7.72938481215328e-08,241,611,26
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0036294,cellular response to decreased oxygen levels,7.72938481215328e-08,241,611,26
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0020037,heme binding,2.2828198284774278e-07,367,611,31
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0006749,glutathione metabolic process,2.610811827042229e-07,45,611,12
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0016705,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",3.6581574464428957e-07,396,611,32
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0004568,chitinase activity,5.113198329206661e-07,17,611,8
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0005506,iron ion binding,5.302244861411312e-07,337,611,29
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0001666,response to hypoxia,6.713767059066262e-07,266,611,26
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0036293,response to decreased oxygen levels,9.254460760218394e-07,270,611,26
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0070482,response to oxygen levels,1.00176844401401e-06,271,611,26
+rbohD:root:all,rbohD,root,all,GO:BP,GO:1901700,response to oxygen-containing compound,1.0024139079224465e-06,1638,611,78
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0015698,inorganic anion transport,1.0075098133650113e-06,114,611,17
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0006022,aminoglycan metabolic process,1.3606307418397385e-06,17,611,8
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0006032,chitin catabolic process,1.3606307418397385e-06,17,611,8
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0006026,aminoglycan catabolic process,1.3606307418397385e-06,17,611,8
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0006030,chitin metabolic process,1.3606307418397385e-06,17,611,8
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0046348,amino sugar catabolic process,1.3606307418397385e-06,17,611,8
+rbohD:root:all,rbohD,root,all,GO:BP,GO:1901072,glucosamine-containing compound catabolic process,1.3606307418397385e-06,17,611,8
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0046906,tetrapyrrole binding,2.1477023298280985e-06,403,611,31
+rbohD:root:all,rbohD,root,all,KEGG,KEGG:01100,Metabolic pathways,2.928453707799496e-06,2323,611,94
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0009628,response to abiotic stimulus,1.0912122557369841e-05,2112,611,90
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0006040,amino sugar metabolic process,1.9677910640048704e-05,31,611,9
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0016765,"transferase activity, transferring alkyl or aryl (other than methyl) groups",3.7474696302713866e-05,154,611,17
+rbohD:root:all,rbohD,root,all,GO:MF,GO:1900750,oligopeptide binding,3.946970552488918e-05,12,611,6
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0043295,glutathione binding,3.946970552488918e-05,12,611,6
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0001101,response to acid chemical,0.00010613819216605783,458,611,31
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0019760,glucosinolate metabolic process,0.0001242925370111971,105,611,14
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0015291,secondary active transmembrane transporter activity,0.00014359856812303857,272,611,22
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0010038,response to metal ion,0.00017115553973343737,218,611,20
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0043436,oxoacid metabolic process,0.00024286632874980538,1024,611,51
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0006082,organic acid metabolic process,0.00024286632874980538,1024,611,51
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0006810,transport,0.0005422226072645227,2406,611,93
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0043207,response to external biotic stimulus,0.0007836835368605618,1341,611,60
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0051707,response to other organism,0.0007836835368605618,1341,611,60
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0033554,cellular response to stress,0.0008694151829295534,1069,611,51
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0009415,response to water,0.000929738597384193,430,611,28
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0070887,cellular response to chemical stimulus,0.0009567658995660824,1636,611,69
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0072341,modified amino acid binding,0.0010090055793131414,19,611,6
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0044272,sulfur compound biosynthetic process,0.0010600774840812109,162,611,16
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0019748,secondary metabolic process,0.0010933739825066929,267,611,21
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0044419,biological process involved in interspecies interaction between organisms,0.0011489495055692586,1357,611,60
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0016998,cell wall macromolecule catabolic process,0.0012741384312878004,17,611,6
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0051234,establishment of localization,0.0012890465069849417,2455,611,93
+rbohD:root:all,rbohD,root,all,GO:CC,GO:0005576,extracellular region,0.0014193640511809096,1545,611,63
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0009607,response to biotic stimulus,0.0014869884384340537,1368,611,60
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0006575,modified amino acid metabolic process,0.0015435503547060506,94,611,12
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0016144,S-glycoside biosynthetic process,0.0016520131221240016,50,611,9
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0019761,glucosinolate biosynthetic process,0.0016520131221240016,50,611,9
+rbohD:root:all,rbohD,root,all,KEGG,KEGG:00910,Nitrogen metabolism,0.00166495780325827,41,611,7
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0009414,response to water deprivation,0.001681116908333423,418,611,27
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0008061,chitin binding,0.0019398169791967393,21,611,6
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0006811,monoatomic ion transport,0.0021249931714831046,527,611,31
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0006979,response to oxidative stress,0.0021971294265715493,424,611,27
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0051179,localization,0.002312519039917021,2559,611,95
+rbohD:root:all,rbohD,root,all,GO:MF,GO:1901681,sulfur compound binding,0.002791909241141552,33,611,7
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0022804,active transmembrane transporter activity,0.0038405872985553917,515,611,29
+rbohD:root:all,rbohD,root,all,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,0.003895485693397994,1329,611,53
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0009311,oligosaccharide metabolic process,0.004552621139996401,71,611,10
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0009751,response to salicylic acid,0.0059944771462148395,185,611,16
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0015144,carbohydrate transmembrane transporter activity,0.00659963894694815,66,611,9
+rbohD:root:all,rbohD,root,all,WP,WP:000000,WIKIPATHWAYS,0.007124684173764182,617,611,27
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0010438,cellular response to sulfur starvation,0.008009396441198913,7,611,4
+rbohD:root:all,rbohD,root,all,GO:BP,GO:1901659,glycosyl compound biosynthetic process,0.009118121877386693,61,611,9
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0005991,trehalose metabolic process,0.009230844362633318,23,611,6
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0016798,"hydrolase activity, acting on glycosyl bonds",0.009702967303075592,432,611,25
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0071949,FAD binding,0.01198381248619337,71,611,9
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0005984,disaccharide metabolic process,0.013614828617437716,64,611,9
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0042537,benzene-containing compound metabolic process,0.015317653643227189,50,611,8
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0047427,cyanoalanine nitrilase activity,0.015499235494321528,4,611,3
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0018822,nitrile hydratase activity,0.015499235494321528,4,611,3
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0000257,nitrilase activity,0.015499235494321528,4,611,3
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0080061,indole-3-acetonitrile nitrilase activity,0.015499235494321528,4,611,3
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0016815,"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in nitriles",0.015499235494321528,4,611,3
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0006952,defense response,0.01645612579742607,1513,611,61
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0031667,response to nutrient levels,0.01856807201400405,225,611,17
+rbohD:root:all,rbohD,root,all,GO:CC,GO:0016020,membrane,0.019403870133273025,7859,611,224
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0051716,cellular response to stimulus,0.021875421442308,2813,611,98
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0009605,response to external stimulus,0.022724351802028635,1563,611,62
+rbohD:root:all,rbohD,root,all,WP,WP:WP4597,Glucosinolate biosynthesis from methionine,0.02446747182842091,15,611,3
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0010167,response to nitrate,0.025014992935646182,27,611,6
+rbohD:root:all,rbohD,root,all,GO:BP,GO:1901698,response to nitrogen compound,0.027856374992289466,105,611,11
+rbohD:root:all,rbohD,root,all,GO:CC,GO:0071944,cell periphery,0.03160802499639064,2868,611,95
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0046686,response to cadmium ion,0.03188912814122643,71,611,9
+rbohD:root:all,rbohD,root,all,GO:BP,GO:0098771,inorganic ion homeostasis,0.032171982938967746,126,611,12
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0004888,transmembrane signaling receptor activity,0.03420396833666161,81,611,9
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0004805,trehalose-phosphatase activity,0.038803934886595205,12,611,4
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0015116,sulfate transmembrane transporter activity,0.038803934886595205,12,611,4
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0008271,secondary active sulfate transmembrane transporter activity,0.038803934886595205,12,611,4
+rbohD:root:all,rbohD,root,all,GO:MF,GO:1901682,sulfur compound transmembrane transporter activity,0.039736608309728486,22,611,5
+rbohD:root:all,rbohD,root,all,GO:MF,GO:0004553,"hydrolase activity, hydrolyzing O-glycosyl compounds",0.04286600625035198,364,611,21
+rbohD:root:flight_up,rbohD,root,flight_up,GO:MF,GO:0022857,transmembrane transporter activity,3.071695736628249e-06,1129,224,31
+rbohD:root:flight_up,rbohD,root,flight_up,GO:MF,GO:0005215,transporter activity,5.188495479150883e-06,1155,224,31
+rbohD:root:flight_up,rbohD,root,flight_up,GO:BP,GO:0055085,transmembrane transport,7.861545113344086e-06,1206,224,32
+rbohD:root:flight_up,rbohD,root,flight_up,GO:CC,GO:0016020,membrane,0.0008486333300692093,7859,224,98
+rbohD:root:flight_up,rbohD,root,flight_up,WP,WP:WP4597,Glucosinolate biosynthesis from methionine,0.00150121326698766,15,224,3
+rbohD:root:flight_up,rbohD,root,flight_up,GO:BP,GO:0006810,transport,0.003760601230476108,2406,224,42
+rbohD:root:flight_up,rbohD,root,flight_up,GO:MF,GO:0020037,heme binding,0.0058651200108405166,367,224,13
+rbohD:root:flight_up,rbohD,root,flight_up,GO:BP,GO:0051234,establishment of localization,0.0061737013970685406,2455,224,42
+rbohD:root:flight_up,rbohD,root,flight_up,GO:MF,GO:0015144,carbohydrate transmembrane transporter activity,0.007147289724934896,66,224,6
+rbohD:root:flight_up,rbohD,root,flight_up,GO:BP,GO:0051179,localization,0.0073693304385008835,2559,224,43
+rbohD:root:flight_up,rbohD,root,flight_up,KEGG,KEGG:01310,Nitrogen cycle,0.007709281328510629,3,224,2
+rbohD:root:flight_up,rbohD,root,flight_up,GO:MF,GO:0004497,monooxygenase activity,0.008272971826201101,325,224,12
+rbohD:root:flight_up,rbohD,root,flight_up,GO:BP,GO:0034219,carbohydrate transmembrane transport,0.011070250469242027,63,224,6
+rbohD:root:flight_up,rbohD,root,flight_up,GO:MF,GO:0015267,channel activity,0.013596536673701356,191,224,9
+rbohD:root:flight_up,rbohD,root,flight_up,GO:MF,GO:0022803,passive transmembrane transporter activity,0.013596536673701356,191,224,9
+rbohD:root:flight_up,rbohD,root,flight_up,GO:MF,GO:0046906,tetrapyrrole binding,0.015447171328045895,403,224,13
+rbohD:root:flight_up,rbohD,root,flight_up,GO:BP,GO:0050896,response to stimulus,0.029583833717916144,5781,224,75
+rbohD:root:flight_up,rbohD,root,flight_up,GO:MF,GO:0051119,sugar transmembrane transporter activity,0.029829698614268006,53,224,5
+rbohD:root:flight_up,rbohD,root,flight_up,GO:MF,GO:0004805,trehalose-phosphatase activity,0.043062939794087214,12,224,3
+rbohD:root:flight_up,rbohD,root,flight_up,KEGG,KEGG:00966,Glucosinolate biosynthesis,0.04358676829731315,25,224,3
+rbohD:root:flight_up,rbohD,root,flight_up,GO:BP,GO:0016144,S-glycoside biosynthetic process,0.04559261458272731,50,224,5
+rbohD:root:flight_up,rbohD,root,flight_up,GO:BP,GO:0019761,glucosinolate biosynthetic process,0.04559261458272731,50,224,5
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0042221,response to chemical,1.1675366612143219e-23,2891,387,119
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0050896,response to stimulus,3.3053132160720952e-18,5781,387,167
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0009636,response to toxic substance,6.727180591695755e-16,314,387,33
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0016491,oxidoreductase activity,7.507091417233911e-14,1421,387,65
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0004364,glutathione transferase activity,7.855738045016236e-14,60,387,16
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0098754,detoxification,4.769376747346457e-12,273,387,27
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0009404,toxin metabolic process,4.8186411934298805e-12,60,387,15
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0003824,catalytic activity,7.425145551168442e-12,8921,387,203
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0006790,sulfur compound metabolic process,4.08504711561462e-11,298,387,27
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0006950,response to stress,4.535314831847785e-11,3579,387,108
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0009407,toxin catabolic process,5.3960417781324526e-11,46,387,13
+rbohD:root:flight_down,rbohD,root,flight_down,KEGG,KEGG:00480,Glutathione metabolism,8.065151273083394e-11,102,387,16
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0071456,cellular response to hypoxia,8.837873236057698e-10,239,387,23
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0071453,cellular response to oxygen levels,1.0521005489984653e-09,241,387,23
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0036294,cellular response to decreased oxygen levels,1.0521005489984653e-09,241,387,23
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0006749,glutathione metabolic process,1.073470846802923e-09,45,387,12
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0001666,response to hypoxia,8.099764868295402e-09,266,387,23
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0036293,response to decreased oxygen levels,1.098594621423209e-08,270,387,23
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0070482,response to oxygen levels,1.1845481840849437e-08,271,387,23
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0004568,chitinase activity,1.2050568687021311e-08,17,387,8
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0006022,aminoglycan metabolic process,2.9713731009093647e-08,17,387,8
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:1901072,glucosamine-containing compound catabolic process,2.9713731009093647e-08,17,387,8
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0046348,amino sugar catabolic process,2.9713731009093647e-08,17,387,8
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0006032,chitin catabolic process,2.9713731009093647e-08,17,387,8
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0006030,chitin metabolic process,2.9713731009093647e-08,17,387,8
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0006026,aminoglycan catabolic process,2.9713731009093647e-08,17,387,8
+rbohD:root:flight_down,rbohD,root,flight_down,KEGG,KEGG:01100,Metabolic pathways,8.866442641233997e-08,2323,387,71
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0006040,amino sugar metabolic process,2.989565298606312e-07,31,387,9
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0016765,"transferase activity, transferring alkyl or aryl (other than methyl) groups",3.204477042904037e-07,154,387,16
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0070887,cellular response to chemical stimulus,7.808979540338415e-07,1636,387,57
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:1900750,oligopeptide binding,2.2905783037174813e-06,12,387,6
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0043295,glutathione binding,2.2905783037174813e-06,12,387,6
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0004497,monooxygenase activity,4.978560966946227e-06,325,387,21
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0033554,cellular response to stress,5.363055322291675e-06,1069,387,42
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:1901700,response to oxygen-containing compound,5.779520150316854e-06,1638,387,55
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0006575,modified amino acid metabolic process,9.34247563829148e-06,94,387,12
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0051716,cellular response to stimulus,3.465389772445147e-05,2813,387,77
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0009628,response to abiotic stimulus,3.593133161651557e-05,2112,387,63
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0043207,response to external biotic stimulus,5.923915849192506e-05,1341,387,46
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0051707,response to other organism,5.923915849192506e-05,1341,387,46
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0072341,modified amino acid binding,6.16510260932546e-05,19,387,6
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0016998,cell wall macromolecule catabolic process,7.108635768359886e-05,17,387,6
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0015698,inorganic anion transport,8.304971248528039e-05,114,387,12
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0044419,biological process involved in interspecies interaction between organisms,8.347982918518661e-05,1357,387,46
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0009607,response to biotic stimulus,0.00010527127612422841,1368,387,46
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0008061,chitin binding,0.00012027562790911356,21,387,6
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0006082,organic acid metabolic process,0.00012462398835289402,1024,387,38
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0043436,oxoacid metabolic process,0.00012462398835289402,1024,387,38
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0015291,secondary active transmembrane transporter activity,0.00018292737553098743,272,387,17
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0006952,defense response,0.00030293601635279256,1513,387,48
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0019748,secondary metabolic process,0.00034824921851320896,267,387,17
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0055085,transmembrane transport,0.0003979056422712763,1206,387,41
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0042537,benzene-containing compound metabolic process,0.00042986018116951836,50,387,8
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0009751,response to salicylic acid,0.00045968690618429693,185,387,14
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0022857,transmembrane transporter activity,0.0005436176793472237,1129,387,38
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0016705,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",0.0005464188122523167,396,387,20
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0022804,active transmembrane transporter activity,0.0007575287332461627,515,387,23
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0005506,iron ion binding,0.0008190751625993655,337,387,18
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0005215,transporter activity,0.0009260177360134856,1155,387,38
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0006979,response to oxidative stress,0.0010187943688468243,424,387,21
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0010438,cellular response to sulfur starvation,0.0010575637000948723,7,387,4
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0009617,response to bacterium,0.0011339564739224844,463,387,22
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0009605,response to external stimulus,0.0017661842768606998,1563,387,47
+rbohD:root:flight_down,rbohD,root,flight_down,WP,WP:000000,WIKIPATHWAYS,0.0019628465042397986,617,387,21
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:1901681,sulfur compound binding,0.002115387143878219,33,387,6
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0071949,FAD binding,0.002642078357966572,71,387,8
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0020037,heme binding,0.0026505260013443117,367,387,18
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0009056,catabolic process,0.002957727007941546,1307,387,41
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0006970,response to osmotic stress,0.0030955890856128126,531,387,23
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0001101,response to acid chemical,0.003396220531928988,458,387,21
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0047427,cyanoalanine nitrilase activity,0.003447584770569492,4,387,3
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0080061,indole-3-acetonitrile nitrilase activity,0.003447584770569492,4,387,3
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0000257,nitrilase activity,0.003447584770569492,4,387,3
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0016815,"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in nitriles",0.003447584770569492,4,387,3
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0018822,nitrile hydratase activity,0.003447584770569492,4,387,3
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0010150,leaf senescence,0.003597563652522861,162,387,12
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0008194,UDP-glycosyltransferase activity,0.0037545080744344037,272,387,15
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0090693,plant organ senescence,0.005550251601938753,169,387,12
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0004553,"hydrolase activity, hydrolyzing O-glycosyl compounds",0.008700109208548766,364,387,17
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0046906,tetrapyrrole binding,0.009198522290506345,403,387,18
+rbohD:root:flight_down,rbohD,root,flight_down,WP,WP:WP2279,Seed development,0.010371726133639137,344,387,13
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0009414,response to water deprivation,0.010807696255933657,418,387,19
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0031669,cellular response to nutrient levels,0.012482789495398923,154,387,11
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:1901136,carbohydrate derivative catabolic process,0.012891350861540588,127,387,10
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0009415,response to water,0.015960186785192853,430,387,19
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0019760,glucosinolate metabolic process,0.01714493973631341,105,387,9
+rbohD:root:flight_down,rbohD,root,flight_down,KEGG,KEGG:00460,Cyanoamino acid metabolism,0.017762474290908617,67,387,6
+rbohD:root:flight_down,rbohD,root,flight_down,KEGG,KEGG:00999,Biosynthesis of various plant secondary metabolites,0.017762474290908617,67,387,6
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0042742,defense response to bacterium,0.02072348417941088,363,387,17
+rbohD:root:flight_down,rbohD,root,flight_down,WP,WP:WP2579,Cadmium and glutathione,0.021935808280602598,22,387,3
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0016798,"hydrolase activity, acting on glycosyl bonds",0.022443554806490844,432,387,18
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0009651,response to salt stress,0.023928414191470043,443,387,19
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0050660,flavin adenine dinucleotide binding,0.02562126644996904,153,387,10
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0035251,UDP-glucosyltransferase activity,0.02562126644996904,153,387,10
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0042910,xenobiotic transmembrane transporter activity,0.02735208597969282,73,387,7
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0009267,cellular response to starvation,0.028113320601061614,139,387,10
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0000302,response to reactive oxygen species,0.02988682606533123,140,387,10
+rbohD:root:flight_down,rbohD,root,flight_down,GO:BP,GO:0042594,response to starvation,0.044910641667300855,177,387,11
+rbohD:root:flight_down,rbohD,root,flight_down,GO:MF,GO:0015297,antiporter activity,0.04543559089131784,164,387,10
+rbohD:root:flight_down,rbohD,root,flight_down,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,0.04949086402588191,1329,387,34
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:01100,Metabolic pathways,3.5624044884532475e-06,2306,444,74
+rbohD:shoot:all,rbohD,shoot,all,WP,WP:WP2579,Cadmium and glutathione,7.3163915120789855e-06,22,444,6
+rbohD:shoot:all,rbohD,shoot,all,WP,WP:WP4597,Glucosinolate biosynthesis from methionine,1.910196256453429e-05,15,444,5
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,3.40226677656253e-05,1327,444,48
+rbohD:shoot:all,rbohD,shoot,all,GO:MF,GO:0003824,catalytic activity,7.788319488457633e-05,8835,444,202
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0042221,response to chemical,9.927910705894184e-05,2872,444,86
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0050896,response to stimulus,0.000162482559492179,5736,444,144
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:00966,Glucosinolate biosynthesis,0.00016482533042011763,26,444,6
+rbohD:shoot:all,rbohD,shoot,all,GO:MF,GO:0016491,oxidoreductase activity,0.0003138031624079548,1418,444,50
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0009611,response to wounding,0.00045011431364711197,234,444,17
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:1901659,glycosyl compound biosynthetic process,0.0005388938992541802,60,444,9
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0006950,response to stress,0.0009062658571434794,3548,444,97
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0019761,glucosinolate biosynthetic process,0.0011478497333615614,49,444,8
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0016144,S-glycoside biosynthetic process,0.0011478497333615614,49,444,8
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0006979,response to oxidative stress,0.002945550744323097,422,444,22
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0006082,organic acid metabolic process,0.004015323158211653,1015,444,38
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0043436,oxoacid metabolic process,0.004015323158211653,1015,444,38
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0009753,response to jasmonic acid,0.005227143455358335,223,444,15
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0070542,response to fatty acid,0.006471182607214836,227,444,15
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0019760,glucosinolate metabolic process,0.008234185282647055,104,444,10
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:00620,Pyruvate metabolism,0.009673657795399915,96,444,8
+rbohD:shoot:all,rbohD,shoot,all,WP,WP:000000,WIKIPATHWAYS,0.01092869744567974,612,444,21
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0044281,small molecule metabolic process,0.011937218661291122,1527,444,49
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:01210,2-Oxocarboxylic acid metabolism,0.014641346992023472,102,444,8
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:00290,"Valine, leucine and isoleucine biosynthesis",0.015922647989199044,21,444,4
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:00053,Ascorbate and aldarate metabolism,0.018283018179872098,58,444,6
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0009636,response to toxic substance,0.02074211011679939,312,444,17
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0019752,carboxylic acid metabolic process,0.023670081954710088,897,444,33
+rbohD:shoot:all,rbohD,shoot,all,GO:MF,GO:0005199,structural constituent of cell wall,0.030510116450173177,28,444,5
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:00460,Cyanoamino acid metabolism,0.04285503819376138,68,444,6
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:00999,Biosynthesis of various plant secondary metabolites,0.04285503819376138,68,444,6
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:00071,Fatty acid degradation,0.04366701938927922,46,444,5
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:00260,"Glycine, serine and threonine metabolism",0.04989265084123302,70,444,6
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,WP,WP:WP4597,Glucosinolate biosynthesis from methionine,1.986517190128251e-06,15,280,5
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:1901659,glycosyl compound biosynthetic process,1.0006689187170761e-05,60,280,9
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:00966,Glucosinolate biosynthesis,1.160994479017276e-05,26,280,6
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,WP,WP:WP2579,Cadmium and glutathione,1.6376672179769565e-05,22,280,5
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0016144,S-glycoside biosynthetic process,3.217400123197334e-05,49,280,8
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0019761,glucosinolate biosynthetic process,3.217400123197334e-05,49,280,8
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:MF,GO:0003824,catalytic activity,6.438584299958966e-05,8835,280,137
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0009611,response to wounding,0.00017923179047793018,234,280,14
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0009753,response to jasmonic acid,0.0006423850511230239,223,280,13
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,0.0007467077201784396,1327,280,32
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0070542,response to fatty acid,0.0007841099860177657,227,280,13
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0019760,glucosinolate metabolic process,0.0012309697280751147,104,280,9
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:01100,Metabolic pathways,0.0013590007946664307,2306,280,46
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:00053,Ascorbate and aldarate metabolism,0.0015293791903222124,58,280,6
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:00290,"Valine, leucine and isoleucine biosynthesis",0.0027898787455918083,21,280,4
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0007049,cell cycle,0.00289954191015019,572,280,20
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:MF,GO:0016491,oxidoreductase activity,0.004744470356607378,1418,280,34
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:MF,GO:0005199,structural constituent of cell wall,0.004822610515188738,28,280,5
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:01210,2-Oxocarboxylic acid metabolism,0.004918864325885809,102,280,7
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0022402,cell cycle process,0.008980645351306302,372,280,15
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0006979,response to oxidative stress,0.00995180637662917,422,280,16
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0009098,L-leucine biosynthetic process,0.010472164782757615,15,280,4
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:00330,Arginine and proline metabolism,0.010750540249873099,53,280,5
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0006950,response to stress,0.011601880225868454,3548,280,64
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,WP,WP:000000,WIKIPATHWAYS,0.014441106090902647,612,280,15
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0046688,response to copper ion,0.017951607163400603,17,280,4
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:00500,Starch and sucrose metabolism,0.018614146262141022,166,280,8
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0009636,response to toxic substance,0.024010407692386142,312,280,13
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0098754,detoxification,0.026584247167202382,271,280,12
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0006082,organic acid metabolic process,0.02776095385731175,1015,280,26
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0043436,oxoacid metabolic process,0.02776095385731175,1015,280,26
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0044281,small molecule metabolic process,0.03168214155142677,1527,280,34
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:1901334,lactone metabolic process,0.033545738443613145,38,280,5
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:00460,Cyanoamino acid metabolism,0.03425517585736339,68,280,5
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:00999,Biosynthesis of various plant secondary metabolites,0.03425517585736339,68,280,5
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0009079,pyruvate family amino acid biosynthetic process,0.03562569196331564,20,280,4
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:MF,GO:0047782,coniferin beta-glucosidase activity,0.04976722843376614,2,280,2
+rbohD:shoot:flight_down,rbohD,shoot,flight_down,KEGG,KEGG:00061,Fatty acid biosynthesis,0.004625806405887855,41,164,4
+rbohD:shoot:flight_down,rbohD,shoot,flight_down,GO:MF,GO:0043565,sequence-specific DNA binding,0.008100926104637647,1001,164,19
+rbohD:shoot:flight_down,rbohD,shoot,flight_down,KEGG,KEGG:01100,Metabolic pathways,0.02055750208932713,2306,164,28
+rbohD:shoot:flight_down,rbohD,shoot,flight_down,GO:MF,GO:0003700,DNA-binding transcription factor activity,0.024048450137737407,1479,164,23
+rbohD:shoot:flight_down,rbohD,shoot,flight_down,GO:BP,GO:0042221,response to chemical,0.02777638075260931,2872,164,36
+rbohD:shoot:flight_down,rbohD,shoot,flight_down,KEGG,KEGG:01212,Fatty acid metabolism,0.032599215151126605,68,164,4
+rbohD:shoot:flight_down,rbohD,shoot,flight_down,GO:MF,GO:0008559,ABC-type xenobiotic transporter activity,0.04449342733215322,15,164,3

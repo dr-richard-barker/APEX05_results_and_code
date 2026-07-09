@@ -1,0 +1,263 @@
+{
+  "sources": [
+    "GO:BP",
+    "GO:MF",
+    "GO:CC",
+    "KEGG",
+    "REAC",
+    "WP"
+  ],
+  "threshold": "g_SCS < 0.05",
+  "background_loci": {
+    "root": 28485,
+    "shoot": 28022
+  },
+  "by_query": {
+    "Col-0:root:all": {
+      "n_terms": 118,
+      "top_terms": [
+        {
+          "source": "GO:BP",
+          "native": "GO:0042221",
+          "name": "response to chemical",
+          "p_value": 4.29e-22
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0050896",
+          "name": "response to stimulus",
+          "p_value": 6.18e-21
+        },
+        {
+          "source": "GO:MF",
+          "native": "GO:0022857",
+          "name": "transmembrane transporter activity",
+          "p_value": 3.11e-11
+        },
+        {
+          "source": "GO:MF",
+          "native": "GO:0005215",
+          "name": "transporter activity",
+          "p_value": 3.86e-11
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0009636",
+          "name": "response to toxic substance",
+          "p_value": 3.98e-11
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0055085",
+          "name": "transmembrane transport",
+          "p_value": 1.19e-10
+        }
+      ]
+    },
+    "Col-0:shoot:all": {
+      "n_terms": 97,
+      "top_terms": [
+        {
+          "source": "GO:BP",
+          "native": "GO:0050896",
+          "name": "response to stimulus",
+          "p_value": 2.13e-25
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0006950",
+          "name": "response to stress",
+          "p_value": 8.4e-21
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0042221",
+          "name": "response to chemical",
+          "p_value": 4.13e-19
+        },
+        {
+          "source": "GO:MF",
+          "native": "GO:0016491",
+          "name": "oxidoreductase activity",
+          "p_value": 1.86e-11
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0051707",
+          "name": "response to other organism",
+          "p_value": 3.05e-11
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0043207",
+          "name": "response to external biotic stimulus",
+          "p_value": 3.05e-11
+        }
+      ]
+    },
+    "cax2-2:root:all": {
+      "n_terms": 87,
+      "top_terms": [
+        {
+          "source": "GO:CC",
+          "native": "GO:0009579",
+          "name": "thylakoid",
+          "p_value": 3.71e-44
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0009534",
+          "name": "chloroplast thylakoid",
+          "p_value": 5.83e-39
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0031976",
+          "name": "plastid thylakoid",
+          "p_value": 6.54e-39
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0009522",
+          "name": "photosystem I",
+          "p_value": 2.22e-37
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0009535",
+          "name": "chloroplast thylakoid membrane",
+          "p_value": 5.63e-37
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0055035",
+          "name": "plastid thylakoid membrane",
+          "p_value": 6.39e-37
+        }
+      ]
+    },
+    "cax2-2:shoot:all": {
+      "n_terms": 26,
+      "top_terms": [
+        {
+          "source": "GO:CC",
+          "native": "GO:0005576",
+          "name": "extracellular region",
+          "p_value": 3.08e-09
+        },
+        {
+          "source": "GO:MF",
+          "native": "GO:0005199",
+          "name": "structural constituent of cell wall",
+          "p_value": 2.38e-08
+        },
+        {
+          "source": "KEGG",
+          "native": "KEGG:00940",
+          "name": "Phenylpropanoid biosynthesis",
+          "p_value": 3.59e-08
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0009664",
+          "name": "plant-type cell wall organization",
+          "p_value": 4.15e-08
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0071555",
+          "name": "cell wall organization",
+          "p_value": 7.43e-08
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0045229",
+          "name": "external encapsulating structure organization",
+          "p_value": 3.22e-07
+        }
+      ]
+    },
+    "rbohD:root:all": {
+      "n_terms": 107,
+      "top_terms": [
+        {
+          "source": "GO:BP",
+          "native": "GO:0042221",
+          "name": "response to chemical",
+          "p_value": 1.53e-24
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0050896",
+          "name": "response to stimulus",
+          "p_value": 1.27e-20
+        },
+        {
+          "source": "GO:MF",
+          "native": "GO:0016491",
+          "name": "oxidoreductase activity",
+          "p_value": 1.02e-15
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0009636",
+          "name": "response to toxic substance",
+          "p_value": 7.45e-14
+        },
+        {
+          "source": "GO:MF",
+          "native": "GO:0004364",
+          "name": "glutathione transferase activity",
+          "p_value": 6.28e-12
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0006950",
+          "name": "response to stress",
+          "p_value": 2.38e-11
+        }
+      ]
+    },
+    "rbohD:shoot:all": {
+      "n_terms": 33,
+      "top_terms": [
+        {
+          "source": "KEGG",
+          "native": "KEGG:01100",
+          "name": "Metabolic pathways",
+          "p_value": 3.56e-06
+        },
+        {
+          "source": "WP",
+          "native": "WP:WP2579",
+          "name": "Cadmium and glutathione",
+          "p_value": 7.32e-06
+        },
+        {
+          "source": "WP",
+          "native": "WP:WP4597",
+          "name": "Glucosinolate biosynthesis from methionine",
+          "p_value": 1.91e-05
+        },
+        {
+          "source": "KEGG",
+          "native": "KEGG:01110",
+          "name": "Biosynthesis of secondary metabolites",
+          "p_value": 3.4e-05
+        },
+        {
+          "source": "GO:MF",
+          "native": "GO:0003824",
+          "name": "catalytic activity",
+          "p_value": 7.79e-05
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0042221",
+          "name": "response to chemical",
+          "p_value": 9.93e-05
+        }
+      ]
+    }
+  }
+}

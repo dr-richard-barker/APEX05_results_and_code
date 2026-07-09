@@ -40,6 +40,7 @@ repository root.
 | S29 | **CAX2 concordant-core flight signature** (genes DE in both alleles, same direction; root/shoot/combined) | `results/tables/apex05_cax2_concordant-core_{root,shoot,combined}.csv` | CSV |
 | S30 | CAX2 concordant-core summary metrics | `results/ml/cax2_concordant_core_summary.json` | JSON |
 | S31 | **CAX2 core functional enrichment** (GO/KEGG/Reactome/WP; g:Profiler, tested-gene background) | `results/tables/apex05_cax2_core_enrichment_{root,shoot,all}.csv`, `results/ml/cax2_core_enrichment_summary.json` | CSV/JSON |
+| S32 | **Primary-genotype flight-DEG enrichment** (Col-0, cax2-2, rbohD × root/shoot; flight-referenced up/down + union) | `results/tables/apex05_primary_enrichment_{col0,cax22,rbohd}_{root,shoot}.csv`, `apex05_primary_enrichment_all.csv`, `results/ml/primary_enrichment_summary.json` | CSV/JSON |
 
 ## Supplementary figures
 See [`../figure_legends.md`](../figure_legends.md) (Figures S1–S4).

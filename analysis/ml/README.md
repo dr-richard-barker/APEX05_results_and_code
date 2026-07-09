@@ -9,6 +9,7 @@ APEX-05 data:
 | `apex05_cax2_allele_concordance.py` | QC comparison of the two *CAX2* alleles (cax2-2 vs cax2-3); the basis for excluding cax2-3. See [`../../docs/cax2_allele_concordance.md`](../../docs/cax2_allele_concordance.md). |
 | `apex05_cax2_concordant_core.py` | Extract the *CAX2* concordant core — genes DE under flight in **both** alleles, same direction (210 root / 146 shoot); the defensible *CAX2* flight signature. |
 | `apex05_cax2_core_enrichment.py` | GO/KEGG/Reactome/WP over-representation of the core (g:Profiler; tested-gene background). Root = photosynthesis/thylakoid; shoot = cell wall + phenylpropanoid + peroxidase. **Needs internet.** |
+| `apex05_primary_genotype_enrichment.py` | Same enrichment for the 3 primary genotypes (Col-0, cax2-2, rbohD) × root/shoot. Classifies DEGs by **true flight direction** (FL/GC), since the source workbook up/down labels are GC-referenced (inverted). **Needs internet.** |
 
 The first script is documented in detail below; provenance of the anomaly is in
 [`../../docs/PROVENANCE_cax23_mislabelling.md`](../../docs/PROVENANCE_cax23_mislabelling.md).

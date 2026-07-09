@@ -1,0 +1,78 @@
+query_label,genotype,tissue,subset,source,native,name,p_value,term_size,query_size,intersection_size
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:01100,Metabolic pathways,3.5624044884532475e-06,2306,444,74
+rbohD:shoot:all,rbohD,shoot,all,WP,WP:WP2579,Cadmium and glutathione,7.3163915120789855e-06,22,444,6
+rbohD:shoot:all,rbohD,shoot,all,WP,WP:WP4597,Glucosinolate biosynthesis from methionine,1.910196256453429e-05,15,444,5
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,3.40226677656253e-05,1327,444,48
+rbohD:shoot:all,rbohD,shoot,all,GO:MF,GO:0003824,catalytic activity,7.788319488457633e-05,8835,444,202
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0042221,response to chemical,9.927910705894184e-05,2872,444,86
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0050896,response to stimulus,0.000162482559492179,5736,444,144
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:00966,Glucosinolate biosynthesis,0.00016482533042011763,26,444,6
+rbohD:shoot:all,rbohD,shoot,all,GO:MF,GO:0016491,oxidoreductase activity,0.0003138031624079548,1418,444,50
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0009611,response to wounding,0.00045011431364711197,234,444,17
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:1901659,glycosyl compound biosynthetic process,0.0005388938992541802,60,444,9
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0006950,response to stress,0.0009062658571434794,3548,444,97
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0019761,glucosinolate biosynthetic process,0.0011478497333615614,49,444,8
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0016144,S-glycoside biosynthetic process,0.0011478497333615614,49,444,8
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0006979,response to oxidative stress,0.002945550744323097,422,444,22
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0006082,organic acid metabolic process,0.004015323158211653,1015,444,38
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0043436,oxoacid metabolic process,0.004015323158211653,1015,444,38
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0009753,response to jasmonic acid,0.005227143455358335,223,444,15
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0070542,response to fatty acid,0.006471182607214836,227,444,15
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0019760,glucosinolate metabolic process,0.008234185282647055,104,444,10
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:00620,Pyruvate metabolism,0.009673657795399915,96,444,8
+rbohD:shoot:all,rbohD,shoot,all,WP,WP:000000,WIKIPATHWAYS,0.01092869744567974,612,444,21
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0044281,small molecule metabolic process,0.011937218661291122,1527,444,49
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:01210,2-Oxocarboxylic acid metabolism,0.014641346992023472,102,444,8
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:00290,"Valine, leucine and isoleucine biosynthesis",0.015922647989199044,21,444,4
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:00053,Ascorbate and aldarate metabolism,0.018283018179872098,58,444,6
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0009636,response to toxic substance,0.02074211011679939,312,444,17
+rbohD:shoot:all,rbohD,shoot,all,GO:BP,GO:0019752,carboxylic acid metabolic process,0.023670081954710088,897,444,33
+rbohD:shoot:all,rbohD,shoot,all,GO:MF,GO:0005199,structural constituent of cell wall,0.030510116450173177,28,444,5
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:00460,Cyanoamino acid metabolism,0.04285503819376138,68,444,6
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:00999,Biosynthesis of various plant secondary metabolites,0.04285503819376138,68,444,6
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:00071,Fatty acid degradation,0.04366701938927922,46,444,5
+rbohD:shoot:all,rbohD,shoot,all,KEGG,KEGG:00260,"Glycine, serine and threonine metabolism",0.04989265084123302,70,444,6
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,WP,WP:WP4597,Glucosinolate biosynthesis from methionine,1.986517190128251e-06,15,280,5
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:1901659,glycosyl compound biosynthetic process,1.0006689187170761e-05,60,280,9
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:00966,Glucosinolate biosynthesis,1.160994479017276e-05,26,280,6
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,WP,WP:WP2579,Cadmium and glutathione,1.6376672179769565e-05,22,280,5
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0016144,S-glycoside biosynthetic process,3.217400123197334e-05,49,280,8
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0019761,glucosinolate biosynthetic process,3.217400123197334e-05,49,280,8
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:MF,GO:0003824,catalytic activity,6.438584299958966e-05,8835,280,137
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0009611,response to wounding,0.00017923179047793018,234,280,14
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0009753,response to jasmonic acid,0.0006423850511230239,223,280,13
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,0.0007467077201784396,1327,280,32
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0070542,response to fatty acid,0.0007841099860177657,227,280,13
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0019760,glucosinolate metabolic process,0.0012309697280751147,104,280,9
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:01100,Metabolic pathways,0.0013590007946664307,2306,280,46
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:00053,Ascorbate and aldarate metabolism,0.0015293791903222124,58,280,6
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:00290,"Valine, leucine and isoleucine biosynthesis",0.0027898787455918083,21,280,4
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0007049,cell cycle,0.00289954191015019,572,280,20
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:MF,GO:0016491,oxidoreductase activity,0.004744470356607378,1418,280,34
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:MF,GO:0005199,structural constituent of cell wall,0.004822610515188738,28,280,5
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:01210,2-Oxocarboxylic acid metabolism,0.004918864325885809,102,280,7
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0022402,cell cycle process,0.008980645351306302,372,280,15
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0006979,response to oxidative stress,0.00995180637662917,422,280,16
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0009098,L-leucine biosynthetic process,0.010472164782757615,15,280,4
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:00330,Arginine and proline metabolism,0.010750540249873099,53,280,5
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0006950,response to stress,0.011601880225868454,3548,280,64
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,WP,WP:000000,WIKIPATHWAYS,0.014441106090902647,612,280,15
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0046688,response to copper ion,0.017951607163400603,17,280,4
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:00500,Starch and sucrose metabolism,0.018614146262141022,166,280,8
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0009636,response to toxic substance,0.024010407692386142,312,280,13
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0098754,detoxification,0.026584247167202382,271,280,12
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0006082,organic acid metabolic process,0.02776095385731175,1015,280,26
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0043436,oxoacid metabolic process,0.02776095385731175,1015,280,26
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0044281,small molecule metabolic process,0.03168214155142677,1527,280,34
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:1901334,lactone metabolic process,0.033545738443613145,38,280,5
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:00460,Cyanoamino acid metabolism,0.03425517585736339,68,280,5
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,KEGG,KEGG:00999,Biosynthesis of various plant secondary metabolites,0.03425517585736339,68,280,5
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:BP,GO:0009079,pyruvate family amino acid biosynthetic process,0.03562569196331564,20,280,4
+rbohD:shoot:flight_up,rbohD,shoot,flight_up,GO:MF,GO:0047782,coniferin beta-glucosidase activity,0.04976722843376614,2,280,2
+rbohD:shoot:flight_down,rbohD,shoot,flight_down,KEGG,KEGG:00061,Fatty acid biosynthesis,0.004625806405887855,41,164,4
+rbohD:shoot:flight_down,rbohD,shoot,flight_down,GO:MF,GO:0043565,sequence-specific DNA binding,0.008100926104637647,1001,164,19
+rbohD:shoot:flight_down,rbohD,shoot,flight_down,KEGG,KEGG:01100,Metabolic pathways,0.02055750208932713,2306,164,28
+rbohD:shoot:flight_down,rbohD,shoot,flight_down,GO:MF,GO:0003700,DNA-binding transcription factor activity,0.024048450137737407,1479,164,23
+rbohD:shoot:flight_down,rbohD,shoot,flight_down,GO:BP,GO:0042221,response to chemical,0.02777638075260931,2872,164,36
+rbohD:shoot:flight_down,rbohD,shoot,flight_down,KEGG,KEGG:01212,Fatty acid metabolism,0.032599215151126605,68,164,4
+rbohD:shoot:flight_down,rbohD,shoot,flight_down,GO:MF,GO:0008559,ABC-type xenobiotic transporter activity,0.04449342733215322,15,164,3

@@ -45,9 +45,10 @@ leaf-area analysis; storyboard indicates ~4.0 cm² ground control vs ~2.7 cm²
 flight], and this response was altered in the ROS- and calcium-signalling
 mutants, implicating both pathways in the spaceflight growth response.
 Differential-expression analysis identified hundreds of flight-responsive genes
-in each genotype and tissue (e.g. Col-0 root: 531 up / 268 down; Col-0 shoot:
-403 up / 201 down; see Table 1), enriched for [TO CONFIRM: top GO/KEGG terms from
-`results/tables/apex5_*enrichment*`]. Beyond the biology, we release APEX-05 as a
+in each genotype and tissue (e.g. Col-0 root: 799 DEGs, 268 flight-induced / 531
+flight-repressed; see Table 1 and the direction note in §2), enriched for
+photosynthesis, stress-response, cell-wall and redox pathways (Fig. 9;
+`results/tables/apex05_primary_enrichment_*`). Beyond the biology, we release APEX-05 as a
 FAIR, reproducible data package and demonstrate a machine-learning
 quality-control workflow that (i) recovers tissue identity from expression with
 100% leave-one-out accuracy and detects deliberately mislabelled samples at ~97%
@@ -109,17 +110,40 @@ add the underlying leaf-area table to `data/` and cite it here].
 
 Flight-versus-ground-control differential expression (edgeR; [TO CONFIRM:
 thresholds, e.g. FDR < 0.05, |log2FC| > 1]) identified robust, tissue-specific
-responses (Table 1, Fig. 2). In wild-type Col-0 we detected 531 up- and 268
-down-regulated genes in root and 403 up- and 201 down-regulated genes in shoot.
-The mutants showed responses of comparable scale but distinct composition:
-*rbohD* (root 393 up / 233 down; shoot 170 up / 286 down) and *cax22* (root 100
-up / 223 down; shoot 45 up / 185 down). [TO CONFIRM: cax23 counts once the
-corrected contrast is finalised — see §5 and the provenance document.]
+responses (Table 1, Fig. 2). In wild-type Col-0 we detected **799** flight-
+responsive genes in root (**268 induced / 531 repressed** by flight) and **604**
+in shoot (**201 induced / 403 repressed**). The mutants showed responses of
+comparable scale but distinct composition: *rbohD* (root 626: 233 induced / 393
+repressed; shoot 456: 286 induced / 170 repressed) and *cax2-2* (root 324: 223
+induced / 101 repressed; shoot 230: 185 induced / 45 repressed).
+
+> **Direction convention (verified).** The released DEG workbooks are named
+> `*_up-regulated_*` / `*_down-regulated_*` on a **ground-control-referenced**
+> basis: their "up-regulated" genes are 100% higher in Ground Control — i.e.
+> *repressed* by flight — and vice-versa (confirmed directly from the labelled
+> `baseMeanA_FL` / `baseMeanB_GC` columns). All directions in this manuscript are
+> reported **flight-referenced** (induced = higher in flight). [CONFIRM this
+> matches the intended convention before submission.]
 
 *Source tables:* `results/tables/apex5_col_root_edger_*`,
 `apex5_col_shoot_edger_*`, `apex5_rbohd_root_*`, `apex5_rbohd_shoot_*`,
 `apex5_cax22_root_*`, `apex5_cax22_shoot_*`, and the combined
 `apex5_edger_deg_all-samples.csv`.
+
+Genotype-resolved over-representation analysis of these flight-DEG sets
+(g:Profiler, g:SCS-corrected *p* < 0.05, tissue-specific tested-gene background;
+Fig. 9, `analysis/ml/apex05_primary_genotype_enrichment.py`) revealed distinct
+functional signatures. Wild-type Col-0 mounted a broad **stress/stimulus and
+transmembrane-transport** response in both organs (root "response to chemical"
+*p* = 4×10⁻²²; flight-induced aquaporin/water-transport genes). *rbohD* was
+distinguished by a **redox/detoxification** signature (glutathione-transferase
+and oxidoreductase activity, response to toxic substance; shoot glutathione and
+glucosinolate metabolism), consistent with its role in ROS production. *cax2-2*
+was the most distinctive: its flight-**induced** genes were dominated by
+**photosynthesis/thylakoid** in root (*p* = 5×10⁻⁵⁶) and **cell-wall
+organisation and phenylpropanoid biosynthesis** in shoot — reproducing, from the
+retained allele alone, the *CAX2* concordant-core signature of §6. Full term
+tables: `results/tables/apex05_primary_enrichment_{col0,cax22,rbohd}_{root,shoot}.csv`.
 
 ### 3. Root and shoot deploy largely distinct flight-responsive programmes
 

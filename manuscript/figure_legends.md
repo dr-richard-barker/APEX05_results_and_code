@@ -102,6 +102,18 @@ the shoot core by cell-wall organisation, phenylpropanoid biosynthesis and
 peroxidase/H₂O₂-catabolic terms. Full tables:
 `results/tables/apex05_cax2_core_enrichment_{root,shoot,all}.csv`.
 
+**Figure 9 | Genotype-resolved functional enrichment of the flight response.**
+Produced by `analysis/ml/apex05_primary_genotype_enrichment.py` (g:Profiler
+g:GOSt, *A. thaliana*, g:SCS-corrected *p* < 0.05, custom tissue-specific
+tested-gene background). Top enriched terms (−log₁₀ adjusted *p*, coloured by
+source) for the union flight-DEG set of each primary genotype — Col-0, cax2-2,
+rbohD (columns) — in root (top) and shoot (bottom). Directions used throughout
+are flight-referenced (see §2 direction note). Col-0 shows a broad
+stress/transport response; rbohD a redox/detoxification signature; cax2-2 a
+photosynthesis (root) / cell-wall (shoot) signature that mirrors the CAX2
+concordant core (Fig. 8). Full tables:
+`results/tables/apex05_primary_enrichment_*.csv`.
+
 ---
 
 ## Supplementary figures

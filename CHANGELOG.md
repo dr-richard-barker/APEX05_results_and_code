@@ -21,6 +21,21 @@ This project adheres to [Semantic Versioning](https://semver.org/) for releases.
   inside the two QC analyses that justify the exclusion. Raw cax2-3 measurements
   stay in `data/`.
 
+### Added — functional enrichment (2026-07-09)
+- **CAX2 concordant-core enrichment** (`analysis/ml/apex05_cax2_core_enrichment.py`):
+  root core = photosynthesis/thylakoid; shoot core = cell wall + phenylpropanoid
+  + peroxidase/H₂O₂ (g:Profiler, tissue-specific tested-gene background).
+- **Primary-genotype enrichment** (`analysis/ml/apex05_primary_genotype_enrichment.py`)
+  for Col-0, cax2-2, rbohD × root/shoot: Col-0 broad stress/transport, rbohD
+  redox/detox, cax2-2 photosynthesis(root)/cell-wall(shoot). Figures 8–9,
+  tables `results/tables/apex05_*_enrichment_*.csv`.
+- **Flight-direction convention corrected.** Verified that the source DEG
+  workbooks' `up-regulated`/`down-regulated` labels are **ground-control-referenced**
+  (100% of "up-regulated" genes are higher in GC = *repressed* by flight).
+  All new analyses classify genes by true FL/GC direction; the manuscript now
+  reports flight-referenced counts with an explicit note. **Author to confirm the
+  intended convention before submission.**
+
 ### Added
 - **Machine-learning QC pipeline** (`analysis/ml/apex05_ml_anomaly_detection.py`,
   scikit-learn) that recovers tissue identity from expression (100% leave-one-out

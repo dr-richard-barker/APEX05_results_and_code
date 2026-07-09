@@ -1,0 +1,65 @@
+{
+  "random_state": 42,
+  "part_a_expression": {
+    "n_samples": 16,
+    "n_genes": 8068,
+    "loo_tissue_accuracy": 1.0,
+    "recovery_test": {
+      "n_trials": 200,
+      "n_swaps_per_trial": 2,
+      "recall_at_top_n": 0.9675,
+      "mean_score_injected": 0.9773,
+      "mean_score_clean": 0.09
+    }
+  },
+  "part_b_morphometrics": {
+    "n_profiles": 48,
+    "n_features": 25,
+    "features_used": [
+      "length",
+      "vector_length",
+      "surface",
+      "volume",
+      "direction",
+      "diameter"
+    ],
+    "loo_well_genotype_accuracy": 0.4375,
+    "chance_level": 0.25,
+    "macro_f1": 0.4374,
+    "interpretation": "Day-4 primary-root morphometry only weakly separates these subtle mutants; genotype cannot be reliably recovered from morphology alone, so sample-label provenance is the durable fix.",
+    "cax22_cax23_mutual_confusions": 2,
+    "n_outlier_wells_flagged": 5,
+    "flagged_outliers": [
+      {
+        "Location": "A1",
+        "Treatment": "FL",
+        "Genotype": "Col-0",
+        "outlier_score": 0.585
+      },
+      {
+        "Location": "A3",
+        "Treatment": "FL",
+        "Genotype": "cax22",
+        "outlier_score": 0.626
+      },
+      {
+        "Location": "B6",
+        "Treatment": "GC",
+        "Genotype": "Col-0",
+        "outlier_score": 0.576
+      },
+      {
+        "Location": "C3",
+        "Treatment": "FL",
+        "Genotype": "Col-0",
+        "outlier_score": 0.589
+      },
+      {
+        "Location": "C7",
+        "Treatment": "FL",
+        "Genotype": "Col-0",
+        "outlier_score": 0.576
+      }
+    ]
+  }
+}

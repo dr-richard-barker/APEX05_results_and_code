@@ -1,0 +1,7 @@
+# Python dependencies for analysis/ml/apex05_ml_anomaly_detection.py
+# Install with:  python -m pip install -r analysis/ml/requirements.txt
+# Tested with Python 3.13.
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+matplotlib>=3.8

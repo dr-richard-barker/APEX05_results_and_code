@@ -1,0 +1,14 @@
+# Normalise line endings so text files are consistent across Windows/Mac/Linux.
+* text=auto eol=lf
+
+# Treat known binary/data assets as binary (no EOL or diff munging).
+*.png binary
+*.pdf binary
+*.tiff binary
+*.tif binary
+*.svg binary
+*.mov binary
+*.zip binary
+*.xlsx binary
+*.xls binary
+*.ipynb binary

@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "APEX-05: Arabidopsis spaceflight transcriptomics, root architecture, and ML-based sample quality control"
+abstract: >-
+  FAIR data and analysis package for the Advanced Plant Experiment-05 (APEX-05)
+  spaceflight study of Arabidopsis thaliana. Compares wild-type Col-0 with
+  reactive-oxygen (rbohD) and calcium-transport (cax22, cax23) signalling mutants
+  under spaceflight versus ground control, profiling shoot and root
+  transcriptomes (RNA-seq) and root system architecture (RSML). Includes a
+  reproducible machine-learning quality-control pipeline that recovers tissue
+  identity from expression and documents the resolution of a cax23 sample-
+  labelling anomaly.
+type: dataset
+authors:
+  - given-names: Richard
+    family-names: Barker
+    email: admin@cosecloud.com
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # TO CONFIRM
+    affiliation: "TO CONFIRM"
+  # TO CONFIRM: add remaining co-authors
+license: MIT
+repository-code: "https://github.com/dr-richard-barker/APEX05_results_and_code"
+keywords:
+  - spaceflight
+  - microgravity
+  - Arabidopsis thaliana
+  - transcriptomics
+  - RNA-seq
+  - root system architecture
+  - reactive oxygen species
+  - RBOHD
+  - calcium
+  - CAX
+  - FAIR
+  - machine learning
+  - quality control
+version: "1.0.0"
+date-released: "2026-07-08"

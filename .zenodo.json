@@ -1,0 +1,37 @@
+{
+  "title": "APEX-05: Arabidopsis spaceflight transcriptomics, root architecture, and ML-based sample quality control",
+  "upload_type": "dataset",
+  "description": "<p>FAIR data and analysis package for the Advanced Plant Experiment-05 (APEX-05) spaceflight study of <em>Arabidopsis thaliana</em>. Wild-type Col-0 is compared with reactive-oxygen (<em>rbohD</em>) and calcium-transport (<em>cax22</em>, <em>cax23</em>) signalling mutants under spaceflight (FL) versus ground control (GC), profiling shoot and root transcriptomes (RNA-seq; HISAT2 + edgeR/DESeq2) and root system architecture (RSML/archidart morphometrics). The package includes a reproducible scikit-learn quality-control pipeline that recovers tissue identity from expression (100% leave-one-out accuracy; ~97% recall recovering injected label swaps) and documents the detection and provenance-based resolution of a <em>cax23</em> adjacent-well sample-labelling anomaly. See docs/PROVENANCE_cax23_mislabelling.md and analysis/ml/.</p>",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Barker, Richard",
+      "affiliation": "TO CONFIRM",
+      "orcid": "0000-0000-0000-0000"
+    }
+  ],
+  "keywords": [
+    "spaceflight",
+    "microgravity",
+    "Arabidopsis thaliana",
+    "transcriptomics",
+    "RNA-seq",
+    "root system architecture",
+    "reactive oxygen species",
+    "RBOHD",
+    "calcium",
+    "CAX",
+    "FAIR",
+    "machine learning",
+    "quality control"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/dr-richard-barker/APEX05_results_and_code",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Raw sequencing reads: NASA OSDR/GeneLab accession TO CONFIRM. Companion npj Microgravity manuscript in manuscript/."
+}

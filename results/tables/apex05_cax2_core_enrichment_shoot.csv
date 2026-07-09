@@ -1,0 +1,66 @@
+query_label,source,native,name,p_value,term_size,query_size,intersection_size
+shoot:all,GO:BP,GO:0009664,plant-type cell wall organization,9.627626992884089e-11,153,144,14
+shoot:all,GO:BP,GO:0071555,cell wall organization,5.745280443396983e-10,513,144,21
+shoot:all,GO:MF,GO:0005199,structural constituent of cell wall,6.792825516703176e-10,28,144,8
+shoot:all,GO:BP,GO:0045229,external encapsulating structure organization,2.385345085767499e-09,553,144,21
+shoot:all,GO:CC,GO:0005576,extracellular region,3.188305208792794e-09,1484,144,32
+shoot:all,KEGG,KEGG:00940,Phenylpropanoid biosynthesis,4.299911835008939e-09,127,144,11
+shoot:all,GO:BP,GO:0071554,cell wall organization or biogenesis,5.908283561977788e-09,646,144,22
+shoot:all,GO:MF,GO:0140825,lactoperoxidase activity,1.1569265897713487e-07,75,144,9
+shoot:all,GO:BP,GO:0071669,plant-type cell wall organization or biogenesis,1.542119314850078e-07,264,144,14
+shoot:all,GO:MF,GO:0020037,heme binding,7.420212061506662e-07,368,144,15
+shoot:all,GO:BP,GO:0042744,hydrogen peroxide catabolic process,1.1762146847567646e-06,91,144,9
+shoot:all,GO:MF,GO:0046906,tetrapyrrole binding,2.6086635171381953e-06,404,144,15
+shoot:all,GO:BP,GO:0042743,hydrogen peroxide metabolic process,7.4743675473422564e-06,112,144,9
+shoot:all,GO:MF,GO:0004601,peroxidase activity,1.2800399852627921e-05,127,144,9
+shoot:all,GO:MF,GO:0016684,"oxidoreductase activity, acting on peroxide as acceptor",1.911090157859771e-05,133,144,9
+shoot:all,GO:MF,GO:0016209,antioxidant activity,4.796688361931366e-05,148,144,9
+shoot:all,GO:BP,GO:0072593,reactive oxygen species metabolic process,4.8300352616094244e-05,184,144,10
+shoot:all,GO:BP,GO:0098869,cellular oxidant detoxification,0.00013200124360724782,156,144,9
+shoot:all,GO:BP,GO:1990748,cellular detoxification,0.0002473489604630697,168,144,9
+shoot:all,GO:BP,GO:0097237,cellular response to toxic substance,0.0002600446437863997,169,144,9
+shoot:all,GO:MF,GO:0016491,oxidoreductase activity,0.00031466407552043337,1418,144,24
+shoot:all,GO:BP,GO:0009698,phenylpropanoid metabolic process,0.002126552908793255,163,144,8
+shoot:all,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,0.004518926809397497,1327,144,19
+shoot:all,GO:BP,GO:0048364,root development,0.004579816310103682,610,144,14
+shoot:all,GO:BP,GO:0022622,root system development,0.004665201717241266,611,144,14
+shoot:all,GO:BP,GO:0010015,root morphogenesis,0.008668318806820636,327,144,10
+shoot:all,GO:BP,GO:0098754,detoxification,0.012298890144301165,271,144,9
+shoot:all,GO:BP,GO:0006979,response to oxidative stress,0.014186683565290004,422,144,11
+shoot:all,GO:BP,GO:0009636,response to toxic substance,0.03675451714110033,312,144,9
+shoot:all,GO:BP,GO:1905392,plant organ morphogenesis,0.03754637354481971,470,144,11
+shoot:all,GO:BP,GO:0042221,response to chemical,0.0486032303347977,2872,144,32
+shoot:all,GO:BP,GO:0099402,plant organ development,0.04863983086190643,1168,144,18
+shoot:up,GO:BP,GO:0009664,plant-type cell wall organization,8.012824883021369e-11,153,142,14
+shoot:up,GO:BP,GO:0071555,cell wall organization,4.3932407245980397e-10,513,142,21
+shoot:up,GO:MF,GO:0005199,structural constituent of cell wall,5.483794645552031e-10,28,142,8
+shoot:up,GO:BP,GO:0045229,external encapsulating structure organization,1.8294326512127071e-09,553,142,21
+shoot:up,GO:CC,GO:0005576,extracellular region,2.1624370193036357e-09,1484,142,32
+shoot:up,KEGG,KEGG:00940,Phenylpropanoid biosynthesis,3.6961418977149456e-09,127,142,11
+shoot:up,GO:BP,GO:0071554,cell wall organization or biogenesis,4.48884374363424e-09,646,142,22
+shoot:up,GO:MF,GO:0140825,lactoperoxidase activity,9.231998183087125e-08,75,142,9
+shoot:up,GO:BP,GO:0071669,plant-type cell wall organization or biogenesis,1.2937646596757558e-07,264,142,14
+shoot:up,GO:MF,GO:0020037,heme binding,5.519223354290527e-07,368,142,15
+shoot:up,GO:BP,GO:0042744,hydrogen peroxide catabolic process,1.0514207424677954e-06,91,142,9
+shoot:up,GO:MF,GO:0046906,tetrapyrrole binding,1.9454035884211206e-06,404,142,15
+shoot:up,GO:BP,GO:0042743,hydrogen peroxide metabolic process,6.69105922528428e-06,112,142,9
+shoot:up,GO:MF,GO:0004601,peroxidase activity,1.0251199134592073e-05,127,142,9
+shoot:up,GO:MF,GO:0016684,"oxidoreductase activity, acting on peroxide as acceptor",1.531130028060044e-05,133,142,9
+shoot:up,GO:MF,GO:0016209,antioxidant activity,3.8469935225500043e-05,148,142,9
+shoot:up,GO:BP,GO:0072593,reactive oxygen species metabolic process,4.281286624827645e-05,184,142,10
+shoot:up,GO:BP,GO:0098869,cellular oxidant detoxification,0.00011852673111249826,156,142,9
+shoot:up,GO:BP,GO:1990748,cellular detoxification,0.00022228339256394556,168,142,9
+shoot:up,GO:BP,GO:0097237,cellular response to toxic substance,0.00023370860943342284,169,142,9
+shoot:up,GO:MF,GO:0016491,oxidoreductase activity,0.000789368312623141,1418,142,23
+shoot:up,GO:BP,GO:0009698,phenylpropanoid metabolic process,0.001938747966359004,163,142,8
+shoot:up,KEGG,KEGG:01110,Biosynthesis of secondary metabolites,0.0037453555811126304,1327,142,19
+shoot:up,GO:BP,GO:0048364,root development,0.003938704566295064,610,142,14
+shoot:up,GO:BP,GO:0022622,root system development,0.004012423215953349,611,142,14
+shoot:up,GO:BP,GO:0010015,root morphogenesis,0.007760018306378701,327,142,10
+shoot:up,GO:BP,GO:0098754,detoxification,0.011130796385241368,271,142,9
+shoot:up,GO:BP,GO:0006979,response to oxidative stress,0.012595804444071977,422,142,11
+shoot:up,GO:BP,GO:0009636,response to toxic substance,0.03335664009390145,312,142,9
+shoot:up,GO:BP,GO:1905392,plant organ morphogenesis,0.0334471231833933,470,142,11
+shoot:up,GO:BP,GO:0042221,response to chemical,0.03701866488816357,2872,142,32
+shoot:up,GO:BP,GO:0009056,catabolic process,0.045802845697218854,1289,142,19
+shoot:up,GO:BP,GO:0010345,suberin biosynthetic process,0.04980360011072271,16,142,3

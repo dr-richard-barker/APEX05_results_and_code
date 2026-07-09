@@ -199,8 +199,22 @@ direction agreement). The core is overwhelmingly flight-*induced* (≈97% up) an
 entirely tissue-partitioned (no gene shared between the root and shoot cores),
 and is released as a supplementary table
 (`results/tables/apex05_cax2_concordant-core_*.csv`) as the defensible *CAX2*
-flight signature. [TO CONFIRM: enrichment of the core; candidate genes include
-*LHB1B1*, *WRKY51*, *AP2*, *MC3*.]
+flight signature.
+
+Over-representation analysis of the core (g:Profiler, g:SCS-corrected, against
+the tissue-specific tested-gene background; Fig. 8,
+`analysis/ml/apex05_cax2_core_enrichment.py`) shows the two tissues respond
+through **distinct programmes**. The (flight-induced) **root** core is dominated
+by **photosynthesis / thylakoid** terms (GO:CC thylakoid *p* = 9×10⁻⁵⁸;
+photosynthesis, photosystem I), indicating ectopic induction of the
+photosynthetic apparatus in roots under spaceflight. The **shoot** core is
+enriched for **cell-wall organisation and phenylpropanoid biosynthesis**
+(plant-type cell wall organisation *p* = 1×10⁻¹⁰; KEGG phenylpropanoid
+biosynthesis; structural constituent of cell wall) together with
+**peroxidase / hydrogen-peroxide-catabolic** terms (lactoperoxidase activity,
+hydrogen peroxide catabolic process, heme binding) — connecting the *CAX2*
+flight response to cell-wall remodelling and the ROS axis also probed by *rbohD*.
+Full term lists: `results/tables/apex05_cax2_core_enrichment_{root,shoot}.csv`.
 
 ---
 

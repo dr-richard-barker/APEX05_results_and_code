@@ -150,3 +150,19 @@ core genes include *LHB1B1* (light harvesting), *WRKY51*, *AP2*, *MC3*
 
 This core is released as a supplementary table and can serve as the *CAX2*
 flight signature in place of the discarded genotype-level cax2-3 analysis.
+
+### Functional enrichment of the core
+
+Over-representation analysis
+([`analysis/ml/apex05_cax2_core_enrichment.py`](../analysis/ml/apex05_cax2_core_enrichment.py);
+g:Profiler, g:SCS-corrected *p* < 0.05, background = tissue-specific tested genes;
+Fig. C4) shows the tissues respond through distinct programmes:
+
+| Core | Top enriched biology | Example term (adj *p*) |
+| :-- | :-- | :-- |
+| **Root** (92 terms) | photosynthesis / thylakoid / chloroplast | GO:CC thylakoid (9×10⁻⁵⁸); photosynthesis; photosystem I |
+| **Shoot** (32 terms) | cell-wall organisation; phenylpropanoid biosynthesis; peroxidase / H₂O₂ catabolism | plant-type cell wall organisation (1×10⁻¹⁰); KEGG phenylpropanoid biosynthesis; lactoperoxidase activity |
+
+The shoot core's peroxidase / hydrogen-peroxide terms connect the *CAX2* flight
+response to the same ROS axis probed by *rbohD*. Full term lists:
+`results/tables/apex05_cax2_core_enrichment_{root,shoot,all}.csv`.

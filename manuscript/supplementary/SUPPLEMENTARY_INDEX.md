@@ -39,6 +39,7 @@ repository root.
 | S28 | Excluded cax2-3 derived result tables (retained for auditability) | `archive/excluded_cax2-3/` | CSV/XLSX |
 | S29 | **CAX2 concordant-core flight signature** (genes DE in both alleles, same direction; root/shoot/combined) | `results/tables/apex05_cax2_concordant-core_{root,shoot,combined}.csv` | CSV |
 | S30 | CAX2 concordant-core summary metrics | `results/ml/cax2_concordant_core_summary.json` | JSON |
+| S31 | **CAX2 core functional enrichment** (GO/KEGG/Reactome/WP; g:Profiler, tested-gene background) | `results/tables/apex05_cax2_core_enrichment_{root,shoot,all}.csv`, `results/ml/cax2_core_enrichment_summary.json` | CSV/JSON |
 
 ## Supplementary figures
 See [`../figure_legends.md`](../figure_legends.md) (Figures S1–S4).

@@ -1,7 +1,9 @@
-# Python dependencies for analysis/ml/apex05_ml_anomaly_detection.py
+# Python dependencies for the analysis/ml/ scripts.
 # Install with:  python -m pip install -r analysis/ml/requirements.txt
 # Tested with Python 3.13.
 numpy>=1.26
 pandas>=2.1
 scikit-learn>=1.4
 matplotlib>=3.8
+openpyxl>=3.1            # read cax2-2 .xlsx DEG workbooks (concordance/core)
+gprofiler-official>=1.0  # functional enrichment (apex05_cax2_core_enrichment.py; needs internet)

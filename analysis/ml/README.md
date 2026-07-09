@@ -8,6 +8,7 @@ APEX-05 data:
 | `apex05_ml_anomaly_detection.py` | Recover design factors (tissue, genotype) and demonstrate mislabel detection — the class of error behind the historical *cax2-3* anomaly. |
 | `apex05_cax2_allele_concordance.py` | QC comparison of the two *CAX2* alleles (cax2-2 vs cax2-3); the basis for excluding cax2-3. See [`../../docs/cax2_allele_concordance.md`](../../docs/cax2_allele_concordance.md). |
 | `apex05_cax2_concordant_core.py` | Extract the *CAX2* concordant core — genes DE under flight in **both** alleles, same direction (210 root / 146 shoot); the defensible *CAX2* flight signature. |
+| `apex05_cax2_core_enrichment.py` | GO/KEGG/Reactome/WP over-representation of the core (g:Profiler; tested-gene background). Root = photosynthesis/thylakoid; shoot = cell wall + phenylpropanoid + peroxidase. **Needs internet.** |
 
 The first script is documented in detail below; provenance of the anomaly is in
 [`../../docs/PROVENANCE_cax23_mislabelling.md`](../../docs/PROVENANCE_cax23_mislabelling.md).

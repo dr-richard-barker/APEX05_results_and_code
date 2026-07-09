@@ -91,6 +91,17 @@ predominantly in the upper-right (flight-induced in both) and above the identity
 line (cax2-3 magnitudes inflated, but directionally concordant). The core is
 released as `results/tables/apex05_cax2_concordant-core_{root,shoot,combined}.csv`.
 
+**Figure 8 | Functional enrichment of the CAX2 concordant core.**
+Produced by `analysis/ml/apex05_cax2_core_enrichment.py` (g:Profiler g:GOSt,
+organism *A. thaliana*, g:SCS-corrected *p* < 0.05, custom background = the
+tissue-specific set of genes tested for differential expression). Top terms
+(bars = −log₁₀ adjusted *p*, coloured by source: GO:BP/MF/CC, KEGG, Reactome,
+WikiPathways) for the root core (left; 92 significant terms) and shoot core
+(right; 32 terms). The root core is dominated by photosynthesis/thylakoid terms;
+the shoot core by cell-wall organisation, phenylpropanoid biosynthesis and
+peroxidase/H₂O₂-catabolic terms. Full tables:
+`results/tables/apex05_cax2_core_enrichment_{root,shoot,all}.csv`.
+
 ---
 
 ## Supplementary figures

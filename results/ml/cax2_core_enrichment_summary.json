@@ -1,0 +1,225 @@
+{
+  "sources": [
+    "GO:BP",
+    "GO:MF",
+    "GO:CC",
+    "KEGG",
+    "REAC",
+    "WP"
+  ],
+  "threshold": "g_SCS < 0.05",
+  "by_query": {
+    "root:all": {
+      "n_terms": 92,
+      "top_terms": [
+        {
+          "source": "GO:CC",
+          "native": "GO:0009579",
+          "name": "thylakoid",
+          "p_value": 9.242e-58
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0009534",
+          "name": "chloroplast thylakoid",
+          "p_value": 1.001e-50
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0031976",
+          "name": "plastid thylakoid",
+          "p_value": 1.126e-50
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0009535",
+          "name": "chloroplast thylakoid membrane",
+          "p_value": 1.767e-47
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0055035",
+          "name": "plastid thylakoid membrane",
+          "p_value": 2.014e-47
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0042651",
+          "name": "thylakoid membrane",
+          "p_value": 1.558e-46
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0034357",
+          "name": "photosynthetic membrane",
+          "p_value": 1.766e-46
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0015979",
+          "name": "photosynthesis",
+          "p_value": 8.456e-46
+        }
+      ]
+    },
+    "root:up": {
+      "n_terms": 96,
+      "top_terms": [
+        {
+          "source": "GO:CC",
+          "native": "GO:0009579",
+          "name": "thylakoid",
+          "p_value": 6.764e-59
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0009534",
+          "name": "chloroplast thylakoid",
+          "p_value": 1.07e-51
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0031976",
+          "name": "plastid thylakoid",
+          "p_value": 1.204e-51
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0009535",
+          "name": "chloroplast thylakoid membrane",
+          "p_value": 2.451e-48
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0055035",
+          "name": "plastid thylakoid membrane",
+          "p_value": 2.794e-48
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0042651",
+          "name": "thylakoid membrane",
+          "p_value": 2.171e-47
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0034357",
+          "name": "photosynthetic membrane",
+          "p_value": 2.461e-47
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0015979",
+          "name": "photosynthesis",
+          "p_value": 1.553e-46
+        }
+      ]
+    },
+    "shoot:all": {
+      "n_terms": 32,
+      "top_terms": [
+        {
+          "source": "GO:BP",
+          "native": "GO:0009664",
+          "name": "plant-type cell wall organization",
+          "p_value": 9.628e-11
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0071555",
+          "name": "cell wall organization",
+          "p_value": 5.745e-10
+        },
+        {
+          "source": "GO:MF",
+          "native": "GO:0005199",
+          "name": "structural constituent of cell wall",
+          "p_value": 6.793e-10
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0045229",
+          "name": "external encapsulating structure organization",
+          "p_value": 2.385e-09
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0005576",
+          "name": "extracellular region",
+          "p_value": 3.188e-09
+        },
+        {
+          "source": "KEGG",
+          "native": "KEGG:00940",
+          "name": "Phenylpropanoid biosynthesis",
+          "p_value": 4.3e-09
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0071554",
+          "name": "cell wall organization or biogenesis",
+          "p_value": 5.908e-09
+        },
+        {
+          "source": "GO:MF",
+          "native": "GO:0140825",
+          "name": "lactoperoxidase activity",
+          "p_value": 1.157e-07
+        }
+      ]
+    },
+    "shoot:up": {
+      "n_terms": 33,
+      "top_terms": [
+        {
+          "source": "GO:BP",
+          "native": "GO:0009664",
+          "name": "plant-type cell wall organization",
+          "p_value": 8.013e-11
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0071555",
+          "name": "cell wall organization",
+          "p_value": 4.393e-10
+        },
+        {
+          "source": "GO:MF",
+          "native": "GO:0005199",
+          "name": "structural constituent of cell wall",
+          "p_value": 5.484e-10
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0045229",
+          "name": "external encapsulating structure organization",
+          "p_value": 1.829e-09
+        },
+        {
+          "source": "GO:CC",
+          "native": "GO:0005576",
+          "name": "extracellular region",
+          "p_value": 2.162e-09
+        },
+        {
+          "source": "KEGG",
+          "native": "KEGG:00940",
+          "name": "Phenylpropanoid biosynthesis",
+          "p_value": 3.696e-09
+        },
+        {
+          "source": "GO:BP",
+          "native": "GO:0071554",
+          "name": "cell wall organization or biogenesis",
+          "p_value": 4.489e-09
+        },
+        {
+          "source": "GO:MF",
+          "native": "GO:0140825",
+          "name": "lactoperoxidase activity",
+          "p_value": 9.232e-08
+        }
+      ]
+    }
+  }
+}

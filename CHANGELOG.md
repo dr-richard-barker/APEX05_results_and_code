@@ -32,9 +32,10 @@ This project adheres to [Semantic Versioning](https://semver.org/) for releases.
 - **Flight-direction convention corrected.** Verified that the source DEG
   workbooks' `up-regulated`/`down-regulated` labels are **ground-control-referenced**
   (100% of "up-regulated" genes are higher in GC = *repressed* by flight).
-  All new analyses classify genes by true FL/GC direction; the manuscript now
-  reports flight-referenced counts with an explicit note. **Author to confirm the
-  intended convention before submission.**
+  All analyses classify genes by true FL/GC direction, and the manuscript reports
+  **flight-referenced** directions throughout (induced = higher in flight),
+  re-derived from the labelled `baseMeanA_FL`/`baseMeanB_GC` columns. Convention
+  confirmed by the PI (2026-07-09).
 
 ### Added
 - **Machine-learning QC pipeline** (`analysis/ml/apex05_ml_anomaly_detection.py`,

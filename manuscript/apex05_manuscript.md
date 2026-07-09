@@ -117,13 +117,15 @@ comparable scale but distinct composition: *rbohD* (root 626: 233 induced / 393
 repressed; shoot 456: 286 induced / 170 repressed) and *cax2-2* (root 324: 223
 induced / 101 repressed; shoot 230: 185 induced / 45 repressed).
 
-> **Direction convention (verified).** The released DEG workbooks are named
-> `*_up-regulated_*` / `*_down-regulated_*` on a **ground-control-referenced**
-> basis: their "up-regulated" genes are 100% higher in Ground Control — i.e.
-> *repressed* by flight — and vice-versa (confirmed directly from the labelled
-> `baseMeanA_FL` / `baseMeanB_GC` columns). All directions in this manuscript are
-> reported **flight-referenced** (induced = higher in flight). [CONFIRM this
-> matches the intended convention before submission.]
+> **Direction convention.** Throughout this manuscript, differential-expression
+> directions are **flight-referenced**: *induced* = higher in spaceflight (FL),
+> *repressed* = higher in ground control (GC). Note that the underlying released
+> DEG workbooks are named `*_up-regulated_*` / `*_down-regulated_*` on the
+> opposite, **ground-control-referenced** basis — their "up-regulated" genes are
+> 100% higher in GC (i.e. flight-*repressed*), verified directly from the labelled
+> `baseMeanA_FL` / `baseMeanB_GC` columns. We re-derived every direction from
+> those columns so that the counts and enrichment reported here follow the
+> flight-referenced convention.
 
 *Source tables:* `results/tables/apex5_col_root_edger_*`,
 `apex5_col_shoot_edger_*`, `apex5_rbohd_root_*`, `apex5_rbohd_shoot_*`,
@@ -277,10 +279,18 @@ Full term lists: `results/tables/apex05_cax2_core_enrichment_{root,shoot}.csv`.
   version, counting.]
 - **Differential expression.** edgeR and DESeq2 (`analysis/R/`), FL vs GC per
   genotype × tissue; [TO CONFIRM: thresholds]. Outlier-handling variant in
-  `analysis/R/apex5_edger_outlier-removed-main-analysis.R`.
-- **Functional enrichment.** GO/KEGG/AraCyc via [TO CONFIRM: tools — iDEP,
-  Metascape, pathview]; inputs in `data/genesets/`, outputs in
-  `results/tables/apex5_*enrichment*`.
+  `analysis/R/apex5_edger_outlier-removed-main-analysis.R`. All directions are
+  reported **flight-referenced** (induced = higher in FL), re-derived from the
+  labelled `baseMeanA_FL` / `baseMeanB_GC` columns; the archived DEG workbooks'
+  `up`/`down` file labels are ground-control-referenced and therefore inverted.
+- **Functional enrichment.** Manuscript enrichment (Figs 8–9) uses g:Profiler
+  g:GOSt (organism *A. thaliana*; g:SCS-corrected *p* < 0.05; custom
+  tissue-specific tested-gene background) via
+  `analysis/ml/apex05_cax2_core_enrichment.py` and
+  `analysis/ml/apex05_primary_genotype_enrichment.py`; outputs in
+  `results/tables/apex05_*_enrichment_*.csv`. Legacy GO/KEGG/AraCyc exports
+  (iDEP/Metascape/pathview) are retained in `results/tables/apex5_*enrichment*`
+  and `data/genesets/`.
 - **Root system architecture.** RSML exported from Fiji/archidart
   (`analysis/R/apex5_drb_rsml-analysis.R`,
   `data/morphometrics/apex05_rsml_day4_morphometrics.csv`). [TO CONFIRM:

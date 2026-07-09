@@ -1,0 +1,44 @@
+genotype,tissue,gene,symbol,lasso_coef,selection_freq,in_deseq2_DEG
+rbohD,shoot,AT5G44582,,0.0155,1.0,False
+rbohD,shoot,AT5G04000,,0.0138,1.0,False
+rbohD,shoot,AT5G45840,kinase,-0.0126,1.0,True
+rbohD,shoot,AT5G02170,amino acid transporter,-0.0123,1.0,False
+rbohD,shoot,AT2G32800,,0.0123,1.0,False
+rbohD,shoot,AT3G20000,,-0.0121,1.0,False
+rbohD,shoot,AT3G08943,,-0.0119,1.0,False
+rbohD,shoot,AT1G08430,ALMT1,-0.0119,1.0,True
+rbohD,shoot,AT5G62390,,-0.0114,1.0,False
+rbohD,shoot,AT5G67060,HEC1,-0.0112,1.0,False
+rbohD,shoot,AT1G22670,,-0.0109,1.0,False
+rbohD,shoot,AT3G11290,,-0.0107,1.0,False
+rbohD,shoot,AT3G60690,,0.0105,1.0,False
+rbohD,shoot,AT3G27970,,-0.0098,1.0,False
+rbohD,shoot,AT5G46450,,0.0098,1.0,False
+rbohD,shoot,AT3G11710,,-0.0098,1.0,False
+rbohD,shoot,AT5G48150,,0.0095,1.0,False
+rbohD,shoot,AT3G06040,,-0.0091,1.0,False
+rbohD,shoot,AT4G04420,transposable element gene,-0.0089,1.0,False
+rbohD,shoot,AT4G07960,CSLC12,-0.0087,1.0,False
+rbohD,shoot,AT3G23530,CPA-FA synthase,0.0087,1.0,False
+rbohD,shoot,AT1G10070,BCAT-2,-0.0086,1.0,True
+rbohD,shoot,AT4G21850,,-0.0085,1.0,False
+rbohD,shoot,AT4G28770,,-0.0082,0.875,False
+rbohD,shoot,AT5G54148,,0.008,0.75,False
+rbohD,shoot,AT5G56950,,-0.0079,0.875,False
+rbohD,shoot,AT3G59350,kinase,-0.0079,0.875,False
+rbohD,shoot,AT3G16680,,-0.0075,0.875,False
+rbohD,shoot,AT2G26020,PDF1.2b,-0.0073,0.75,True
+rbohD,shoot,AT1G10090,,-0.0071,0.75,False
+rbohD,shoot,AT5G57280,,-0.0068,0.75,False
+rbohD,shoot,AT1G36310,,-0.0067,0.75,False
+rbohD,shoot,AT4G26260,MIOX4,-0.0065,1.0,True
+rbohD,shoot,AT5G40580,,-0.0065,0.875,False
+rbohD,shoot,AT4G08300,nodulin MtN21,0.0065,0.875,False
+rbohD,shoot,AT3G23990,,-0.0064,0.875,False
+rbohD,shoot,AT5G08720,,0.0064,0.75,False
+rbohD,shoot,AT1G15380,glyoxalase I,-0.0064,0.75,True
+rbohD,shoot,AT2G38120,,0.006,0.75,False
+rbohD,shoot,AT3G57130,,-0.0057,0.75,False
+rbohD,shoot,AT1G64430,,0.0057,0.875,False
+rbohD,shoot,AT3G10160,,0.0056,0.875,False
+rbohD,shoot,AT2G43550,trypsin inhibitor,-0.0055,0.75,False

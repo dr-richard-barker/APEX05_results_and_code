@@ -11,6 +11,27 @@ pathway synthesis, integrated as a new website tab.
 > requirement and whether that requirement is currently met. Two decisions
 > (§Decisions) gate the single-cell-dependent stages.
 
+## Data model (updated after the fixed matrix + ALSDA metadata)
+
+- **Canonical counts:** `data/expression/counts_raw/apex05_gene_counts_all-genotypes_v2.2.csv`
+  — 33,602 genes × **64 samples** (fixed v2.2; includes a corrected cax2-3).
+- **Design:** 4 genotypes × **4 wells (biological reps)** × 2 tissues × 2 conditions.
+  Col-0's `_3.1` column is the **4th biological well, not a technical replicate**
+  (log2CPM r to rep 3 = 0.993, same as any pair; ALSDA lists 4 Col-0 wells).
+- **Well / imaging bridge:** `data/metadata/apex05_sample_well_metadata.csv` (ALSDA)
+  gives each sample's plate **Location (well)** — the key the **RSML root-imaging**
+  data (`data/morphometrics/`) is indexed on. Each well appears in **both FL and
+  GC** (position-paired), so:
+  - RNA-seq ↔ morphometrics can be **joined per well** for multi-omics integration;
+  - DE can use a **paired/blocked design** (well as block) for more power.
+- **Shared loader:** `analysis/ml/apex05_data.py` builds the sample sheet
+  (`data/metadata/apex05_rnaseq_sample_sheet.csv`) and attaches Location,
+  S-number and ALSDA sample name to each library. The **rep→well mapping is
+  resolved from the S-numbers** (each well has a contiguous, staggered S-number
+  block; wells ordered by minimum S-number → rep 1..4). Verified: every
+  (genotype, rep) → a single well, so FL rep-i and GC rep-i are the **same well**
+  (position-paired). This unblocks well-level imaging joins and paired DE.
+
 ## Hard constraints discovered
 
 1. **Bulk RNA-seq, not single-cell.** No single-cell data exists in this dataset.
@@ -30,8 +51,10 @@ pathway synthesis, integrated as a new website tab.
 | # | Stage | Method / tool | Data requirement | Status |
 |:-|:-|:-|:-|:-|
 | 0 | **Assemble 3-genotype per-sample count matrix** (root, shoot) | OSDR fetch or PI upload | per-sample counts for WT/cax2-2/rbohD | **BLOCKED — decision D2** |
-| 1 | Re-run DESeq2/edgeR FL-vs-GC on the 3 genotypes (or reuse released DEGs) | DESeq2/edgeR (R) or pydeseq2 | counts (stage 0) | pending 0 |
-| 2 | **LASSO flight-signature** to support DESeq (sparse, cross-validated; overlap with DEGs) | glmnet / sklearn `LogisticRegressionCV(penalty=l1)` | per-sample counts | **Col-0 doable now; mutants pending 0** |
+| 0b | **Integrate ALSDA well metadata**; confirm rep→well map; enable RNA-seq↔RSML join | `apex05_data.py` + ALSDA sheet | metadata (have) | **DONE (mapping provisional)** |
+| 1 | DESeq2 FL-vs-GC on the 64-sample fixed matrix, per genotype × tissue (paired-by-well option) | pydeseq2 (`apex05_deseq2_flight.py`) | counts (have) | **DONE (unpaired); paired pending rep→well** |
+| 3b | **Multi-omics: join flight DE with RSML root morphometrics per well/genotype** (does the transcriptional flight response track the root-architecture change?) | `apex05_data` + `data/morphometrics/` | rep→well confirmation | **pending 0b confirmation** |
+| 2 | **LASSO flight-signature** to support DESeq (sparse, cross-validated; overlap with DEGs) | sklearn L1 logistic (`analysis/ml/apex05_lasso_flight_signature.py`) | per-sample counts | **Col-0 DONE; mutants auto-extend on upload** |
 | 3 | **Cell-type resolution of the bulk signal** (roots & shoots separately) via a published *A. thaliana* single-cell atlas: deconvolution + autoencoder latent projection of flight-DEGs onto cell types | scanpy / an autoencoder (torch) + reference atlas | external atlas + counts | **BLOCKED — decision D1** |
 | 4 | **ggPlantmap** anatomical visualisation of the tissue/cell-type-resolved response | ggPlantmap (R) | stage 3 output | pending 3 |
 | 5 | **GO** of clusters/DEGs | g:Profiler (done) + per-cluster | gene lists | partly done |
@@ -55,6 +78,19 @@ pathway synthesis, integrated as a new website tab.
   **OSDR/GeneLab** (need the accession), (b) you **upload** them, or (c) run
   per-sample ML on **Col-0 only** and treat the mutants via their released DEG
   tables (signature scoring/projection).
+
+## Progress log
+
+- **Stage 2 — LASSO (Col-0), done.** An L1-penalised logistic model
+  (`analysis/ml/apex05_lasso_flight_signature.py`) selects a stability-selected
+  sparse flight signature per tissue and predicts FL vs GC at 100% leave-one-out
+  accuracy. The signature is strongly enriched for the independent DESeq DEGs:
+  **root** 94 genes, 78 also DESeq DEGs (hypergeometric *p* = 3×10⁻⁷⁸);
+  **shoot** 70 genes, 16 DESeq (p = 1×10⁻¹¹) — orthogonal ML support for the DE
+  calls. Auto-extends to cax2-2 / rbohD when their CPM matrices are added to
+  `data/expression/counts_cpm/`. Outputs:
+  `results/tables/apex05_lasso_col0_{root,shoot}_signature.csv`,
+  `results/ml/figE1_lasso_flight_signature.png`, `lasso_flight_summary.json`.
 
 ## Doable immediately (no new data, no decision)
 

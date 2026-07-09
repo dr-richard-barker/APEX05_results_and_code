@@ -1,0 +1,9 @@
+genotype,tissue,n_tested,n_DEG,induced,repressed
+Col-0,root,27889,284,201,83
+Col-0,shoot,26784,168,156,12
+cax2-2,root,27624,5,5,0
+cax2-2,shoot,26626,3,1,2
+cax2-3,root,27548,518,250,268
+cax2-3,shoot,26573,265,232,33
+rbohD,root,27810,280,198,82
+rbohD,shoot,26680,33,2,31

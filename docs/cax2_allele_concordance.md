@@ -95,6 +95,34 @@ documented adjacent-well labelling anomaly
 cax2-3 sat beside cax2-2 on the plate, and its DEG set-membership is what the
 original "CAX23oddity" QC screen flagged.
 
+## Re-verification on the CORRECTED matrix (2026-07-09)
+
+When the fixed all-genotype count matrix (`run1 v2.2 fix2`) became available, the
+concordance was **re-tested with fresh DESeq2** on the corrected data
+(`analysis/ml/apex05_deseq2_flight.py` → `apex05_cax2_concordance_fixed.py`,
+Fig. F1) rather than relying on the pre-fix tables. The result is unchanged and
+in fact stronger:
+
+| Tissue | Col-0 DEG | cax2-2 DEG | cax2-3 DEG | cax2-3 / cax2-2 |
+| :-- | --: | --: | --: | --: |
+| Root | 284 | 5 | 518 | **104×** |
+| Shoot | 168 | 3 | 265 | **88×** |
+
+cax2-3 still has a grossly inflated DEG set and near-zero preferential overlap
+with cax2-2 (Jaccard ≤ 0.002), and a QC PCA shows a cax2-3 outlier library. **The
+exclusion stands on corrected data.**
+
+> **New finding (corrected data): cax2-2 has a strongly attenuated flight
+> response.** On the fixed matrix cax2-2 shows only **5 root / 3 shoot** DEGs
+> (15/4 even at a relaxed 1.5-fold, padj<0.1 threshold) vs Col-0's 284/168, and
+> its FL-vs-GC PCA centroid separation is ~5× smaller than Col-0's (7.9 vs 39.9
+> root). This is a genuine biological signal (clean tissue structure, no cax2-2
+> outliers), **not** the technical inflation seen in cax2-3 — consistent with
+> *CAX2* being required for the normal spaceflight transcriptional response.
+> Note this differs sharply from the legacy edgeR workbook counts (cax2-2 ~323
+> DEGs); the corrected DESeq2 on the fixed matrix supersedes those. See
+> `results/ml/qc_summary.json`, `results/tables/deseq2/`.
+
 ## Decision (recorded 2026-07-09)
 
 **cax2-3 is excluded from the APEX-05 primary analysis; cax2-2 is reported as the

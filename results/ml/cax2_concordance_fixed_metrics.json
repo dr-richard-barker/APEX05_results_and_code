@@ -1,0 +1,48 @@
+{
+  "thresholds": {
+    "padj": 0.05,
+    "abs_log2FC": 1.0
+  },
+  "results": [
+    {
+      "tissue": "root",
+      "deg_sizes": {
+        "Col-0": 284,
+        "cax2-2": 5,
+        "cax2-3": 518,
+        "rbohD": 280
+      },
+      "cax2-3_to_cax2-2_ratio": 103.6,
+      "jaccard_cax22_cax23": 0.0019,
+      "jaccard_cax22_col0": 0.007,
+      "jaccard_cax22_rbohd": 0.0071,
+      "n_shared_cax2": 1,
+      "direction_agreement": 1.0
+    },
+    {
+      "tissue": "shoot",
+      "deg_sizes": {
+        "Col-0": 168,
+        "cax2-2": 3,
+        "cax2-3": 265,
+        "rbohD": 33
+      },
+      "cax2-3_to_cax2-2_ratio": 88.33,
+      "jaccard_cax22_cax23": 0.0,
+      "jaccard_cax22_col0": 0.0,
+      "jaccard_cax22_rbohd": 0.0,
+      "n_shared_cax2": 0,
+      "direction_agreement": null
+    }
+  ],
+  "prefix_vs_fixed_ratio": {
+    "root": {
+      "prefix_ratio": 9.6,
+      "fixed_ratio": 103.6
+    },
+    "shoot": {
+      "prefix_ratio": 17.13,
+      "fixed_ratio": 88.33
+    }
+  }
+}

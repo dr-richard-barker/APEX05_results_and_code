@@ -7,7 +7,12 @@ Full staged plan + feasibility in [`docs/final_manuscript_plan.md`](docs/final_m
 - [ ] **D1 decision:** how to handle the single-cell-dependent aims (dataset is bulk) —
   published Arabidopsis atlas (recommended) / provide single-cell data / drop those stages.
 - [ ] **D2 decision:** source per-sample counts for cax2-2 & rbohD (OSDR accession / upload / Col-0-only).
-- [ ] Stage 0–1: assemble 3-genotype per-sample counts; re-run DESeq2/edgeR (or reuse released DEGs).
+- [x] Stage 0: canonical 64-sample count matrix (fixed v2.2) ingested + shared loader `analysis/ml/apex05_data.py`.
+- [x] Stage 0b: ALSDA well metadata ingested (`data/metadata/apex05_sample_well_metadata.csv`); corrected design (64 samples, Col-0 `_3.1` = 4th biological well, not technical).
+- [x] **rep→well mapping resolved from S-numbers** (verified; FL/GC paired to same well). Enables imaging joins + paired DE.
+- [x] Stage 1: DESeq2 FL-vs-GC per genotype × tissue (`analysis/ml/apex05_deseq2_flight.py`), flight-referenced.
+- [ ] Optional: paired/blocked DE (well as block) once rep→well is confirmed.
+- [ ] Stage 3b: **integrate RNA-seq DE with RSML root morphometrics per well** (multi-omics).
 - [ ] Stage 2: **LASSO** flight-signature to support DESeq (Col-0 now; mutants after D2).
 - [ ] Stage 3: cell-type resolution via reference atlas (deconvolution + autoencoder) — after D1.
 - [ ] Stage 4: **ggPlantmap** anatomical visualisation of the resolved response.

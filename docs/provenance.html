@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>cax2-3 provenance · APEX-05</title>
+<meta name="description" content="APEX-05: Arabidopsis spaceflight transcriptomics, root architecture and ML sample QC — FAIR data and code.">
+<link rel="stylesheet" href="assets/style.css">
+</head><body>
+<header class="site"><nav><span class="brand">🌱 APEX-05</span><a href="index.html">Home</a><a href="manuscript.html">Manuscript</a><a href="figures.html">Figures</a><a href="cax2-story.html" style="color:var(--accent)">CAX2 QC story</a><a href="https://github.com/dr-richard-barker/APEX05_results_and_code">GitHub ↗</a></nav></header>
+<main><div class="content"><h1 id="apex-05-provenance-of-the-cax23-sample-labelling-anomaly">APEX-05 — Provenance of the <em>cax23</em> sample-labelling anomaly</h1>
+<p>This document reconstructs, from the archived analysis files, the sample
+mislabelling that affected the APEX-05 RNA-seq dataset and how it was detected
+and corrected. It is the authoritative record for reviewers and re-users of the
+data package. All paths are relative to the repository root; the historical
+files themselves are preserved under
+<a href="https://github.com/dr-richard-barker/APEX05_results_and_code/blob/main/archive/targets_file_versions"><code>archive/targets_file_versions/</code></a> and
+<a href="https://github.com/dr-richard-barker/APEX05_results_and_code/blob/main/archive/diagnostics"><code>archive/diagnostics/</code></a>.</p>
+<hr />
+<h2 id="1-executive-summary">1. Executive summary</h2>
+<p>The APEX-05 growth plate carried <strong>cax2-2</strong> (<code>cax22</code>) and <strong>cax2-3</strong> (<code>cax23</code>) —
+<strong>two independent mutant alleles of the same gene, <em>CAX2</em></strong> (a Ca²⁺/H⁺
+exchanger), <em>not</em> two different genes — in <strong>physically adjacent wells</strong> (well
+pairs A3↔A4, B4↔B3, B8↔B7, A7↔A8). That same-gene relationship is what makes the
+divergence diagnostic: two alleles of one gene should respond alike, so a
+<code>cax2-3</code>-specific anomaly stands out sharply (quantified in
+<a href="cax2-story.html"><code>cax2_allele_concordance.md</code></a>). A quality-control screen of differentially-expressed-gene (DEG) overlap
+— archived as the <strong>"CAX23oddity"</strong> diagnostic — showed <em>cax23</em> behaving
+anomalously: its DEG set did not partition cleanly against the other genotypes,
+the classic signature of an adjacent-well sample swap / cross-labelling between
+cax22 and cax23.</p>
+<p>Two corrective actions are visible in the file trail:</p>
+<ol>
+<li><strong>During diagnosis (V12–V13):</strong> the single odd replicate — <strong>cax23
+   Ground-Control replicate 1</strong> (<code>GCRoot_CAX23_1</code> + <code>GCShoot_CAX23_1</code>) — was
+   dropped, and a dedicated <strong>cax22-vs-cax23 contrast</strong> was built to test
+   whether the two lines were separable at all.</li>
+<li><strong>In the final published master:</strong> the entire <strong>cax22 well A7</strong> (4 libraries:
+   <code>A7_FL_Root/Shoot</code>, <code>A7_GC_Root/Shoot</code>) was removed, taking the study from
+   <strong>64 → 60 samples</strong>, and the master was re-keyed to <strong>plate-well sample IDs</strong>
+   so that any future genotype↔well mismatch is auditable.</li>
+</ol>
+<hr />
+<h2 id="2-version-by-version-trail">2. Version-by-version trail</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">File (in <code>archive/…</code> unless noted)</th>
+<th style="text-align: center;">Samples</th>
+<th style="text-align: left;">Genotypes</th>
+<th style="text-align: left;">Notes / cax23-relevant change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>targets_file_versions/HiSat_APEX5_Targets_File_V3.txt</code></td>
+<td style="text-align: center;">64</td>
+<td style="text-align: left;">all four (16 ea.)</td>
+<td style="text-align: left;">Baseline; MiSeq-era <code>counts_out_V3</code>; <strong>retains a <code>Location</code>/well column</strong> — the adjacency evidence</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>…_V4.txt</code></td>
+<td style="text-align: center;">64</td>
+<td style="text-align: left;">all four</td>
+<td style="text-align: left;">Column trim (Location dropped)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>…_V5.txt</code></td>
+<td style="text-align: center;">64</td>
+<td style="text-align: left;">all four</td>
+<td style="text-align: left;">Dot-delimited labels; Location restored</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>APEX5_HiSat_Targets_File_V6.txt</code> / <code>…_V6.csv</code></td>
+<td style="text-align: center;">64</td>
+<td style="text-align: left;">all four</td>
+<td style="text-align: left;">Identical design to V5</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>APEX5_Hiseq_Hisat_Targets_V11.txt</code></td>
+<td style="text-align: center;">64</td>
+<td style="text-align: left;">all four</td>
+<td style="text-align: left;"><strong>Switched to deeper HiSeq <code>counts_out_V8</code></strong>; re-indexed <code>FL/GC_Root/Shoot_&lt;geno&gt;_1..4</code> labels — the re-processed data in which the oddity surfaced</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>diagnostics/apex05_roots_v11_cax23-oddity.csv</code> / <code>.png</code> (+ shoot twin in <code>results/</code>)</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: left;">Root{CAX22,CAX23,COL00,RBOHD} + all intersections</td>
+<td style="text-align: left;"><strong>The diagnostic that named the anomaly</strong>: jVenn/UpSet DEG set-membership showing cax23's odd overlap</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>…_V11_cax22_v_cax23.txt</code> (+ transposed)</td>
+<td style="text-align: center;">48</td>
+<td style="text-align: left;">COL00, CAX22, CAX23</td>
+<td style="text-align: left;">Purpose-built <strong>cax22-vs-cax23 contrast</strong> (rbohD excluded) to test separability; cax23 still full 16</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>…_V12_cax23_test.txt</code></td>
+<td style="text-align: center;">16</td>
+<td style="text-align: left;">CAX23 only</td>
+<td style="text-align: left;">Isolates cax23 for standalone inspection</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>…_V12_cax23_removed.txt</code></td>
+<td style="text-align: center;">61</td>
+<td style="text-align: left;">all four; <strong>cax23 = 14</strong></td>
+<td style="text-align: left;">Drops the odd <code>GCRoot_CAX23_1</code> + <code>GCShoot_CAX23_1</code> pair (name is misleading — only the GC rep-1 pair is removed)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>…_V12_WTvRBOHD.txt</code></td>
+<td style="text-align: center;">32</td>
+<td style="text-align: left;">COL00, RBOHD</td>
+<td style="text-align: left;">Splits off the cax-independent WT-vs-rbohd analysis so it proceeds unaffected</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>…_V13_cax22_v_cax23_2023.csv</code> (+ transposed variants)</td>
+<td style="text-align: center;">46</td>
+<td style="text-align: left;">COL00 (16), CAX22 (16), <strong>CAX23 (14)</strong></td>
+<td style="text-align: left;"><strong>Formalised fix</strong>: cax22-vs-cax23 contrast with cax23 GC rep-1 permanently excluded; adds explicit <code>tissue</code>/<code>genotype</code> columns</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>…_V13_just_cax23.csv</code> / <code>…_JUST_cax23_transposed.csv</code></td>
+<td style="text-align: center;">14</td>
+<td style="text-align: left;">CAX23 only</td>
+<td style="text-align: left;">cax23-only, GC rep-1 already excluded</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong><code>data/metadata/apex05_hisat_targets_master.txt</code></strong> + <strong><code>data/metadata/apex05_sample_metadata.csv</code></strong></td>
+<td style="text-align: center;"><strong>60</strong></td>
+<td style="text-align: left;">COL00 (16), <strong>CAX22 (12)</strong>, CAX23 (16), RBOHD (16)</td>
+<td style="text-align: left;"><strong>Published master</strong>: <code>counts_out</code> final; <strong>well-ID labels</strong> (<code>A1_FL_Root</code>…); <strong>cax22 well A7 removed</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Filename caveat.</strong> The <code>cax23_removed</code> names are inconsistent between epochs:
+<code>…_V12_cax23_removed.txt</code> keeps 14 cax23 libraries, but a same-named <code>.csv</code>
+that once sat in <code>data/</code> was actually a <strong>COL00-only</strong> subset, and
+<code>…_V12_NOcax23_JustGC.csv</code> is <strong>COL00 ground-control only</strong>. Do not treat the
+<code>.csv</code> and <code>.txt</code> "cax23_removed" files as equivalent.</p>
+</blockquote>
+<hr />
+<h2 id="3-the-anomaly-in-plain-english">3. The anomaly, in plain English</h2>
+<p>The MiSeq-era design (V3–V6) was a clean 4×4 layout — four genotypes × four
+biological replicates × two organs × two conditions = 64 libraries. The
+<code>Location</code> column of <code>HiSat_APEX5_Targets_File_V3.txt</code> records the source well,
+and it shows that <strong>cax22 and cax23 were pipetted from interleaved, adjacent
+wells</strong>:</p>
+<pre><code>cax22  →  B8, B4, A7, A3
+cax23  →  B7, B3, A8, A4        # each cax22 well sits beside a cax23 well
+</code></pre>
+<p>This is exactly the plate geometry in which a hand-off swap or index cross-talk
+between the two mutants is most likely. When the libraries were re-processed
+against the deeper HiSeq counts (<code>counts_out_V8</code>, from V11 on), a DEG-overlap QC
+export flagged the cax23 "oddity" (<code>archive/diagnostics/apex05_roots_v11_cax23-oddity.*</code>):
+cax23's DEG membership did not separate cleanly from cax22/COL00/rbohD,
+indicating at least one "cax23" library was not genotypically pure cax23.</p>
+<hr />
+<h2 id="4-implicated-samples">4. Implicated samples</h2>
+<p><strong>(a) Odd replicate dropped during diagnosis (V12–V13):</strong>
+<code>GCRoot_CAX23_1</code> and <code>GCShoot_CAX23_1</code> — present in V11 (and in
+<code>…_V11_cax22_v_cax23.txt</code>) but <strong>absent from every V12/V13 cax23 file</strong>, leaving
+cax23 with 14 libraries in those revisions.</p>
+<p><strong>(b) Well removed in the published master:</strong>
+<code>A7_FL_Root</code>, <code>A7_FL_Shoot</code>, <code>A7_GC_Root</code>, <code>A7_GC_Shoot</code> — the whole <strong>cax22 well
+A7</strong>, physically adjacent to cax23 well A8. <code>A7</code> appears in the V3/V6 <code>Location</code>
+columns but is <strong>absent</strong> from both <code>apex05_sample_metadata.csv</code> and
+<code>apex05_hisat_targets_master.txt</code>. Its removal is why the master has <strong>cax22 = 12
+samples</strong> (versus 16 for each other genotype) and why the final design is
+<strong>60 samples</strong>.</p>
+<blockquote>
+<p>These are two different corrective actions at two stages, not a contradiction:
+the cax22↔cax23 adjacency investigation traced the "cax23 oddity" back to the
+neighbouring cax22 well (A7).</p>
+</blockquote>
+<hr />
+<h2 id="5-resolution">5. Resolution</h2>
+<ol>
+<li><strong>Detect</strong> — HiSeq re-alignment (V11) + the CAX23oddity DEG-overlap diagnostic
+   flag cax23 as misbehaving.</li>
+<li><strong>Isolate &amp; test</strong> — build a dedicated cax22-vs-cax23 contrast
+   (<code>…_V11_cax22_v_cax23</code>, then the V13 family) and a cax23-only view
+   (<code>…_V12_cax23_test</code>); split off the cax-independent WT-vs-rbohd comparison so
+   it is unaffected.</li>
+<li><strong>Trim</strong> — exclude the suspect cax23 GC replicate 1 from V12 onward; V13 bakes
+   this in (cax23 = 14) and adds explicit <code>tissue</code>/<code>genotype</code> columns.</li>
+<li><strong>Finalise</strong> — re-key the master to <strong>plate-well sample IDs</strong>, drop the
+   problematic cax22 well A7, and publish the clean <strong>60-sample</strong> design. Keying
+   samples on well ID is the durable fix: it makes any genotype↔well mismatch
+   auditable.</li>
+</ol>
+<hr />
+<h2 id="6-how-the-machine-learning-package-relates-to-this">6. How the machine-learning package relates to this</h2>
+<p><code>analysis/ml/apex05_ml_anomaly_detection.py</code> provides an independent,
+data-driven check on the class of error described here:</p>
+<ul>
+<li><strong>Expression (Part A)</strong> — Col-0 root vs shoot transcriptomes are almost
+  perfectly separable (leave-one-out accuracy ≈ 1.0), so a swapped-label sample
+  is <em>detectable</em> in this modality. A controlled injection test quantifies how
+  reliably the detector recovers known label swaps — the same principle by which
+  the original cax23 oddity was caught in transcriptomic space.</li>
+<li><strong>Morphometrics (Part B)</strong> — day-4 primary-root architecture only weakly
+  separates these subtle mutants (genotype accuracy well below what would be
+  needed to re-derive labels), with cax22/cax23 among the most confused. This is
+  the QC conclusion that <strong>motivates provenance-based correction (well-ID
+  keying) rather than post-hoc morphological rescue.</strong></li>
+</ul>
+<p>See <a href="https://github.com/dr-richard-barker/APEX05_results_and_code/blob/main/results/ml/ml_metrics.json"><code>../results/ml/ml_metrics.json</code></a> for the
+exact figures produced by the current data.</p></div></main>
+<footer class="site">
+  APEX-05 — Advanced Plant Experiment-05 · FAIR data &amp; code ·
+  <a href="https://github.com/dr-richard-barker/APEX05_results_and_code">GitHub</a> · Generated by <code>website/build_site.py</code>.
+</footer></body></html>

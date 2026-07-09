@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CAX2 QC story · APEX-05</title>
+<meta name="description" content="APEX-05: Arabidopsis spaceflight transcriptomics, root architecture and ML sample QC — FAIR data and code.">
+<link rel="stylesheet" href="assets/style.css">
+</head><body>
+<header class="site"><nav><span class="brand">🌱 APEX-05</span><a href="index.html">Home</a><a href="manuscript.html">Manuscript</a><a href="figures.html">Figures</a><a href="cax2-story.html" style="color:var(--accent)">CAX2 QC story</a><a href="https://github.com/dr-richard-barker/APEX05_results_and_code">GitHub ↗</a></nav></header>
+<main><div class="content"><h1 id="apex-05-concordance-of-the-two-cax2-alleles-cax2-2-vs-cax2-3">APEX-05 — Concordance of the two CAX2 alleles (cax2-2 vs cax2-3)</h1>
+<p><strong>Analysis:</strong> <a href="https://github.com/dr-richard-barker/APEX05_results_and_code/blob/main/analysis/ml/apex05_cax2_allele_concordance.py"><code>analysis/ml/apex05_cax2_allele_concordance.py</code></a>
+<strong>Outputs:</strong> <a href="https://github.com/dr-richard-barker/APEX05_results_and_code/blob/main/results/ml/figC1_cax2_deg_set_sizes.png"><code>results/ml/figC1_cax2_deg_set_sizes.png</code></a>,
+<a href="https://github.com/dr-richard-barker/APEX05_results_and_code/blob/main/results/ml/figC2_cax2_jaccard.png"><code>results/ml/figC2_cax2_jaccard.png</code></a>,
+<a href="https://github.com/dr-richard-barker/APEX05_results_and_code/blob/main/results/ml/cax2_concordance_metrics.json"><code>results/ml/cax2_concordance_metrics.json</code></a></p>
+<hr />
+<h2 id="why-this-analysis-exists">Why this analysis exists</h2>
+<p>The repo codes <strong><code>cax22</code></strong> and <strong><code>cax23</code></strong> are shorthand for <strong><code>cax2-2</code></strong> and
+<strong><code>cax2-3</code></strong> — <strong>two independent mutant alleles of the <em>same</em> gene, <code>CAX2</code></strong>
+(a vacuolar cation/H⁺ exchanger). They are <em>not</em> mutations in two different
+genes (a natural but incorrect reading of the shorthand as "CAX2" vs "CAX3").</p>
+<p>Because they disrupt the same gene, the two alleles should produce <strong>broadly
+concordant</strong> spaceflight (FL vs GC) transcriptome responses: comparable numbers
+of differentially expressed genes (DEGs), a DEG set that overlaps each other
+more than it overlaps unrelated genotypes, and agreeing fold-change directions.
+The PI's observation that "the RNA-seq comparing cax2-2 and cax2-3 is very
+different" is therefore a red flag worth quantifying before deciding whether to
+retain cax2-3.</p>
+<h2 id="data-method">Data &amp; method</h2>
+<p>Released tables only (all in this repo):</p>
+<ul>
+<li><strong>DEG set overlap</strong> — the jVenn/UpSet "CAX23oddity" membership exports
+  (<code>archive/diagnostics/apex05_roots_v11_cax23-oddity.csv</code>; shoot twin in
+  <code>results/tables/…</code>). Each genotype's full DEG set is reconstructed as the union
+  of the exclusive-region columns naming it, then pairwise <strong>Jaccard</strong> overlap is
+  computed at the locus level.</li>
+<li><strong>DEG count cross-check</strong> — the cax2-3 full FL-vs-GC contrast tables
+  (<code>archive/excluded_cax2-3/apex05_cax23_{root,shoot}_fl-vs-gc_full.csv</code>)
+  thresholded at <code>padj &lt; 0.05 &amp; |log2FC| &gt; 1</code>.</li>
+<li><strong>Direction concordance</strong> — cax2-2 DEG identities/directions from the up/down
+  workbooks (<code>results/tables/apex5_cax22_{root,shoot}_{up,down}-regulated-*.xlsx</code>)
+  intersected with the thresholded cax2-3 DEG set; agreement of fold-change sign.</li>
+</ul>
+<blockquote>
+<p><strong>Caveat.</strong> These tables are from the <strong>V11 era — before</strong> the final
+60-sample correction — so they describe cax2-3 <em>as flagged</em>. That is exactly
+the state under evaluation. Two independent thresholds (jVenn export vs
+<code>padj/log2FC</code>) give the same qualitative picture.</p>
+</blockquote>
+<h2 id="results">Results</h2>
+<h3 id="1-cax2-3-has-a-grossly-inflated-deg-set">1. cax2-3 has a grossly inflated DEG set</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Genotype</th>
+<th style="text-align: right;">Root DEGs</th>
+<th style="text-align: right;">Shoot DEGs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Col-0</td>
+<td style="text-align: right;">767</td>
+<td style="text-align: right;">650</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>cax2-2</strong></td>
+<td style="text-align: right;"><strong>473</strong></td>
+<td style="text-align: right;"><strong>174</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>cax2-3</strong></td>
+<td style="text-align: right;"><strong>4 539</strong></td>
+<td style="text-align: right;"><strong>2 980</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">rbohD</td>
+<td style="text-align: right;">619</td>
+<td style="text-align: right;">376</td>
+</tr>
+</tbody>
+</table>
+<p>cax2-3's flight-responsive DEG set is <strong>9.6× (root) / 17.1× (shoot)</strong> the size of
+its sibling allele cax2-2 — and larger than <em>every</em> other genotype, including
+wild type. Independently thresholding the cax2-3 full contrast tables gives
+<strong>1 280 root / 1 670 shoot</strong> DEGs (still 4–7× cax2-2's 324 / 230). See
+<code>figC1_cax2_deg_set_sizes.png</code>.</p>
+<h3 id="2-the-two-alleles-are-not-each-others-closest-match">2. The two alleles are NOT each other's closest match</h3>
+<p>Pairwise DEG-set Jaccard (<code>figC2_cax2_jaccard.png</code>):</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Pair</th>
+<th style="text-align: right;">Root J</th>
+<th style="text-align: right;">Shoot J</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>cax2-2 ↔ cax2-3</strong> (same gene!)</td>
+<td style="text-align: right;"><strong>0.069</strong></td>
+<td style="text-align: right;"><strong>0.045</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">cax2-2 ↔ Col-0</td>
+<td style="text-align: right;">0.082</td>
+<td style="text-align: right;">0.072</td>
+</tr>
+<tr>
+<td style="text-align: left;">cax2-2 ↔ rbohD</td>
+<td style="text-align: right;">0.072</td>
+<td style="text-align: right;">0.118</td>
+</tr>
+<tr>
+<td style="text-align: left;">Col-0 ↔ rbohD</td>
+<td style="text-align: right;">0.331</td>
+<td style="text-align: right;">0.236</td>
+</tr>
+</tbody>
+</table>
+<p>cax2-2 overlaps its supposed sibling allele <strong>no better than — in shoot, less
+than half as well as — it overlaps the unrelated genotypes</strong>. (Jaccard is
+deflated by the size asymmetry; the size-robust overlap coefficient
+|cax2-2 ∩ cax2-3| / |cax2-2| is ≈ 0.67 root / 0.66 shoot — see below.)</p>
+<h3 id="3-but-the-small-shared-core-is-genuine">3. …but the small shared core is genuine</h3>
+<p>Of the genes DE in <strong>both</strong> alleles (216 root, 151 shoot — i.e. ~2/3 of cax2-2's
+DEGs), fold-change direction agrees <strong>97.2% (root) / 96.7% (shoot)</strong>. So a real,
+directionally consistent CAX2 signal exists — it is simply <strong>buried under a
+~10–17× excess of cax2-3-unique DEGs</strong> that no other genotype shares.</p>
+<h2 id="interpretation">Interpretation</h2>
+<p>The pattern — a small, high-confidence, direction-concordant shared core plus a
+massive, non-preferential, cax2-3-exclusive DEG excess — is the signature of
+<strong>one allele's libraries carrying large technical / background variance on top
+of the true genotype signal</strong>, not of a genuine biological divergence between
+two alleles of one gene. It is fully consistent with the independently
+documented adjacent-well labelling anomaly
+(<a href="provenance.html"><code>docs/PROVENANCE_cax23_mislabelling.md</code></a>):
+cax2-3 sat beside cax2-2 on the plate, and its DEG set-membership is what the
+original "CAX23oddity" QC screen flagged.</p>
+<h2 id="decision-recorded-2026-07-09">Decision (recorded 2026-07-09)</h2>
+<p><strong>cax2-3 is excluded from the APEX-05 primary analysis; cax2-2 is reported as the
+<em>CAX2</em> representative.</strong> This concordance analysis is retained as the QC
+justification.</p>
+<p>Implementation:</p>
+<ul>
+<li>cax2-3's derived primary-analysis result tables were relocated to
+  <a href="https://github.com/dr-richard-barker/APEX05_results_and_code/blob/main/archive/excluded_cax2-3/"><code>../archive/excluded_cax2-3/</code></a> (retained, not
+  deleted, for auditability — see that folder's README).</li>
+<li>The primary genotype set throughout the manuscript and README is now <strong>Col-0,
+  cax2-2, rbohD</strong>.</li>
+<li>cax2-3 is <strong>deliberately retained inside the two QC analyses that justify the
+  exclusion</strong> — this concordance analysis and the morphometric genotype-confusion
+  QC (<code>apex05_ml_anomaly_detection.py</code>, Part B) — because removing it there would
+  erase the evidence.</li>
+<li>The raw cax2-3 measurements remain in <code>data/</code> (shared per-genotype targets and
+  morphometrics); only cax2-3's <em>derived result tables</em> were moved.</li>
+</ul>
+<blockquote>
+<p><strong>If the decision is revisited:</strong> option (2) — restricting cax2-3 to its
+cax2-2-concordant core (~216 root / 151 shoot genes, 97% direction-agreeing) —
+remains available and can be reinstated from the retained files.</p>
+</blockquote>
+<h2 id="concordant-core-variant-the-high-confidence-cax2-signature">Concordant-core variant (the high-confidence <em>CAX2</em> signature)</h2>
+<p>As a conservative alternative to full exclusion, we also extracted the <strong>CAX2
+concordant core</strong>: genes differentially expressed under spaceflight in <strong>both</strong>
+alleles <strong>with agreeing fold-change direction</strong>. This is the part of the cax2-3
+signal that cax2-2 corroborates — the defensible <em>CAX2</em> flight signature.</p>
+<p><strong>Analysis:</strong> <a href="https://github.com/dr-richard-barker/APEX05_results_and_code/blob/main/analysis/ml/apex05_cax2_concordant_core.py"><code>analysis/ml/apex05_cax2_concordant_core.py</code></a>
+<strong>Outputs:</strong> <code>results/tables/apex05_cax2_concordant-core_{root,shoot,combined}.csv</code>,
+<code>results/ml/figC3_cax2_concordant_core.png</code>, <code>results/ml/cax2_concordant_core_summary.json</code></p>
+<p>Direction handling is explicit, not assumed: cax2-2's flight fold-change comes
+from its workbook's <strong>labelled</strong> <code>baseMeanA_FL</code> / <code>baseMeanB_GC</code> columns
+(log2 FL/GC), and cax2-3's orientation is resolved <strong>empirically</strong> against
+cax2-2 — it came out <strong>flipped</strong> (cax2-3's raw <code>log2FoldChange</code> is log2 GC/FL).</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Tissue</th>
+<th style="text-align: right;">shared DEGs</th>
+<th style="text-align: right;"><strong>concordant core</strong></th>
+<th style="text-align: right;">up in flight</th>
+<th style="text-align: right;">down</th>
+<th style="text-align: right;">direction agreement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Root</td>
+<td style="text-align: right;">216</td>
+<td style="text-align: right;"><strong>210</strong></td>
+<td style="text-align: right;">203</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">97%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Shoot</td>
+<td style="text-align: right;">151</td>
+<td style="text-align: right;"><strong>146</strong></td>
+<td style="text-align: right;">144</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">97%</td>
+</tr>
+</tbody>
+</table>
+<p>Two features stand out: the core is <strong>overwhelmingly flight-<em>induced</em></strong> (≈97% up)
+and <strong>entirely tissue-partitioned</strong> (0 loci shared between the root and shoot
+cores). cax2-3's fold-changes are systematically larger than cax2-2's (points
+above the identity line in Fig. C3) — the same inflation seen at the set level —
+but their <strong>direction</strong> agrees, which is why this core is trustworthy. Example
+core genes include <em>LHB1B1</em> (light harvesting), <em>WRKY51</em>, <em>AP2</em>, <em>MC3</em>
+(metacaspase) and an invertase.</p>
+<p>This core is released as a supplementary table and can serve as the <em>CAX2</em>
+flight signature in place of the discarded genotype-level cax2-3 analysis.</p>
+<h3 id="functional-enrichment-of-the-core">Functional enrichment of the core</h3>
+<p>Over-representation analysis
+(<a href="https://github.com/dr-richard-barker/APEX05_results_and_code/blob/main/analysis/ml/apex05_cax2_core_enrichment.py"><code>analysis/ml/apex05_cax2_core_enrichment.py</code></a>;
+g:Profiler, g:SCS-corrected <em>p</em> &lt; 0.05, background = tissue-specific tested genes;
+Fig. C4) shows the tissues respond through distinct programmes:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Core</th>
+<th style="text-align: left;">Top enriched biology</th>
+<th style="text-align: left;">Example term (adj <em>p</em>)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Root</strong> (92 terms)</td>
+<td style="text-align: left;">photosynthesis / thylakoid / chloroplast</td>
+<td style="text-align: left;">GO:CC thylakoid (9×10⁻⁵⁸); photosynthesis; photosystem I</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Shoot</strong> (32 terms)</td>
+<td style="text-align: left;">cell-wall organisation; phenylpropanoid biosynthesis; peroxidase / H₂O₂ catabolism</td>
+<td style="text-align: left;">plant-type cell wall organisation (1×10⁻¹⁰); KEGG phenylpropanoid biosynthesis; lactoperoxidase activity</td>
+</tr>
+</tbody>
+</table>
+<p>The shoot core's peroxidase / hydrogen-peroxide terms connect the <em>CAX2</em> flight
+response to the same ROS axis probed by <em>rbohD</em>. Full term lists:
+<code>results/tables/apex05_cax2_core_enrichment_{root,shoot,all}.csv</code>.</p></div></main>
+<footer class="site">
+  APEX-05 — Advanced Plant Experiment-05 · FAIR data &amp; code ·
+  <a href="https://github.com/dr-richard-barker/APEX05_results_and_code">GitHub</a> · Generated by <code>website/build_site.py</code>.
+</footer></body></html>

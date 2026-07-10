@@ -1,0 +1,64 @@
+genotype,tissue,cell_type,n_markers,cohens_d_FL_vs_GC
+Col-0,root,columella,67,1.13
+Col-0,root,lateral root cap,28,-0.36
+Col-0,root,non-hair root epidermal cell,98,-0.565
+Col-0,root,pericycle,53,0.956
+Col-0,root,phloem,32,1.084
+Col-0,root,protoxylem,24,-0.105
+Col-0,root,quiescent center,21,0.406
+Col-0,root,root cap,107,-1.114
+Col-0,root,root cortex,72,-3.395
+Col-0,root,root endodermis,87,-1.398
+Col-0,root,root epidermis,17,3.814
+Col-0,root,root hair cell,90,-0.442
+Col-0,root,root meristem,26,1.045
+Col-0,root,root procambium,22,0.734
+Col-0,root,root stele,182,1.052
+Col-0,root,trichoblast,16,-1.071
+Col-0,root,xylem,64,-0.444
+cax2-2,root,columella,67,1.091
+cax2-2,root,lateral root cap,28,0.144
+cax2-2,root,non-hair root epidermal cell,98,0.274
+cax2-2,root,pericycle,54,0.691
+cax2-2,root,phloem,32,0.686
+cax2-2,root,protoxylem,24,-0.204
+cax2-2,root,quiescent center,21,-0.318
+cax2-2,root,root cap,107,0.549
+cax2-2,root,root cortex,72,-0.014
+cax2-2,root,root endodermis,87,-0.083
+cax2-2,root,root epidermis,17,3.213
+cax2-2,root,root hair cell,90,1.266
+cax2-2,root,root meristem,26,-0.651
+cax2-2,root,root procambium,22,0.139
+cax2-2,root,root stele,182,1.177
+cax2-2,root,trichoblast,16,1.395
+cax2-2,root,xylem,64,-0.584
+rbohD,root,columella,67,0.24
+rbohD,root,lateral root cap,28,-1.951
+rbohD,root,non-hair root epidermal cell,98,-0.361
+rbohD,root,pericycle,54,-0.295
+rbohD,root,phloem,32,0.458
+rbohD,root,protoxylem,24,-0.153
+rbohD,root,quiescent center,21,-0.308
+rbohD,root,root cap,107,-0.287
+rbohD,root,root cortex,72,-2.457
+rbohD,root,root endodermis,87,-0.022
+rbohD,root,root epidermis,17,0.347
+rbohD,root,root hair cell,90,2.635
+rbohD,root,root meristem,26,-0.328
+rbohD,root,root procambium,22,0.802
+rbohD,root,root stele,182,0.195
+rbohD,root,trichoblast,16,1.254
+rbohD,root,xylem,64,-0.463
+Col-0,shoot,bundle sheath,246,0.379
+Col-0,shoot,guard cell,551,0.012
+Col-0,shoot,leaf epidermis,564,1.289
+Col-0,shoot,leaf mesophyll,978,0.03
+cax2-2,shoot,bundle sheath,246,0.29
+cax2-2,shoot,guard cell,551,0.449
+cax2-2,shoot,leaf epidermis,564,0.974
+cax2-2,shoot,leaf mesophyll,977,-0.535
+rbohD,shoot,bundle sheath,246,0.03
+rbohD,shoot,guard cell,551,-0.214
+rbohD,shoot,leaf epidermis,564,1.645
+rbohD,shoot,leaf mesophyll,978,-0.047

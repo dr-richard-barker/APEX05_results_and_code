@@ -1,0 +1,33 @@
+genotype,tissue,gene,symbol,lasso_coef,selection_freq,in_deseq2_DEG
+cax2-2,shoot,AT1G03980,,-0.0137,1.0,False
+cax2-2,shoot,AT4G14240,,0.0136,1.0,False
+cax2-2,shoot,AT3G02800,,-0.0132,1.0,False
+cax2-2,shoot,AT1G21550,calcium-binding,-0.0128,1.0,False
+cax2-2,shoot,AT1G04800,glycine-rich,0.0126,1.0,False
+cax2-2,shoot,AT1G66240,,-0.0125,1.0,False
+cax2-2,shoot,AT2G44370,DC1,-0.0123,1.0,False
+cax2-2,shoot,AT4G12300,,-0.0122,1.0,False
+cax2-2,shoot,AT5G09710,,-0.012,1.0,False
+cax2-2,shoot,AT1G17290,,-0.0117,1.0,False
+cax2-2,shoot,AT1G79410,,-0.0115,1.0,False
+cax2-2,shoot,AT5G65575,,-0.0112,1.0,False
+cax2-2,shoot,AT1G75163,,0.011,1.0,False
+cax2-2,shoot,AT3G22290,,0.0109,1.0,False
+cax2-2,shoot,AT2G39518,,-0.0109,1.0,True
+cax2-2,shoot,AT3G57380,"transferase, transferring glycosyl groups",-0.0108,1.0,False
+cax2-2,shoot,AT5G36925,,-0.0102,1.0,False
+cax2-2,shoot,AT2G17760,,-0.0101,1.0,False
+cax2-2,shoot,AT1G34100,,-0.0099,1.0,False
+cax2-2,shoot,AT2G07728,,0.0099,1.0,False
+cax2-2,shoot,AT2G32690,GRP23,0.0097,1.0,False
+cax2-2,shoot,AT5G25230,elongation factor Tu,0.0096,1.0,False
+cax2-2,shoot,AT3G49070,,-0.0091,1.0,False
+cax2-2,shoot,AT2G45310,,-0.009,1.0,False
+cax2-2,shoot,AT2G27505,,-0.0089,1.0,False
+cax2-2,shoot,AT5G05380,,0.0085,0.875,False
+cax2-2,shoot,AT2G07723,,0.0081,1.0,False
+cax2-2,shoot,AT4G20830,FAD-binding,-0.0081,1.0,False
+cax2-2,shoot,AT2G37430,,-0.0079,1.0,False
+cax2-2,shoot,AT1G26150,,0.0079,0.75,False
+cax2-2,shoot,AT3G06750,,0.0079,0.75,False
+cax2-2,shoot,AT3G25840,,0.0071,0.75,False

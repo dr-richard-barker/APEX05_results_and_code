@@ -5,7 +5,7 @@
 <meta name="description" content="APEX-05: Arabidopsis spaceflight transcriptomics, root architecture and ML sample QC — FAIR data and code.">
 <link rel="stylesheet" href="assets/style.css">
 </head><body>
-<header class="site"><nav><span class="brand">🌱 APEX-05</span><a href="index.html">Home</a><a href="manuscript.html">Manuscript</a><a href="figures.html">Figures</a><a href="cax2-story.html" style="color:var(--accent)">CAX2 QC story</a><a href="https://github.com/dr-richard-barker/APEX05_results_and_code">GitHub ↗</a></nav></header>
+<header class="site"><nav><span class="brand">🌱 APEX-05</span><a href="index.html">Home</a><a href="final-manuscript.html">Final manuscript</a><a href="manuscript.html">Scaffold</a><a href="figures.html">Figures</a><a href="cax2-story.html" style="color:var(--accent)">CAX2 QC story</a><a href="https://github.com/dr-richard-barker/APEX05_results_and_code">GitHub ↗</a></nav></header>
 <main><div class="content"><h1 id="apex-05-concordance-of-the-two-cax2-alleles-cax2-2-vs-cax2-3">APEX-05 — Concordance of the two CAX2 alleles (cax2-2 vs cax2-3)</h1>
 <p><strong>Analysis:</strong> <a href="https://github.com/dr-richard-barker/APEX05_results_and_code/blob/main/analysis/ml/apex05_cax2_allele_concordance.py"><code>analysis/ml/apex05_cax2_allele_concordance.py</code></a>
 <strong>Outputs:</strong> <a href="https://github.com/dr-richard-barker/APEX05_results_and_code/blob/main/results/ml/figC1_cax2_deg_set_sizes.png"><code>results/ml/figC1_cax2_deg_set_sizes.png</code></a>,
@@ -135,6 +135,54 @@ documented adjacent-well labelling anomaly
 (<a href="provenance.html"><code>docs/PROVENANCE_cax23_mislabelling.md</code></a>):
 cax2-3 sat beside cax2-2 on the plate, and its DEG set-membership is what the
 original "CAX23oddity" QC screen flagged.</p>
+<h2 id="re-verification-on-the-corrected-matrix-2026-07-09">Re-verification on the CORRECTED matrix (2026-07-09)</h2>
+<p>When the fixed all-genotype count matrix (<code>run1 v2.2 fix2</code>) became available, the
+concordance was <strong>re-tested with fresh DESeq2</strong> on the corrected data
+(<code>analysis/ml/apex05_deseq2_flight.py</code> → <code>apex05_cax2_concordance_fixed.py</code>,
+Fig. F1) rather than relying on the pre-fix tables. The result is unchanged and
+in fact stronger:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Tissue</th>
+<th style="text-align: right;">Col-0 DEG</th>
+<th style="text-align: right;">cax2-2 DEG</th>
+<th style="text-align: right;">cax2-3 DEG</th>
+<th style="text-align: right;">cax2-3 / cax2-2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Root</td>
+<td style="text-align: right;">284</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">518</td>
+<td style="text-align: right;"><strong>104×</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">Shoot</td>
+<td style="text-align: right;">168</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">265</td>
+<td style="text-align: right;"><strong>88×</strong></td>
+</tr>
+</tbody>
+</table>
+<p>cax2-3 still has a grossly inflated DEG set and near-zero preferential overlap
+with cax2-2 (Jaccard ≤ 0.002), and a QC PCA shows a cax2-3 outlier library. <strong>The
+exclusion stands on corrected data.</strong></p>
+<blockquote>
+<p><strong>New finding (corrected data): cax2-2 has a strongly attenuated flight
+response.</strong> On the fixed matrix cax2-2 shows only <strong>5 root / 3 shoot</strong> DEGs
+(15/4 even at a relaxed 1.5-fold, padj&lt;0.1 threshold) vs Col-0's 284/168, and
+its FL-vs-GC PCA centroid separation is ~5× smaller than Col-0's (7.9 vs 39.9
+root). This is a genuine biological signal (clean tissue structure, no cax2-2
+outliers), <strong>not</strong> the technical inflation seen in cax2-3 — consistent with
+<em>CAX2</em> being required for the normal spaceflight transcriptional response.
+Note this differs sharply from the legacy edgeR workbook counts (cax2-2 ~323
+DEGs); the corrected DESeq2 on the fixed matrix supersedes those. See
+<code>results/ml/qc_summary.json</code>, <code>results/tables/deseq2/</code>.</p>
+</blockquote>
 <h2 id="decision-recorded-2026-07-09">Decision (recorded 2026-07-09)</h2>
 <p><strong>cax2-3 is excluded from the APEX-05 primary analysis; cax2-2 is reported as the
 <em>CAX2</em> representative.</strong> This concordance analysis is retained as the QC

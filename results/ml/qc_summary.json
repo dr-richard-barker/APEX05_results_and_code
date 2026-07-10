@@ -1,0 +1,43 @@
+{
+  "fl_gc_centroid_separation": {
+    "Col-0": {
+      "root": 39.89,
+      "shoot": 39.86
+    },
+    "cax2-2": {
+      "root": 7.87,
+      "shoot": 13.06
+    },
+    "cax2-3": {
+      "root": 55.58,
+      "shoot": 42.67
+    },
+    "rbohD": {
+      "root": 36.11,
+      "shoot": 18.25
+    }
+  },
+  "relaxed_deg_counts": {
+    "Col-0": {
+      "root": 583,
+      "shoot": 293
+    },
+    "cax2-2": {
+      "root": 15,
+      "shoot": 4
+    },
+    "cax2-3": {
+      "root": 1270,
+      "shoot": 435
+    },
+    "rbohD": {
+      "root": 514,
+      "shoot": 52
+    }
+  },
+  "pc_explained_var": [
+    0.9416,
+    0.0114,
+    0.0064
+  ]
+}

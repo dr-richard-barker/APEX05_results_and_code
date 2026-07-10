@@ -7,3 +7,5 @@ scikit-learn>=1.4
 matplotlib>=3.8
 openpyxl>=3.1            # read cax2-2 .xlsx DEG workbooks (concordance/core)
 gprofiler-official>=1.0  # functional enrichment (apex05_cax2_core_enrichment.py; needs internet)
+scipy>=1.11             # hypergeometric test (LASSO ↔ DESeq overlap)
+pydeseq2>=0.5           # DESeq2 differential expression on the fixed matrix

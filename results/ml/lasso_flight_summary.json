@@ -1,0 +1,81 @@
+{
+  "config": {
+    "min_mean_log2cpm": 1.0,
+    "stability_min_fold_frac": 0.75,
+    "cv": "leave-one-out"
+  },
+  "results": [
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "n_genes": 21552,
+      "penalty_C": 0.3981,
+      "loo_accuracy": 1.0,
+      "signature_size": 140,
+      "deseq2_DEGs": 269,
+      "signature_in_deseq2": 84,
+      "overlap_frac": 0.6,
+      "hypergeom_p": 2.415815117757469e-127
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "shoot",
+      "n_genes": 20316,
+      "penalty_C": 0.631,
+      "loo_accuracy": 1.0,
+      "signature_size": 195,
+      "deseq2_DEGs": 166,
+      "signature_in_deseq2": 34,
+      "overlap_frac": 0.174,
+      "hypergeom_p": 1.1737186585225014e-35
+    },
+    {
+      "genotype": "cax2-2",
+      "tissue": "root",
+      "n_genes": 21256,
+      "penalty_C": 0.631,
+      "loo_accuracy": 1.0,
+      "signature_size": 111,
+      "deseq2_DEGs": 5,
+      "signature_in_deseq2": 5,
+      "overlap_frac": 0.045,
+      "hypergeom_p": 3.5460619512953094e-12
+    },
+    {
+      "genotype": "cax2-2",
+      "tissue": "shoot",
+      "n_genes": 20214,
+      "penalty_C": 0.3981,
+      "loo_accuracy": 1.0,
+      "signature_size": 32,
+      "deseq2_DEGs": 3,
+      "signature_in_deseq2": 1,
+      "overlap_frac": 0.031,
+      "hypergeom_p": 0.004741903673910448
+    },
+    {
+      "genotype": "rbohD",
+      "tissue": "root",
+      "n_genes": 21407,
+      "penalty_C": 0.3981,
+      "loo_accuracy": 1.0,
+      "signature_size": 144,
+      "deseq2_DEGs": 259,
+      "signature_in_deseq2": 66,
+      "overlap_frac": 0.458,
+      "hypergeom_p": 1.622272294054388e-89
+    },
+    {
+      "genotype": "rbohD",
+      "tissue": "shoot",
+      "n_genes": 20246,
+      "penalty_C": 0.3981,
+      "loo_accuracy": 1.0,
+      "signature_size": 43,
+      "deseq2_DEGs": 33,
+      "signature_in_deseq2": 6,
+      "overlap_frac": 0.14,
+      "hypergeom_p": 6.771364105210861e-11
+    }
+  ]
+}

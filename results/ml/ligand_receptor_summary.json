@@ -1,0 +1,6 @@
+{
+  "caveat": "Exploratory bulk co-regulation of canonical peptide L-R pairs; NOT cell-cell communication (needs single-cell data).",
+  "n_pairs_tested": 40,
+  "n_flight_responsive_components": 222,
+  "both_partners_DE": []
+}

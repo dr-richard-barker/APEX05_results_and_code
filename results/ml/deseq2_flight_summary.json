@@ -1,0 +1,73 @@
+{
+  "thresholds": {
+    "padj": 0.05,
+    "abs_log2FC": 1.0
+  },
+  "note": "flight-referenced: +log2FC = induced by flight; cax2-3 included as QC re-test on corrected data",
+  "results": [
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "n_tested": 27889,
+      "n_DEG": 284,
+      "induced": 201,
+      "repressed": 83
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "shoot",
+      "n_tested": 26784,
+      "n_DEG": 168,
+      "induced": 156,
+      "repressed": 12
+    },
+    {
+      "genotype": "cax2-2",
+      "tissue": "root",
+      "n_tested": 27624,
+      "n_DEG": 5,
+      "induced": 5,
+      "repressed": 0
+    },
+    {
+      "genotype": "cax2-2",
+      "tissue": "shoot",
+      "n_tested": 26626,
+      "n_DEG": 3,
+      "induced": 1,
+      "repressed": 2
+    },
+    {
+      "genotype": "cax2-3",
+      "tissue": "root",
+      "n_tested": 27548,
+      "n_DEG": 518,
+      "induced": 250,
+      "repressed": 268
+    },
+    {
+      "genotype": "cax2-3",
+      "tissue": "shoot",
+      "n_tested": 26573,
+      "n_DEG": 265,
+      "induced": 232,
+      "repressed": 33
+    },
+    {
+      "genotype": "rbohD",
+      "tissue": "root",
+      "n_tested": 27810,
+      "n_DEG": 280,
+      "induced": 198,
+      "repressed": 82
+    },
+    {
+      "genotype": "rbohD",
+      "tissue": "shoot",
+      "n_tested": 26680,
+      "n_DEG": 33,
+      "induced": 2,
+      "repressed": 31
+    }
+  ]
+}

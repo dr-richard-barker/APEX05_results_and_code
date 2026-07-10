@@ -1,0 +1,162 @@
+genotype,tissue,pathway,name,n_pathway,n_deg,p_hyper
+Col-0,root,ath01100,Metabolic pathways,2330,50,6.900725393405517e-11
+Col-0,root,ath00480,Glutathione metabolism,102,9,1.0603643949302538e-06
+Col-0,root,ath00460,Cyanoamino acid metabolism,70,7,8.010015755513347e-06
+Col-0,root,ath00999,Biosynthesis of various plant secondary metabolites,70,7,8.010015755513347e-06
+Col-0,root,ath00940,Phenylpropanoid biosynthesis,130,8,6.300540913809661e-05
+Col-0,root,ath00500,Starch and sucrose metabolism,176,9,9.056180895962157e-05
+Col-0,root,ath01110,Biosynthesis of secondary metabolites,1340,28,9.864983206503406e-05
+Col-0,root,ath00910,Nitrogen metabolism,41,3,0.009303330611379565
+Col-0,root,ath00052,Galactose metabolism,65,3,0.03183201256904422
+Col-0,root,ath00270,Cysteine and methionine metabolism,122,4,0.04086446587286318
+Col-0,root,ath00543,Exopolysaccharide biosynthesis,5,1,0.05236191601286383
+Col-0,root,ath00960,"Tropane, piperidine and pyridine alkaloid biosynthesis",38,2,0.06187229801614489
+Col-0,root,ath00640,Propanoate metabolism,40,2,0.06773121458898666
+Col-0,root,ath00040,Pentose and glucuronate interconversions,98,3,0.08678864109915037
+Col-0,root,ath00945,"Stilbenoid, diarylheptanoid and gingerol biosynthesis",9,1,0.09230088673282164
+Col-0,root,ath00280,"Valine, leucine and isoleucine degradation",52,2,0.10625815682657218
+Col-0,root,ath00430,Taurine and hypotaurine metabolism,11,1,0.11164461133720298
+Col-0,root,ath00520,Amino sugar and nucleotide sugar metabolism,120,3,0.13644688895296636
+Col-0,root,ath00380,Tryptophan metabolism,62,2,0.141814055024157
+Col-0,root,ath00950,Isoquinoline alkaloid biosynthesis,20,1,0.19378995361887164
+Col-0,root,ath00630,Glyoxylate and dicarboxylate metabolism,79,2,0.20670730254338746
+Col-0,root,ath00909,Sesquiterpenoid and triterpenoid biosynthesis,22,1,0.2110034133440555
+Col-0,root,ath00941,Flavonoid biosynthesis,24,1,0.22785515012010463
+Col-0,root,ath01040,Biosynthesis of unsaturated fatty acids,25,1,0.23614771563068027
+Col-0,root,ath00360,Phenylalanine metabolism,32,1,0.29179218815822483
+Col-0,root,ath00062,Fatty acid elongation,35,1,0.3144005900999553
+Col-0,root,ath00100,Steroid biosynthesis,35,1,0.3144005900999553
+Col-0,root,ath01200,Carbon metabolism,274,4,0.3366247289132433
+Col-0,root,ath00130,Ubiquinone and other terpenoid-quinone biosynthesis,39,1,0.34344377857184216
+Col-0,root,ath00350,Tyrosine metabolism,39,1,0.34344377857184216
+Col-0,root,ath00920,Sulfur metabolism,39,1,0.34344377857184216
+Col-0,root,ath00061,Fatty acid biosynthesis,41,1,0.35750797687355607
+Col-0,root,ath00410,beta-Alanine metabolism,44,1,0.3780502360965284
+Col-0,root,ath00250,"Alanine, aspartate and glutamate metabolism",51,1,0.42350239886904817
+Col-0,root,ath00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",53,1,0.43587730097421523
+Col-0,root,ath00073,"Cutin, suberine and wax biosynthesis",61,1,0.48281628699501616
+Col-0,root,ath01212,Fatty acid metabolism,67,1,0.5154779403899299
+Col-0,root,ath02010,ABC transporters,68,1,0.5207205874572639
+Col-0,root,ath00260,"Glycine, serine and threonine metabolism",69,1,0.525907413007561
+Col-0,root,ath00561,Glycerolipid metabolism,71,1,0.5361159324235627
+Col-0,root,ath04075,Plant hormone signal transduction,406,4,0.6403185307641248
+Col-0,root,ath04626,Plant-pathogen interaction,212,2,0.6686706797155562
+Col-0,root,ath01210,2-Oxocarboxylic acid metabolism,102,1,0.6692872459755852
+Col-0,root,ath04016,MAPK signaling pathway,142,1,0.7868751431334625
+Col-0,root,ath01230,Biosynthesis of amino acids,238,1,0.9267040995221426
+Col-0,shoot,ath01100,Metabolic pathways,2303,26,0.00028053525419491083
+Col-0,shoot,ath00480,Glutathione metabolism,100,5,0.0004450614421090312
+Col-0,shoot,ath00750,Vitamin B6 metabolism,15,2,0.004186041286201008
+Col-0,shoot,ath00999,Biosynthesis of various plant secondary metabolites,62,3,0.007582785885182228
+Col-0,shoot,ath00910,Nitrogen metabolism,41,2,0.029374310008854355
+Col-0,shoot,ath00280,"Valine, leucine and isoleucine degradation",51,2,0.04384585422215941
+Col-0,shoot,ath00940,Phenylpropanoid biosynthesis,125,3,0.04807557862340012
+Col-0,shoot,ath00945,"Stilbenoid, diarylheptanoid and gingerol biosynthesis",8,1,0.05143996001490868
+Col-0,shoot,ath00380,Tryptophan metabolism,62,2,0.06218550057966763
+Col-0,shoot,ath01212,Fatty acid metabolism,68,2,0.07311353138001041
+Col-0,shoot,ath00780,Biotin metabolism,16,1,0.1003017660571203
+Col-0,shoot,ath00340,Histidine metabolism,21,1,0.12958732669347842
+Col-0,shoot,ath01110,Biosynthesis of secondary metabolites,1319,12,0.13646264563559538
+Col-0,shoot,ath00941,Flavonoid biosynthesis,23,1,0.14104000037165812
+Col-0,shoot,ath04626,Plant-pathogen interaction,208,3,0.15531860924776944
+Col-0,shoot,ath00520,Amino sugar and nucleotide sugar metabolism,120,2,0.18616243316249198
+Col-0,shoot,ath00100,Steroid biosynthesis,33,1,0.19613951206726749
+Col-0,shoot,ath01240,Biosynthesis of cofactors,241,3,0.2098771739969699
+Col-0,shoot,ath00062,Fatty acid elongation,36,1,0.2119878107093312
+Col-0,shoot,ath00960,"Tropane, piperidine and pyridine alkaloid biosynthesis",38,1,0.2223840068060431
+Col-0,shoot,ath00640,Propanoate metabolism,40,1,0.23264670581851818
+Col-0,shoot,ath04016,MAPK signaling pathway,140,2,0.2345297596794626
+Col-0,shoot,ath00061,Fatty acid biosynthesis,41,1,0.23772851571375989
+Col-0,shoot,ath00410,beta-Alanine metabolism,44,1,0.25277826118797764
+Col-0,shoot,ath00250,"Alanine, aspartate and glutamate metabolism",51,1,0.2867787844877826
+Col-0,shoot,ath00500,Starch and sucrose metabolism,169,2,0.3057857126147132
+Col-0,shoot,ath00860,Porphyrin metabolism,57,1,0.31472002008870487
+Col-0,shoot,ath02010,ABC transporters,64,1,0.3459734003895048
+Col-0,shoot,ath00460,Cyanoamino acid metabolism,65,1,0.35032338855876416
+Col-0,shoot,ath04142,Lysosome biogenesis,188,2,0.352077443710104
+Col-0,shoot,ath00260,"Glycine, serine and threonine metabolism",69,1,0.36744355523677447
+Col-0,shoot,ath00630,Glyoxylate and dicarboxylate metabolism,79,1,0.40834608832151936
+Col-0,shoot,ath00040,Pentose and glucuronate interconversions,88,1,0.44294967961142223
+Col-0,shoot,ath01210,2-Oxocarboxylic acid metabolism,101,1,0.4894795882967982
+Col-0,shoot,ath01200,Carbon metabolism,274,2,0.5443706619423608
+Col-0,shoot,ath00270,Cysteine and methionine metabolism,122,1,0.5567681732095151
+Col-0,shoot,ath00190,Oxidative phosphorylation,131,1,0.5828883273320032
+Col-0,shoot,ath04075,Plant hormone signal transduction,406,2,0.7582432338448951
+cax2-2,root,ath00940,Phenylpropanoid biosynthesis,129,2,0.0004950174479260352
+cax2-2,root,ath01110,Biosynthesis of secondary metabolites,1334,2,0.05330976963940953
+cax2-2,root,ath01100,Metabolic pathways,2319,2,0.16115174299384824
+rbohD,root,ath01100,Metabolic pathways,2322,46,2.778098751003893e-09
+rbohD,root,ath00940,Phenylpropanoid biosynthesis,130,8,4.361372198608645e-05
+rbohD,root,ath00480,Glutathione metabolism,101,7,6.408075114688958e-05
+rbohD,root,ath01110,Biosynthesis of secondary metabolites,1340,27,9.844578713660944e-05
+rbohD,root,ath00999,Biosynthesis of various plant secondary metabolites,67,5,0.0005472286473468702
+rbohD,root,ath00910,Nitrogen metabolism,41,4,0.0007392554703601509
+rbohD,root,ath00460,Cyanoamino acid metabolism,66,4,0.004356275311823551
+rbohD,root,ath00909,Sesquiterpenoid and triterpenoid biosynthesis,22,2,0.020630993244203852
+rbohD,root,ath00941,Flavonoid biosynthesis,24,2,0.024332588822154146
+rbohD,root,ath00270,Cysteine and methionine metabolism,123,4,0.03583228748264795
+rbohD,root,ath00100,Steroid biosynthesis,35,2,0.04886379995398453
+rbohD,root,ath00960,"Tropane, piperidine and pyridine alkaloid biosynthesis",37,2,0.05399710083180756
+rbohD,root,ath00640,Propanoate metabolism,39,2,0.05931286909062178
+rbohD,root,ath00040,Pentose and glucuronate interconversions,96,3,0.07357594575253022
+rbohD,root,ath00280,"Valine, leucine and isoleucine degradation",51,2,0.09454309449926486
+rbohD,root,ath00500,Starch and sucrose metabolism,172,4,0.09684669620966838
+rbohD,root,ath00430,Taurine and hypotaurine metabolism,10,1,0.09727980570612324
+rbohD,root,ath00052,Galactose metabolism,63,2,0.1342541409496896
+rbohD,root,ath00740,Riboflavin metabolism,20,1,0.18524115695396076
+rbohD,root,ath00630,Glyoxylate and dicarboxylate metabolism,80,2,0.19537482403316334
+rbohD,root,ath00950,Isoquinoline alkaloid biosynthesis,22,1,0.20179402171349595
+rbohD,root,ath00904,Diterpenoid biosynthesis,24,1,0.2180161797695577
+rbohD,root,ath01040,Biosynthesis of unsaturated fatty acids,25,1,0.22600527853901162
+rbohD,root,ath00908,Zeatin biosynthesis,28,1,0.24949423220399508
+rbohD,root,ath00360,Phenylalanine metabolism,33,1,0.2870946410844036
+rbohD,root,ath01200,Carbon metabolism,275,4,0.30614915072207316
+rbohD,root,ath00130,Ubiquinone and other terpenoid-quinone biosynthesis,40,1,0.3366417169395132
+rbohD,root,ath04981,Folate transport and metabolism,40,1,0.3366417169395132
+rbohD,root,ath00350,Tyrosine metabolism,41,1,0.34343771254648786
+rbohD,root,ath00520,Amino sugar and nucleotide sugar metabolism,121,2,0.3498322507185455
+rbohD,root,ath00061,Fatty acid biosynthesis,42,1,0.35016525248392394
+rbohD,root,ath00410,beta-Alanine metabolism,45,1,0.3699438831605999
+rbohD,root,ath00670,One carbon pool by folate,46,1,0.3764043125824848
+rbohD,root,ath00250,"Alanine, aspartate and glutamate metabolism",51,1,0.4077422931027491
+rbohD,root,ath00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",53,1,0.4198393276945326
+rbohD,root,ath00380,Tryptophan metabolism,61,1,0.4658451652692335
+rbohD,root,ath01212,Fatty acid metabolism,68,1,0.5031447174358318
+rbohD,root,ath00260,"Glycine, serine and threonine metabolism",70,1,0.5133230802961578
+rbohD,root,ath00710,Carbon fixation by Calvin cycle,70,1,0.5133230802961578
+rbohD,root,ath00620,Pyruvate metabolism,97,1,0.6322290639346584
+rbohD,root,ath01210,2-Oxocarboxylic acid metabolism,101,1,0.6472199850292994
+rbohD,root,ath00190,Oxidative phosphorylation,130,1,0.7393312586664897
+rbohD,root,ath04075,Plant hormone signal transduction,408,3,0.7952265119278961
+rbohD,root,ath04142,Lysosome biogenesis,187,1,0.856844029385042
+rbohD,root,ath04626,Plant-pathogen interaction,210,1,0.887790109691499
+rbohD,root,ath04141,Protein processing in endoplasmic reticulum,213,1,0.8913069651435088
+rbohD,shoot,ath01100,Metabolic pathways,2286,10,0.0008828964544574215
+rbohD,shoot,ath00062,Fatty acid elongation,33,2,0.0017930639297029825
+rbohD,shoot,ath01212,Fatty acid metabolism,67,2,0.007239550951932771
+rbohD,shoot,ath00290,"Valine, leucine and isoleucine biosynthesis",20,1,0.03863909827819857
+rbohD,shoot,ath00966,Glucosinolate biosynthesis,24,1,0.04620206556621904
+rbohD,shoot,ath04142,Lysosome biogenesis,188,2,0.05055422993202664
+rbohD,shoot,ath00770,Pantothenate and CoA biosynthesis,32,1,0.06116596719038978
+rbohD,shoot,ath00220,Arginine biosynthesis,38,1,0.07224848342637498
+rbohD,shoot,ath00910,Nitrogen metabolism,38,1,0.07224848342637498
+rbohD,shoot,ath01230,Biosynthesis of amino acids,237,2,0.0763186946672876
+rbohD,shoot,ath01110,Biosynthesis of secondary metabolites,1311,5,0.09064285937703184
+rbohD,shoot,ath00250,"Alanine, aspartate and glutamate metabolism",51,1,0.0958537004459541
+rbohD,shoot,ath00280,"Valine, leucine and isoleucine degradation",51,1,0.0958537004459541
+rbohD,shoot,ath00330,Arginine and proline metabolism,52,1,0.09764667129417737
+rbohD,shoot,ath00053,Ascorbate and aldarate metabolism,61,1,0.11363855614843417
+rbohD,shoot,ath00240,Pyrimidine metabolism,61,1,0.11363855614843417
+rbohD,shoot,ath00999,Biosynthesis of various plant secondary metabolites,62,1,0.11539943313640008
+rbohD,shoot,ath00260,"Glycine, serine and threonine metabolism",69,1,0.1276367994634913
+rbohD,shoot,ath00562,Inositol phosphate metabolism,80,1,0.14655628920094213
+rbohD,shoot,ath01232,Nucleotide metabolism,80,1,0.14655628920094213
+rbohD,shoot,ath00040,Pentose and glucuronate interconversions,89,1,0.16175757018267842
+rbohD,shoot,ath00230,Purine metabolism,97,1,0.17506273067765726
+rbohD,shoot,ath01250,Biosynthesis of nucleotide sugars,97,1,0.17506273067765726
+rbohD,shoot,ath01210,2-Oxocarboxylic acid metabolism,101,1,0.18164305340988762
+rbohD,shoot,ath00270,Cysteine and methionine metabolism,121,1,0.2138345946601255
+rbohD,shoot,ath04016,MAPK signaling pathway,139,1,0.2418180907684936
+rbohD,shoot,ath00500,Starch and sucrose metabolism,166,1,0.2820983072942743
+rbohD,shoot,ath01240,Biosynthesis of cofactors,238,1,0.3801863378880445
+rbohD,shoot,ath01200,Carbon metabolism,275,1,0.42570032656629314

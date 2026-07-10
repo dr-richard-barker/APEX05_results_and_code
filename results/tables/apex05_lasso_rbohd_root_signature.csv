@@ -1,0 +1,145 @@
+genotype,tissue,gene,symbol,lasso_coef,selection_freq,in_deseq2_DEG
+rbohD,root,AT1G26390,FAD-binding,0.0065,1.0,True
+rbohD,root,AT4G31970,CYP82C2,0.0064,1.0,True
+rbohD,root,AT2G41810,,0.0063,1.0,True
+rbohD,root,AT1G12950,MATE efflux,0.0062,1.0,False
+rbohD,root,AT1G29290,,0.0062,1.0,True
+rbohD,root,AT1G45020,transposable element gene,-0.0062,1.0,True
+rbohD,root,AT2G31083,CLE5,-0.006,1.0,True
+rbohD,root,AT2G33770,UBC24,-0.006,1.0,False
+rbohD,root,AT2G30660,hydrolase,0.0059,1.0,True
+rbohD,root,AT2G33990,,-0.0059,1.0,False
+rbohD,root,AT2G28270,DC1,-0.0058,1.0,True
+rbohD,root,AT1G08090,NRT2;1AT,0.0057,1.0,True
+rbohD,root,AT5G07570,glycine/proline-rich,-0.0057,1.0,True
+rbohD,root,AT3G47420,glycerol 3-phosphate permease,0.0056,1.0,True
+rbohD,root,AT5G27200,ACP5,-0.0056,1.0,False
+rbohD,root,AT1G10120,TF,-0.0056,1.0,False
+rbohD,root,AT4G01630,HEXP ALPHA 1.13,0.0055,1.0,False
+rbohD,root,AT2G39450,MTP11,-0.0055,1.0,False
+rbohD,root,AT5G38910,germin-like,0.0055,1.0,True
+rbohD,root,AT1G02850,BGLU11,0.0054,1.0,True
+rbohD,root,AT3G28510,AAA-type ATPase,0.0054,1.0,True
+rbohD,root,AT1G62800,,-0.0054,1.0,False
+rbohD,root,AT3G44300,NIT2,0.0053,1.0,False
+rbohD,root,AT5G48180,NSP5,0.0052,1.0,False
+rbohD,root,AT2G30750,CYP71A12,0.0052,1.0,True
+rbohD,root,AT3G10870,MES17,-0.0052,1.0,True
+rbohD,root,AT1G26380,FAD-binding,0.0052,1.0,True
+rbohD,root,AT5G58010,,0.0052,1.0,False
+rbohD,root,AT5G13320,WIN3,0.0051,1.0,True
+rbohD,root,AT1G17170,GST,0.0051,1.0,False
+rbohD,root,AT4G07960,CSLC12,0.0051,1.0,True
+rbohD,root,AT5G42590,,-0.0051,1.0,False
+rbohD,root,AT4G05020,NDB2,0.0051,1.0,False
+rbohD,root,AT2G15490,UGT73B4,0.005,1.0,True
+rbohD,root,AT1G01650,aspartic-type endopeptidase/ peptidase,0.0049,1.0,False
+rbohD,root,AT1G14540,anionic peroxidase,0.0049,1.0,True
+rbohD,root,AT4G15330,CYP705A1,-0.0048,1.0,False
+rbohD,root,AT3G47965,,-0.0048,1.0,False
+rbohD,root,AT3G59140,MRP14,0.0047,1.0,False
+rbohD,root,AT1G30270,SnRK3.23,-0.0047,1.0,False
+rbohD,root,AT4G22070,WRKY31,0.0047,1.0,True
+rbohD,root,AT5G26920,CBP60G,0.0047,1.0,True
+rbohD,root,AT1G61130,SCPL32,0.0045,1.0,True
+rbohD,root,AT4G13420,,-0.0044,1.0,True
+rbohD,root,AT4G34230,,0.0044,1.0,False
+rbohD,root,AT5G51830,,0.0044,1.0,False
+rbohD,root,AT1G26410,FAD-binding,0.0044,1.0,True
+rbohD,root,AT3G02000,,0.0044,1.0,False
+rbohD,root,AT4G13620,,-0.0044,1.0,False
+rbohD,root,AT1G13520,,0.0043,1.0,True
+rbohD,root,AT5G44680,methyladenine glycosylase,-0.0043,1.0,False
+rbohD,root,AT4G30270,SEN4,-0.0043,1.0,False
+rbohD,root,AT5G64110,peroxidase,0.0042,1.0,True
+rbohD,root,AT5G53190,nodulin MtN3,-0.0042,1.0,True
+rbohD,root,AT2G39010,PIP2E,-0.0041,1.0,False
+rbohD,root,AT5G45850,,-0.0041,1.0,False
+rbohD,root,AT2G04025,,-0.0041,1.0,False
+rbohD,root,AT3G09680,RPS23A,0.0041,1.0,False
+rbohD,root,AT4G32950,PP2C,0.0041,1.0,True
+rbohD,root,AT4G21990,PRH26,0.0041,1.0,False
+rbohD,root,AT5G63790,ANAC102,0.0041,1.0,False
+rbohD,root,AT1G05650,pectinase,0.004,1.0,True
+rbohD,root,AT5G11110,,0.004,1.0,False
+rbohD,root,AT1G05680,glucosyl transferase,0.004,1.0,True
+rbohD,root,AT3G05400,sugar transporter,0.004,1.0,True
+rbohD,root,AT4G36730,,-0.004,1.0,False
+rbohD,root,AT5G64120,,0.0039,1.0,False
+rbohD,root,AT1G76620,,-0.0039,1.0,True
+rbohD,root,AT3G12500,PR3,0.0039,1.0,False
+rbohD,root,AT3G63380,ACA12,0.0039,1.0,True
+rbohD,root,AT2G34350,nodulin,-0.0038,1.0,True
+rbohD,root,AT4G40070,protein binding,-0.0038,1.0,True
+rbohD,root,AT1G58320,,0.0038,1.0,True
+rbohD,root,AT2G40490,,-0.0037,1.0,False
+rbohD,root,AT1G33750,terpene synthase/cyclase,-0.0036,1.0,False
+rbohD,root,AT1G62180,PRH43,0.0036,1.0,False
+rbohD,root,AT4G14630,GLP9,0.0035,1.0,True
+rbohD,root,AT5G07200,YAP169,0.0035,1.0,True
+rbohD,root,AT5G57220,CYP81F2,0.0035,1.0,True
+rbohD,root,AT1G76680,OPR1,0.0035,1.0,False
+rbohD,root,AT1G51420,SPP1,0.0035,1.0,False
+rbohD,root,AT1G80240,,-0.0034,1.0,True
+rbohD,root,AT4G34135,UGT73B2,0.0034,1.0,False
+rbohD,root,AT1G21120,methyltransferase,0.0033,1.0,True
+rbohD,root,AT2G31085,CLE6,-0.0033,1.0,False
+rbohD,root,AT3G25900,HMT-1,0.0033,1.0,False
+rbohD,root,AT5G24380,YSL2,0.0033,1.0,False
+rbohD,root,AT5G27600,LACS7,0.0033,1.0,False
+rbohD,root,AT3G04480,,0.0033,1.0,False
+rbohD,root,AT2G32610,,-0.0033,1.0,True
+rbohD,root,AT2G35990,,0.0032,1.0,True
+rbohD,root,AT2G39400,hydrolase,0.0032,1.0,True
+rbohD,root,AT4G14695,,-0.0032,1.0,False
+rbohD,root,AT4G15920,,-0.0032,1.0,False
+rbohD,root,AT5G13750,ZIFL1,0.0032,1.0,False
+rbohD,root,AT5G13330,Rap2.6L,0.0032,1.0,True
+rbohD,root,AT5G36130,CYP,0.0032,1.0,True
+rbohD,root,AT2G37760,aldo/keto reductase,0.0031,1.0,False
+rbohD,root,AT4G22460,,-0.0031,1.0,False
+rbohD,root,AT4G19200,proline-rich,0.0031,1.0,False
+rbohD,root,AT4G33740,,-0.003,1.0,False
+rbohD,root,AT2G43890,pectinase,0.003,1.0,True
+rbohD,root,AT2G38290,,0.003,1.0,False
+rbohD,root,AT1G74230,,0.0029,0.75,False
+rbohD,root,AT4G36220,FAH1,-0.0029,1.0,False
+rbohD,root,AT3G51420,SSL4,-0.0028,0.875,True
+rbohD,root,AT4G21380,ARK3,0.0028,1.0,True
+rbohD,root,AT1G77450,anac032,0.0028,0.875,False
+rbohD,root,AT1G70080,terpene synthase/cyclase,-0.0028,1.0,True
+rbohD,root,AT4G11170,TIR-NBS-LRR,0.0028,1.0,True
+rbohD,root,AT1G73480,,0.0027,1.0,False
+rbohD,root,AT5G22300,NIT4,0.0027,0.875,True
+rbohD,root,AT2G43550,trypsin inhibitor,-0.0027,1.0,False
+rbohD,root,AT5G40590,DC1,0.0026,0.875,True
+rbohD,root,AT2G37770,aldo/keto reductase,0.0026,1.0,True
+rbohD,root,AT3G49580,LSU1,0.0025,0.875,True
+rbohD,root,AT3G56220,TF,-0.0025,1.0,False
+rbohD,root,AT3G60330,,0.0025,0.75,False
+rbohD,root,AT4G03320,,0.0025,0.75,False
+rbohD,root,AT5G45120,protease,-0.0025,1.0,True
+rbohD,root,AT5G65000,,0.0025,0.875,False
+rbohD,root,AT2G21540,SFH3,-0.0025,0.875,False
+rbohD,root,AT4G28410,aminotransferase,-0.0024,1.0,False
+rbohD,root,AT5G03545,,0.0024,1.0,False
+rbohD,root,AT5G44130,FLA13,-0.0024,0.875,False
+rbohD,root,AT4G22610,LTP,-0.0024,0.75,True
+rbohD,root,AT1G72680,cinnamyl-alcohol dehydrogenase,0.0024,0.875,False
+rbohD,root,AT1G17180,GSTU25,0.0023,0.875,True
+rbohD,root,AT1G65481,other RNA,0.0023,0.75,True
+rbohD,root,AT5G40780,LTH1,0.0022,0.75,False
+rbohD,root,AT1G45616,RLP6,-0.0022,0.75,True
+rbohD,root,AT4G16990,RLM3,-0.0022,0.875,True
+rbohD,root,AT5G13820,,0.0022,0.875,False
+rbohD,root,AT2G43570,chitinase,0.0022,0.875,True
+rbohD,root,AT3G53840,kinase,-0.0022,0.75,True
+rbohD,root,AT3G12580,HSP70,0.0022,0.875,False
+rbohD,root,AT4G18120,,-0.0022,0.75,False
+rbohD,root,AT1G06870,,0.0021,0.75,False
+rbohD,root,AT1G61740,,-0.0021,0.75,False
+rbohD,root,AT1G66430,,-0.0021,0.875,False
+rbohD,root,AT4G18360,glycolate oxidase,0.0021,0.75,False
+rbohD,root,AT2G33790,AGP30,-0.002,0.75,False
+rbohD,root,AT3G58750,,0.0019,0.75,False
+rbohD,root,AT3G53150,UGT73D1,0.0019,0.75,True

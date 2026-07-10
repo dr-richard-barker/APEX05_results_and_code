@@ -1,0 +1,3377 @@
+gene,cell_type,tissue,source
+AT1G02920,columella,root,PCMDB:Experimental
+AT1G03230,columella,root,PCMDB:Experimental
+AT1G04600,columella,root,PCMDB:Experimental
+AT1G05010,columella,root,PCMDB:Experimental
+AT1G10760,columella,root,PCMDB:Experimental
+AT1G13530,columella,root,PCMDB:Experimental
+AT1G13620,columella,root,PCMDB:Experimental
+AT1G14080,columella,root,PCMDB:Experimental
+AT1G17400,columella,root,PCMDB:Experimental
+AT1G23210,columella,root,PCMDB:Experimental
+AT1G48070,columella,root,PCMDB:Experimental
+AT1G52690,columella,root,PCMDB:Experimental
+AT1G66280,columella,root,PCMDB:Experimental
+AT1G67850,columella,root,PCMDB:Experimental
+AT1G70940,columella,root,PCMDB:Experimental
+AT1G71140,columella,root,PCMDB:Experimental
+AT1G74010,columella,root,PCMDB:Experimental
+AT2G02130,columella,root,PCMDB:Experimental
+AT2G04025,columella,root,PCMDB:Experimental
+AT2G18230,columella,root,PCMDB:Experimental
+AT2G21610,columella,root,PCMDB:Experimental
+AT2G28900,columella,root,PCMDB:Experimental
+AT2G36950,columella,root,PCMDB:Experimental
+AT2G38230,columella,root,PCMDB:Experimental
+AT2G43000,columella,root,PCMDB:Experimental
+AT2G44080,columella,root,PCMDB:Experimental
+AT3G16430,columella,root,PCMDB:Experimental
+AT3G16450,columella,root,PCMDB:Experimental
+AT3G18230,columella,root,PCMDB:Experimental
+AT3G19430,columella,root,PCMDB:Experimental
+AT3G22910,columella,root,PCMDB:Experimental
+AT3G23060,columella,root,PCMDB:Experimental
+AT3G29810,columella,root,PCMDB:Experimental
+AT3G44240,columella,root,PCMDB:Experimental
+AT3G47800,columella,root,PCMDB:Experimental
+AT3G52890,columella,root,PCMDB:Experimental
+AT3G55180,columella,root,PCMDB:Experimental
+AT3G57160,columella,root,PCMDB:Experimental
+AT3G60140,columella,root,PCMDB:Experimental
+AT3G60650,columella,root,PCMDB:Experimental
+AT3G61930,columella,root,PCMDB:Experimental
+AT3G62320,columella,root,PCMDB:Experimental
+AT4G01750,columella,root,PCMDB:Experimental
+AT4G09020,columella,root,PCMDB:Experimental
+AT4G10500,columella,root,PCMDB:Experimental
+AT4G15530,columella,root,PCMDB:Experimental
+AT4G20780,columella,root,PCMDB:Experimental
+AT4G23590,columella,root,PCMDB:Experimental
+AT4G27400,columella,root,PCMDB:Experimental
+AT4G28720,columella,root,PCMDB:Experimental
+AT4G37370,columella,root,PCMDB:Experimental
+AT4G37870,columella,root,PCMDB:Experimental
+AT5G07550,columella,root,PCMDB:Experimental
+AT5G20045,columella,root,PCMDB:Experimental
+AT5G20270,columella,root,PCMDB:Experimental
+AT5G23820,columella,root,PCMDB:Experimental
+AT5G24580,columella,root,PCMDB:Experimental
+AT5G48130,columella,root,PCMDB:Experimental
+AT5G48175,columella,root,PCMDB:Experimental
+AT5G48300,columella,root,PCMDB:Experimental
+AT5G50200,columella,root,PCMDB:Experimental
+AT5G53460,columella,root,PCMDB:Experimental
+AT5G54370,columella,root,PCMDB:Experimental
+AT5G57640,columella,root,PCMDB:Experimental
+AT5G58580,columella,root,PCMDB:Experimental
+AT5G62480,columella,root,PCMDB:Experimental
+AT5G64860,columella,root,PCMDB:Experimental
+AT1G11260,lateral root cap,root,PCMDB:Experimental
+AT1G14220,lateral root cap,root,PCMDB:Experimental
+AT1G14240,lateral root cap,root,PCMDB:Experimental
+AT1G30700,lateral root cap,root,PCMDB:Experimental
+AT1G54010,lateral root cap,root,PCMDB:Experimental
+AT1G54030,lateral root cap,root,PCMDB:Experimental
+AT1G54120,lateral root cap,root,PCMDB:Experimental
+AT2G15220,lateral root cap,root,PCMDB:Experimental
+AT2G23630,lateral root cap,root,PCMDB:Experimental
+AT2G23790,lateral root cap,root,PCMDB:Experimental
+AT2G25980,lateral root cap,root,PCMDB:Experimental
+AT2G26670,lateral root cap,root,PCMDB:Experimental
+AT2G35770,lateral root cap,root,PCMDB:Experimental
+AT2G42890,lateral root cap,root,PCMDB:Experimental
+AT3G14530,lateral root cap,root,PCMDB:Experimental
+AT3G20940,lateral root cap,root,PCMDB:Experimental
+AT3G45010,lateral root cap,root,PCMDB:Experimental
+AT3G55930,lateral root cap,root,PCMDB:Experimental
+AT4G10350,lateral root cap,root,PCMDB:Experimental
+AT5G02580,lateral root cap,root,PCMDB:Experimental
+AT5G23210,lateral root cap,root,PCMDB:Experimental
+AT5G26260,lateral root cap,root,PCMDB:Experimental
+AT5G36880,lateral root cap,root,PCMDB:Experimental
+AT5G44380,lateral root cap,root,PCMDB:Experimental
+AT5G58784,lateral root cap,root,PCMDB:Experimental
+AT5G60520,lateral root cap,root,PCMDB:Experimental
+AT5G62340,lateral root cap,root,PCMDB:Experimental
+AT5G63650,lateral root cap,root,PCMDB:Experimental
+AT1G02360,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G05650,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G06930,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G09200,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G10990,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G13590,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G13730,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G14870,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G14960,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G19600,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G25450,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G31950,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G51800,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G51850,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G53130,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G53560,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G54890,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G57590,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G67400,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G68150,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G68470,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G68560,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G70850,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G74500,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G76620,non-hair root epidermal cell,root,PCMDB:Experimental
+AT2G01880,non-hair root epidermal cell,root,PCMDB:Experimental
+AT2G21045,non-hair root epidermal cell,root,PCMDB:Experimental
+AT2G31570,non-hair root epidermal cell,root,PCMDB:Experimental
+AT2G37130,non-hair root epidermal cell,root,PCMDB:Experimental
+AT2G39040,non-hair root epidermal cell,root,PCMDB:Experimental
+AT2G39410,non-hair root epidermal cell,root,PCMDB:Experimental
+AT2G40205,non-hair root epidermal cell,root,PCMDB:Experimental
+AT2G42060,non-hair root epidermal cell,root,PCMDB:Experimental
+AT2G43480,non-hair root epidermal cell,root,PCMDB:Experimental
+AT2G43570,non-hair root epidermal cell,root,PCMDB:Experimental
+AT2G45050,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G01190,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G01970,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G02240,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G05020,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G11780,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G15670,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G18200,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G19320,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G21070,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G21710,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G23510,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G26440,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G28345,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G29250,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G29780,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G47380,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G49845,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G51330,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G51600,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G53650,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G60530,non-hair root epidermal cell,root,PCMDB:Experimental
+AT3G62280,non-hair root epidermal cell,root,PCMDB:Experimental
+AT4G00360,non-hair root epidermal cell,root,PCMDB:Experimental
+AT4G00400,non-hair root epidermal cell,root,PCMDB:Experimental
+AT4G00730,non-hair root epidermal cell,root,PCMDB:Experimental
+AT4G03190,non-hair root epidermal cell,root,PCMDB:Experimental
+AT4G12545,non-hair root epidermal cell,root,PCMDB:Experimental
+AT4G15290,non-hair root epidermal cell,root,PCMDB:Experimental
+AT4G20110,non-hair root epidermal cell,root,PCMDB:Experimental
+AT4G21980,non-hair root epidermal cell,root,PCMDB:Experimental
+AT4G22230,non-hair root epidermal cell,root,PCMDB:Experimental
+AT4G22235,non-hair root epidermal cell,root,PCMDB:Experimental
+AT4G22666,non-hair root epidermal cell,root,PCMDB:Experimental
+AT4G23700,non-hair root epidermal cell,root,PCMDB:Experimental
+AT4G25250,non-hair root epidermal cell,root,PCMDB:Experimental
+AT4G27950,non-hair root epidermal cell,root,PCMDB:Experimental
+AT4G31320,non-hair root epidermal cell,root,PCMDB:Experimental
+AT4G37010,non-hair root epidermal cell,root,PCMDB:Experimental
+AT4G37070,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G07460,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G09510,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G09978,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G16560,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G19230,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G19750,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G24090,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G40330,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G40690,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G42630,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G43040,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G44585,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G48010,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G48290,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G48657,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G51490,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G51500,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G60950,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G63600,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G64100,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G65640,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G66590,non-hair root epidermal cell,root,PCMDB:Experimental
+AT5G66800,non-hair root epidermal cell,root,PCMDB:Experimental
+AT1G01070,pericycle,root,PCMDB:Experimental
+AT1G02500,pericycle,root,PCMDB:Experimental
+AT1G10682,pericycle,root,PCMDB:Experimental
+AT1G11330,pericycle,root,PCMDB:Experimental
+AT1G12200,pericycle,root,PCMDB:Experimental
+AT1G16310,pericycle,root,PCMDB:Experimental
+AT1G16350,pericycle,root,PCMDB:Experimental
+AT1G18080,pericycle,root,PCMDB:Experimental
+AT1G23760,pericycle,root,PCMDB:Experimental
+AT1G27130,pericycle,root,PCMDB:Experimental
+AT1G32450,pericycle,root,PCMDB:Experimental
+AT1G44800,pericycle,root,PCMDB:Experimental
+AT1G48600,pericycle,root,PCMDB:Experimental
+AT1G52400,pericycle,root,PCMDB:Experimental
+AT1G58025,pericycle,root,PCMDB:Experimental
+AT1G71040,pericycle,root,PCMDB:Experimental
+AT1G74430,pericycle,root,PCMDB:Experimental
+AT1G78580,pericycle,root,PCMDB:Experimental
+AT2G19900,pericycle,root,PCMDB:Experimental
+AT2G36650,pericycle,root,PCMDB:Experimental
+AT2G44160,pericycle,root,PCMDB:Experimental
+AT2G47160,pericycle,root,PCMDB:Experimental
+AT3G04300,pericycle,root,PCMDB:Experimental
+AT3G06020,pericycle,root,PCMDB:Experimental
+AT3G11510,pericycle,root,PCMDB:Experimental
+AT3G21770,pericycle,root,PCMDB:Experimental
+AT3G24310,pericycle,root,PCMDB:Experimental
+AT3G26760,pericycle,root,PCMDB:Experimental
+AT3G29635,pericycle,root,PCMDB:Experimental
+AT3G61820,pericycle,root,PCMDB:Experimental
+AT4G00100,pericycle,root,PCMDB:Experimental
+AT4G09320,pericycle,root,PCMDB:Experimental
+AT4G15000,pericycle,root,PCMDB:Experimental
+AT4G17760,pericycle,root,PCMDB:Experimental
+AT4G27450,pericycle,root,PCMDB:Experimental
+AT4G28250,pericycle,root,PCMDB:Experimental
+AT4G29770,pericycle,root,PCMDB:Experimental
+AT4G33660,pericycle,root,PCMDB:Experimental
+AT4G34050,pericycle,root,PCMDB:Experimental
+AT4G34600,pericycle,root,PCMDB:Experimental
+AT4G34620,pericycle,root,PCMDB:Experimental
+AT4G34650,pericycle,root,PCMDB:Experimental
+AT5G01740,pericycle,root,PCMDB:Experimental
+AT5G02960,pericycle,root,PCMDB:Experimental
+AT5G06080,pericycle,root,PCMDB:Experimental
+AT5G07322,pericycle,root,PCMDB:Experimental
+AT5G22650,pericycle,root,PCMDB:Experimental
+AT5G25920,pericycle,root,PCMDB:Experimental
+AT5G26930,pericycle,root,PCMDB:Experimental
+AT5G27690,pericycle,root,PCMDB:Experimental
+AT5G41520,pericycle,root,PCMDB:Experimental
+AT5G48480,pericycle,root,PCMDB:Experimental
+AT5G59090,pericycle,root,PCMDB:Experimental
+AT5G65280,pericycle,root,PCMDB:Experimental
+AT1G02950,phloem,root,PCMDB:Experimental
+AT1G05610,phloem,root,PCMDB:Experimental
+AT1G05760,phloem,root,PCMDB:Experimental
+AT1G05770,phloem,root,PCMDB:Experimental
+AT1G10360,phloem,root,PCMDB:Experimental
+AT1G11450,phloem,root,PCMDB:Experimental
+AT1G11570,phloem,root,PCMDB:Experimental
+AT1G12010,phloem,root,PCMDB:Experimental
+AT1G13920,phloem,root,PCMDB:Experimental
+AT1G24575,phloem,root,PCMDB:Experimental
+AT1G26790,phloem,root,PCMDB:Experimental
+AT1G54575,phloem,root,PCMDB:Experimental
+AT1G61760,phloem,root,PCMDB:Experimental
+AT1G69580,phloem,root,PCMDB:Experimental
+AT1G69970,phloem,root,PCMDB:Experimental
+AT1G76130,phloem,root,PCMDB:Experimental
+AT2G19830,phloem,root,PCMDB:Experimental
+AT2G41200,phloem,root,PCMDB:Experimental
+AT3G47180,phloem,root,PCMDB:Experimental
+AT3G58350,phloem,root,PCMDB:Experimental
+AT4G00670,phloem,root,PCMDB:Experimental
+AT4G03500,phloem,root,PCMDB:Experimental
+AT4G04620,phloem,root,PCMDB:Experimental
+AT4G16400,phloem,root,PCMDB:Experimental
+AT4G20240,phloem,root,PCMDB:Experimental
+AT4G25010,phloem,root,PCMDB:Experimental
+AT5G01480,phloem,root,PCMDB:Experimental
+AT5G04680,phloem,root,PCMDB:Experimental
+AT5G16610,phloem,root,PCMDB:Experimental
+AT5G20030,phloem,root,PCMDB:Experimental
+AT5G22090,phloem,root,PCMDB:Experimental
+AT5G53030,phloem,root,PCMDB:Experimental
+AT5G62680,phloem,root,PCMDB:Experimental
+AT1G04540,protoxylem,root,PCMDB:Experimental
+AT1G04760,protoxylem,root,PCMDB:Experimental
+AT1G06020,protoxylem,root,PCMDB:Experimental
+AT1G07120,protoxylem,root,PCMDB:Experimental
+AT1G09610,protoxylem,root,PCMDB:Experimental
+AT1G09890,protoxylem,root,PCMDB:Experimental
+AT1G10800,protoxylem,root,PCMDB:Experimental
+AT1G12450,protoxylem,root,PCMDB:Experimental
+AT1G14190,protoxylem,root,PCMDB:Experimental
+AT1G16520,protoxylem,root,PCMDB:Experimental
+AT1G17950,protoxylem,root,PCMDB:Experimental
+AT1G19230,protoxylem,root,PCMDB:Experimental
+AT1G20720,protoxylem,root,PCMDB:Experimental
+AT1G21780,protoxylem,root,PCMDB:Experimental
+AT1G26570,protoxylem,root,PCMDB:Experimental
+AT1G48280,protoxylem,root,PCMDB:Experimental
+AT1G51640,protoxylem,root,PCMDB:Experimental
+AT1G63910,protoxylem,root,PCMDB:Experimental
+AT1G66810,protoxylem,root,PCMDB:Experimental
+AT1G68600,protoxylem,root,PCMDB:Experimental
+AT1G73410,protoxylem,root,PCMDB:Experimental
+AT5G08480,protoxylem,root,PCMDB:Experimental
+AT5G09480,protoxylem,root,PCMDB:Experimental
+AT5G47635,protoxylem,root,PCMDB:Experimental
+AT1G03840,quiescent center,root,PCMDB:Experimental
+AT1G11420,quiescent center,root,PCMDB:Experimental
+AT1G16070,quiescent center,root,PCMDB:Experimental
+AT1G30530,quiescent center,root,PCMDB:Experimental
+AT1G49110,quiescent center,root,PCMDB:Experimental
+AT1G55200,quiescent center,root,PCMDB:Experimental
+AT1G68640,quiescent center,root,PCMDB:Experimental
+AT1G69490,quiescent center,root,PCMDB:Experimental
+AT1G75580,quiescent center,root,PCMDB:Experimental
+AT2G23050,quiescent center,root,PCMDB:Experimental
+AT2G34710,quiescent center,root,PCMDB:Experimental
+AT3G13510,quiescent center,root,PCMDB:Experimental
+AT3G26120,quiescent center,root,PCMDB:Experimental
+AT3G30350,quiescent center,root,PCMDB:Experimental
+AT5G03680,quiescent center,root,PCMDB:Experimental
+AT5G17430,quiescent center,root,PCMDB:Experimental
+AT5G20240,quiescent center,root,PCMDB:Experimental
+AT5G23780,quiescent center,root,PCMDB:Experimental
+AT5G25900,quiescent center,root,PCMDB:Experimental
+AT5G45780,quiescent center,root,PCMDB:Experimental
+AT5G62165,quiescent center,root,PCMDB:Experimental
+AT5G62165  ,quiescent center,root,PCMDB:Experimental
+AT1G01570,root cap,root,PCMDB:Experimental
+AT1G03457,root cap,root,PCMDB:Experimental
+AT1G08090,root cap,root,PCMDB:Experimental
+AT1G08430,root cap,root,PCMDB:Experimental
+AT1G09540,root cap,root,PCMDB:Experimental
+AT1G09560,root cap,root,PCMDB:Experimental
+AT1G10480,root cap,root,PCMDB:Experimental
+AT1G12110,root cap,root,PCMDB:Experimental
+AT1G13300,root cap,root,PCMDB:Experimental
+AT1G18420,root cap,root,PCMDB:Experimental
+AT1G23080,root cap,root,PCMDB:Experimental
+AT1G23380,root cap,root,PCMDB:Experimental
+AT1G26960,root cap,root,PCMDB:Experimental
+AT1G27740,root cap,root,PCMDB:Experimental
+AT1G30510,root cap,root,PCMDB:Experimental
+AT1G31885,root cap,root,PCMDB:Experimental
+AT1G34670,root cap,root,PCMDB:Experimental
+AT1G35250,root cap,root,PCMDB:Experimental
+AT1G35720,root cap,root,PCMDB:Experimental
+AT1G47485,root cap,root,PCMDB:Experimental
+AT1G51880,root cap,root,PCMDB:Experimental
+AT1G56010,root cap,root,PCMDB:Experimental
+AT1G59835,root cap,root,PCMDB:Experimental
+AT1G62300,root cap,root,PCMDB:Experimental
+AT1G62440,root cap,root,PCMDB:Experimental
+AT1G63245,root cap,root,PCMDB:Experimental
+AT1G64060,root cap,root,PCMDB:Experimental
+AT1G64780,root cap,root,PCMDB:Experimental
+AT1G65680,root cap,root,PCMDB:Experimental
+AT1G67030,root cap,root,PCMDB:Experimental
+AT1G69830,root cap,root,PCMDB:Experimental
+AT1G72490,root cap,root,PCMDB:Experimental
+AT1G73160,root cap,root,PCMDB:Experimental
+AT1G73590,root cap,root,PCMDB:Experimental
+AT2G01420,root cap,root,PCMDB:Experimental
+AT2G12646,root cap,root,PCMDB:Experimental
+AT2G22630,root cap,root,PCMDB:Experimental
+AT2G24610,root cap,root,PCMDB:Experimental
+AT2G25180,root cap,root,PCMDB:Experimental
+AT2G26420,root cap,root,PCMDB:Experimental
+AT2G26650,root cap,root,PCMDB:Experimental
+AT2G30340,root cap,root,PCMDB:Experimental
+AT2G30420,root cap,root,PCMDB:Experimental
+AT2G31310,root cap,root,PCMDB:Experimental
+AT2G41660,root cap,root,PCMDB:Experimental
+AT2G42430,root cap,root,PCMDB:Experimental
+AT2G46410,root cap,root,PCMDB:Experimental
+AT2G47000,root cap,root,PCMDB:Experimental
+AT2G47270,root cap,root,PCMDB:Experimental
+AT3G04060,root cap,root,PCMDB:Experimental
+AT3G04120,root cap,root,PCMDB:Experimental
+AT3G05150,root cap,root,PCMDB:Experimental
+AT3G07880,root cap,root,PCMDB:Experimental
+AT3G13870,root cap,root,PCMDB:Experimental
+AT3G21890,root cap,root,PCMDB:Experimental
+AT3G24225,root cap,root,PCMDB:Experimental
+AT3G24240,root cap,root,PCMDB:Experimental
+AT3G24300,root cap,root,PCMDB:Experimental
+AT3G24650,root cap,root,PCMDB:Experimental
+AT3G24810,root cap,root,PCMDB:Experimental
+AT3G25820,root cap,root,PCMDB:Experimental
+AT3G25830,root cap,root,PCMDB:Experimental
+AT3G26610,root cap,root,PCMDB:Experimental
+AT3G30260,root cap,root,PCMDB:Experimental
+AT3G50310,root cap,root,PCMDB:Experimental
+AT3G51460,root cap,root,PCMDB:Experimental
+AT3G52180,root cap,root,PCMDB:Experimental
+AT3G54870,root cap,root,PCMDB:Experimental
+AT3G57230,root cap,root,PCMDB:Experimental
+AT3G58190,root cap,root,PCMDB:Experimental
+AT3G60870,root cap,root,PCMDB:Experimental
+AT3G62270,root cap,root,PCMDB:Experimental
+AT4G00750,root cap,root,PCMDB:Experimental
+AT4G02270,root cap,root,PCMDB:Experimental
+AT4G03330,root cap,root,PCMDB:Experimental
+AT4G08620,root cap,root,PCMDB:Experimental
+AT4G09960,root cap,root,PCMDB:Experimental
+AT4G11880,root cap,root,PCMDB:Experimental
+AT4G14550,root cap,root,PCMDB:Experimental
+AT4G17785,root cap,root,PCMDB:Experimental
+AT4G17810,root cap,root,PCMDB:Experimental
+AT4G18450,root cap,root,PCMDB:Experimental
+AT4G19690,root cap,root,PCMDB:Experimental
+AT4G22950,root cap,root,PCMDB:Experimental
+AT4G23980,root cap,root,PCMDB:Experimental
+AT4G26540,root cap,root,PCMDB:Experimental
+AT4G28980,root cap,root,PCMDB:Experimental
+AT4G30280,root cap,root,PCMDB:Experimental
+AT4G30290,root cap,root,PCMDB:Experimental
+AT4G33880,root cap,root,PCMDB:Experimental
+AT4G37940,root cap,root,PCMDB:Experimental
+AT5G05770,root cap,root,PCMDB:Experimental
+AT5G07310,root cap,root,PCMDB:Experimental
+AT5G12330,root cap,root,PCMDB:Experimental
+AT5G14650,root cap,root,PCMDB:Experimental
+AT5G17800,root cap,root,PCMDB:Experimental
+AT5G18270,root cap,root,PCMDB:Experimental
+AT5G18560,root cap,root,PCMDB:Experimental
+AT5G20350,root cap,root,PCMDB:Experimental
+AT5G39040,root cap,root,PCMDB:Experimental
+AT5G44460,root cap,root,PCMDB:Experimental
+AT5G44610,root cap,root,PCMDB:Experimental
+AT5G48940,root cap,root,PCMDB:Experimental
+AT5G51060,root cap,root,PCMDB:Experimental
+AT5G56320,root cap,root,PCMDB:Experimental
+AT5G57090,root cap,root,PCMDB:Experimental
+AT5G61250,root cap,root,PCMDB:Experimental
+AT5G62310,root cap,root,PCMDB:Experimental
+AT5G65020,root cap,root,PCMDB:Experimental
+AT1G02850,root cortex,root,PCMDB:Experimental
+AT1G05570,root cortex,root,PCMDB:Experimental
+AT1G08810,root cortex,root,PCMDB:Experimental
+AT1G12090,root cortex,root,PCMDB:Experimental
+AT1G12845,root cortex,root,PCMDB:Experimental
+AT1G13420,root cortex,root,PCMDB:Experimental
+AT1G15460,root cortex,root,PCMDB:Experimental
+AT1G17300,root cortex,root,PCMDB:Experimental
+AT1G20010,root cortex,root,PCMDB:Experimental
+AT1G20190,root cortex,root,PCMDB:Experimental
+AT1G21100,root cortex,root,PCMDB:Experimental
+AT1G21110,root cortex,root,PCMDB:Experimental
+AT1G21120,root cortex,root,PCMDB:Experimental
+AT1G27030,root cortex,root,PCMDB:Experimental
+AT1G29025,root cortex,root,PCMDB:Experimental
+AT1G30380,root cortex,root,PCMDB:Experimental
+AT1G42550,root cortex,root,PCMDB:Experimental
+AT1G44575,root cortex,root,PCMDB:Experimental
+AT1G52410,root cortex,root,PCMDB:Experimental
+AT1G62510,root cortex,root,PCMDB:Experimental
+AT1G64380,root cortex,root,PCMDB:Experimental
+AT1G64900,root cortex,root,PCMDB:Experimental
+AT1G70280,root cortex,root,PCMDB:Experimental
+AT1G76090,root cortex,root,PCMDB:Experimental
+AT1G76100,root cortex,root,PCMDB:Experimental
+AT2G01520,root cortex,root,PCMDB:Experimental
+AT2G02780,root cortex,root,PCMDB:Experimental
+AT2G06850,root cortex,root,PCMDB:Experimental
+AT2G23170,root cortex,root,PCMDB:Experimental
+AT2G32540,root cortex,root,PCMDB:Experimental
+AT2G38170,root cortex,root,PCMDB:Experimental
+AT2G39010,root cortex,root,PCMDB:Experimental
+AT2G43050,root cortex,root,PCMDB:Experimental
+AT2G45180,root cortex,root,PCMDB:Experimental
+AT2G48020,root cortex,root,PCMDB:Experimental
+AT3G12700,root cortex,root,PCMDB:Experimental
+AT3G14850,root cortex,root,PCMDB:Experimental
+AT3G18170,root cortex,root,PCMDB:Experimental
+AT3G21670,root cortex,root,PCMDB:Experimental
+AT3G26300,root cortex,root,PCMDB:Experimental
+AT3G46700,root cortex,root,PCMDB:Experimental
+AT3G51240,root cortex,root,PCMDB:Experimental
+AT3G56080,root cortex,root,PCMDB:Experimental
+AT4G00700,root cortex,root,PCMDB:Experimental
+AT4G09760,root cortex,root,PCMDB:Experimental
+AT4G22460,root cortex,root,PCMDB:Experimental
+AT4G25350,root cortex,root,PCMDB:Experimental
+AT4G32460,root cortex,root,PCMDB:Experimental
+AT4G33050,root cortex,root,PCMDB:Experimental
+AT4G36670,root cortex,root,PCMDB:Experimental
+AT5G02000,root cortex,root,PCMDB:Experimental
+AT5G03570,root cortex,root,PCMDB:Experimental
+AT5G05270,root cortex,root,PCMDB:Experimental
+AT5G07990,root cortex,root,PCMDB:Experimental
+AT5G08640,root cortex,root,PCMDB:Experimental
+AT5G09440,root cortex,root,PCMDB:Experimental
+AT5G11420,root cortex,root,PCMDB:Experimental
+AT5G13630,root cortex,root,PCMDB:Experimental
+AT5G18840,root cortex,root,PCMDB:Experimental
+AT5G19240,root cortex,root,PCMDB:Experimental
+AT5G22300,root cortex,root,PCMDB:Experimental
+AT5G27350,root cortex,root,PCMDB:Experimental
+AT5G38020,root cortex,root,PCMDB:Experimental
+AT5G42250,root cortex,root,PCMDB:Experimental
+AT5G44130,root cortex,root,PCMDB:Experimental
+AT5G48000,root cortex,root,PCMDB:Experimental
+AT5G49360,root cortex,root,PCMDB:Experimental
+AT5G53370,root cortex,root,PCMDB:Experimental
+AT5G55250,root cortex,root,PCMDB:Experimental
+AT5G56870,root cortex,root,PCMDB:Experimental
+AT5G64620,root cortex,root,PCMDB:Experimental
+AT5G65380,root cortex,root,PCMDB:Experimental
+AT1G01120,root endodermis,root,PCMDB:Experimental
+AT1G01480,root endodermis,root,PCMDB:Experimental
+AT1G05260,root endodermis,root,PCMDB:Experimental
+AT1G07740,root endodermis,root,PCMDB:Experimental
+AT1G09090,root endodermis,root,PCMDB:Experimental
+AT1G16390,root endodermis,root,PCMDB:Experimental
+AT1G30750,root endodermis,root,PCMDB:Experimental
+AT1G35210,root endodermis,root,PCMDB:Experimental
+AT1G43020,root endodermis,root,PCMDB:Experimental
+AT1G49660,root endodermis,root,PCMDB:Experimental
+AT1G60690,root endodermis,root,PCMDB:Experimental
+AT1G61590,root endodermis,root,PCMDB:Experimental
+AT1G69920,root endodermis,root,PCMDB:Experimental
+AT1G69930,root endodermis,root,PCMDB:Experimental
+AT1G70130,root endodermis,root,PCMDB:Experimental
+AT1G71740,root endodermis,root,PCMDB:Experimental
+AT2G15300,root endodermis,root,PCMDB:Experimental
+AT2G16580,root endodermis,root,PCMDB:Experimental
+AT2G18150,root endodermis,root,PCMDB:Experimental
+AT2G21100,root endodermis,root,PCMDB:Experimental
+AT2G22000,root endodermis,root,PCMDB:Experimental
+AT2G27370,root endodermis,root,PCMDB:Experimental
+AT2G28500,root endodermis,root,PCMDB:Experimental
+AT2G28670,root endodermis,root,PCMDB:Experimental
+AT2G31730,root endodermis,root,PCMDB:Experimental
+AT2G32300,root endodermis,root,PCMDB:Experimental
+AT2G34310,root endodermis,root,PCMDB:Experimental
+AT2G36100,root endodermis,root,PCMDB:Experimental
+AT2G38380,root endodermis,root,PCMDB:Experimental
+AT2G39430,root endodermis,root,PCMDB:Experimental
+AT2G40113,root endodermis,root,PCMDB:Experimental
+AT2G40160,root endodermis,root,PCMDB:Experimental
+AT2G47470,root endodermis,root,PCMDB:Experimental
+AT2G47630,root endodermis,root,PCMDB:Experimental
+AT2G47930,root endodermis,root,PCMDB:Experimental
+AT2G48030,root endodermis,root,PCMDB:Experimental
+AT3G06125,root endodermis,root,PCMDB:Experimental
+AT3G11550,root endodermis,root,PCMDB:Experimental
+AT3G22620,root endodermis,root,PCMDB:Experimental
+AT3G23730,root endodermis,root,PCMDB:Experimental
+AT3G24020,root endodermis,root,PCMDB:Experimental
+AT3G29410,root endodermis,root,PCMDB:Experimental
+AT3G45260,root endodermis,root,PCMDB:Experimental
+AT3G49780,root endodermis,root,PCMDB:Experimental
+AT3G52790,root endodermis,root,PCMDB:Experimental
+AT3G54400,root endodermis,root,PCMDB:Experimental
+AT3G55090,root endodermis,root,PCMDB:Experimental
+AT3G55230,root endodermis,root,PCMDB:Experimental
+AT4G02090,root endodermis,root,PCMDB:Experimental
+AT4G05170,root endodermis,root,PCMDB:Experimental
+AT4G08770,root endodermis,root,PCMDB:Experimental
+AT4G11190,root endodermis,root,PCMDB:Experimental
+AT4G11290,root endodermis,root,PCMDB:Experimental
+AT4G13580,root endodermis,root,PCMDB:Experimental
+AT4G16447,root endodermis,root,PCMDB:Experimental
+AT4G17215,root endodermis,root,PCMDB:Experimental
+AT4G17280,root endodermis,root,PCMDB:Experimental
+AT4G19720,root endodermis,root,PCMDB:Experimental
+AT4G22110,root endodermis,root,PCMDB:Experimental
+AT4G22710,root endodermis,root,PCMDB:Experimental
+AT4G25200,root endodermis,root,PCMDB:Experimental
+AT4G25434,root endodermis,root,PCMDB:Experimental
+AT4G26140,root endodermis,root,PCMDB:Experimental
+AT4G32710,root endodermis,root,PCMDB:Experimental
+AT4G36430,root endodermis,root,PCMDB:Experimental
+AT4G37770,root endodermis,root,PCMDB:Experimental
+AT5G06200,root endodermis,root,PCMDB:Experimental
+AT5G07475,root endodermis,root,PCMDB:Experimental
+AT5G08350,root endodermis,root,PCMDB:Experimental
+AT5G13880,root endodermis,root,PCMDB:Experimental
+AT5G15290,root endodermis,root,PCMDB:Experimental
+AT5G16770,root endodermis,root,PCMDB:Experimental
+AT5G23920,root endodermis,root,PCMDB:Experimental
+AT5G24600,root endodermis,root,PCMDB:Experimental
+AT5G38005,root endodermis,root,PCMDB:Experimental
+AT5G41040,root endodermis,root,PCMDB:Experimental
+AT5G42180,root endodermis,root,PCMDB:Experimental
+AT5G47370,root endodermis,root,PCMDB:Experimental
+AT5G49800,root endodermis,root,PCMDB:Experimental
+AT5G51680,root endodermis,root,PCMDB:Experimental
+AT5G52670,root endodermis,root,PCMDB:Experimental
+AT5G58375,root endodermis,root,PCMDB:Experimental
+AT5G63660,root endodermis,root,PCMDB:Experimental
+AT5G64570,root endodermis,root,PCMDB:Experimental
+AT5G65790,root endodermis,root,PCMDB:Experimental
+AT5G66390,root endodermis,root,PCMDB:Experimental
+AT5G67340,root endodermis,root,PCMDB:Experimental
+AT1G05135,root epidermis,root,PCMDB:Experimental
+AT1G55260,root epidermis,root,PCMDB:Experimental
+AT2G26250,root epidermis,root,PCMDB:Experimental
+AT2G32690,root epidermis,root,PCMDB:Experimental
+AT2G38530,root epidermis,root,PCMDB:Experimental
+AT2G42840,root epidermis,root,PCMDB:Experimental
+AT3G08770,root epidermis,root,PCMDB:Experimental
+AT3G16370,root epidermis,root,PCMDB:Experimental
+AT3G17050,root epidermis,root,PCMDB:Experimental
+AT3G23450,root epidermis,root,PCMDB:Experimental
+AT4G16230,root epidermis,root,PCMDB:Experimental
+AT4G16240,root epidermis,root,PCMDB:Experimental
+AT4G21620,root epidermis,root,PCMDB:Experimental
+AT4G29020,root epidermis,root,PCMDB:Experimental
+AT5G01870,root epidermis,root,PCMDB:Experimental
+AT5G25610,root epidermis,root,PCMDB:Experimental
+AT5G59320,root epidermis,root,PCMDB:Experimental
+AT1G01750,root hair cell,root,PCMDB:Experimental
+AT1G01780,root hair cell,root,PCMDB:Experimental
+AT1G05660,root hair cell,root,PCMDB:Experimental
+AT1G06923,root hair cell,root,PCMDB:Experimental
+AT1G15930,root hair cell,root,PCMDB:Experimental
+AT1G23750,root hair cell,root,PCMDB:Experimental
+AT1G24735,root hair cell,root,PCMDB:Experimental
+AT1G27140,root hair cell,root,PCMDB:Experimental
+AT1G30870,root hair cell,root,PCMDB:Experimental
+AT1G34330,root hair cell,root,PCMDB:Experimental
+AT1G34510,root hair cell,root,PCMDB:Experimental
+AT1G52660,root hair cell,root,PCMDB:Experimental
+AT1G53680,root hair cell,root,PCMDB:Experimental
+AT1G65610,root hair cell,root,PCMDB:Experimental
+AT1G67330,root hair cell,root,PCMDB:Experimental
+AT1G67430,root hair cell,root,PCMDB:Experimental
+AT1G73580,root hair cell,root,PCMDB:Experimental
+AT2G04170,root hair cell,root,PCMDB:Experimental
+AT2G19730,root hair cell,root,PCMDB:Experimental
+AT2G23620,root hair cell,root,PCMDB:Experimental
+AT2G24980,root hair cell,root,PCMDB:Experimental
+AT2G25240,root hair cell,root,PCMDB:Experimental
+AT2G32270,root hair cell,root,PCMDB:Experimental
+AT2G33840,root hair cell,root,PCMDB:Experimental
+AT2G34910,root hair cell,root,PCMDB:Experimental
+AT2G34940,root hair cell,root,PCMDB:Experimental
+AT2G35610,root hair cell,root,PCMDB:Experimental
+AT2G39380,root hair cell,root,PCMDB:Experimental
+AT2G43510,root hair cell,root,PCMDB:Experimental
+AT2G44370,root hair cell,root,PCMDB:Experimental
+AT2G45220,root hair cell,root,PCMDB:Experimental
+AT2G45750,root hair cell,root,PCMDB:Experimental
+AT2G47540,root hair cell,root,PCMDB:Experimental
+AT3G07070,root hair cell,root,PCMDB:Experimental
+AT3G16390,root hair cell,root,PCMDB:Experimental
+AT3G17600,root hair cell,root,PCMDB:Experimental
+AT3G21180,root hair cell,root,PCMDB:Experimental
+AT3G23175,root hair cell,root,PCMDB:Experimental
+AT3G23190,root hair cell,root,PCMDB:Experimental
+AT3G46900,root hair cell,root,PCMDB:Experimental
+AT3G49120,root hair cell,root,PCMDB:Experimental
+AT3G49960,root hair cell,root,PCMDB:Experimental
+AT3G53370,root hair cell,root,PCMDB:Experimental
+AT3G54590,root hair cell,root,PCMDB:Experimental
+AT3G60280,root hair cell,root,PCMDB:Experimental
+AT3G60330,root hair cell,root,PCMDB:Experimental
+AT3G61560,root hair cell,root,PCMDB:Experimental
+AT4G01480,root hair cell,root,PCMDB:Experimental
+AT4G01630,root hair cell,root,PCMDB:Experimental
+AT4G08400,root hair cell,root,PCMDB:Experimental
+AT4G08410,root hair cell,root,PCMDB:Experimental
+AT4G13390,root hair cell,root,PCMDB:Experimental
+AT4G17390,root hair cell,root,PCMDB:Experimental
+AT4G22080,root hair cell,root,PCMDB:Experimental
+AT4G22217,root hair cell,root,PCMDB:Experimental
+AT4G25790,root hair cell,root,PCMDB:Experimental
+AT4G29180,root hair cell,root,PCMDB:Experimental
+AT4G30320,root hair cell,root,PCMDB:Experimental
+AT4G33730,root hair cell,root,PCMDB:Experimental
+AT4G37220,root hair cell,root,PCMDB:Experimental
+AT4G37390,root hair cell,root,PCMDB:Experimental
+AT5G04960,root hair cell,root,PCMDB:Experimental
+AT5G06630,root hair cell,root,PCMDB:Experimental
+AT5G06640,root hair cell,root,PCMDB:Experimental
+AT5G11440,root hair cell,root,PCMDB:Experimental
+AT5G12050,root hair cell,root,PCMDB:Experimental
+AT5G19800,root hair cell,root,PCMDB:Experimental
+AT5G22410,root hair cell,root,PCMDB:Experimental
+AT5G23030,root hair cell,root,PCMDB:Experimental
+AT5G24313,root hair cell,root,PCMDB:Experimental
+AT5G24880,root hair cell,root,PCMDB:Experimental
+AT5G26080,root hair cell,root,PCMDB:Experimental
+AT5G27850,root hair cell,root,PCMDB:Experimental
+AT5G35190,root hair cell,root,PCMDB:Experimental
+AT5G38940,root hair cell,root,PCMDB:Experimental
+AT5G40510,root hair cell,root,PCMDB:Experimental
+AT5G40590,root hair cell,root,PCMDB:Experimental
+AT5G40860,root hair cell,root,PCMDB:Experimental
+AT5G43350,root hair cell,root,PCMDB:Experimental
+AT5G43520,root hair cell,root,PCMDB:Experimental
+AT5G46870,root hair cell,root,PCMDB:Experimental
+AT5G48430,root hair cell,root,PCMDB:Experimental
+AT5G49080,root hair cell,root,PCMDB:Experimental
+AT5G57510,root hair cell,root,PCMDB:Experimental
+AT5G57530,root hair cell,root,PCMDB:Experimental
+AT5G57540,root hair cell,root,PCMDB:Experimental
+AT5G57625,root hair cell,root,PCMDB:Experimental
+AT5G58010,root hair cell,root,PCMDB:Experimental
+AT5G61650,root hair cell,root,PCMDB:Experimental
+AT5G63270,root hair cell,root,PCMDB:Experimental
+AT1G02730,root meristem,root,PCMDB:Experimental
+AT1G08560,root meristem,root,PCMDB:Experimental
+AT1G14350,root meristem,root,PCMDB:Experimental
+AT1G76540,root meristem,root,PCMDB:Experimental
+AT3G02120,root meristem,root,PCMDB:Experimental
+AT3G02640,root meristem,root,PCMDB:Experimental
+AT3G12870,root meristem,root,PCMDB:Experimental
+AT3G14190,root meristem,root,PCMDB:Experimental
+AT3G25980,root meristem,root,PCMDB:Experimental
+AT3G51280,root meristem,root,PCMDB:Experimental
+AT3G51720,root meristem,root,PCMDB:Experimental
+AT3G52110,root meristem,root,PCMDB:Experimental
+AT4G02150,root meristem,root,PCMDB:Experimental
+AT4G02800,root meristem,root,PCMDB:Experimental
+AT4G15830,root meristem,root,PCMDB:Experimental
+AT4G31840,root meristem,root,PCMDB:Experimental
+AT4G32830,root meristem,root,PCMDB:Experimental
+AT4G33270,root meristem,root,PCMDB:Experimental
+AT5G06150,root meristem,root,PCMDB:Experimental
+AT5G13840,root meristem,root,PCMDB:Experimental
+AT5G16250,root meristem,root,PCMDB:Experimental
+AT5G25090,root meristem,root,PCMDB:Experimental
+AT5G44560,root meristem,root,PCMDB:Experimental
+AT5G56120,root meristem,root,PCMDB:Experimental
+AT5G62550,root meristem,root,PCMDB:Experimental
+AT5G66230,root meristem,root,PCMDB:Experimental
+AT1G25530,root procambium,root,PCMDB:Experimental
+AT1G33700,root procambium,root,PCMDB:Experimental
+AT1G61660,root procambium,root,PCMDB:Experimental
+AT1G63180,root procambium,root,PCMDB:Experimental
+AT1G66600,root procambium,root,PCMDB:Experimental
+AT1G72150,root procambium,root,PCMDB:Experimental
+AT1G72230,root procambium,root,PCMDB:Experimental
+AT2G28660,root procambium,root,PCMDB:Experimental
+AT2G40480,root procambium,root,PCMDB:Experimental
+AT2G41130,root procambium,root,PCMDB:Experimental
+AT2G45470,root procambium,root,PCMDB:Experimental
+AT3G09070,root procambium,root,PCMDB:Experimental
+AT3G13730,root procambium,root,PCMDB:Experimental
+AT3G29370,root procambium,root,PCMDB:Experimental
+AT3G55420,root procambium,root,PCMDB:Experimental
+AT4G32860,root procambium,root,PCMDB:Experimental
+AT5G08330,root procambium,root,PCMDB:Experimental
+AT5G13910,root procambium,root,PCMDB:Experimental
+AT5G19260,root procambium,root,PCMDB:Experimental
+AT5G21105,root procambium,root,PCMDB:Experimental
+AT5G43810,root procambium,root,PCMDB:Experimental
+AT5G65870,root procambium,root,PCMDB:Experimental
+AT1G01900,root stele,root,PCMDB:Experimental
+AT1G02460,root stele,root,PCMDB:Experimental
+AT1G02640,root stele,root,PCMDB:Experimental
+AT1G06090,root stele,root,PCMDB:Experimental
+AT1G07790,root stele,root,PCMDB:Experimental
+AT1G09340,root stele,root,PCMDB:Experimental
+AT1G10380,root stele,root,PCMDB:Experimental
+AT1G11190,root stele,root,PCMDB:Experimental
+AT1G14890,root stele,root,PCMDB:Experimental
+AT1G15380,root stele,root,PCMDB:Experimental
+AT1G20930,root stele,root,PCMDB:Experimental
+AT1G21050,root stele,root,PCMDB:Experimental
+AT1G24600,root stele,root,PCMDB:Experimental
+AT1G25320,root stele,root,PCMDB:Experimental
+AT1G26420,root stele,root,PCMDB:Experimental
+AT1G29160,root stele,root,PCMDB:Experimental
+AT1G32100,root stele,root,PCMDB:Experimental
+AT1G33340,root stele,root,PCMDB:Experimental
+AT1G34760,root stele,root,PCMDB:Experimental
+AT1G42970,root stele,root,PCMDB:Experimental
+AT1G44110,root stele,root,PCMDB:Experimental
+AT1G45474,root stele,root,PCMDB:Experimental
+AT1G52190,root stele,root,PCMDB:Experimental
+AT1G55740,root stele,root,PCMDB:Experimental
+AT1G55910,root stele,root,PCMDB:Experimental
+AT1G58340,root stele,root,PCMDB:Experimental
+AT1G60750,root stele,root,PCMDB:Experimental
+AT1G60950,root stele,root,PCMDB:Experimental
+AT1G62990,root stele,root,PCMDB:Experimental
+AT1G64660,root stele,root,PCMDB:Experimental
+AT1G64700,root stele,root,PCMDB:Experimental
+AT1G66700,root stele,root,PCMDB:Experimental
+AT1G67870,root stele,root,PCMDB:Experimental
+AT1G68010,root stele,root,PCMDB:Experimental
+AT1G68200,root stele,root,PCMDB:Experimental
+AT1G70670,root stele,root,PCMDB:Experimental
+AT1G71695,root stele,root,PCMDB:Experimental
+AT1G74590,root stele,root,PCMDB:Experimental
+AT1G75090,root stele,root,PCMDB:Experimental
+AT1G75820,root stele,root,PCMDB:Experimental
+AT1G76250,root stele,root,PCMDB:Experimental
+AT1G76800,root stele,root,PCMDB:Experimental
+AT1G78120,root stele,root,PCMDB:Experimental
+AT1G78320,root stele,root,PCMDB:Experimental
+AT1G79110,root stele,root,PCMDB:Experimental
+AT2G01950,root stele,root,PCMDB:Experimental
+AT2G03090,root stele,root,PCMDB:Experimental
+AT2G03500,root stele,root,PCMDB:Experimental
+AT2G04850,root stele,root,PCMDB:Experimental
+AT2G14095,root stele,root,PCMDB:Experimental
+AT2G15760,root stele,root,PCMDB:Experimental
+AT2G16720,root stele,root,PCMDB:Experimental
+AT2G17940,root stele,root,PCMDB:Experimental
+AT2G18380,root stele,root,PCMDB:Experimental
+AT2G21560,root stele,root,PCMDB:Experimental
+AT2G22620,root stele,root,PCMDB:Experimental
+AT2G22990,root stele,root,PCMDB:Experimental
+AT2G26740,root stele,root,PCMDB:Experimental
+AT2G27550,root stele,root,PCMDB:Experimental
+AT2G28110,root stele,root,PCMDB:Experimental
+AT2G28760,root stele,root,PCMDB:Experimental
+AT2G28810,root stele,root,PCMDB:Experimental
+AT2G30080,root stele,root,PCMDB:Experimental
+AT2G31085,root stele,root,PCMDB:Experimental
+AT2G31110,root stele,root,PCMDB:Experimental
+AT2G32510,root stele,root,PCMDB:Experimental
+AT2G34790,root stele,root,PCMDB:Experimental
+AT2G35290,root stele,root,PCMDB:Experimental
+AT2G37540,root stele,root,PCMDB:Experimental
+AT2G37750,root stele,root,PCMDB:Experimental
+AT2G37880,root stele,root,PCMDB:Experimental
+AT2G37950,root stele,root,PCMDB:Experimental
+AT2G38640,root stele,root,PCMDB:Experimental
+AT2G39710,root stele,root,PCMDB:Experimental
+AT2G41300,root stele,root,PCMDB:Experimental
+AT2G43580,root stele,root,PCMDB:Experimental
+AT2G43910,root stele,root,PCMDB:Experimental
+AT2G44300,root stele,root,PCMDB:Experimental
+AT2G46630,root stele,root,PCMDB:Experimental
+AT2G47500,root stele,root,PCMDB:Experimental
+AT2G47670,root stele,root,PCMDB:Experimental
+AT2G48090,root stele,root,PCMDB:Experimental
+AT3G03130,root stele,root,PCMDB:Experimental
+AT3G08490,root stele,root,PCMDB:Experimental
+AT3G10910,root stele,root,PCMDB:Experimental
+AT3G11930,root stele,root,PCMDB:Experimental
+AT3G15353,root stele,root,PCMDB:Experimental
+AT3G15650,root stele,root,PCMDB:Experimental
+AT3G15680,root stele,root,PCMDB:Experimental
+AT3G21600,root stele,root,PCMDB:Experimental
+AT3G23430,root stele,root,PCMDB:Experimental
+AT3G23550,root stele,root,PCMDB:Experimental
+AT3G23890,root stele,root,PCMDB:Experimental
+AT3G25570,root stele,root,PCMDB:Experimental
+AT3G26650,root stele,root,PCMDB:Experimental
+AT3G28950,root stele,root,PCMDB:Experimental
+AT3G43430,root stele,root,PCMDB:Experimental
+AT3G44730,root stele,root,PCMDB:Experimental
+AT3G45610,root stele,root,PCMDB:Experimental
+AT3G47400,root stele,root,PCMDB:Experimental
+AT3G47540,root stele,root,PCMDB:Experimental
+AT3G48740,root stele,root,PCMDB:Experimental
+AT3G49220,root stele,root,PCMDB:Experimental
+AT3G50410,root stele,root,PCMDB:Experimental
+AT3G51670,root stele,root,PCMDB:Experimental
+AT3G52820,root stele,root,PCMDB:Experimental
+AT3G53620,root stele,root,PCMDB:Experimental
+AT3G54560,root stele,root,PCMDB:Experimental
+AT3G56100,root stele,root,PCMDB:Experimental
+AT3G56620,root stele,root,PCMDB:Experimental
+AT3G57150,root stele,root,PCMDB:Experimental
+AT3G58650,root stele,root,PCMDB:Experimental
+AT3G60490,root stele,root,PCMDB:Experimental
+AT3G61490,root stele,root,PCMDB:Experimental
+AT3G62690,root stele,root,PCMDB:Experimental
+AT3G62730,root stele,root,PCMDB:Experimental
+AT4G00220,root stele,root,PCMDB:Experimental
+AT4G01450,root stele,root,PCMDB:Experimental
+AT4G03280,root stele,root,PCMDB:Experimental
+AT4G10390,root stele,root,PCMDB:Experimental
+AT4G11140,root stele,root,PCMDB:Experimental
+AT4G12980,root stele,root,PCMDB:Experimental
+AT4G15340,root stele,root,PCMDB:Experimental
+AT4G16480,root stele,root,PCMDB:Experimental
+AT4G18050,root stele,root,PCMDB:Experimental
+AT4G18340,root stele,root,PCMDB:Experimental
+AT4G18425,root stele,root,PCMDB:Experimental
+AT4G18510,root stele,root,PCMDB:Experimental
+AT4G20270,root stele,root,PCMDB:Experimental
+AT4G22212,root stele,root,PCMDB:Experimental
+AT4G23400,root stele,root,PCMDB:Experimental
+AT4G25630,root stele,root,PCMDB:Experimental
+AT4G26220,root stele,root,PCMDB:Experimental
+AT4G27230,root stele,root,PCMDB:Experimental
+AT4G28140,root stele,root,PCMDB:Experimental
+AT4G28330,root stele,root,PCMDB:Experimental
+AT4G30670,root stele,root,PCMDB:Experimental
+AT4G31730,root stele,root,PCMDB:Experimental
+AT4G33330,root stele,root,PCMDB:Experimental
+AT4G34920,root stele,root,PCMDB:Experimental
+AT4G36410,root stele,root,PCMDB:Experimental
+AT4G36710,root stele,root,PCMDB:Experimental
+AT5G03960,root stele,root,PCMDB:Experimental
+AT5G04140,root stele,root,PCMDB:Experimental
+AT5G04890,root stele,root,PCMDB:Experimental
+AT5G05690,root stele,root,PCMDB:Experimental
+AT5G06710,root stele,root,PCMDB:Experimental
+AT5G06850,root stele,root,PCMDB:Experimental
+AT5G07800,root stele,root,PCMDB:Experimental
+AT5G09220,root stele,root,PCMDB:Experimental
+AT5G09570,root stele,root,PCMDB:Experimental
+AT5G14210,root stele,root,PCMDB:Experimental
+AT5G14510,root stele,root,PCMDB:Experimental
+AT5G17980,root stele,root,PCMDB:Experimental
+AT5G24380,root stele,root,PCMDB:Experimental
+AT5G26330,root stele,root,PCMDB:Experimental
+AT5G28510,root stele,root,PCMDB:Experimental
+AT5G35960,root stele,root,PCMDB:Experimental
+AT5G38610,root stele,root,PCMDB:Experimental
+AT5G40980,root stele,root,PCMDB:Experimental
+AT5G43380,root stele,root,PCMDB:Experimental
+AT5G43870,root stele,root,PCMDB:Experimental
+AT5G44040,root stele,root,PCMDB:Experimental
+AT5G48070,root stele,root,PCMDB:Experimental
+AT5G48310,root stele,root,PCMDB:Experimental
+AT5G50720,root stele,root,PCMDB:Experimental
+AT5G55970,root stele,root,PCMDB:Experimental
+AT5G57190,root stele,root,PCMDB:Experimental
+AT5G58770,root stele,root,PCMDB:Experimental
+AT5G59080,root stele,root,PCMDB:Experimental
+AT5G59690,root stele,root,PCMDB:Experimental
+AT5G59910,root stele,root,PCMDB:Experimental
+AT5G59970,root stele,root,PCMDB:Experimental
+AT5G61340,root stele,root,PCMDB:Experimental
+AT5G62360,root stele,root,PCMDB:Experimental
+AT5G63710,root stele,root,PCMDB:Experimental
+AT5G63850,root stele,root,PCMDB:Experimental
+AT5G64240,root stele,root,PCMDB:Experimental
+ATCG00020,root stele,root,PCMDB:Experimental
+ATCG00280,root stele,root,PCMDB:Experimental
+ATCG00440,root stele,root,PCMDB:Experimental
+ATCG00470,root stele,root,PCMDB:Experimental
+ATCG00490,root stele,root,PCMDB:Experimental
+ATCG01110,root stele,root,PCMDB:Experimental
+AT1G07795,trichoblast,root,PCMDB:Experimental
+AT1G13950,trichoblast,root,PCMDB:Experimental
+AT1G54940,trichoblast,root,PCMDB:Experimental
+AT1G55440,trichoblast,root,PCMDB:Experimental
+AT1G63450,trichoblast,root,PCMDB:Experimental
+AT2G03220,trichoblast,root,PCMDB:Experimental
+AT2G39690,trichoblast,root,PCMDB:Experimental
+AT3G46270,trichoblast,root,PCMDB:Experimental
+AT3G54580,trichoblast,root,PCMDB:Experimental
+AT3G60630,trichoblast,root,PCMDB:Experimental
+AT4G07960,trichoblast,root,PCMDB:Experimental
+AT4G09500,trichoblast,root,PCMDB:Experimental
+AT4G16920,trichoblast,root,PCMDB:Experimental
+AT4G25160,trichoblast,root,PCMDB:Experimental
+AT5G07450,trichoblast,root,PCMDB:Experimental
+AT5G65160,trichoblast,root,PCMDB:Experimental
+AT1G02335,xylem,root,PCMDB:Experimental
+AT1G03820,xylem,root,PCMDB:Experimental
+AT1G07210,xylem,root,PCMDB:Experimental
+AT1G08283,xylem,root,PCMDB:Experimental
+AT1G13635,xylem,root,PCMDB:Experimental
+AT1G17090,xylem,root,PCMDB:Experimental
+AT1G19300,xylem,root,PCMDB:Experimental
+AT1G23460,xylem,root,PCMDB:Experimental
+AT1G24030,xylem,root,PCMDB:Experimental
+AT1G29890,xylem,root,PCMDB:Experimental
+AT1G29940,xylem,root,PCMDB:Experimental
+AT1G29950,xylem,root,PCMDB:Experimental
+AT1G54790,xylem,root,PCMDB:Experimental
+AT1G56720,xylem,root,PCMDB:Experimental
+AT1G62700,xylem,root,PCMDB:Experimental
+AT1G68585,xylem,root,PCMDB:Experimental
+AT1G68725,xylem,root,PCMDB:Experimental
+AT1G71930,xylem,root,PCMDB:Experimental
+AT1G74150,xylem,root,PCMDB:Experimental
+AT1G76020,xylem,root,PCMDB:Experimental
+AT2G13540,xylem,root,PCMDB:Experimental
+AT2G18060,xylem,root,PCMDB:Experimental
+AT2G28315,xylem,root,PCMDB:Experimental
+AT2G28410,xylem,root,PCMDB:Experimental
+AT2G34410,xylem,root,PCMDB:Experimental
+AT2G39870,xylem,root,PCMDB:Experimental
+AT2G40320,xylem,root,PCMDB:Experimental
+AT3G05180,xylem,root,PCMDB:Experimental
+AT3G08500,xylem,root,PCMDB:Experimental
+AT3G14730,xylem,root,PCMDB:Experimental
+AT3G20430,xylem,root,PCMDB:Experimental
+AT3G22415,xylem,root,PCMDB:Experimental
+AT3G22790,xylem,root,PCMDB:Experimental
+AT3G24535,xylem,root,PCMDB:Experimental
+AT3G25710,xylem,root,PCMDB:Experimental
+AT3G42950,xylem,root,PCMDB:Experimental
+AT3G45280,xylem,root,PCMDB:Experimental
+AT3G51030,xylem,root,PCMDB:Experimental
+AT3G51325,xylem,root,PCMDB:Experimental
+AT3G52900,xylem,root,PCMDB:Experimental
+AT3G53190,xylem,root,PCMDB:Experimental
+AT3G53350,xylem,root,PCMDB:Experimental
+AT3G54090,xylem,root,PCMDB:Experimental
+AT3G55990,xylem,root,PCMDB:Experimental
+AT3G61100,xylem,root,PCMDB:Experimental
+AT4G02750,xylem,root,PCMDB:Experimental
+AT4G08685,xylem,root,PCMDB:Experimental
+AT4G12620,xylem,root,PCMDB:Experimental
+AT4G12910,xylem,root,PCMDB:Experimental
+AT4G26580,xylem,root,PCMDB:Experimental
+AT4G28500,xylem,root,PCMDB:Experimental
+AT4G36160,xylem,root,PCMDB:Experimental
+AT5G02640,xylem,root,PCMDB:Experimental
+AT5G06210,xylem,root,PCMDB:Experimental
+AT5G06610,xylem,root,PCMDB:Experimental
+AT5G08260,xylem,root,PCMDB:Experimental
+AT5G08370,xylem,root,PCMDB:Experimental
+AT5G12300,xylem,root,PCMDB:Experimental
+AT5G19870,xylem,root,PCMDB:Experimental
+AT5G25475,xylem,root,PCMDB:Experimental
+AT5G37010,xylem,root,PCMDB:Experimental
+AT5G48920,xylem,root,PCMDB:Experimental
+AT5G53710,xylem,root,PCMDB:Experimental
+AT5G63140,xylem,root,PCMDB:Experimental
+AT5G66300,xylem,root,PCMDB:Experimental
+AT1G02640,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G03430,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G04770,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G07000,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G07300,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G07750,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G08830,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G10682,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G11580,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G12010,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G12450,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G15000,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G16410,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G18590,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G23052,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G23090,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G23205,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G23730,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G24100,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G24180,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G24530,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G25230,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G29170,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G31230,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G31650,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G33720,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G34060,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G35710,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G36940,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G43650,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G50420,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G56430,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G60989,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G61660,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G62560,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G62800,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G63420,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G64060,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G65860,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G67050,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G67850,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G67910,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G68570,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G69690,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G69870,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G69960,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G70210,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G76700,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G76960,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G77990,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G78370,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G80760,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G02100,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G03590,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G04400,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G07180,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G14170,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G14520,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G17040,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G17640,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G17710,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G20100,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G22000,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G22190,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G22330,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G24260,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G24762,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G24870,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G28510,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G29125,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G30080,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G30590,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G30600,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G30890,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G31110,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G34930,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G35880,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G37330,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G37380,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G38640,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G38860,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G39330,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G41140,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G42490,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G42760,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G43100,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G43150,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G46640,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G46650,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT2G48030,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G02020,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G02500,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G02510,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G03190,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G04520,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G05190,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G05640,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G06300,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G07130,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G07340,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G08640,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G09035,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G10250,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G12145,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G15530,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G18560,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G18830,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G19380,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G19710,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G21750,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G22104,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G25710,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G26960,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G28100,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G28540,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G28860,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G28950,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G29670,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G30180,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G43800,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G45010,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G46130,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G48360,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G48550,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G49360,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G49580,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G50660,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G51895,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G52720,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G53960,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G54400,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G54600,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G56200,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G58990,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G59140,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G59760,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G61460,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G61820,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT3G63440,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G01335,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G03415,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G03560,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G03610,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G04830,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G08685,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G10150,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G11211,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G12030,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G13770,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G14040,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G14680,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G14830,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G15450,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G15490,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G19450,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G20860,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G21760,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G22200,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G22620,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G22756,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G22990,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G23770,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G24060,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G25500,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G25780,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G27070,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G27830,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G29100,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G29210,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G30020,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G30110,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G31420,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G31500,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G32480,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G32980,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G33300,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G34138,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G34200,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G34750,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G37520,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G37530,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G37580,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G38400,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G38670,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G39640,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G39940,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT4G39950,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G01500,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G04470,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G04950,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G05730,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G06865,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G07460,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G07690,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G07700,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G07710,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G09760,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G09990,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G10030,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G10180,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G10770,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G12080,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G12110,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G12170,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G13550,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G14090,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G14200,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G14450,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G14880,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G16190,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G18310,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G18490,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G19875,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G20885,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G20950,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G23010,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G23510,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G23870,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G24655,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G28030,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G33290,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G36880,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G41920,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G42750,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G43760,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G44582,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G46690,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G46730,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G47910,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G48960,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G49630,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G50160,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G51560,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G53370,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G53550,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G58960,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G59780,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G60890,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G60970,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G61420,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G61660,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G62680,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G63970,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G64900,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G65310,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G67150,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT5G67350,bundle sheath,shoot,PCMDB:SingleCellSeq
+AT1G01300,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G01510,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G01640,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G03290,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G03440,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G03590,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G04140,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G04920,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G05300,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G05710,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G05785,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G05835,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G06210,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G06475,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G06640,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G07040,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G07990,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G08630,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G08680,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G09870,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G10120,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G10290,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G10410,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G10610,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G11175,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G11450,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G11700,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G12320,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G12420,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G14170,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G14380,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G14460,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G15100,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G15970,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G16680,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G16850,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G16960,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G17090,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G17550,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G17830,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G17940,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G18840,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G19160,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G19360,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G19610,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G19870,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G20490,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G20890,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G20970,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G21090,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G21660,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G23040,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G23150,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G23170,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G23380,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G23830,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G24764,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G26300,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G26440,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G26665,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G26940,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G27670,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G27680,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G28330,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G29050,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G29760,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G30040,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G30515,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G31730,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G31850,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G32760,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G33470,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G34020,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G35320,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G36070,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G44608,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G44760,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G46264,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G46554,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G47310,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G48100,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G49050,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G49200,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G49670,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G50630,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G51170,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G51390,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G52540,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G52890,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G52910,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G53290,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G54115,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G54920,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G55210,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G55810,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G56010,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G56170,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G56440,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G59640,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G60420,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G60610,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G61170,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G61670,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G61770,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G61930,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G62020,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G62300,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G62480,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G62710,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G63180,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G64660,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G65910,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G67030,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G67070,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G67265,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G67300,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G67365,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G67830,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G68020,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G68060,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G68110,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G68130,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G68220,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G69310,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G70020,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G70710,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G71050,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G72690,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G72770,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G72790,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G74210,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G75390,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G75490,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G75730,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G75760,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G76460,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G76590,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G77420,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G77520,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G77530,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G77690,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G77920,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G78110,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G78800,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G78880,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G79500,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G79610,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G79640,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G79940,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G79990,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G80610,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G01190,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G01540,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G02240,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G04885,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G04940,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G14740,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G15240,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G15292,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G15830,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G16595,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G16790,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G17780,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G17980,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G17990,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G18840,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G19130,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G19350,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G19810,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G19880,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G20550,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G21060,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G21390,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G21560,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G21590,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G21660,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G22120,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G22420,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G22570,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G23700,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G24945,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G25770,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G25780,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G26355,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G26730,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G26770,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G27510,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G28200,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G28420,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G28570,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G28790,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G29995,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G31585,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G31900,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G31940,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G31945,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G32270,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G32430,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G32900,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G32980,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G33400,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G33860,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G34655,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G35120,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G35736,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G36307,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G37060,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G37150,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G39810,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G39870,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G40120,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G40420,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G40940,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G40950,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G41190,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G41710,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G41760,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G41780,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G41900,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G43080,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G45590,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G45600,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G45620,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G45880,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G45890,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G46000,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G46070,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G46420,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G47260,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G47500,guard cell,shoot,PCMDB:SingleCellSeq
+AT2G47780,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G01400,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G02550,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G03180,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G03310,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G03320,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G04350,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G04420,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G05030,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G05330,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G05420,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G05510,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G06030,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G06160,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G06360,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G06850,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G06860,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G07810,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G08680,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G08930,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G08990,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G09030,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G09320,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G09730,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G10190,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G10300,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G10410,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G10450,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G10815,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G11230,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G11770,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G11910,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G12500,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G13175,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G13224,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G13450,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G14410,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G15940,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G16270,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G16340,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G16400,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G16470,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G16900,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G16940,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G16990,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G17365,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G17790,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G17940,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G17950,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G18040,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G18440,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G20015,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G20100,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G20250,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G20510,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G20920,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G21190,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G21770,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G22160,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G22850,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G23730,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G24140,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G24315,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G24520,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G24770,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G24800,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G25620,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G25730,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G26370,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G26380,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G27930,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G29370,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G29770,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G45040,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G46440,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G47675,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G48280,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G48440,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G48710,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G49260,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G49690,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G49880,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G50210,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G50630,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G50780,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G51310,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G51400,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G51460,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G51890,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G52240,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G52490,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G52710,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G53620,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G54080,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G54290,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G54380,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G54670,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G54740,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G54850,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G55290,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G55390,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G55420,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G55640,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G55840,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G56620,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G57220,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G57600,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G57880,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G58000,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G58270,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G58640,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G58790,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G58840,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G59510,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G59660,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G60520,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G60580,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G60720,guard cell,shoot,PCMDB:SingleCellSeq
+AT3G61990,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G00820,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G01290,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G01440,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G01680,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G01710,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G02280,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G02640,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G02740,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G02980,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G04190,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G04450,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G04910,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G05010,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G06701,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G08960,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G09030,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G09500,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G11380,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G12050,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G12110,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G12430,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G12440,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G13730,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G14147,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G15093,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G15120,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G16430,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G16770,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G16790,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G17190,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G17550,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G18020,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G18580,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G18800,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G18830,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G19120,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G19700,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G20300,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G20930,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G21150,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G21740,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G22233,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G22910,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G23460,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G23500,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G24480,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G25720,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G25950,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G26270,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G27180,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G27350,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G27780,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G28085,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G28330,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G28570,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G28700,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G29520,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G29570,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G29820,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G29900,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G30940,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G31430,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G31730,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G31750,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G32272,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G32460,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G32960,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G33040,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G33950,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G34000,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G34540,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G35070,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G35780,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G36640,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G37430,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G37870,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G38420,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G39210,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G39890,guard cell,shoot,PCMDB:SingleCellSeq
+AT4G39955,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G01160,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G01450,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G01970,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G02460,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G02480,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G03545,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G04220,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G04370,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G06330,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G06790,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G06800,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G06960,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G07350,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G08120,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G08130,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G09976,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G10240,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G10946,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G11150,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G11260,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G11600,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G11720,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G11730,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G13500,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G14285,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G14420,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G14610,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G15730,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G16370,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G16380,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G16450,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G16510,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G17050,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G17910,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G18120,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G19200,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G19570,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G20400,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G21105,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G22740,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G23850,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G25170,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G25770,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G25830,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G25840,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G25980,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G26340,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G26731,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G27320,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G27660,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G27830,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G27930,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G28040,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G28220,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G28490,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G28830,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G35180,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G37660,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G37670,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G37740,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G38005,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G38010,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G38895,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G40382,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G41130,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G41800,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G41870,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G42060,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G42220,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G42440,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G42690,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G42970,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G43020,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G43060,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G43100,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G44567,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G45580,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G46860,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G47520,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G48480,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G48485,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G49280,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G49650,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G49890,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G50020,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G50090,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G50443,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G51260,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G51570,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G52180,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G52510,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G52880,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G52980,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G53470,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G53590,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G53592,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G53870,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G54080,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G54840,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G54960,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G55860,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G56630,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G57050,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G57110,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G57685,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G57910,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G58150,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G58575,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G58580,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G58590,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G59000,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G60220,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G60570,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G60580,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G60710,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G61530,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G61740,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G62560,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G62865,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G63350,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G63580,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G63640,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G63840,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G63880,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G64090,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G64370,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G64440,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G64570,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G65590,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G65750,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G66400,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G66440,guard cell,shoot,PCMDB:SingleCellSeq
+AT5G67600,guard cell,shoot,PCMDB:SingleCellSeq
+AT1G01120,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G01180,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G01250,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G01610,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G01630,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G01830,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G02205,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G02360,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G02390,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G02405,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G02860,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G02880,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G03230,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G03740,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G03850,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G04040,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G04200,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G04220,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G04280,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G04680,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G05065,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G05230,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G05310,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G05340,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G05810,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G06000,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G06550,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G06800,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G07720,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G08810,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G09310,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G09440,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G11350,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G11410,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G11670,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G11850,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G12330,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G13100,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G13110,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G14360,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G15260,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G15580,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G17060,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G17120,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G17140,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G17145,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G17147,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G17190,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G17200,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G17840,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G18890,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G21010,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G21060,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G21130,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G21460,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G21980,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G22030,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G22250,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G22330,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G22360,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G22370,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G22550,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G22570,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G22710,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G22890,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G22910,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G23080,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G23480,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G24470,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G25425,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G25450,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G25480,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G26100,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G26650,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G26945,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G26960,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G27130,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G27950,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G28230,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G28370,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G28660,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G28670,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G29420,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G29440,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G29450,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G29460,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G29500,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G29510,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G29660,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G29670,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G29890,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G30530,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G31350,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G32780,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G33055,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G33610,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G34640,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G35180,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G36160,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G45010,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G45191,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G45201,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G48260,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G48480,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G48750,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G49430,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G51440,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G51500,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G52200,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G52290,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G52827,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G52855,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G52880,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G53050,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G53310,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G53500,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G54040,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G54990,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G55020,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G55190,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G55260,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G55265,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G55450,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G56150,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G56600,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G56720,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G57980,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G58270,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G59590,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G60270,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G60730,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G63120,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G64400,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G64650,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G64670,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G64710,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G65060,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G65295,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G65560,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G65840,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G66100,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G66160,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G66230,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G66400,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G67400,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G68400,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G68410,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G68530,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G68780,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G69450,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G69900,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G70520,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G70690,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G70890,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G70940,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G71695,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G72240,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G72416,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G72970,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G73210,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G73830,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G75040,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G75240,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G75500,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G75710,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G75900,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G76070,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G76240,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G76360,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G77210,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G77640,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G77855,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G78170,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G78210,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G78460,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G78600,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G79160,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G79700,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G80050,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G80420,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G01300,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G01340,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G01420,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G02400,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G02450,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G02780,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G02950,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G04570,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G04780,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G05540,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G11810,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G12400,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G14835,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G15050,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G15090,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G16380,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G17705,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G18630,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G19620,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G20300,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G20370,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G20835,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G20950,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G21180,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G21540,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G21830,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G22170,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G22770,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G22795,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G23010,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G23180,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G23450,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G23690,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G23770,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G23980,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G25735,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G25800,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G26250,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G26710,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G26910,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G27385,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G27770,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G28470,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G28630,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G29420,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G30010,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G30424,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G30470,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G30500,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G30550,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G30990,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G32010,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G32200,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G32210,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G32690,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G33050,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G34300,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G35760,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G35930,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G35945,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G36590,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G36770,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G37080,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G37640,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G38120,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G38500,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G38540,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G38750,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G38760,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G38995,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G39400,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G39980,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G40095,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G40475,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G40610,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G41170,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G41540,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G43120,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G43130,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G43290,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G44230,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G45400,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G45450,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G45970,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G47240,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G47485,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT2G47630,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G01430,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G01490,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G01680,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G01860,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G02110,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G02250,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G03520,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G03830,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G03840,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G03850,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G05160,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G05220,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G05230,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G05937,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G06035,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G06420,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G06868,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G07570,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G09410,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G09830,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G10720,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G10930,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G11210,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G11650,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G11720,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G12610,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G13690,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G13790,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G15020,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G15540,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G16170,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G16370,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G16380,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G16420,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G16460,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G16510,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G16530,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G16690,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G16720,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G17120,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G17820,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G18370,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G18710,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G19400,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G19660,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G20470,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G21270,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G23030,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G23050,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G23300,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G23450,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G23640,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G25600,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G25670,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G26220,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G26450,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G26670,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G26910,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G26932,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G28910,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G29030,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G30720,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G43720,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G44970,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G45230,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G45730,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G47295,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G47550,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G47600,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G48720,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G49220,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G50530,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G50560,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G50570,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G50840,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G51600,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G52290,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G52370,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G52400,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G52450,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G52470,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G52480,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G52748,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G52870,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G53280,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G53540,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G54140,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G54200,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G54820,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G54880,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G55120,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G55130,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G55470,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G56060,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G56260,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G57410,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G58850,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G59080,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G61550,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G62070,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G62110,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT3G63210,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G00050,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G00360,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G00400,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G00970,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G01250,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G01950,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G02360,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G02715,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G02850,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G02860,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G03070,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G04745,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G04750,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G04840,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G04890,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G05590,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G09460,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G11660,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G13840,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G14440,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G14548,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G14550,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G14560,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G14620,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G14740,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G14746,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G14750,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G15630,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G15760,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G16130,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G16140,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G16660,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G17250,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G17260,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G17470,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G17770,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G18197,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G18205,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G18220,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G18570,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G18910,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G18970,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G20780,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G20820,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G21620,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G21750,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G22560,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G22730,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G23670,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G23990,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G24230,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G24510,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G25830,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G25840,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G25900,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G25960,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G26790,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G27870,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G28400,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G28780,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G29110,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G29740,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G30340,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G30400,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G30470,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G31000,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G31590,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G31820,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G32300,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G33180,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G33220,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G33360,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G34250,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G34650,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G34980,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G35110,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G35510,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G36240,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G36250,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G36380,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G36500,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G36870,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G37240,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G37450,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G37540,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G38580,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G38690,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G38770,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G38790,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G39330,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G39400,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT4G40050,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G01075,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G01240,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G01790,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G02550,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G02600,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G03120,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G03530,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G03760,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G04150,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G05270,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G05890,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G06270,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G07250,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G08150,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G08260,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G08370,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G08640,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G10250,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G10480,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G11160,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G11610,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G12940,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G13400,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G13930,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G14360,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G14410,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G14790,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G14930,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G15310,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G16570,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G16590,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G18020,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G18030,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G18080,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G18480,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G20050,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G20110,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G20270,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G20635,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G22250,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G22270,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G23100,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G23750,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G23820,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G25250,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G25610,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G26770,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G28630,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G36910,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G37790,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G38530,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G40170,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G40210,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G40250,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G40380,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G40390,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G41410,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G41761,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G41810,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G41900,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G42020,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G42870,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G43190,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G43630,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G43870,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G43880,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G44020,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G44572,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G45280,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G45940,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G45950,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G47610,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G48900,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G49760,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G52280,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G52320,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G53500,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G54145,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G54148,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G54630,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G54710,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G54800,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G55620,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G55730,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G55970,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G56870,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G57060,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G57150,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G57700,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G57710,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G57760,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G57887,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G59320,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G60400,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G62220,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G62470,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G63180,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G63410,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G64190,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G64330,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G64410,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G64770,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G65020,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G65683,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G65920,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT5G65925,leaf epidermis,shoot,PCMDB:SingleCellSeq
+AT1G01170,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G01370,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G02450,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G02660,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G02930,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G03130,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G03330,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G03600,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G03630,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G03680,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G04020,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G04940,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G05575,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G06430,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G06680,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G07370,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G07410,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G07590,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G07610,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G08360,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G08380,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G08540,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G08550,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G092001,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G09340,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G09500,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G09690,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G10500,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G10522,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G10585,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G10960,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G11750,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G11860,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G12090,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G12250,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G12610,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G12800,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G12900,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G13470,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G13650,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G14150,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G14320,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G14450,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G14880,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G15010,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G15270,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G15690,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G15820,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G15930,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G16022,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G16080,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G16720,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G16730,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G16880,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G17050,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G17100,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G17220,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G17420,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G17430,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G17870,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G17880,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G18060,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G18730,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G19025,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G19210,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G19300,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G20020,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G20340,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G20810,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G21065,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G21250,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G21270,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G21500,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G21550,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G21670,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G21930,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G22140,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G22270,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G22590,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G22780,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G22810,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G23310,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G23740,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G25440,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G26470,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G26840,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G26880,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G27050,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G27385,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G27435,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G27695,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G27700,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G27720,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G28150,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G28480,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G28760,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G29070,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G29330,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G29910,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G29920,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G30380,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G30880,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G31170,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G31330,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G31812,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G32060,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G32080,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G32460,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G32470,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G32900,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G32990,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G33120,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G33140,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G33600,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G33810,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G34000,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G35680,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G36980,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G37130,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G42970,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G43160,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G43560,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G43670,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G44000,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G44575,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G45474,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G47128,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G47210,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G48030,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G48170,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G48350,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G48600,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G48830,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G49032,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G49140,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G49410,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G49975,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G49980,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G50250,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G50290,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G50320,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G50732,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G50900,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G51090,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G51200,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G51650,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G51780,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G52040,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G52220,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G52230,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G52300,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G52342,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G52590,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G52870,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G53560,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G53670,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G54500,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G54630,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G54780,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G55480,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G55670,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G55675,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G55960,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G56045,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G56060,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G56070,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G56200,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G56650,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G56660,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G57540,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G57660,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G57820,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G59860,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G60000,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G61470,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G61520,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G62750,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G64230,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G64510,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G64680,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G64720,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G64750,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G64770,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G64950,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G65260,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G65290,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G65390,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G65470,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G65490,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G65720,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G65800,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G65980,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G66090,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G66820,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G67090,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G67180,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G67320,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G67430,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G67700,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G67920,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G68010,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G68238,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G68520,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G68590,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G68660,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G68680,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G69160,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G69260,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G69620,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G69770,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G70350,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G70760,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G70820,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G70985,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G71000,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G71500,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G71950,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G72020,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G72610,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G72645,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G72680,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G72900,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G73060,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G73230,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G73325,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G73510,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G74270,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G74430,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G74440,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G74470,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G74730,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G74880,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G74970,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G75350,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G75630,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G75690,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G75750,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G75945,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G76080,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G76170,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G76200,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G76650,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G76860,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G77710,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G77940,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G78630,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G79040,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G79075,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G79600,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G80190,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT1G80380,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G01090,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G01110,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G01250,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G01590,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G01918,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G03870,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G04039,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G04690,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G04700,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G05070,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G05100,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G05310,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G05620,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G06520,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G09990,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G10940,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G13360,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G14285,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G14560,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G15020,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G15620,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G17240,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G17695,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G18020,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G19730,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G19790,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G20260,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G20490,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G20560,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G20880,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G20980,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G21170,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G21210,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G21290,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G21330,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G21580,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G21790,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G22500,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G23090,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G23600,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G23670,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G23930,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G24090,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G24395,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G24490,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G24970,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G25080,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G25210,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G25510,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G26080,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G26500,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G26560,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G26975,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G27170,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G27290,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G27530,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G28400,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G28430,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G28740,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G29170,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G29180,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G29290,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G29310,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G29460,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G29570,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G29630,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G29680,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G30020,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G30140,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G30420,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G30520,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G30570,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G30950,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G31490,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G32060,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G32090,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G32120,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G32180,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G32500,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G32650,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G33370,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G33450,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G34420,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G34430,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G34460,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G34480,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G35070,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G35260,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G35290,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G35370,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G35410,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G35830,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G36145,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G36160,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G36220,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G36620,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G36800,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G36835,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G36885,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G36895,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G37220,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G37270,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G37470,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G37600,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G37660,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G37770,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G38040,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G38140,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G38230,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G38240,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G38810,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G39030,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G39460,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G39470,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G39500,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G39650,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G39730,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G40100,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G40140,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G40205,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G40510,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G40590,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G40750,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G42260,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G42750,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G42975,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G43030,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G43460,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G43540,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G43560,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G44580,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G44620,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G44650,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G44840,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G44920,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G45070,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G45180,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G45190,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G45640,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G45860,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G46390,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G46440,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G46820,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G46910,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G47130,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G47380,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G47450,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G47710,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT2G48070,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G01130,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G01480,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G01500,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G01740,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G02080,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G02560,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G02820,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G03470,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G03820,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G04400,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G04480,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G04790,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G04840,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G05590,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G05727,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G05936,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G06125,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G06145,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G06500,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G06680,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G06700,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G07110,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G07195,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G07480,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G07680,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G08610,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G08740,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G08940,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G09200,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G09360,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G09500,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G09735,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G10230,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G10860,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G11020,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G11090,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G11120,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G11480,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G11630,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G11780,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G12170,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G12685,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G12780,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G12965,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G13000,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G13120,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G13882,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G14067,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G14210,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G14415,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G14420,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G14595,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G14740,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G15360,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G15580,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G15780,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G15900,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G16050,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G16080,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G16140,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G16640,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G17160,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G17210,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G17670,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G18740,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G19170,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G19240,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G19450,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G20670,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G21055,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G21670,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G21870,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G22230,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G22231,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G22840,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G23325,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G23390,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G24190,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G25100,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G25250,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G25690,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G25805,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G25920,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G26070,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G26570,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G26650,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G27160,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G27360,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G27690,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G27850,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G28210,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G28340,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G28900,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G29000,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G29575,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G307201,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G32930,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G41768,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G43270,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G44010,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G44020,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G44890,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G44990,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G45030,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G45050,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G45930,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G46090,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G46320,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G46430,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G46630,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G46660,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G46780,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G46940,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G47070,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G47370,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G47420,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G47430,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G47480,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G47650,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G47836,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G48000,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G48030,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G48420,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G48520,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G48560,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G48930,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G50260,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G50685,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G50800,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G50820,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G51910,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G52115,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G52150,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G52230,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G52535,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G52590,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G52630,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G53430,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G53470,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G53650,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G53740,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G53890,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G54020,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G54050,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G54210,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G54560,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G54650,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G54660,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G54750,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G54890,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G54900,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G55800,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G55970,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G56020,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G56070,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G56290,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G56340,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G56650,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G56910,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G56940,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G57320,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G57785,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G58120,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G58690,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G59068,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G59400,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G59540,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G59810,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G59840,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G59950,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G59980,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G60210,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G60245,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G60370,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G60750,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G60770,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G61190,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G61200,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G61470,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G62030,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G62190,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G62250,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G62410,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G62530,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G62870,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G63140,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G63160,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G63410,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G63490,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G63520,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT3G63540,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G00100,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G00810,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G00895,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G01050,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G01080,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G01150,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G01310,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G01860,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G01870,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G02725,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G02770,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G02840,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G03150,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G03280,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G03520,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G04640,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G05180,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G06746,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G08280,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G08470,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G08555,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G09040,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G09320,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G09650,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G09800,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G10100,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G10120,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G10300,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G10340,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G11330,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G11570,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G11890,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G12320,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G12400,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G12600,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G12800,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G12917,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G12970,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G12980,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G12990,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G13200,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G13220,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G13500,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G13520,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G13577,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G13830,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G14320,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G14365,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G14690,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G14870,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G14890,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G15210,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G15440,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G15510,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G15545,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G15560,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G15765,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G16410,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G16450,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G16720,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G17090,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G17340,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G17390,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G17490,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G17560,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G17600,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G17615,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G17870,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G18100,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G18400,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G18730,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G19170,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G19420,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G20150,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G20325,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G20360,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G21070,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G21105,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G21192,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G21280,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G21860,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G22305,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G22755,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G22830,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G22890,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G23170,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G23760,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G24280,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G25050,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G25080,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G25100,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G25200,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G25470,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G25570,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G25740,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G26530,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G26710,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G26840,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G26850,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G26960,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G27030,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G27090,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G27270,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G27654,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G27670,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G27800,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G28060,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G28080,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G28210,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G28310,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G28660,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G28750,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G29060,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G29390,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G29480,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G29735,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G29780,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G30330,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G30760,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G30860,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G30950,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G31400,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G31560,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G31720,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G31870,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G31985,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G32260,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G32470,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G32590,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G32870,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G33010,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G33110,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G33467,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G33540,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G33666,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G33865,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G34135,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G34160,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G34190,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G34265,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G34290,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G34350,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G34410,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G34700,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G34710,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G34881,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G35090,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G35250,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G35770,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G35830,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G35985,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G36010,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G36130,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G36530,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G36950,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G37830,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G37930,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G38100,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G38225,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G38490,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G38550,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G38620,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G38840,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G38932,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G38970,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G39380,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G39510,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G39710,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT4G39970,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G01410,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G01530,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G02020,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G02120,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G02160,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G02450,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G02502,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G02610,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G02960,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G03345,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G03455,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G03850,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G03880,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G04140,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G04800,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G05220,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G05370,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G05600,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G06210,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G06290,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G07020,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G08020,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G08040,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G08050,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G08060,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G08290,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G08650,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G09225,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G09440,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G09510,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G09660,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G09830,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G10010,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G10390,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G10400,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G10710,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G10810,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G11450,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G12860,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G13060,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G13220,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G13630,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G13650,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G13770,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G14120,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G14320,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G14660,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G14730,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G14740,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G14910,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G15200,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G15780,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G15960,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G16130,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G16400,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G16660,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G17170,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G17350,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G17560,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G17860,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G17870,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G18150,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G19190,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G19220,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G19510,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G19540,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G19590,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G19940,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G20090,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G20180,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G20230,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G20630,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G20670,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G20850,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G20935,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G21430,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G22210,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G22340,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G22440,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G22875,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G22880,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G23060,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G23420,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G23740,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G24030,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G24165,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G24314,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G24770,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G24980,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G26742,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G27420,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G27520,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G27700,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G27770,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G27850,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G28060,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G28500,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G28750,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G35480,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G35630,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G35735,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G35970,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G38110,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G38410,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G38420,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G38430,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G38520,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G38690,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G39050,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G39550,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G40500,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G41050,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G41520,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G41700,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G41880,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G42070,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G42270,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G42380,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G42530,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G42825,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G43080,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G43150,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G43250,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G43460,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G43750,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G44580,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G45040,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G45680,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G45775,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G45820,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G46080,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G46110,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G47110,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G47190,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G47220,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G47230,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G47570,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G47700,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G47890,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G47930,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G48570,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G49010,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G49480,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G49730,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G49740,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G49910,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G49940,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G50810,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G50920,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G50930,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G51010,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G51110,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G51720,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G52050,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G52220,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G52450,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G52640,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G52760,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G52780,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G52810,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G52960,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G52970,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G53560,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G53650,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G53750,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G53940,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G54160,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G54165,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G54290,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G54490,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G54510,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G54600,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G54610,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G54770,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G549701,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G55140,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G55450,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G55460,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G55710,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G56670,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G57040,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G57170,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G57290,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G57345,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G58005,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G58260,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G58310,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G58650,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G59550,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G59613,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G59670,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G59870,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G59880,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G59970,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G60600,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G60670,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G61000,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G61410,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G62140,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G62300,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G62520,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G62575,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G62980,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G63060,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G63310,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G63450,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G63550,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G63670,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G64140,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G64350,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G64460,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G64840,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G65220,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G65300,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G65360,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G65840,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G66190,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G66570,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G67510,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+AT5G67590,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+ATCG00020,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+ATCG00660,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+ATCG00730,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+ATCG01080,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+ATMG00020,leaf mesophyll,shoot,PCMDB:SingleCellSeq
+ATMG01390,leaf mesophyll,shoot,PCMDB:SingleCellSeq

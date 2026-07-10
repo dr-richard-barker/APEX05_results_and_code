@@ -18,7 +18,7 @@ Full staged plan + feasibility in [`docs/final_manuscript_plan.md`](docs/final_m
 - [x] Stage 4: ggPlantmap anatomical view — root epidermis+cortex painted for Col-0/rbohD; cax2-2 blank (figM1/figM2).
 - [ ] Stage 5: **GO** per cluster (extends existing g:Profiler enrichment).
 - [x] Stage 6: PhysioSpace-style stress resemblance (GO axes) — flight resembles hypoxia, oxidative/ROS, defense (SA/JA); cax2-2 none.
-- [ ] Stage 7: **PlantCellChat** ligand–receptor / cell–cell communication — after D1 (needs cell types).
+- [x] Stage 7 (exploratory): canonical peptide L-R flight-responsiveness — mostly no-change in bulk; defense peptides notable in rbohD shoot. True cell-cell comm needs single-cell (flagged).
 - [x] Stage 8: ggKEGG pathway maps w/ DE overlay + KEGG enrichment/loci-grouping (Col-0/rbohD → glutathione + phenylpropanoid); Plant Reactome saved (sparse for Arabidopsis).
 - [ ] Stage 9: write the **Final manuscript** (3-genotype biological narrative).
 - [ ] Stage 10: add a **"Final manuscript" website tab** and wire into `website/build_site.py`.

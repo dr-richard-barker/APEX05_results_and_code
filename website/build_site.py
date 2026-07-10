@@ -41,6 +41,8 @@ FINAL_FIGS = [
     ("figM1_root_anatomy_flight.png", "Fig 5 — ggPlantmap: outer-root localisation (Col-0/rbohD), cax2-2 blank."),
     ("figI1_morphometric_flight_effects.png", "Fig 6a — Spaceflight shortens roots in all genotypes."),
     ("figI3_welllevel_coupling.png", "Fig 6c — Per-well: transcriptome and root-shortening are uncoupled (cax2-2 low transcriptome, retained phenotype)."),
+    ("figP1_deg_overlap_venn.png", "Fig S5 — Flight-DEG overlap: Col-0 & rbohD share a 180-gene root core; cax2-2 near-empty."),
+    ("figO1_paired_vs_unpaired_DEGs.png", "Fig S4 — Well-blocked (paired) vs unpaired DESeq2: conclusions robust."),
     ("figL1_stress_resemblance.png", "Fig 7 — Per-organ stress resemblance: root→hypoxia/oxidative, shoot→defence."),
     ("figL2_celltype_stress_decoding.png", "Fig S3 — Cell-type stress decoding: defence/hormone signature in leaf mesophyll."),
     ("figK1_kegg_pathway_enrichment.png", "Fig 8a — KEGG: glutathione + phenylpropanoid."),

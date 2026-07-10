@@ -11,7 +11,7 @@ Full staged plan + feasibility in [`docs/final_manuscript_plan.md`](docs/final_m
 - [x] Stage 0b: ALSDA well metadata ingested (`data/metadata/apex05_sample_well_metadata.csv`); corrected design (64 samples, Col-0 `_3.1` = 4th biological well, not technical).
 - [x] **rep→well mapping resolved from S-numbers** (verified; FL/GC paired to same well). Enables imaging joins + paired DE.
 - [x] Stage 1: DESeq2 FL-vs-GC per genotype × tissue (`analysis/ml/apex05_deseq2_flight.py`), flight-referenced.
-- [ ] Optional (available; not run to avoid changing core DE numbers pre-review): paired/blocked DESeq2 (~ well + condition) — rep→well is confirmed, so this can be run as a power-boosting sensitivity analysis on request.
+- [x] Paired/blocked DESeq2 (`~ location + condition`) sensitivity analysis — conclusions robust (Col-0 root 284→272, rbohD 280→256, cax2-2 5→2; rbohD shoot 33→58). figO1 + apex05_deseq2_paired_vs_unpaired.csv (Fig S4).
 - [x] Stage 3b: RNA-seq <-> RSML integration at genotype, **per-well and per-gene** level (paired FL-GC deltas). Flight shortens roots (all genotypes); transcriptome and root-shortening are UNCOUPLED (well ρ=-0.30 n.s.; 0/385 genes FDR) — the well/gene evidence for the cax2-2 uncoupling. figI1/I2/I3.
 - [x] Stage 2: LASSO flight-signature (all 3 genotypes on fixed matrix; 100% LOO; DESeq2 overlap strong Col-0/rbohD, minimal cax2-2).
 - [x] Stage 3: cell-type resolution via PCMDB marker projection (DEG enrichment + signature shift). Col-0/rbohD root → epidermis/columella/cortex; cax2-2 flat.
@@ -45,5 +45,4 @@ Full staged plan + feasibility in [`docs/final_manuscript_plan.md`](docs/final_m
   are in place); add the DOI badge to `README.md`.
 
 ## Optional
-- [ ] Regenerate the 4-way UpSet/Venn comparison figures as 3-genotype versions
-  (needs the R DEG pipeline + counts).
+- [x] 3-genotype flight-DEG overlap Venn (root+shoot) — Col-0∩rbohD 180-gene root core; cax2-2 near-empty. figP1 + apex05_deg_overlap_membership.csv (Fig S5).

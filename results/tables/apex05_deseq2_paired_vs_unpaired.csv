@@ -1,0 +1,7 @@
+genotype,tissue,DEG_unpaired,DEG_paired,paired_induced,paired_repressed,delta
+Col-0,root,284,272,191,81,-12
+Col-0,shoot,168,132,120,12,-36
+cax2-2,root,5,2,2,0,-3
+cax2-2,shoot,3,4,2,2,1
+rbohD,root,280,256,177,79,-24
+rbohD,shoot,33,58,25,33,25

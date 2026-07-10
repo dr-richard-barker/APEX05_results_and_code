@@ -96,6 +96,13 @@ distance 7.9 vs 39.9 in root; Fig. 1). Because the sample QC was clean, this is 
 genuine biological attenuation, not a data-quality artefact: **CAX2 is required
 for the normal spaceflight transcriptional response.**
 
+Wild type and *rbohD* converge on a **shared 180-gene root flight core** (of 284
+and 280 DEGs respectively; Fig. S5), whereas *cax2-2* contributes essentially
+nothing to it (only 2 genes shared by all three genotypes) — i.e. the canonical
+root flight programme is largely intact in *rbohD* but abolished in *cax2-2*. The
+shoot response is more genotype-specific (Col-0 ∩ *rbohD* = 4 genes). Region
+membership is in `results/tables/apex05_deg_overlap_membership.csv`.
+
 An independent machine-learning check corroborated the DESeq2 calls
 (`analysis/ml/apex05_lasso_flight_signature.py`, Fig. 3). A stability-selected
 LASSO logistic classifier separated FL from GC at 100% leave-one-out accuracy in
@@ -332,3 +339,22 @@ contributions. Exploratory: attribution is limited because cell-type-specific
 markers rarely coincide with broadly-expressed stress genes. *Source:*
 `results/ml/figL2_celltype_stress_decoding.png`,
 `results/tables/apex05_celltype_stress_decoding.csv`.
+
+**Figure S4 | Well-blocked (paired) DESeq2 — sensitivity analysis.** Flight-DEG
+counts from the primary unpaired model (`~ condition`) vs a paired model that
+blocks on plate well (`~ location + condition`), exploiting the position-paired
+design. Counts are broadly concordant (Col-0 root 284→272, rbohD root 280→256,
+cax2-2 root 5→2; rbohD shoot gains power 33→58), and **every qualitative
+conclusion is unchanged** — strong Col-0/*rbohD* responses, near-absent *cax2-2* —
+so the flight-DEG calls are robust to well blocking. *Source:* `results/ml/figO1_paired_vs_unpaired_DEGs.png`,
+`results/tables/apex05_deseq2_paired_vs_unpaired.csv`;
+`analysis/ml/apex05_deseq2_paired.py`.
+
+**Figure S5 | Flight-DEG overlap across genotypes.** Three-way Venn of the DESeq2
+flight-DEG sets (Col-0, *cax2-2*, *rbohD*) for root and shoot. Wild type and
+*rbohD* share a **180-gene root flight core** (of 284 / 280 DEGs); only 2 genes
+are shared by all three; *cax2-2* is near-empty. The shoot response is more
+genotype-specific (Col-0 ∩ *rbohD* = 4). *Source:*
+`results/ml/figP1_deg_overlap_venn.png`,
+`results/tables/apex05_deg_overlap_membership.csv`;
+`analysis/ml/apex05_deg_overlap.py`.

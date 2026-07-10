@@ -122,11 +122,19 @@ DEGs 5 vs Col-0 284, but morphometric mean |<em>d</em>| 0.67 vs 0.86). Thus in <
 the morphological flight response proceeds largely without the transcriptional
 one — <strong>CAX2 is required chiefly for the transcriptional arm of the response.</strong></p>
 <h3 id="5-the-flight-response-resembles-hypoxia-oxidative-and-defence-stress-and-engages-glutathione-and-phenylpropanoid-metabolism">5. The flight response resembles hypoxia, oxidative and defence stress and engages glutathione and phenylpropanoid metabolism</h3>
-<p>A stress-resemblance analysis (GO "response to" over-representation;
-<code>analysis/ml/apex05_physiospace_stress.py</code>, Fig. 7) found the wild-type and
+<p>A stress-resemblance analysis (GO "response to" over-representation, computed per
+organ; <code>analysis/ml/apex05_physiospace_stress.py</code>, Fig. 7) found the wild-type and
 <em>rbohD</em> flight DEGs most resembled <strong>hypoxia, oxidative/ROS and defence
 (salicylate/jasmonate/wounding)</strong> stress programmes — all documented features of
-plant spaceflight — while <em>cax2-2</em> matched none. Systems-level KEGG analysis
+plant spaceflight — while <em>cax2-2</em> matched none. The resemblance was
+<strong>organ-specific</strong>: the <strong>root</strong> response decoded predominantly to <strong>hypoxia and
+oxidative/ROS</strong>, whereas the <strong>shoot</strong> response decoded to <strong>defence/immune</strong>
+programmes (biotic, salicylate in Col-0; jasmonate and wounding in <em>rbohD</em>). A
+cell-type-resolved decoding (attributing the members of each significant stress
+programme to cell types via the PCMDB markers; Fig. S3) localised the
+defence/hormone signature chiefly to the <strong>leaf mesophyll</strong> (Col-0 → salicylate /
+defence; <em>rbohD</em> → jasmonate), with scattered defence/salicylate genes in root
+columella, epidermis and stele. Systems-level KEGG analysis
 (<code>analysis/ml/apex05_kegg_systems.py</code>; ggKEGG maps in
 <code>analysis/R/apex05_ggkegg_pathways.R</code>, Fig. 8) showed Col-0 and <em>rbohD</em> root
 responses converging on <strong>glutathione metabolism and phenylpropanoid
@@ -192,7 +200,8 @@ but true cell–cell communication mapping will require single-cell data.</p>
 <li><strong>Morphometrics &amp; integration.</strong> RSML day-4 primary-root traits
   (<code>data/morphometrics/</code>); FL-vs-GC effect sizes (Cohen's <em>d</em>, Mann–Whitney);
   well-level join to the transcriptome.</li>
-<li><strong>Stress resemblance &amp; pathways.</strong> g:Profiler GO "response to" axes; KEGG
+<li><strong>Stress resemblance &amp; pathways.</strong> g:Profiler GO "response to" axes computed
+  per organ and (via PCMDB markers) per cell type; KEGG
   pathway membership (KEGG REST) and ggkegg maps; Plant Reactome queried
   (sparse for Arabidopsis, retained for transparency).</li>
 <li><strong>Reproducibility.</strong> Python + R pipeline in <code>analysis/</code>; dependencies in
@@ -241,9 +250,12 @@ Col-0/<em>rbohD</em>, blank in <em>cax2-2</em>. <em>Source:</em> <code>results/m
 genotypes. (b) Transcriptome vs phenotype magnitude — <em>cax2-2</em>'s transcriptome is
 disproportionately attenuated relative to its retained root-shortening.
 <em>Source:</em> <code>results/ml/figI1_morphometric_flight_effects.png</code>, <code>figI2_*</code>.</p>
-<p><strong>Figure 7 | Stress-programme resemblance.</strong> GO "response to" over-representation
-grouped into stress axes; flight resembles hypoxia, oxidative/ROS and defence.
-<em>Source:</em> <code>results/ml/figL1_stress_resemblance.png</code>.</p>
+<p><strong>Figure 7 | Stress-programme resemblance (per organ).</strong> GO "response to"
+over-representation grouped into stress axes, computed separately for root and
+shoot (two panels): the root flight response resembles hypoxia and oxidative/ROS,
+the shoot response resembles defence/salicylate/jasmonate/wounding; <em>cax2-2</em>
+matches none. <em>Source:</em> <code>results/ml/figL1_stress_resemblance.png</code>,
+<code>apex05_stress_resemblance.csv</code>.</p>
 <p><strong>Figure 8 | Systems biology.</strong> (a) KEGG pathway enrichment (glutathione,
 phenylpropanoid, secondary metabolism). (b) ggKEGG pathway maps with enzyme nodes
 coloured by flight log₂FC and <strong>metabolite/cofactor nodes (green circles, named —
@@ -256,7 +268,17 @@ context: phenylpropanoid biosynthesis (Col-0 shoot), glutathione metabolism
 <p><strong>Figure S1 | <em>cax2-3</em> exclusion (corrected data).</strong> <em>Source:</em>
 <code>results/ml/figF1_cax2_concordance_fixed.png</code>; <code>docs/cax2_allele_concordance.md</code>.</p>
 <p><strong>Figure S2 | Exploratory peptide ligand–receptor flight-responsiveness.</strong>
-<em>Source:</em> <code>results/ml/figN1_ligand_receptor.png</code>.</p></div><h2>Figures</h2><div class="gallery"><figure><img src="assets/figures/figG1_qc_pca.png" alt="Fig 1 — Corrected 64-sample design; PC1 (94%) = tissue, no outliers."><figcaption>Fig 1 — Corrected 64-sample design; PC1 (94%) = tissue, no outliers.</figcaption></figure><figure><img src="assets/figures/figE1_lasso_flight_signature.png" alt="Fig 3 — LASSO flight signature corroborates DESeq2."><figcaption>Fig 3 — LASSO flight signature corroborates DESeq2.</figcaption></figure><figure><img src="assets/figures/figH1_celltype_deg_enrichment.png" alt="Fig 4 — Flight response localises to epidermis/columella/cortex; cax2-2 flat."><figcaption>Fig 4 — Flight response localises to epidermis/columella/cortex; cax2-2 flat.</figcaption></figure><figure><img src="assets/figures/figM1_root_anatomy_flight.png" alt="Fig 5 — ggPlantmap: outer-root localisation (Col-0/rbohD), cax2-2 blank."><figcaption>Fig 5 — ggPlantmap: outer-root localisation (Col-0/rbohD), cax2-2 blank.</figcaption></figure><figure><img src="assets/figures/figI1_morphometric_flight_effects.png" alt="Fig 6a — Spaceflight shortens roots in all genotypes."><figcaption>Fig 6a — Spaceflight shortens roots in all genotypes.</figcaption></figure><figure><img src="assets/figures/figL1_stress_resemblance.png" alt="Fig 7 — Resembles hypoxia / oxidative / defence stress."><figcaption>Fig 7 — Resembles hypoxia / oxidative / defence stress.</figcaption></figure><figure><img src="assets/figures/figK1_kegg_pathway_enrichment.png" alt="Fig 8a — KEGG: glutathione + phenylpropanoid."><figcaption>Fig 8a — KEGG: glutathione + phenylpropanoid.</figcaption></figure><figure><img src="assets/figures/figJ_ath00940_col0_shoot.png" alt="Fig 8b — ggKEGG phenylpropanoid map, Col-0 shoot flight overlay."><figcaption>Fig 8b — ggKEGG phenylpropanoid map, Col-0 shoot flight overlay.</figcaption></figure></div></main>
+<em>Source:</em> <code>results/ml/figN1_ligand_receptor.png</code>.</p>
+<p><strong>Figure S3 | Cell-type-resolved stress decoding.</strong> For each significant stress
+programme (Fig. 7), its member flight-DEGs are attributed to cell types via the
+PCMDB markers; each cell reports the number of flight-DEGs that are both a
+cell-type marker and a member of that stress programme (<code>apex05_celltype_stress_decoding.py</code>).
+The defence/hormone signature localises chiefly to leaf mesophyll (Col-0 →
+salicylate/defence; <em>rbohD</em> → jasmonate), with scattered root-cell-type
+contributions. Exploratory: attribution is limited because cell-type-specific
+markers rarely coincide with broadly-expressed stress genes. <em>Source:</em>
+<code>results/ml/figL2_celltype_stress_decoding.png</code>,
+<code>results/tables/apex05_celltype_stress_decoding.csv</code>.</p></div><h2>Figures</h2><div class="gallery"><figure><img src="assets/figures/figG1_qc_pca.png" alt="Fig 1 — Corrected 64-sample design; PC1 (94%) = tissue, no outliers."><figcaption>Fig 1 — Corrected 64-sample design; PC1 (94%) = tissue, no outliers.</figcaption></figure><figure><img src="assets/figures/figE1_lasso_flight_signature.png" alt="Fig 3 — LASSO flight signature corroborates DESeq2."><figcaption>Fig 3 — LASSO flight signature corroborates DESeq2.</figcaption></figure><figure><img src="assets/figures/figH1_celltype_deg_enrichment.png" alt="Fig 4 — Flight response localises to epidermis/columella/cortex; cax2-2 flat."><figcaption>Fig 4 — Flight response localises to epidermis/columella/cortex; cax2-2 flat.</figcaption></figure><figure><img src="assets/figures/figM1_root_anatomy_flight.png" alt="Fig 5 — ggPlantmap: outer-root localisation (Col-0/rbohD), cax2-2 blank."><figcaption>Fig 5 — ggPlantmap: outer-root localisation (Col-0/rbohD), cax2-2 blank.</figcaption></figure><figure><img src="assets/figures/figI1_morphometric_flight_effects.png" alt="Fig 6a — Spaceflight shortens roots in all genotypes."><figcaption>Fig 6a — Spaceflight shortens roots in all genotypes.</figcaption></figure><figure><img src="assets/figures/figL1_stress_resemblance.png" alt="Fig 7 — Per-organ stress resemblance: root→hypoxia/oxidative, shoot→defence."><figcaption>Fig 7 — Per-organ stress resemblance: root→hypoxia/oxidative, shoot→defence.</figcaption></figure><figure><img src="assets/figures/figL2_celltype_stress_decoding.png" alt="Fig S3 — Cell-type stress decoding: defence/hormone signature in leaf mesophyll."><figcaption>Fig S3 — Cell-type stress decoding: defence/hormone signature in leaf mesophyll.</figcaption></figure><figure><img src="assets/figures/figK1_kegg_pathway_enrichment.png" alt="Fig 8a — KEGG: glutathione + phenylpropanoid."><figcaption>Fig 8a — KEGG: glutathione + phenylpropanoid.</figcaption></figure><figure><img src="assets/figures/figJ_ath00940_col0_shoot.png" alt="Fig 8b — ggKEGG phenylpropanoid map, Col-0 shoot flight overlay."><figcaption>Fig 8b — ggKEGG phenylpropanoid map, Col-0 shoot flight overlay.</figcaption></figure></div></main>
 <footer class="site">
   APEX-05 — Advanced Plant Experiment-05 · FAIR data &amp; code ·
   <a href="https://github.com/dr-richard-barker/APEX05_results_and_code">GitHub</a> · Generated by <code>website/build_site.py</code>.

@@ -134,11 +134,19 @@ one — **CAX2 is required chiefly for the transcriptional arm of the response.*
 
 ### 5. The flight response resembles hypoxia, oxidative and defence stress and engages glutathione and phenylpropanoid metabolism
 
-A stress-resemblance analysis (GO "response to" over-representation;
-`analysis/ml/apex05_physiospace_stress.py`, Fig. 7) found the wild-type and
+A stress-resemblance analysis (GO "response to" over-representation, computed per
+organ; `analysis/ml/apex05_physiospace_stress.py`, Fig. 7) found the wild-type and
 *rbohD* flight DEGs most resembled **hypoxia, oxidative/ROS and defence
 (salicylate/jasmonate/wounding)** stress programmes — all documented features of
-plant spaceflight — while *cax2-2* matched none. Systems-level KEGG analysis
+plant spaceflight — while *cax2-2* matched none. The resemblance was
+**organ-specific**: the **root** response decoded predominantly to **hypoxia and
+oxidative/ROS**, whereas the **shoot** response decoded to **defence/immune**
+programmes (biotic, salicylate in Col-0; jasmonate and wounding in *rbohD*). A
+cell-type-resolved decoding (attributing the members of each significant stress
+programme to cell types via the PCMDB markers; Fig. S3) localised the
+defence/hormone signature chiefly to the **leaf mesophyll** (Col-0 → salicylate /
+defence; *rbohD* → jasmonate), with scattered defence/salicylate genes in root
+columella, epidermis and stele. Systems-level KEGG analysis
 (`analysis/ml/apex05_kegg_systems.py`; ggKEGG maps in
 `analysis/R/apex05_ggkegg_pathways.R`, Fig. 8) showed Col-0 and *rbohD* root
 responses converging on **glutathione metabolism and phenylpropanoid
@@ -210,7 +218,8 @@ but true cell–cell communication mapping will require single-cell data.
 - **Morphometrics & integration.** RSML day-4 primary-root traits
   (`data/morphometrics/`); FL-vs-GC effect sizes (Cohen's *d*, Mann–Whitney);
   well-level join to the transcriptome.
-- **Stress resemblance & pathways.** g:Profiler GO "response to" axes; KEGG
+- **Stress resemblance & pathways.** g:Profiler GO "response to" axes computed
+  per organ and (via PCMDB markers) per cell type; KEGG
   pathway membership (KEGG REST) and ggkegg maps; Plant Reactome queried
   (sparse for Arabidopsis, retained for transparency).
 - **Reproducibility.** Python + R pipeline in `analysis/`; dependencies in
@@ -273,9 +282,12 @@ genotypes. (b) Transcriptome vs phenotype magnitude — *cax2-2*'s transcriptome
 disproportionately attenuated relative to its retained root-shortening.
 *Source:* `results/ml/figI1_morphometric_flight_effects.png`, `figI2_*`.
 
-**Figure 7 | Stress-programme resemblance.** GO "response to" over-representation
-grouped into stress axes; flight resembles hypoxia, oxidative/ROS and defence.
-*Source:* `results/ml/figL1_stress_resemblance.png`.
+**Figure 7 | Stress-programme resemblance (per organ).** GO "response to"
+over-representation grouped into stress axes, computed separately for root and
+shoot (two panels): the root flight response resembles hypoxia and oxidative/ROS,
+the shoot response resembles defence/salicylate/jasmonate/wounding; *cax2-2*
+matches none. *Source:* `results/ml/figL1_stress_resemblance.png`,
+`apex05_stress_resemblance.csv`.
 
 **Figure 8 | Systems biology.** (a) KEGG pathway enrichment (glutathione,
 phenylpropanoid, secondary metabolism). (b) ggKEGG pathway maps with enzyme nodes
@@ -292,3 +304,14 @@ context: phenylpropanoid biosynthesis (Col-0 shoot), glutathione metabolism
 
 **Figure S2 | Exploratory peptide ligand–receptor flight-responsiveness.**
 *Source:* `results/ml/figN1_ligand_receptor.png`.
+
+**Figure S3 | Cell-type-resolved stress decoding.** For each significant stress
+programme (Fig. 7), its member flight-DEGs are attributed to cell types via the
+PCMDB markers; each cell reports the number of flight-DEGs that are both a
+cell-type marker and a member of that stress programme (`apex05_celltype_stress_decoding.py`).
+The defence/hormone signature localises chiefly to leaf mesophyll (Col-0 →
+salicylate/defence; *rbohD* → jasmonate), with scattered root-cell-type
+contributions. Exploratory: attribution is limited because cell-type-specific
+markers rarely coincide with broadly-expressed stress genes. *Source:*
+`results/ml/figL2_celltype_stress_decoding.png`,
+`results/tables/apex05_celltype_stress_decoding.csv`.

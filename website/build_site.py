@@ -40,7 +40,8 @@ FINAL_FIGS = [
     ("figH1_celltype_deg_enrichment.png", "Fig 4 — Flight response localises to epidermis/columella/cortex; cax2-2 flat."),
     ("figM1_root_anatomy_flight.png", "Fig 5 — ggPlantmap: outer-root localisation (Col-0/rbohD), cax2-2 blank."),
     ("figI1_morphometric_flight_effects.png", "Fig 6a — Spaceflight shortens roots in all genotypes."),
-    ("figL1_stress_resemblance.png", "Fig 7 — Resembles hypoxia / oxidative / defence stress."),
+    ("figL1_stress_resemblance.png", "Fig 7 — Per-organ stress resemblance: root→hypoxia/oxidative, shoot→defence."),
+    ("figL2_celltype_stress_decoding.png", "Fig S3 — Cell-type stress decoding: defence/hormone signature in leaf mesophyll."),
     ("figK1_kegg_pathway_enrichment.png", "Fig 8a — KEGG: glutathione + phenylpropanoid."),
     ("figJ_ath00940_col0_shoot.png", "Fig 8b — ggKEGG phenylpropanoid map, Col-0 shoot flight overlay."),
 ]

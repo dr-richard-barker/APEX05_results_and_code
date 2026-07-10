@@ -1,0 +1,131 @@
+{
+  "method": "stress enrichment on the full DEG set (g:SCS), member DEGs attributed to PCMDB cell types; cell x axis = count of shared flight-DEGs.",
+  "records": [
+    {
+      "genotype": "rbohD",
+      "tissue": "shoot",
+      "cell_type": "leaf mesophyll",
+      "n_celltype_flight_DEG": 7,
+      "stress_axis": "jasmonate",
+      "n_shared": 3,
+      "genes": "AT2G39030;AT4G35770;AT5G05600"
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "shoot",
+      "cell_type": "leaf mesophyll",
+      "n_celltype_flight_DEG": 9,
+      "stress_axis": "biotic/defense",
+      "n_shared": 3,
+      "genes": "AT1G02450;AT2G40750;AT5G54610"
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "shoot",
+      "cell_type": "leaf mesophyll",
+      "n_celltype_flight_DEG": 9,
+      "stress_axis": "salicylate",
+      "n_shared": 2,
+      "genes": "AT2G40750;AT5G54610"
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "cell_type": "non-hair root epidermal cell",
+      "n_celltype_flight_DEG": 8,
+      "stress_axis": "biotic/defense",
+      "n_shared": 1,
+      "genes": "AT2G43570"
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "cell_type": "columella",
+      "n_celltype_flight_DEG": 6,
+      "stress_axis": "salicylate",
+      "n_shared": 1,
+      "genes": "AT4G10500"
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "cell_type": "columella",
+      "n_celltype_flight_DEG": 6,
+      "stress_axis": "biotic/defense",
+      "n_shared": 1,
+      "genes": "AT4G10500"
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "cell_type": "root stele",
+      "n_celltype_flight_DEG": 7,
+      "stress_axis": "biotic/defense",
+      "n_shared": 1,
+      "genes": "AT1G66700"
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "cell_type": "root stele",
+      "n_celltype_flight_DEG": 7,
+      "stress_axis": "salicylate",
+      "n_shared": 1,
+      "genes": "AT1G66700"
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "cell_type": "root hair cell",
+      "n_celltype_flight_DEG": 3,
+      "stress_axis": "biotic/defense",
+      "n_shared": 1,
+      "genes": "AT2G43510"
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "shoot",
+      "cell_type": "bundle sheath",
+      "n_celltype_flight_DEG": 2,
+      "stress_axis": "biotic/defense",
+      "n_shared": 1,
+      "genes": "AT5G07700"
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "shoot",
+      "cell_type": "leaf epidermis",
+      "n_celltype_flight_DEG": 1,
+      "stress_axis": "hypoxia/anaerobic",
+      "n_shared": 1,
+      "genes": "AT1G02360"
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "shoot",
+      "cell_type": "leaf epidermis",
+      "n_celltype_flight_DEG": 1,
+      "stress_axis": "biotic/defense",
+      "n_shared": 1,
+      "genes": "AT1G02360"
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "shoot",
+      "cell_type": "leaf mesophyll",
+      "n_celltype_flight_DEG": 9,
+      "stress_axis": "hypoxia/anaerobic",
+      "n_shared": 1,
+      "genes": "AT1G21550"
+    },
+    {
+      "genotype": "rbohD",
+      "tissue": "shoot",
+      "cell_type": "leaf mesophyll",
+      "n_celltype_flight_DEG": 7,
+      "stress_axis": "wounding",
+      "n_shared": 1,
+      "genes": "AT4G35770"
+    }
+  ]
+}

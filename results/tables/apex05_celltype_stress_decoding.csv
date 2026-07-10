@@ -1,0 +1,15 @@
+genotype,tissue,cell_type,n_celltype_flight_DEG,stress_axis,n_shared,genes
+Col-0,root,columella,6,salicylate,1,AT4G10500
+Col-0,root,columella,6,biotic/defense,1,AT4G10500
+Col-0,root,non-hair root epidermal cell,8,biotic/defense,1,AT2G43570
+Col-0,root,root hair cell,3,biotic/defense,1,AT2G43510
+Col-0,root,root stele,7,salicylate,1,AT1G66700
+Col-0,root,root stele,7,biotic/defense,1,AT1G66700
+Col-0,shoot,bundle sheath,2,biotic/defense,1,AT5G07700
+Col-0,shoot,leaf epidermis,1,biotic/defense,1,AT1G02360
+Col-0,shoot,leaf epidermis,1,hypoxia/anaerobic,1,AT1G02360
+Col-0,shoot,leaf mesophyll,9,biotic/defense,3,AT1G02450;AT2G40750;AT5G54610
+Col-0,shoot,leaf mesophyll,9,salicylate,2,AT2G40750;AT5G54610
+Col-0,shoot,leaf mesophyll,9,hypoxia/anaerobic,1,AT1G21550
+rbohD,shoot,leaf mesophyll,7,jasmonate,3,AT2G39030;AT4G35770;AT5G05600
+rbohD,shoot,leaf mesophyll,7,wounding,1,AT4G35770

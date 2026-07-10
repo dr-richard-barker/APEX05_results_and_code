@@ -24,10 +24,11 @@ Full staged plan + feasibility in [`docs/final_manuscript_plan.md`](docs/final_m
 - [x] Stage 10: Final-manuscript website tab added (`website/build_site.py` → docs/final-manuscript.html).
 
 ## Website
-- [ ] **Maintain the manuscript website.** Rebuild after every manuscript/figure
-  change (`python website/build_site.py`, then commit `docs/`). Keep the live
-  GitHub Pages site (https://dr-richard-barker.github.io/APEX05_results_and_code/)
-  in sync with `manuscript/`. See [`website/README.md`](website/README.md).
+- [x] **Manuscript website auto-deploys** via GitHub Actions
+  ([`.github/workflows/pages.yml`](.github/workflows/pages.yml)) on every push to
+  `main` touching the manuscript/figures/site. Live:
+  https://dr-richard-barker.github.io/APEX05_results_and_code/ . Edit sources and
+  push — no manual rebuild. See [`website/README.md`](website/README.md).
 
 ## Manuscript — author inputs still needed (`[TO CONFIRM]` in `manuscript/`)
 - [ ] Differential-expression thresholds (e.g. FDR < 0.05, |log2FC| > 1).

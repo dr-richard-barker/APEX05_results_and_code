@@ -6,23 +6,27 @@ and CAX2 QC story. **Live site:** https://dr-richard-barker.github.io/APEX05_res
 ## How it works
 
 - [`build_site.py`](build_site.py) renders the Markdown sources
-  (`manuscript/apex05_manuscript.md`, `manuscript/figure_legends.md`,
-  `docs/cax2_allele_concordance.md`, `docs/PROVENANCE_cax23_mislabelling.md`) and
-  the main figures into styled HTML under [`../docs/`](../docs).
-- GitHub Pages serves `docs/` directly (Settings → Pages → *Deploy from a branch*
-  → `main` / `/docs`). `docs/.nojekyll` disables Jekyll so the raw HTML/assets are
-  served unchanged.
-- No external build service is required — the generated site is committed.
+  (`manuscript/apex05_FINAL_manuscript.md`, `manuscript/apex05_manuscript.md`,
+  `manuscript/figure_legends.md`, `docs/cax2_allele_concordance.md`,
+  `docs/PROVENANCE_cax23_mislabelling.md`) and the main figures into styled HTML
+  under [`../docs/`](../docs).
+- **Automatic deploy.** A GitHub Actions workflow
+  ([`.github/workflows/pages.yml`](../.github/workflows/pages.yml)) rebuilds the
+  site with `build_site.py` and deploys it to Pages on every push to `main` that
+  touches the manuscript, figures, or site code. (Pages source =
+  *GitHub Actions*.) No manual rebuild/commit of `docs/` is needed.
 
-## Rebuild after editing the manuscript or figures
+## Editing the manuscript or figures
+
+Just edit the source and push to `main`:
 
 ```bash
-python -m pip install markdown          # one-time
-python website/build_site.py            # regenerates docs/*.html + assets
-git add docs && git commit -m "site: rebuild" && git push
+# edit manuscript/apex05_FINAL_manuscript.md (or figures under results/ml/) ...
+git commit -am "manuscript: ..." && git push      # Actions rebuilds + deploys
 ```
 
-The site updates within ~1 minute of the push.
+The live site updates a minute or two later. To preview the exact output locally
+before pushing, run `python website/build_site.py` and open `docs/`.
 
 ## Preview locally
 

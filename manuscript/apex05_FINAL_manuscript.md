@@ -278,9 +278,14 @@ grouped into stress axes; flight resembles hypoxia, oxidative/ROS and defence.
 *Source:* `results/ml/figL1_stress_resemblance.png`.
 
 **Figure 8 | Systems biology.** (a) KEGG pathway enrichment (glutathione,
-phenylpropanoid, secondary metabolism). (b) ggKEGG phenylpropanoid-biosynthesis
-map with Col-0 shoot flight log₂FC overlay. *Source:*
-`results/ml/figK1_kegg_pathway_enrichment.png`, `figJ_ath00940_col0_shoot.png`.
+phenylpropanoid, secondary metabolism). (b) ggKEGG pathway maps with enzyme nodes
+coloured by flight log₂FC and **metabolite/cofactor nodes (green circles, named —
+e.g. NADPH, NADP⁺, glutathione/GSSG, ascorbate, SAM, coenzyme A)** shown in
+context: phenylpropanoid biosynthesis (Col-0 shoot), glutathione metabolism
+(rbohD shoot), plant hormone signal transduction (Col-0 root). *Source:*
+`results/ml/figK1_kegg_pathway_enrichment.png`,
+`figJ_ath00940_col0_shoot.png`, `figJ_ath00480_rbohd_shoot.png`,
+`figJ_ath04075_col0_root.png`.
 
 **Figure S1 | *cax2-3* exclusion (corrected data).** *Source:*
 `results/ml/figF1_cax2_concordance_fixed.png`; `docs/cax2_allele_concordance.md`.

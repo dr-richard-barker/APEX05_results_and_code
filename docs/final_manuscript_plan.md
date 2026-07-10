@@ -60,7 +60,7 @@ pathway synthesis, integrated as a new website tab.
 | 5 | **GO** of clusters/DEGs | g:Profiler (done) + per-cluster | gene lists | partly done |
 | 6 | **PhysioSpace** stress-resemblance of clusters/DEGs | PhysioSpaceMethods (R) or Python projection + a plant abiotic-stress reference (e.g. AtGenExpress) | DEG signatures + reference | needs reference build |
 | 7 | **Cell–cell communication** (ligand–receptor) | PlantCellChat / CellChat | **single-cell + cell types** | **BLOCKED — decision D1** (only exploratory bulk L-R possible) |
-| 8 | **ggKEGG + Reactome** systems-biology pathway grouping of loci | ggkegg (installed) + Reactome (gProfiler REAC / ReactomePA) | DEG lists (have) | **doable now** |
+| 8 | **ggKEGG + KEGG/Reactome** systems-biology pathway grouping of loci | ggkegg (`apex05_ggkegg_pathways.R`) + KEGG-membership grouping (`apex05_kegg_systems.py`) | DESeq2 DEGs | **DONE.** ggKEGG maps (phenylpropanoid/glutathione/hormone) w/ DE overlay; KEGG enrichment+loci grouping (Col-0/rbohD → glutathione+phenylpropanoid). Plant Reactome sparse (rice-projected) → saved for transparency |
 | 9 | **Write the Final manuscript** (3-genotype biological narrative integrating 1–8) | — | stages above | pending |
 | 10 | **New website tab** "Final manuscript" | website/build_site.py | stage 9 | scaffolded |
 

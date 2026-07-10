@@ -19,7 +19,7 @@ Full staged plan + feasibility in [`docs/final_manuscript_plan.md`](docs/final_m
 - [ ] Stage 5: **GO** per cluster (extends existing g:Profiler enrichment).
 - [ ] Stage 6: **PhysioSpace** stress-resemblance projection (needs a plant stress reference).
 - [ ] Stage 7: **PlantCellChat** ligand–receptor / cell–cell communication — after D1 (needs cell types).
-- [ ] Stage 8: **ggKEGG + Reactome** systems-biology pathway grouping (doable now).
+- [x] Stage 8: ggKEGG pathway maps w/ DE overlay + KEGG enrichment/loci-grouping (Col-0/rbohD → glutathione + phenylpropanoid); Plant Reactome saved (sparse for Arabidopsis).
 - [ ] Stage 9: write the **Final manuscript** (3-genotype biological narrative).
 - [ ] Stage 10: add a **"Final manuscript" website tab** and wire into `website/build_site.py`.
 

@@ -1,0 +1,59 @@
+stId,name,found,total,pValue,fdr,genotype,tissue
+R-OSA-1119601,Trehalose degradation II,1,11,0.6609241712746985,0.9574800103664158,Col-0,root
+R-OSA-1119292,Cytokinins 7-N-glucoside biosynthesis,1,14,0.7477187830643389,0.9574800103664158,Col-0,root
+R-OSA-1119331,Cysteine biosynthesis I,1,16,0.7928892505576216,0.9574800103664158,Col-0,root
+R-OSA-1119465,Sucrose biosynthesis,2,33,0.8353714594081186,0.9574800103664158,Col-0,root
+R-OSA-1119375,Cytokinins 9-N-glucoside biosynthesis,1,20,0.8604726607866591,0.9574800103664158,Col-0,root
+R-OSA-1119586,Cyanate degradation,1,20,0.8604726607866591,0.9574800103664158,Col-0,root
+R-OSA-1119267,Phenylalanine degradation III,1,20,0.8604726607866591,0.9574800103664158,Col-0,root
+R-OSA-9826782,Regulation of seed germination and coleoptile growth under submergence and normal gravity environment,3,59,0.9299563284616275,0.9574800103664158,Col-0,root
+R-OSA-1119389,Phenylalanine biosynthesis I,1,27,0.9301955370041222,0.9574800103664158,Col-0,root
+R-OSA-9766881,TF network involved in salinity response,2,45,0.9359804348976012,0.9574800103664158,Col-0,root
+R-OSA-1119610,Biotin biosynthesis II,1,28,0.9367798917638493,0.9574800103664158,Col-0,root
+R-OSA-1119506,tyrosine degradation I,1,29,0.9427451522968678,0.9574800103664158,Col-0,root
+R-OSA-1119400,Methionine biosynthesis II,1,30,0.9481493427030799,0.9574800103664158,Col-0,root
+R-OSA-1119452,Galactose degradation II,1,32,0.9574800103664158,0.9574800103664158,Col-0,root
+R-OSA-1119473,Cytokinins-O-glucoside biosynthesis,1,35,0.9684326216665265,0.9684326216665265,Col-0,root
+R-OSA-9638808,Response to salinity,2,70,0.9923223428384317,0.9923223428384317,Col-0,root
+R-OSA-1119486,IAA biosynthesis I,1,54,0.9952485412093978,0.9952485412093978,Col-0,root
+R-OSA-5368291,Inorganic nutrients metabolism,1,82,0.9997150502787964,0.9997150502787964,Col-0,root
+R-OSA-5655124,Amino acid catabolism,1,140,0.9999992340927242,0.9999992340927242,Col-0,root
+R-OSA-9826798,Gravitropism under normal or artificial gravity environments,3,234,0.9999999865601031,0.9999999865601031,Col-0,root
+R-OSA-8932729,Responses to stimuli: abiotic stimuli and stresses,4,369,0.9999999999998094,0.9999999999998094,Col-0,root
+R-OSA-2883407,Carbohydrate metabolism,3,348,0.9999999999998752,0.9999999999998752,Col-0,root
+R-OSA-2867929,Cofactor biosyntheses,1,313,0.9999999999999923,0.9999999999999923,Col-0,root
+R-OSA-5655122,Amino acid biosynthesis,2,375,0.9999999999999997,0.9999999999999997,Col-0,root
+R-OSA-2744341,"Hormone signaling, transport, and metabolism",2,601,1.0,1.0,Col-0,root
+R-OSA-2744343,Amino acid metabolism,2,491,1.0,1.0,Col-0,root
+R-OSA-2744345,Metabolism and regulation,9,2251,1.0,1.0,Col-0,root
+R-OSA-1119349,S-methylmethionine cycle,1,9,0.5819373217718431,0.9862920250181113,rbohD,root
+R-OSA-1119292,Cytokinins 7-N-glucoside biosynthesis,1,14,0.7427774298599233,0.9862920250181113,rbohD,root
+R-OSA-1119514,Anthocyanin biosynthesis (delphinidin 3-O-glucoside),1,14,0.7427774298599233,0.9862920250181113,rbohD,root
+R-OSA-1119400,Methionine biosynthesis II,2,30,0.7873937893654653,0.9862920250181113,rbohD,root
+R-OSA-1119440,"Anthocyanin biosynthesis (pelargonidin 3-O-glucoside, cyanidin 3-O-glucoside)",1,17,0.8078794461136358,0.9862920250181113,rbohD,root
+R-OSA-1119375,Cytokinins 9-N-glucoside biosynthesis,1,20,0.8565480803584415,0.9862920250181113,rbohD,root
+R-OSA-1119586,Cyanate degradation,1,20,0.8565480803584415,0.9862920250181113,rbohD,root
+R-OSA-1119267,Phenylalanine degradation III,1,20,0.8565480803584415,0.9862920250181113,rbohD,root
+R-OSA-9608575,Reproductive meristem phase change,1,20,0.8565480803584415,0.9862920250181113,rbohD,root
+R-OSA-1119389,Phenylalanine biosynthesis I,1,27,0.9275286209114519,0.9862920250181113,rbohD,root
+R-OSA-1119610,Biotin biosynthesis II,1,28,0.9342728807658168,0.9862920250181113,rbohD,root
+R-OSA-1119506,tyrosine degradation I,1,29,0.9403915449623724,0.9862920250181113,rbohD,root
+R-OSA-1119452,Galactose degradation II,1,32,0.9555462155431277,0.9862920250181113,rbohD,root
+R-OSA-1119465,Sucrose biosynthesis,1,33,0.9596900103885396,0.9862920250181113,rbohD,root
+R-OSA-1119473,Cytokinins-O-glucoside biosynthesis,1,35,0.9668582069571692,0.9862920250181113,rbohD,root
+R-OSA-1119438,Secologanin and strictosidine biosynthesis,1,44,0.9862920250181113,0.9862920250181113,rbohD,root
+R-OSA-9766881,TF network involved in salinity response,1,45,0.9875749459161735,0.9875749459161735,rbohD,root
+R-OSA-1119486,IAA biosynthesis I,1,54,0.994876724457694,0.994876724457694,rbohD,root
+R-OSA-9638808,Response to salinity,1,70,0.9989467623701568,0.9989467623701568,rbohD,root
+R-OSA-5368291,Inorganic nutrients metabolism,1,82,0.9996803305909958,0.9996803305909958,rbohD,root
+R-OSA-5655124,Amino acid catabolism,1,140,0.9999990660695002,0.9999990660695002,rbohD,root
+R-OSA-9031669,Reproductive structure development,1,276,0.9999999999993515,0.9999999999993515,rbohD,root
+R-OSA-2867929,Cofactor biosyntheses,1,313,0.9999999999999879,0.9999999999999879,rbohD,root
+R-OSA-5655122,Amino acid biosynthesis,2,375,0.9999999999999994,0.9999999999999994,rbohD,root
+R-OSA-2883407,Carbohydrate metabolism,1,348,0.9999999999999998,0.9999999999999998,rbohD,root
+R-OSA-9030769,Growth and developmental processes,1,351,0.9999999999999998,0.9999999999999998,rbohD,root
+R-OSA-2744341,"Hormone signaling, transport, and metabolism",2,601,1.0,1.0,rbohD,root
+R-OSA-2744343,Amino acid metabolism,2,491,1.0,1.0,rbohD,root
+R-OSA-2744345,Metabolism and regulation,9,2251,1.0,1.0,rbohD,root
+R-OSA-2744344,Secondary metabolism,2,464,1.0,1.0,rbohD,root
+R-OSA-8932729,Responses to stimuli: abiotic stimuli and stresses,1,369,1.0,1.0,rbohD,root

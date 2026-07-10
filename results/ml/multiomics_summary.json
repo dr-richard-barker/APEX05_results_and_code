@@ -1,0 +1,194 @@
+{
+  "informative_traits": [
+    "length",
+    "vector_length",
+    "surface",
+    "volume",
+    "diameter"
+  ],
+  "morphometric_flight_effects": [
+    {
+      "genotype": "Col-0",
+      "trait": "length",
+      "n_FL": 54,
+      "n_GC": 60,
+      "mean_FL": 1.1331,
+      "mean_GC": 1.7266,
+      "pct_change": -34.4,
+      "cohens_d": -1.197,
+      "mannwhitney_p": 6.307002369046924e-09
+    },
+    {
+      "genotype": "Col-0",
+      "trait": "vector_length",
+      "n_FL": 54,
+      "n_GC": 60,
+      "mean_FL": 0.9697,
+      "mean_GC": 1.6648,
+      "pct_change": -41.7,
+      "cohens_d": -1.485,
+      "mannwhitney_p": 1.862511119661435e-11
+    },
+    {
+      "genotype": "Col-0",
+      "trait": "surface",
+      "n_FL": 54,
+      "n_GC": 60,
+      "mean_FL": 0.1864,
+      "mean_GC": 0.2665,
+      "pct_change": -30.0,
+      "cohens_d": -0.921,
+      "mannwhitney_p": 3.3081317511407153e-06
+    },
+    {
+      "genotype": "Col-0",
+      "trait": "volume",
+      "n_FL": 54,
+      "n_GC": 60,
+      "mean_FL": 0.0028,
+      "mean_GC": 0.0035,
+      "pct_change": -19.5,
+      "cohens_d": -0.414,
+      "mannwhitney_p": 0.0027063579534589155
+    },
+    {
+      "genotype": "Col-0",
+      "trait": "diameter",
+      "n_FL": 54,
+      "n_GC": 60,
+      "mean_FL": 0.0537,
+      "mean_GC": 0.0507,
+      "pct_change": 5.9,
+      "cohens_d": 0.28,
+      "mannwhitney_p": 0.929905944865594
+    },
+    {
+      "genotype": "cax2-2",
+      "trait": "length",
+      "n_FL": 55,
+      "n_GC": 46,
+      "mean_FL": 1.0345,
+      "mean_GC": 1.4336,
+      "pct_change": -27.8,
+      "cohens_d": -0.868,
+      "mannwhitney_p": 0.00013410126932090273
+    },
+    {
+      "genotype": "cax2-2",
+      "trait": "vector_length",
+      "n_FL": 55,
+      "n_GC": 46,
+      "mean_FL": 0.908,
+      "mean_GC": 1.3903,
+      "pct_change": -34.7,
+      "cohens_d": -1.096,
+      "mannwhitney_p": 1.2018391199466548e-06
+    },
+    {
+      "genotype": "cax2-2",
+      "trait": "surface",
+      "n_FL": 55,
+      "n_GC": 46,
+      "mean_FL": 0.1694,
+      "mean_GC": 0.2189,
+      "pct_change": -22.6,
+      "cohens_d": -0.617,
+      "mannwhitney_p": 0.002818690803091599
+    },
+    {
+      "genotype": "cax2-2",
+      "trait": "volume",
+      "n_FL": 55,
+      "n_GC": 46,
+      "mean_FL": 0.0025,
+      "mean_GC": 0.0029,
+      "pct_change": -14.1,
+      "cohens_d": -0.293,
+      "mannwhitney_p": 0.04145326449531292
+    },
+    {
+      "genotype": "cax2-2",
+      "trait": "diameter",
+      "n_FL": 55,
+      "n_GC": 46,
+      "mean_FL": 0.0545,
+      "mean_GC": 0.0495,
+      "pct_change": 10.0,
+      "cohens_d": 0.45,
+      "mannwhitney_p": 0.08571256942534157
+    },
+    {
+      "genotype": "rbohD",
+      "trait": "length",
+      "n_FL": 63,
+      "n_GC": 64,
+      "mean_FL": 1.1774,
+      "mean_GC": 1.5739,
+      "pct_change": -25.2,
+      "cohens_d": -1.141,
+      "mannwhitney_p": 1.1511115585427994e-08
+    },
+    {
+      "genotype": "rbohD",
+      "trait": "vector_length",
+      "n_FL": 63,
+      "n_GC": 64,
+      "mean_FL": 1.0127,
+      "mean_GC": 1.5256,
+      "pct_change": -33.6,
+      "cohens_d": -1.463,
+      "mannwhitney_p": 7.159034608944222e-12
+    },
+    {
+      "genotype": "rbohD",
+      "trait": "surface",
+      "n_FL": 63,
+      "n_GC": 64,
+      "mean_FL": 0.175,
+      "mean_GC": 0.2581,
+      "pct_change": -32.2,
+      "cohens_d": -1.281,
+      "mannwhitney_p": 2.966415871400994e-09
+    },
+    {
+      "genotype": "rbohD",
+      "trait": "volume",
+      "n_FL": 63,
+      "n_GC": 64,
+      "mean_FL": 0.0022,
+      "mean_GC": 0.0036,
+      "pct_change": -38.2,
+      "cohens_d": -1.157,
+      "mannwhitney_p": 8.662499656828379e-09
+    },
+    {
+      "genotype": "rbohD",
+      "trait": "diameter",
+      "n_FL": 63,
+      "n_GC": 64,
+      "mean_FL": 0.048,
+      "mean_GC": 0.0536,
+      "pct_change": -10.3,
+      "cohens_d": -0.685,
+      "mannwhitney_p": 8.412841878555085e-05
+    }
+  ],
+  "transcriptome_vs_phenotype": [
+    {
+      "genotype": "Col-0",
+      "root_DEGs": 284,
+      "mean_abs_morph_d": 0.859
+    },
+    {
+      "genotype": "cax2-2",
+      "root_DEGs": 5,
+      "mean_abs_morph_d": 0.665
+    },
+    {
+      "genotype": "rbohD",
+      "root_DEGs": 280,
+      "mean_abs_morph_d": 1.145
+    }
+  ],
+  "note": "flight-referenced (FL vs GC). Morphometrics = day-4 primary roots, many seedlings/genotype; transcriptome = DESeq2 root DEGs."
+}

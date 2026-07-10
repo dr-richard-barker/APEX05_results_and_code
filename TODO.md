@@ -12,7 +12,7 @@ Full staged plan + feasibility in [`docs/final_manuscript_plan.md`](docs/final_m
 - [x] **rep→well mapping resolved from S-numbers** (verified; FL/GC paired to same well). Enables imaging joins + paired DE.
 - [x] Stage 1: DESeq2 FL-vs-GC per genotype × tissue (`analysis/ml/apex05_deseq2_flight.py`), flight-referenced.
 - [ ] Optional: paired/blocked DE (well as block) once rep→well is confirmed.
-- [ ] Stage 3b: **integrate RNA-seq DE with RSML root morphometrics per well** (multi-omics).
+- [x] Stage 3b: RNA-seq DE integrated with RSML root morphometrics (well-joined). Flight shortens roots (all genotypes); cax2-2 transcriptome disproportionately attenuated vs retained phenotype.
 - [ ] Stage 2: **LASSO** flight-signature to support DESeq (Col-0 now; mutants after D2).
 - [x] Stage 3: cell-type resolution via PCMDB marker projection (DEG enrichment + signature shift). Col-0/rbohD root → epidermis/columella/cortex; cax2-2 flat.
 - [ ] Stage 4: **ggPlantmap** anatomical visualisation of the resolved response.

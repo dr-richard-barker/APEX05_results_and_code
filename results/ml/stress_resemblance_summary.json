@@ -1,0 +1,117 @@
+{
+  "method": "GO:BP 'response to' over-representation grouped into stress axes; resemblance (overlap), not directional projection",
+  "axes": [
+    "cold/freezing",
+    "heat",
+    "salt",
+    "water/osmotic/drought",
+    "oxidative/ROS",
+    "wounding",
+    "hypoxia/anaerobic",
+    "light/UV/radiation",
+    "ABA",
+    "jasmonate",
+    "salicylate",
+    "ethylene",
+    "biotic/defense",
+    "metal/ion"
+  ],
+  "records": [
+    {
+      "genotype": "Col-0",
+      "tissue": "shoot",
+      "stress_axis": "biotic/defense",
+      "neg_log10_p": 8.54,
+      "top_term": "response to external biotic stimulus",
+      "p_value": 2.8692492197764524e-09
+    },
+    {
+      "genotype": "rbohD",
+      "tissue": "root",
+      "stress_axis": "hypoxia/anaerobic",
+      "neg_log10_p": 5.54,
+      "top_term": "response to hypoxia",
+      "p_value": 2.8985968149341805e-06
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "shoot",
+      "stress_axis": "hypoxia/anaerobic",
+      "neg_log10_p": 4.72,
+      "top_term": "response to hypoxia",
+      "p_value": 1.9211207428882704e-05
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "shoot",
+      "stress_axis": "salicylate",
+      "neg_log10_p": 4.49,
+      "top_term": "response to salicylic acid",
+      "p_value": 3.2009030738610806e-05
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "stress_axis": "hypoxia/anaerobic",
+      "neg_log10_p": 3.91,
+      "top_term": "response to hypoxia",
+      "p_value": 0.00012336536692191942
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "shoot",
+      "stress_axis": "metal/ion",
+      "neg_log10_p": 2.91,
+      "top_term": "response to iron ion starvation",
+      "p_value": 0.0012266307777605836
+    },
+    {
+      "genotype": "rbohD",
+      "tissue": "root",
+      "stress_axis": "oxidative/ROS",
+      "neg_log10_p": 2.69,
+      "top_term": "response to oxidative stress",
+      "p_value": 0.00205116057550518
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "stress_axis": "oxidative/ROS",
+      "neg_log10_p": 2.68,
+      "top_term": "response to oxidative stress",
+      "p_value": 0.0020691660013178598
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "stress_axis": "salicylate",
+      "neg_log10_p": 2.51,
+      "top_term": "response to salicylic acid",
+      "p_value": 0.0030647775880681084
+    },
+    {
+      "genotype": "Col-0",
+      "tissue": "root",
+      "stress_axis": "biotic/defense",
+      "neg_log10_p": 2.5,
+      "top_term": "response to external biotic stimulus",
+      "p_value": 0.003149768881880617
+    },
+    {
+      "genotype": "rbohD",
+      "tissue": "shoot",
+      "stress_axis": "jasmonate",
+      "neg_log10_p": 2.31,
+      "top_term": "response to jasmonic acid",
+      "p_value": 0.004896430050679177
+    },
+    {
+      "genotype": "rbohD",
+      "tissue": "shoot",
+      "stress_axis": "wounding",
+      "neg_log10_p": 2.2,
+      "top_term": "response to wounding",
+      "p_value": 0.006299902101573593
+    }
+  ]
+}

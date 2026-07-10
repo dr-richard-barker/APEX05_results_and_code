@@ -1,0 +1,13 @@
+genotype,tissue,stress_axis,neg_log10_p,top_term,p_value
+Col-0,root,hypoxia/anaerobic,3.91,response to hypoxia,0.00012336536692191942
+Col-0,root,oxidative/ROS,2.68,response to oxidative stress,0.0020691660013178598
+Col-0,root,salicylate,2.51,response to salicylic acid,0.0030647775880681084
+Col-0,root,biotic/defense,2.5,response to external biotic stimulus,0.003149768881880617
+rbohD,root,hypoxia/anaerobic,5.54,response to hypoxia,2.8985968149341805e-06
+rbohD,root,oxidative/ROS,2.69,response to oxidative stress,0.00205116057550518
+Col-0,shoot,biotic/defense,8.54,response to external biotic stimulus,2.8692492197764524e-09
+Col-0,shoot,hypoxia/anaerobic,4.72,response to hypoxia,1.9211207428882704e-05
+Col-0,shoot,salicylate,4.49,response to salicylic acid,3.2009030738610806e-05
+Col-0,shoot,metal/ion,2.91,response to iron ion starvation,0.0012266307777605836
+rbohD,shoot,jasmonate,2.31,response to jasmonic acid,0.004896430050679177
+rbohD,shoot,wounding,2.2,response to wounding,0.006299902101573593

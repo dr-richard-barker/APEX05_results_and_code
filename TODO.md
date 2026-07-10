@@ -17,7 +17,7 @@ Full staged plan + feasibility in [`docs/final_manuscript_plan.md`](docs/final_m
 - [x] Stage 3: cell-type resolution via PCMDB marker projection (DEG enrichment + signature shift). Col-0/rbohD root → epidermis/columella/cortex; cax2-2 flat.
 - [ ] Stage 4: **ggPlantmap** anatomical visualisation of the resolved response.
 - [ ] Stage 5: **GO** per cluster (extends existing g:Profiler enrichment).
-- [ ] Stage 6: **PhysioSpace** stress-resemblance projection (needs a plant stress reference).
+- [x] Stage 6: PhysioSpace-style stress resemblance (GO axes) — flight resembles hypoxia, oxidative/ROS, defense (SA/JA); cax2-2 none.
 - [ ] Stage 7: **PlantCellChat** ligand–receptor / cell–cell communication — after D1 (needs cell types).
 - [x] Stage 8: ggKEGG pathway maps w/ DE overlay + KEGG enrichment/loci-grouping (Col-0/rbohD → glutathione + phenylpropanoid); Plant Reactome saved (sparse for Arabidopsis).
 - [ ] Stage 9: write the **Final manuscript** (3-genotype biological narrative).

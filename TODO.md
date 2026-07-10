@@ -20,8 +20,8 @@ Full staged plan + feasibility in [`docs/final_manuscript_plan.md`](docs/final_m
 - [x] Stage 6: PhysioSpace-style stress resemblance (GO axes) — flight resembles hypoxia, oxidative/ROS, defense (SA/JA); cax2-2 none.
 - [x] Stage 7 (exploratory): canonical peptide L-R flight-responsiveness — mostly no-change in bulk; defense peptides notable in rbohD shoot. True cell-cell comm needs single-cell (flagged).
 - [x] Stage 8: ggKEGG pathway maps w/ DE overlay + KEGG enrichment/loci-grouping (Col-0/rbohD → glutathione + phenylpropanoid); Plant Reactome saved (sparse for Arabidopsis).
-- [ ] Stage 9: write the **Final manuscript** (3-genotype biological narrative).
-- [ ] Stage 10: add a **"Final manuscript" website tab** and wire into `website/build_site.py`.
+- [x] Stage 9: Final manuscript written (`manuscript/apex05_FINAL_manuscript.md`) — 3-genotype, corrected data, all stages integrated.
+- [x] Stage 10: Final-manuscript website tab added (`website/build_site.py` → docs/final-manuscript.html).
 
 ## Website
 - [ ] **Maintain the manuscript website.** Rebuild after every manuscript/figure

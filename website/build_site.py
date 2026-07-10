@@ -29,9 +29,21 @@ SITE_TITLE = "APEX-05"
 REPO_URL = "https://github.com/dr-richard-barker/APEX05_results_and_code"
 MD_EXT = ["tables", "fenced_code", "toc", "attr_list", "sane_lists"]
 
-NAV = [("index.html", "Home"), ("manuscript.html", "Manuscript"),
-       ("figures.html", "Figures"), ("cax2-story.html", "CAX2 QC story"),
-       (REPO_URL, "GitHub ↗")]
+NAV = [("index.html", "Home"), ("final-manuscript.html", "Final manuscript"),
+       ("manuscript.html", "Scaffold"), ("figures.html", "Figures"),
+       ("cax2-story.html", "CAX2 QC story"), (REPO_URL, "GitHub ↗")]
+
+# Final-manuscript figures (corrected 64-sample, 3-genotype analysis).
+FINAL_FIGS = [
+    ("figG1_qc_pca.png", "Fig 1 — Corrected 64-sample design; PC1 (94%) = tissue, no outliers."),
+    ("figE1_lasso_flight_signature.png", "Fig 3 — LASSO flight signature corroborates DESeq2."),
+    ("figH1_celltype_deg_enrichment.png", "Fig 4 — Flight response localises to epidermis/columella/cortex; cax2-2 flat."),
+    ("figM1_root_anatomy_flight.png", "Fig 5 — ggPlantmap: outer-root localisation (Col-0/rbohD), cax2-2 blank."),
+    ("figI1_morphometric_flight_effects.png", "Fig 6a — Spaceflight shortens roots in all genotypes."),
+    ("figL1_stress_resemblance.png", "Fig 7 — Resembles hypoxia / oxidative / defence stress."),
+    ("figK1_kegg_pathway_enrichment.png", "Fig 8a — KEGG: glutathione + phenylpropanoid."),
+    ("figJ_ath00940_col0_shoot.png", "Fig 8b — ggKEGG phenylpropanoid map, Col-0 shoot flight overlay."),
+]
 
 # Figures to surface in the gallery: (filename, caption).
 GALLERY = [
@@ -152,8 +164,8 @@ def build():
     (DOCS / ".nojekyll").write_text("")
     (ASSETS / "style.css").write_text(CSS.strip(), encoding="utf-8")
 
-    # copy gallery figures
-    for fn, _ in GALLERY:
+    # copy gallery + final-manuscript figures
+    for fn, _ in GALLERY + FINAL_FIGS:
         src = REPO / "results" / "ml" / fn
         if src.exists():
             shutil.copy2(src, FIGDIR / fn)
@@ -177,11 +189,16 @@ def build():
     <span class="badge">RNA-seq + RSML</span><span class="badge">g:Profiler enrichment</span>
     <span class="badge">scikit-learn QC</span></div>
   <div class="btnrow">
-    <a class="btn primary" href="manuscript.html">Read the manuscript →</a>
+    <a class="btn primary" href="final-manuscript.html">Read the Final manuscript →</a>
     <a class="btn" href="figures.html">Figures</a>
     <a class="btn" href="cax2-story.html">CAX2 QC story</a>
     <a class="btn" href="{REPO_URL}">Code &amp; data (GitHub)</a>
   </div>
+  <p class="lede"><b>Headline:</b> wild-type and <em>rbohD</em> mount a strong
+  spaceflight response localised to the outer root (epidermis, cortex, gravity-
+  sensing columella); <em>cax2-2</em> <b>abolishes the transcriptional response</b>
+  (<em>CAX2</em> required) yet its roots still shorten — uncoupling expression from
+  growth.</p>
 </section>
 
 <h2>Abstract</h2>
@@ -225,6 +242,23 @@ def build():
         f'<div class="note">This is the working manuscript scaffold. Bracketed '
         f'<code>[TO CONFIRM]</code> markers denote fields for the authors to finalise.</div>'
         f'<div class="content">{man_html}</div>', "manuscript.html"), encoding="utf-8")
+
+    # ---------- final-manuscript.html (the 3-genotype Final manuscript) ----------
+    final_path = REPO / "manuscript/apex05_FINAL_manuscript.md"
+    if final_path.exists():
+        final_html = fix_doc_links(render_md(final_path.read_text(encoding="utf-8")))
+        gallery = "".join(
+            f'<figure><img src="assets/figures/{fn}" alt="{cap}"><figcaption>{cap}</figcaption></figure>'
+            for fn, cap in FINAL_FIGS if (FIGDIR / fn).exists())
+        (DOCS / "final-manuscript.html").write_text(page(
+            "Final manuscript",
+            f'<div class="note">Final integrated APEX-05 manuscript (Col-0, '
+            f'<em>cax2-2</em>, <em>rbohD</em>) on the corrected 64-sample data. '
+            f'<code>[TO CONFIRM]</code> marks fields awaiting author input.</div>'
+            f'<div class="content">{final_html}</div>'
+            f'<h2>Figures</h2><div class="gallery">{gallery}</div>',
+            "final-manuscript.html"), encoding="utf-8")
+        print("   wrote docs/final-manuscript.html")
 
     # ---------- figures.html (gallery) ----------
     figs = "".join(

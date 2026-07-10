@@ -7,9 +7,9 @@ layer supporting the DESeq statistics, cell-type-resolved interpretation,
 stress-signature and cell–cell-communication analysis, and systems-biology
 pathway synthesis, integrated as a new website tab.
 
-> **Status:** planning. Nothing below is fabricated; each stage lists its data
-> requirement and whether that requirement is currently met. Two decisions
-> (§Decisions) gate the single-cell-dependent stages.
+> **Status:** ALL 10 stages complete (see statuses below). Nothing is fabricated;
+> honest constraints (bulk data → reference-based cell types; exploratory L-R) are
+> flagged in-line. Remaining work is author input (`[TO CONFIRM]`) + Zenodo release.
 
 ## Data model (updated after the fixed matrix + ALSDA metadata)
 
@@ -50,19 +50,19 @@ pathway synthesis, integrated as a new website tab.
 
 | # | Stage | Method / tool | Data requirement | Status |
 |:-|:-|:-|:-|:-|
-| 0 | **Assemble 3-genotype per-sample count matrix** (root, shoot) | OSDR fetch or PI upload | per-sample counts for WT/cax2-2/rbohD | **BLOCKED — decision D2** |
-| 0b | **Integrate ALSDA well metadata**; confirm rep→well map; enable RNA-seq↔RSML join | `apex05_data.py` + ALSDA sheet | metadata (have) | **DONE (mapping provisional)** |
-| 1 | DESeq2 FL-vs-GC on the 64-sample fixed matrix, per genotype × tissue (paired-by-well option) | pydeseq2 (`apex05_deseq2_flight.py`) | counts (have) | **DONE (unpaired); paired pending rep→well** |
-| 3b | **Multi-omics: RNA-seq flight response <-> RSML root architecture** (`apex05_multiomics_integration.py`) | `apex05_data` + `data/morphometrics/` | well map (done) | **DONE.** Flight shortens roots (all genotypes, strongest rbohD); cax2-2's transcriptome is disproportionately attenuated vs its retained morphological response |
+| 0 | **Assemble 3-genotype per-sample count matrix** (root, shoot) | OSDR fetch or PI upload | per-sample counts (PI-provided) | **DONE.** 64-sample fixed matrix v2.2 |
+| 0b | **Integrate ALSDA well metadata**; confirm rep→well map; enable RNA-seq↔RSML join | `apex05_data.py` + ALSDA sheet | metadata (have) | **DONE.** rep→well resolved from S-numbers (verified) |
+| 1 | DESeq2 FL-vs-GC on the 64-sample fixed matrix, per genotype × tissue (paired-by-well option) | pydeseq2 (`apex05_deseq2_flight.py`) | counts (have) | **DONE (unpaired); paired-by-well available on request** |
+| 3b | **Multi-omics: RNA-seq flight response <-> RSML root architecture** — genotype-level (`apex05_multiomics_integration.py`) + **per-well & per-gene** paired coupling (`apex05_rnaseq_rsml_geneintegration.py`, Fig 6c) | `apex05_data` + `data/morphometrics/` | well map (done) | **DONE.** Flight shortens roots (all genotypes, strongest rbohD). Transcriptome and root-shortening are **uncoupled** at well (Spearman ρ=-0.30, n.s.) and gene (0/385 FDR) level — cax2-2 low transcriptome, retained phenotype |
 | 2 | **LASSO flight-signature** to support DESeq (sparse, cross-validated; overlap with DEGs) | sklearn L1 logistic (`analysis/ml/apex05_lasso_flight_signature.py`) | per-sample counts | **Col-0 DONE; mutants auto-extend on upload** |
 | 3 | **Cell-type resolution of the bulk signal** — marker-based projection onto PCMDB (published *A. thaliana* cell-type markers): flight-DEG cell-type enrichment + per-sample signature shift | scanpy/sklearn + PCMDB (`apex05_celltype_markers.py`, `apex05_celltype_projection.py`) | PCMDB (fetched) + counts | **DONE.** Col-0/rbohD root → epidermis, **columella (gravity-sensing)**, cortex; rbohD shoot → mesophyll; cax2-2 flat |
 | 4 | **ggPlantmap** anatomical view of the cell-type-resolved flight response (`apex05_ggplantmap_anatomy.R`) | ggPlantmap (R, installed) | stage 3 | **DONE.** Root cross-section painted by cell-type enrichment: Col-0/rbohD localise to epidermis+cortex; cax2-2 blank (figM1/figM2) |
-| 5 | **GO** of clusters/DEGs | g:Profiler (done) + per-cluster | gene lists | partly done |
+| 5 | **GO** of clusters/DEGs | g:Profiler + PCMDB per cell type | gene lists | **DONE** via cell-type DEG enrichment (Stage 3) + per-cell-type stress decoding (Fig S3) |
 | 6 | **PhysioSpace-style stress resemblance** — per **organ** (`apex05_physiospace_stress.py`, Fig 7) and per **cell type** (`apex05_celltype_stress_decoding.py`, Fig S3) | g:Profiler GO 'response to' axes + PCMDB markers | DESeq2 DEGs | **DONE.** Organ-specific: root → **hypoxia/oxidative**, shoot → **defence (SA/JA/wounding)**; cax2-2 none. Cell-type-resolved: defence/hormone signature chiefly in **leaf mesophyll**. (Resemblance/overlap, not directional projection) |
 | 7 | **Exploratory ligand–receptor** (canonical peptide modules; `apex05_ligand_receptor.py`) | g:Profiler ID resolution + DESeq2 | DESeq2 DEGs | **DONE (exploratory).** No canonical peptide L-R pair strongly flight-modulated in bulk; defense peptides (PROPEP3/PIP2/IDA) notable in rbohD shoot. True cell–cell communication needs single-cell (flagged) |
 | 8 | **ggKEGG + KEGG/Reactome** systems-biology pathway grouping of loci | ggkegg (`apex05_ggkegg_pathways.R`) + KEGG-membership grouping (`apex05_kegg_systems.py`) | DESeq2 DEGs | **DONE.** ggKEGG maps (phenylpropanoid/glutathione/hormone) w/ DE overlay; KEGG enrichment+loci grouping (Col-0/rbohD → glutathione+phenylpropanoid). Plant Reactome sparse (rice-projected) → saved for transparency |
-| 9 | **Write the Final manuscript** (3-genotype biological narrative integrating 1–8) | — | stages above | pending |
-| 10 | **New website tab** "Final manuscript" | website/build_site.py | stage 9 | scaffolded |
+| 9 | **Write the Final manuscript** (3-genotype biological narrative integrating 1–8) | — | stages above | **DONE.** `manuscript/apex05_FINAL_manuscript.md` |
+| 10 | **New website tab** "Final manuscript" | website/build_site.py | stage 9 | **DONE.** Live `docs/final-manuscript.html` (auto-deployed) |
 
 ## Decisions needed (gate stages 3, 7 and the mutant half of 0/2)
 

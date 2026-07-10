@@ -1,0 +1,96 @@
+{
+  "trait": "length",
+  "n_wells": 12,
+  "welllevel_coupling": {
+    "spearman_rho": -0.301,
+    "p": 0.3423
+  },
+  "gene_linkage_FDR<0.1": 0,
+  "note": "Paired FL-GC per-well deltas; primary genotypes; per-gene linkage exploratory (n=12, genotype partial confound, BH-corrected).",
+  "wells": [
+    {
+      "well": "Col-0:A1",
+      "genotype": "Col-0",
+      "location": "A1",
+      "delta_length": -0.3448,
+      "transcriptomic_flight_mag": 1.3586
+    },
+    {
+      "well": "Col-0:B6",
+      "genotype": "Col-0",
+      "location": "B6",
+      "delta_length": -0.5426,
+      "transcriptomic_flight_mag": 1.4779
+    },
+    {
+      "well": "Col-0:B9",
+      "genotype": "Col-0",
+      "location": "B9",
+      "delta_length": -0.3522,
+      "transcriptomic_flight_mag": 1.259
+    },
+    {
+      "well": "Col-0:C3",
+      "genotype": "Col-0",
+      "location": "C3",
+      "delta_length": -0.8908,
+      "transcriptomic_flight_mag": 1.0991
+    },
+    {
+      "well": "cax2-2:A3",
+      "genotype": "cax2-2",
+      "location": "A3",
+      "delta_length": -0.8784,
+      "transcriptomic_flight_mag": 0.3863
+    },
+    {
+      "well": "cax2-2:A7",
+      "genotype": "cax2-2",
+      "location": "A7",
+      "delta_length": 0.1951,
+      "transcriptomic_flight_mag": 0.6376
+    },
+    {
+      "well": "cax2-2:B4",
+      "genotype": "cax2-2",
+      "location": "B4",
+      "delta_length": -0.6971,
+      "transcriptomic_flight_mag": 0.6617
+    },
+    {
+      "well": "cax2-2:B8",
+      "genotype": "cax2-2",
+      "location": "B8",
+      "delta_length": -0.487,
+      "transcriptomic_flight_mag": 0.5902
+    },
+    {
+      "well": "rbohD:B2",
+      "genotype": "rbohD",
+      "location": "B2",
+      "delta_length": -0.4876,
+      "transcriptomic_flight_mag": 1.0685
+    },
+    {
+      "well": "rbohD:B5",
+      "genotype": "rbohD",
+      "location": "B5",
+      "delta_length": -0.7143,
+      "transcriptomic_flight_mag": 1.1601
+    },
+    {
+      "well": "rbohD:C4",
+      "genotype": "rbohD",
+      "location": "C4",
+      "delta_length": -0.3795,
+      "transcriptomic_flight_mag": 1.4697
+    },
+    {
+      "well": "rbohD:C8",
+      "genotype": "rbohD",
+      "location": "C8",
+      "delta_length": -0.134,
+      "transcriptomic_flight_mag": 1.2923
+    }
+  ]
+}

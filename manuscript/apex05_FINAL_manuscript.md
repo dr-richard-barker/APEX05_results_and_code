@@ -132,6 +132,18 @@ DEGs 5 vs Col-0 284, but morphometric mean |*d*| 0.67 vs 0.86). Thus in *cax2-2*
 the morphological flight response proceeds largely without the transcriptional
 one — **CAX2 is required chiefly for the transcriptional arm of the response.**
 
+The position-paired design allowed this dissociation to be tested at finer
+resolution (`analysis/ml/apex05_rnaseq_rsml_geneintegration.py`, Fig. 6c): across
+the 12 primary-genotype root wells, the per-well transcriptomic flight magnitude
+(mean |Δlog₂CPM| over the flight-DEG panel, FL−GC) and the per-well root-shortening
+(|Δ root length|) were **not correlated** (Spearman ρ = −0.30, *p* = 0.34), and no
+individual flight-DEG's per-well expression change tracked root-shortening after
+FDR correction (0 / 385 genes at BH-FDR < 0.1). The transcriptomic axis cleanly
+separated *cax2-2* (low) from Col-0/*rbohD* (high), whereas root-shortening
+overlapped across all three — confirming, at well and gene resolution, that the
+spaceflight root-growth response is largely **uncoupled** from the measured
+transcriptional response.
+
 ### 5. The flight response resembles hypoxia, oxidative and defence stress and engages glutathione and phenylpropanoid metabolism
 
 A stress-resemblance analysis (GO "response to" over-representation, computed per
@@ -278,9 +290,14 @@ Col-0/*rbohD*, blank in *cax2-2*. *Source:* `results/ml/figM1_root_anatomy_fligh
 
 **Figure 6 | Root-architecture flight response and multi-omics integration.**
 (a) Morphometric flight effects (Cohen's *d*, FL vs GC); roots shorten in all
-genotypes. (b) Transcriptome vs phenotype magnitude — *cax2-2*'s transcriptome is
-disproportionately attenuated relative to its retained root-shortening.
-*Source:* `results/ml/figI1_morphometric_flight_effects.png`, `figI2_*`.
+genotypes. (b) Transcriptome vs phenotype magnitude (genotype level) — *cax2-2*'s
+transcriptome is disproportionately attenuated relative to its retained
+root-shortening. (c) Per-well coupling (n = 12 root wells): per-well transcriptomic
+flight magnitude vs |Δ root length| are uncorrelated (Spearman ρ = −0.30, *p* =
+0.34); the transcriptomic axis separates *cax2-2* (low) from Col-0/*rbohD* (high)
+while root-shortening overlaps — the uncoupling at well resolution. *Source:*
+`results/ml/figI1_morphometric_flight_effects.png`, `figI2_*`, `figI3_welllevel_coupling.png`;
+per-gene linkage in `results/tables/apex05_rnaseq_rsml_gene_correlation.csv`.
 
 **Figure 7 | Stress-programme resemblance (per organ).** GO "response to"
 over-representation grouped into stress axes, computed separately for root and

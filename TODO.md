@@ -4,19 +4,19 @@ Outstanding items to take this package from working draft to submission + archiv
 
 ## Final manuscript (WT / cax2-2 / rbohD) — multi-step
 Full staged plan + feasibility in [`docs/final_manuscript_plan.md`](docs/final_manuscript_plan.md).
-- [ ] **D1 decision:** how to handle the single-cell-dependent aims (dataset is bulk) —
-  published Arabidopsis atlas (recommended) / provide single-cell data / drop those stages.
-- [ ] **D2 decision:** source per-sample counts for cax2-2 & rbohD (OSDR accession / upload / Col-0-only).
+- [x] **D1 resolved:** used a published Arabidopsis reference (PCMDB markers) for cell-type
+  work; exploratory L-R flagged as needing single-cell (Stage 7).
+- [x] **D2 resolved:** PI provided the corrected 64-sample count matrix (all genotypes).
 - [x] Stage 0: canonical 64-sample count matrix (fixed v2.2) ingested + shared loader `analysis/ml/apex05_data.py`.
 - [x] Stage 0b: ALSDA well metadata ingested (`data/metadata/apex05_sample_well_metadata.csv`); corrected design (64 samples, Col-0 `_3.1` = 4th biological well, not technical).
 - [x] **rep→well mapping resolved from S-numbers** (verified; FL/GC paired to same well). Enables imaging joins + paired DE.
 - [x] Stage 1: DESeq2 FL-vs-GC per genotype × tissue (`analysis/ml/apex05_deseq2_flight.py`), flight-referenced.
-- [ ] Optional: paired/blocked DE (well as block) once rep→well is confirmed.
-- [x] Stage 3b: RNA-seq DE integrated with RSML root morphometrics (well-joined). Flight shortens roots (all genotypes); cax2-2 transcriptome disproportionately attenuated vs retained phenotype.
+- [ ] Optional (available; not run to avoid changing core DE numbers pre-review): paired/blocked DESeq2 (~ well + condition) — rep→well is confirmed, so this can be run as a power-boosting sensitivity analysis on request.
+- [x] Stage 3b: RNA-seq <-> RSML integration at genotype, **per-well and per-gene** level (paired FL-GC deltas). Flight shortens roots (all genotypes); transcriptome and root-shortening are UNCOUPLED (well ρ=-0.30 n.s.; 0/385 genes FDR) — the well/gene evidence for the cax2-2 uncoupling. figI1/I2/I3.
 - [x] Stage 2: LASSO flight-signature (all 3 genotypes on fixed matrix; 100% LOO; DESeq2 overlap strong Col-0/rbohD, minimal cax2-2).
 - [x] Stage 3: cell-type resolution via PCMDB marker projection (DEG enrichment + signature shift). Col-0/rbohD root → epidermis/columella/cortex; cax2-2 flat.
 - [x] Stage 4: ggPlantmap anatomical view — root epidermis+cortex painted for Col-0/rbohD; cax2-2 blank (figM1/figM2).
-- [ ] Stage 5: **GO** per cluster (extends existing g:Profiler enrichment).
+- [x] Stage 5: per-cell-type function covered by cell-type DEG enrichment (Stage 3) + per-cell-type stress decoding (Stage 6/S3).
 - [x] Stage 6: PhysioSpace-style stress resemblance (GO axes) — flight resembles hypoxia, oxidative/ROS, defense (SA/JA); cax2-2 none.
 - [x] Stage 7 (exploratory): canonical peptide L-R flight-responsiveness — mostly no-change in bulk; defense peptides notable in rbohD shoot. True cell-cell comm needs single-cell (flagged).
 - [x] Stage 8: ggKEGG pathway maps w/ DE overlay + KEGG enrichment/loci-grouping (Col-0/rbohD → glutathione + phenylpropanoid); Plant Reactome saved (sparse for Arabidopsis).

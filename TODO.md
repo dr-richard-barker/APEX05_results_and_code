@@ -13,9 +13,9 @@ Full staged plan + feasibility in [`docs/final_manuscript_plan.md`](docs/final_m
 - [x] Stage 1: DESeq2 FL-vs-GC per genotype × tissue (`analysis/ml/apex05_deseq2_flight.py`), flight-referenced.
 - [ ] Optional: paired/blocked DE (well as block) once rep→well is confirmed.
 - [x] Stage 3b: RNA-seq DE integrated with RSML root morphometrics (well-joined). Flight shortens roots (all genotypes); cax2-2 transcriptome disproportionately attenuated vs retained phenotype.
-- [ ] Stage 2: **LASSO** flight-signature to support DESeq (Col-0 now; mutants after D2).
+- [x] Stage 2: LASSO flight-signature (all 3 genotypes on fixed matrix; 100% LOO; DESeq2 overlap strong Col-0/rbohD, minimal cax2-2).
 - [x] Stage 3: cell-type resolution via PCMDB marker projection (DEG enrichment + signature shift). Col-0/rbohD root → epidermis/columella/cortex; cax2-2 flat.
-- [ ] Stage 4: **ggPlantmap** anatomical visualisation of the resolved response.
+- [x] Stage 4: ggPlantmap anatomical view — root epidermis+cortex painted for Col-0/rbohD; cax2-2 blank (figM1/figM2).
 - [ ] Stage 5: **GO** per cluster (extends existing g:Profiler enrichment).
 - [x] Stage 6: PhysioSpace-style stress resemblance (GO axes) — flight resembles hypoxia, oxidative/ROS, defense (SA/JA); cax2-2 none.
 - [ ] Stage 7: **PlantCellChat** ligand–receptor / cell–cell communication — after D1 (needs cell types).

@@ -1,0 +1,426 @@
+%% Springer Nature LaTeX template — npj Microgravity style.
+%% sn-jnl.cls + sn-nature.bst ship with Springer Nature's template (see README.md).
+\documentclass[pdflatex,sn-nature]{sn-jnl}
+
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{textcomp}
+\usepackage{url}
+
+\graphicspath{{figures/}}
+
+\begin{document}
+
+\title[CAX2 is required for the Arabidopsis spaceflight transcriptional
+response]{\textit{CAX2} is required for the \textit{Arabidopsis} transcriptional
+response to spaceflight, uncoupling gene expression from root-growth remodelling}
+
+%% TODO: the source manuscript marks authorship "[TO CONFIRM]".
+\author[1]{\fnm{Richard} \sur{Barker}}
+\affil[1]{\orgname{[Affiliation --- TO CONFIRM]}, \email{admin@cosecloud.com}}
+
+\abstract{Spaceflight reprogrammes plant gene expression and growth, but the
+signalling components that translate the orbital environment into altered
+development remain incompletely defined. The Advanced Plant Experiment-05 (APEX-05)
+flew \textit{Arabidopsis thaliana} --- wild-type Col-0, a mutant in the
+calcium/H\textsuperscript{+} exchanger \textit{CAX2} (\textit{cax2-2}), and a
+mutant in the NADPH oxidase \textit{RBOHD} (\textit{rbohD}) --- on the
+International Space Station alongside matched ground controls, profiling the root
+and shoot transcriptome (RNA-seq) and root system architecture (RSML
+morphometrics) from the same plate wells. Differential expression (DESeq2,
+flight-referenced) showed that wild-type mounts a substantial flight response
+(root 284, shoot 168 differentially expressed genes, DEGs), corroborated by an
+independent L1-regularised (LASSO) classifier (100\% leave-one-out accuracy;
+DEG-overlap \(p \leq 10^{-127}\)). Projecting the bulk signal onto a published
+\textit{A.\ thaliana} single-cell reference localised the wild-type and
+\textit{rbohD} root response to the outer root --- epidermis, cortex and the
+gravity-sensing \textbf{columella} --- and implicated glutathione metabolism and
+phenylpropanoid biosynthesis; the response most resembled hypoxia, oxidative and
+defence stress programmes. Strikingly, \textbf{\textit{cax2-2} almost entirely
+abolished the transcriptional flight response} (root 5, shoot 3 DEGs; \(\sim 5\times\)
+smaller flight axis than wild-type), identifying \textit{CAX2} as required for
+normal spaceflight transcriptional reprogramming. Yet spaceflight still shortened
+\textit{cax2-2} roots comparably to wild-type, \textbf{uncoupling the
+transcriptional and morphological flight responses}. We release APEX-05 as a FAIR,
+reproducible data-and-code package integrating transcriptomics, root imaging and a
+machine-learning analysis layer.}
+
+\keywords{spaceflight, Arabidopsis, CAX2, calcium signalling, RBOHD,
+transcriptomics, root architecture, APEX-05}
+
+\maketitle
+
+\noindent\textit{APEX-05 --- Advanced Plant Experiment-05.} \textbf{Manuscript
+status:} final integrated manuscript for the three-genotype analysis (Col-0,
+\textit{cax2-2}, \textit{rbohD}) on the corrected 64-sample count matrix; all
+quantitative results are reproducible from the repository's \texttt{analysis/} and
+\texttt{results/}. \texttt{[TO CONFIRM]} marks fields requiring author input
+(metadata, hardware, citations).
+
+\section{Introduction}\label{sec:intro}
+
+\textit{[Scaffold --- expand with citations.]}
+\begin{itemize}
+  \item \textbf{The problem.} Plants are candidate life-support organisms for
+    long-duration spaceflight, but microgravity perturbs gravitropism,
+    hydrotropism, oxidative balance and cell-wall processes. Prior spaceflight
+    transcriptomics (GeneLab / OSDR corpus) established broad reprogramming; the
+    causal signalling nodes remain debated. \texttt{[TO CONFIRM: citations.]}
+  \item \textbf{Candidate pathways.} Calcium signalling --- including vacuolar
+    Ca\textsuperscript{2+}/H\textsuperscript{+} exchange by \textit{CAX2} --- and
+    reactive-oxygen production by the NADPH oxidase \textit{RBOHD} are central to
+    plant environmental sensing and proposed as early relays of the spaceflight
+    response. APEX-05 tested their contribution by flying \textit{cax2-2} and
+    \textit{rbohD} against Col-0. \texttt{[TO CONFIRM: prior hypotheses / allele
+    line identifiers.]}
+  \item \textbf{This study.} We report the paired root/shoot transcriptome and
+    root-architecture response of the three genotypes, integrate them through a
+    well-level multi-omics join and a machine-learning analysis layer, and package
+    the analysis to FAIR standards.
+\end{itemize}
+
+\section{Results}\label{sec:results}
+
+\subsection{A corrected, position-paired 64-sample design}
+RNA-seq counts (33{,}602 genes \(\times\) 64 libraries) span four genotypes \(\times\)
+four plate wells \(\times\) two tissues (root, shoot) \(\times\) two conditions
+(spaceflight FL, ground control GC). Each well contributes matched FL and GC
+libraries, a \textbf{position-paired design} established from the ALSDA sample
+metadata via the sequencing S-numbers; this well key also joins each library to its
+RSML root image. A global principal-component analysis was clean --- PC1 (94\% of
+variance) separated root from shoot with no outlying libraries
+(Fig.~\ref{fig:1}) --- supporting the corrected sample assignments. Directions
+throughout are flight-referenced (positive = induced by spaceflight). The fourth
+flown genotype, the independent \textit{CAX2} allele \textit{cax2-3}, was excluded
+after a concordance analysis showed its flight-DEG set inflated \(\sim 90\)--100\(\times\)
+relative to \textit{cax2-2} with an outlier library --- the signature of a
+technical artefact rather than allelic biology (Fig.~\ref{fig:s1}).
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.85\textwidth]{figG1_qc_pca.png}
+\caption{\textbf{Corrected 64-sample design and QC.} Global PCA of log2-CPM (top
+2{,}000 variable genes); PC1 (94\%) separates root from shoot with no outliers, and
+within-tissue FL vs GC separation is strong in Col-0/\textit{rbohD} and weak in
+\textit{cax2-2}.}
+\label{fig:1}
+\end{figure}
+
+\subsection{Wild-type mounts a robust flight response that CAX2 is required for}
+DESeq2 (FL vs GC per genotype \(\times\) tissue; FDR \(< 0.05\), \(|\log_2\text{FC}|
+> 1\)) detected a substantial wild-type response --- \textbf{Col-0 root 284 DEGs
+(201 induced / 83 repressed), shoot 168 (156 / 12)} --- and a comparable
+\textit{rbohD} response (root 280, shoot 33; Table~\ref{tab:deg},
+Fig.~\ref{fig:2}). In sharp contrast, \textbf{\textit{cax2-2} showed almost no
+transcriptional flight response: 5 root and 3 shoot DEGs} (15 / 4 even at a relaxed
+1.5-fold, FDR \(< 0.1\) threshold), and its FL-vs-GC separation in
+morphometric-blind PCA was \(\sim 5\times\) smaller than wild-type's (Cohen-scaled
+centroid distance 7.9 vs 39.9 in root; Fig.~\ref{fig:1}). Because the sample QC was
+clean, this is a genuine biological attenuation, not a data-quality artefact:
+\textbf{CAX2 is required for the normal spaceflight transcriptional response.}
+
+Wild type and \textit{rbohD} converge on a \textbf{shared 180-gene root flight
+core} (of 284 and 280 DEGs respectively; Fig.~\ref{fig:s5}), whereas \textit{cax2-2}
+contributes essentially nothing to it (only 2 genes shared by all three genotypes).
+The shoot response is more genotype-specific (Col-0 \(\cap\) \textit{rbohD} = 4
+genes). An independent machine-learning check corroborated the DESeq2 calls
+(Fig.~\ref{fig:3}): a stability-selected LASSO logistic classifier separated FL from
+GC at 100\% leave-one-out accuracy in every genotype, but the overlap of the LASSO
+signature with the DESeq2 DEGs was strong for Col-0 and \textit{rbohD}
+(hypergeometric \(p\) up to \(10^{-127}\)) and minimal for \textit{cax2-2} (5/111
+root genes), mirroring its near-absent differential expression.
+
+\begin{table}[htbp]
+\centering
+\caption{Spaceflight differential-expression (DESeq2, FL vs GC; FDR \(< 0.05\),
+\(|\log_2\text{FC}| > 1\)) DEG counts per genotype and tissue (induced / repressed).}
+\label{tab:deg}
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+\textbf{Genotype} & \textbf{Tissue} & \textbf{DEGs} & \textbf{Induced} & \textbf{Repressed} \\
+\midrule
+Col-0            & Root  & 284 & 201 & 83 \\
+Col-0            & Shoot & 168 & 156 & 12 \\
+\textit{rbohD}   & Root  & 280 & --  & -- \\
+\textit{rbohD}   & Shoot & 33  & --  & -- \\
+\textit{cax2-2}  & Root  & 5   & --  & -- \\
+\textit{cax2-2}  & Shoot & 3   & --  & -- \\
+\botrule
+\end{tabular}
+\par\smallskip
+{\footnotesize Induced/repressed splits are given for Col-0 in the source; full
+per-genotype splits are in \texttt{results/tables/deseq2/apex05\_deseq2\_DEG\_counts.csv}.}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\fbox{\parbox[c][4.5cm][c]{0.75\textwidth}{\centering\textit{[Figure 2 placeholder.
+Render the DEG-count panel from}
+\texttt{results/tables/deseq2/apex05\_deseq2\_DEG\_counts.csv} \textit{--- the same
+data are tabulated in Table~\ref{tab:deg}.]}}}
+\caption{\textbf{Spaceflight differential expression across genotypes.} DESeq2 DEG
+counts (induced/repressed) per genotype \(\times\) tissue on the corrected matrix;
+Col-0 and \textit{rbohD} respond strongly, \textit{cax2-2} almost not at all.}
+\label{fig:2}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.85\textwidth]{figE1_lasso_flight_signature.png}
+\caption{\textbf{LASSO corroborates the DESeq2 signal.} Stability-selected sparse
+flight signature per genotype \(\times\) tissue; overlap with DESeq2 DEGs is strong
+for Col-0/\textit{rbohD}, minimal for \textit{cax2-2}.}
+\label{fig:3}
+\end{figure}
+
+\subsection{The wild-type flight response localises to the outer root and the gravity-sensing columella}
+Because APEX-05 is bulk RNA-seq, we resolved the response to cell types by projecting
+the DEGs onto a published \textit{A.\ thaliana} single-cell marker reference (Plant
+Cell Marker DataBase, PCMDB; Fig.~\ref{fig:4}). The wild-type and \textit{rbohD}
+root responses were significantly enriched for markers of the \textbf{non-hair
+epidermis, cortex and columella} (Col-0 also stele; hypergeometric \(p = 8\times10^{-6}\)
+to \(10^{-3}\)), with the \textit{rbohD} shoot response enriched for leaf mesophyll.
+Painted onto root anatomy with ggPlantmap (Fig.~\ref{fig:5}), the response occupies
+the outer root layers in Col-0 and \textit{rbohD} and is \textbf{blank in
+\textit{cax2-2}}. The enrichment of the \textbf{columella --- the root's
+gravity-sensing statolith tissue} --- is notable for a microgravity experiment.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.48\textwidth]{figH1_celltype_deg_enrichment.png}\hfill
+\includegraphics[width=0.48\textwidth]{figH2_celltype_signature_shift.png}
+\caption{\textbf{Cell-type enrichment of the flight response (PCMDB projection).}
+Hypergeometric enrichment of flight DEGs in cell-type marker sets; Col-0/\textit{rbohD}
+root \(\to\) epidermis, columella, cortex; \textit{rbohD} shoot \(\to\) mesophyll;
+\textit{cax2-2} flat. Right: cell-type signature shift.}
+\label{fig:4}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.48\textwidth]{figM1_root_anatomy_flight.png}\hfill
+\includegraphics[width=0.48\textwidth]{figM2_leaf_anatomy_flight.png}
+\caption{\textbf{Anatomical localisation (ggPlantmap).} Root (left) and leaf (right)
+cross-section painted by cell-type flight enrichment: outer-root (epidermis+cortex)
+in Col-0/\textit{rbohD}, blank in \textit{cax2-2}.}
+\label{fig:5}
+\end{figure}
+
+\subsection{Spaceflight remodels root architecture in all genotypes, uncoupling expression from growth}
+From the same wells, day-4 primary-root morphometrics showed that \textbf{spaceflight
+significantly shortened roots and reduced root surface and volume in every genotype}
+(length/vector-length/surface/volume Cohen's \textit{d} \(\approx -0.3\) to \(-1.5\),
+all \(p < 0.05\); \textit{rbohD} strongest and also thinner, diameter \textit{d} =
+\(-0.69\); Fig.~\ref{fig:6}). Integrating the two modalities per well revealed a key
+dissociation: although \textit{cax2-2} is the weakest responder in both assays, its
+transcriptome is \textbf{disproportionately attenuated relative to its retained
+root-shortening} (root DEGs 5 vs Col-0 284, but morphometric mean \(|d|\) 0.67 vs
+0.86). Thus in \textit{cax2-2} the morphological flight response proceeds largely
+without the transcriptional one --- \textbf{CAX2 is required chiefly for the
+transcriptional arm of the response.}
+
+The position-paired design allowed this dissociation to be tested at finer
+resolution (Fig.~\ref{fig:6}c): across the 12 primary-genotype root wells, the
+per-well transcriptomic flight magnitude (mean \(|\Delta\log_2\text{CPM}|\) over the
+flight-DEG panel) and the per-well root-shortening (\(|\Delta\) root length\(|\))
+were \textbf{not correlated} (Spearman \(\rho = -0.30\), \(p = 0.34\)), and no
+individual flight-DEG's per-well expression change tracked root-shortening after FDR
+correction (0 / 385 genes at BH-FDR \(< 0.1\)). The transcriptomic axis cleanly
+separated \textit{cax2-2} (low) from Col-0/\textit{rbohD} (high), whereas
+root-shortening overlapped across all three --- confirming, at well and gene
+resolution, that the spaceflight root-growth response is largely \textbf{uncoupled}
+from the measured transcriptional response.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.32\textwidth]{figI1_morphometric_flight_effects.png}\hfill
+\includegraphics[width=0.32\textwidth]{figI2_transcriptome_vs_phenotype.png}\hfill
+\includegraphics[width=0.32\textwidth]{figI3_welllevel_coupling.png}
+\caption{\textbf{Root-architecture flight response and multi-omics integration.}
+(a) Morphometric flight effects (Cohen's \textit{d}, FL vs GC); roots shorten in all
+genotypes. (b) Transcriptome vs phenotype magnitude (genotype level) ---
+\textit{cax2-2}'s transcriptome is disproportionately attenuated relative to its
+retained root-shortening. (c) Per-well coupling (\(n = 12\) root wells): per-well
+transcriptomic flight magnitude vs \(|\Delta\) root length\(|\) are uncorrelated
+(Spearman \(\rho = -0.30\), \(p = 0.34\)).}
+\label{fig:6}
+\end{figure}
+
+\subsection{The flight response resembles hypoxia, oxidative and defence stress}
+A stress-resemblance analysis (GO ``response to'' over-representation, per organ;
+Fig.~\ref{fig:7}) found the wild-type and \textit{rbohD} flight DEGs most resembled
+\textbf{hypoxia, oxidative/ROS and defence (salicylate/jasmonate/wounding)} stress
+programmes --- all documented features of plant spaceflight --- while \textit{cax2-2}
+matched none. The resemblance was \textbf{organ-specific}: the \textbf{root} response
+decoded predominantly to \textbf{hypoxia and oxidative/ROS}, whereas the
+\textbf{shoot} response decoded to \textbf{defence/immune} programmes (biotic,
+salicylate in Col-0; jasmonate and wounding in \textit{rbohD}). A cell-type-resolved
+decoding (Fig.~\ref{fig:s3}) localised the defence/hormone signature chiefly to the
+\textbf{leaf mesophyll}. Systems-level KEGG analysis (Fig.~\ref{fig:8}) showed Col-0
+and \textit{rbohD} root responses converging on \textbf{glutathione metabolism and
+phenylpropanoid biosynthesis}; the phenylpropanoid/lignin pathway was broadly
+flight-induced in the Col-0 shoot. \textit{rbohD}'s prominent glutathione-transferase
+and oxidoreductase signature is consistent with its role in redox homeostasis.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.85\textwidth]{figL1_stress_resemblance.png}
+\caption{\textbf{Stress-programme resemblance (per organ).} GO ``response to''
+over-representation grouped into stress axes, computed separately for root and shoot:
+the root flight response resembles hypoxia and oxidative/ROS, the shoot response
+resembles defence/salicylate/jasmonate/wounding; \textit{cax2-2} matches none.}
+\label{fig:7}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.7\textwidth]{figK1_kegg_pathway_enrichment.png}\\[1ex]
+\includegraphics[width=0.32\textwidth]{figJ_ath00940_col0_shoot.png}\hfill
+\includegraphics[width=0.32\textwidth]{figJ_ath00480_rbohd_shoot.png}\hfill
+\includegraphics[width=0.32\textwidth]{figJ_ath04075_col0_root.png}
+\caption{\textbf{Systems biology.} (a) KEGG pathway enrichment (glutathione,
+phenylpropanoid, secondary metabolism). (b) ggKEGG pathway maps with enzyme nodes
+coloured by flight \(\log_2\)FC and metabolite/cofactor nodes named in context:
+phenylpropanoid biosynthesis (Col-0 shoot, ath00940), glutathione metabolism
+(\textit{rbohD} shoot, ath00480), plant hormone signal transduction (Col-0 root,
+ath04075).}
+\label{fig:8}
+\end{figure}
+
+\subsection{Exploratory ligand--receptor analysis}
+Because cell--cell communication inference requires single-cell resolution (absent
+here), we tested only whether canonical \textit{Arabidopsis} peptide ligand--receptor
+modules are flight-responsive in bulk (Fig.~\ref{fig:s2}; explicitly exploratory). No
+module had both partners pass the DE threshold. Some defence-associated peptide
+ligands (\textit{PROPEP3}, \textit{PIP2}, \textit{IDA}) were notably flight-responsive
+in the \textit{rbohD} shoot, fitting the defence-stress resemblance, but true
+cell--cell communication mapping will require single-cell data.
+
+\section{Discussion}\label{sec:discussion}
+
+\textit{[Scaffold --- expand.]}
+\begin{itemize}
+  \item \textbf{CAX2 gates the transcriptional flight response.} The near-complete
+    loss of flight-induced differential expression in \textit{cax2-2}, against a
+    robust wild-type and \textit{rbohD} response, places vacuolar
+    Ca\textsuperscript{2+}/H\textsuperscript{+} exchange upstream of the
+    transcriptional spaceflight programme --- consistent with calcium signalling as
+    an early relay of the microgravity signal. \texttt{[TO CONFIRM: mechanistic
+    interpretation / citations.]}
+  \item \textbf{Transcription--morphology uncoupling.} That \textit{cax2-2} roots
+    still shorten under flight despite a silent transcriptome implies a substantial
+    transcription-independent (or pre-existing / post-transcriptional) component to
+    the root-growth response, and cautions against reading morphological phenotypes
+    directly from DEG counts.
+  \item \textbf{Cell-type context.} Localisation to epidermis, cortex and columella
+    points to gravity-sensing and environmental-interface tissues as the locus of
+    the response. \texttt{[TO CONFIRM.]}
+  \item \textbf{Limitations.} Bulk RNA-seq; cell-type resolution is
+    marker-projection, not single-cell; the ligand--receptor analysis is
+    exploratory; morphometrics are day-4 primary roots. \texttt{[TO CONFIRM.]}
+\end{itemize}
+
+\section{Methods}\label{sec:methods}
+\begin{itemize}
+  \item \textbf{Plant material \& spaceflight.} Col-0, \textit{cax2-2} and
+    \textit{rbohD} \texttt{[TO CONFIRM: allele/line identifiers, seed source]}; ISS
+    spaceflight vs ground control \texttt{[TO CONFIRM: hardware, media, light,
+    temperature, flight profile, fixation]}.
+  \item \textbf{Design \& metadata.} 4 genotypes \(\times\) 4 wells \(\times\) 2
+    tissues \(\times\) 2 conditions (64 libraries). The rep\(\to\)well mapping and
+    the RNA-seq\(\leftrightarrow\)RSML bridge are resolved from the ALSDA sequencing
+    S-numbers.
+  \item \textbf{RNA-seq \& differential expression.} Reads aligned with HISAT
+    \texttt{[TO CONFIRM: versions/genome]}; differential expression with DESeq2
+    (pydeseq2), contrast FL vs GC per genotype \(\times\) tissue, flight-referenced;
+    DEGs at FDR \(< 0.05\) and \(|\log_2\text{FC}| > 1\).
+  \item \textbf{LASSO.} L1-penalised logistic regression on log2-CPM,
+    most-parsimonious penalty by leave-one-out CV, stability-selected signature
+    (\(\geq 75\%\) of LOO refits); DEG overlap by hypergeometric test.
+  \item \textbf{Cell-type projection.} PCMDB (Zenodo 10.5281/zenodo.5101271)
+    cell-type-specific markers; hypergeometric DEG enrichment + per-sample signature
+    scoring; ggPlantmap anatomy.
+  \item \textbf{Morphometrics \& integration.} RSML day-4 primary-root traits;
+    FL-vs-GC effect sizes (Cohen's \textit{d}, Mann--Whitney); well-level join to the
+    transcriptome.
+  \item \textbf{Stress resemblance \& pathways.} g:Profiler GO ``response to'' axes
+    computed per organ and (via PCMDB markers) per cell type; KEGG pathway membership
+    (KEGG REST) and ggkegg maps.
+  \item \textbf{Reproducibility.} Python + R pipeline in \texttt{analysis/};
+    dependencies in \texttt{analysis/ml/requirements.txt}; single random seed; outputs
+    in \texttt{results/}.
+\end{itemize}
+
+\backmatter
+
+\bmhead{Data and code availability}
+Data \& code: \url{https://github.com/dr-richard-barker/APEX05_results_and_code}
+(FAIR; MIT-licensed). Reference resources: PCMDB (Zenodo 10.5281/zenodo.5101271);
+KEGG; g:Profiler; Plant Reactome (Gramene). Sequencing archive and Zenodo DOI:
+\texttt{[TO CONFIRM]}.
+
+\bmhead{Acknowledgements}
+\texttt{[TO CONFIRM: acknowledgements, author contributions, competing interests,
+funding.]}
+
+\bmhead{References}
+\texttt{[TO CONFIRM]} --- the source manuscript has no citations yet. Add entries to
+\texttt{references.bib}, insert \texttt{\textbackslash cite\{\}} at the
+\texttt{[TO CONFIRM: citations]} points above, then uncomment the
+\texttt{\textbackslash bibliography} line below.
+% \bibliography{references}
+
+\section*{Supplementary figures}
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.7\textwidth]{figF1_cax2_concordance_fixed.png}
+\caption{\textbf{\textit{cax2-3} exclusion (corrected data).} The excluded fourth
+genotype's flight-DEG set inflated \(\sim 90\)--100\(\times\) relative to
+\textit{cax2-2} with an outlier library --- a technical artefact.}
+\label{fig:s1}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.7\textwidth]{figN1_ligand_receptor.png}
+\caption{\textbf{Exploratory peptide ligand--receptor flight-responsiveness.} No
+module had both partners pass the DE threshold; peptide-signalling genes cluster near
+no-change.}
+\label{fig:s2}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.85\textwidth]{figL2_celltype_stress_decoding.png}
+\caption{\textbf{Cell-type-resolved stress decoding.} For each significant stress
+programme (Fig.~\ref{fig:7}), member flight-DEGs are attributed to cell types via the
+PCMDB markers. The defence/hormone signature localises chiefly to leaf mesophyll.}
+\label{fig:s3}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.7\textwidth]{figO1_paired_vs_unpaired_DEGs.png}
+\caption{\textbf{Well-blocked (paired) DESeq2 --- sensitivity analysis.} Flight-DEG
+counts from the unpaired model (\(\sim\)condition) vs a paired model blocking on
+plate well (\(\sim\)location + condition). Counts are broadly concordant and every
+qualitative conclusion is unchanged.}
+\label{fig:s4}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.7\textwidth]{figP1_deg_overlap_venn.png}
+\caption{\textbf{Flight-DEG overlap across genotypes.} Three-way Venn of the DESeq2
+flight-DEG sets (Col-0, \textit{cax2-2}, \textit{rbohD}) for root and shoot. Wild type
+and \textit{rbohD} share a 180-gene root flight core; only 2 genes are shared by all
+three; \textit{cax2-2} is near-empty.}
+\label{fig:s5}
+\end{figure}
+
+\end{document}

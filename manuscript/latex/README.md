@@ -34,10 +34,10 @@ faithfully from the source, not invented:
 - [x] **Tool/database citations** (Methods) — DESeq2, PyDESeq2, LASSO, PCMDB,
       ggPlantmap, ggkegg, KEGG, g:Profiler, HISAT, Plant Reactome — added to
       `references.bib` (verified) and cited; `\bibliography` is now enabled.
-- [ ] **Background/scientific citations** — the `[TO CONFIRM: citations]` points in
-      the Introduction & Discussion still need domain references (spaceflight
-      transcriptomics, CAX2 calcium signalling, RBOHD/ROS). Candidates are being
-      selected for approval; insert `\cite{}` at those points once chosen.
+- [x] **Background/scientific citations** — verified domain references added and
+      cited in the Introduction: spaceflight transcriptomics (Paul et al. 2013),
+      CAX2 calcium signalling (Shigaki 2003; Pittman 2005), RBOHD/ROS (Torres 2002;
+      Miller 2009). Further references may be added as the scaffold prose is expanded.
 - [ ] **Author block, Acknowledgements, and many Methods fields** are `[TO CONFIRM]`
       in the source (hardware, media, allele identifiers, OSDR accession, DOI).
 - [ ] **Introduction & Discussion** are bullet scaffolds marked `[Scaffold — expand]`.

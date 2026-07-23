@@ -28,17 +28,19 @@ latex/
 This manuscript is a **scaffold** in places — those markers are carried over
 faithfully from the source, not invented:
 
-- [ ] **References** — the source References section is `[TO CONFIRM]` (no
-      citations yet). `references.bib` is intentionally empty. Add entries, insert
-      `\cite{}` at the `[TO CONFIRM: citations]` points in Introduction / Methods /
-      Discussion, then uncomment `\bibliography{references}`.
+- [x] **Figure 2** — now rendered as a native `pgfplots` diverging bar chart
+      straight from `results/tables/deseq2/apex05_deseq2_DEG_counts.csv` (vector, no
+      external image). The same counts are in Table 1.
+- [x] **Tool/database citations** (Methods) — DESeq2, PyDESeq2, LASSO, PCMDB,
+      ggPlantmap, ggkegg, KEGG, g:Profiler, HISAT, Plant Reactome — added to
+      `references.bib` (verified) and cited; `\bibliography` is now enabled.
+- [ ] **Background/scientific citations** — the `[TO CONFIRM: citations]` points in
+      the Introduction & Discussion still need domain references (spaceflight
+      transcriptomics, CAX2 calcium signalling, RBOHD/ROS). Candidates are being
+      selected for approval; insert `\cite{}` at those points once chosen.
 - [ ] **Author block, Acknowledgements, and many Methods fields** are `[TO CONFIRM]`
       in the source (hardware, media, allele identifiers, OSDR accession, DOI).
 - [ ] **Introduction & Discussion** are bullet scaffolds marked `[Scaffold — expand]`.
-- [ ] **Figure 2** has no rendered image in the repo (its source is a CSV). It is a
-      clearly-marked placeholder box; the same DEG-count data are tabulated in
-      Table 1. Render the panel from `results/tables/deseq2/apex05_deseq2_DEG_counts.csv`
-      and replace the placeholder.
 - [ ] **Not compile-tested** — authored without a local TeX install; build once on
       Overleaf and fix any stragglers.
 - [ ] **Figures** — repo PNGs; npj prefers vector/≥300 dpi for final submission.

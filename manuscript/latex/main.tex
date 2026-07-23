@@ -8,6 +8,8 @@
 \usepackage{booktabs}
 \usepackage{textcomp}
 \usepackage{url}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
 
 \graphicspath{{figures/}}
 
@@ -143,26 +145,42 @@ root genes), mirroring its near-absent differential expression.
 \midrule
 Col-0            & Root  & 284 & 201 & 83 \\
 Col-0            & Shoot & 168 & 156 & 12 \\
-\textit{rbohD}   & Root  & 280 & --  & -- \\
-\textit{rbohD}   & Shoot & 33  & --  & -- \\
-\textit{cax2-2}  & Root  & 5   & --  & -- \\
-\textit{cax2-2}  & Shoot & 3   & --  & -- \\
+\textit{rbohD}   & Root  & 280 & 198 & 82 \\
+\textit{rbohD}   & Shoot & 33  & 2   & 31 \\
+\textit{cax2-2}  & Root  & 5   & 5   & 0  \\
+\textit{cax2-2}  & Shoot & 3   & 1   & 2  \\
 \botrule
 \end{tabular}
 \par\smallskip
-{\footnotesize Induced/repressed splits are given for Col-0 in the source; full
-per-genotype splits are in \texttt{results/tables/deseq2/apex05\_deseq2\_DEG\_counts.csv}.}
+{\footnotesize DEG counts from \texttt{results/tables/deseq2/apex05\_deseq2\_DEG\_counts.csv}
+(FDR \(< 0.05\), \(|\log_2\text{FC}| > 1\); flight-referenced). The fourth flown
+genotype \textit{cax2-3} is excluded (technical artefact; see text and Fig.~\ref{fig:s1}).}
 \end{table}
 
 \begin{figure}[htbp]
 \centering
-\fbox{\parbox[c][4.5cm][c]{0.75\textwidth}{\centering\textit{[Figure 2 placeholder.
-Render the DEG-count panel from}
-\texttt{results/tables/deseq2/apex05\_deseq2\_DEG\_counts.csv} \textit{--- the same
-data are tabulated in Table~\ref{tab:deg}.]}}}
+\begin{tikzpicture}
+\begin{axis}[
+  width=0.92\textwidth, height=6.5cm,
+  ybar, bar width=9pt,
+  symbolic x coords={Col-0 root,Col-0 shoot,cax2-2 root,cax2-2 shoot,rbohD root,rbohD shoot},
+  xtick=data,
+  x tick label style={rotate=20,anchor=east,font=\small},
+  ylabel={DEGs (induced $+$ / repressed $-$)},
+  ymajorgrids, enlarge x limits=0.10,
+  nodes near coords, nodes near coords style={font=\tiny},
+  legend style={at={(0.5,1.03)},anchor=south,legend columns=2,font=\small,draw=none},
+]
+\addplot+[draw=none] coordinates {(Col-0 root,201)(Col-0 shoot,156)(cax2-2 root,5)(cax2-2 shoot,1)(rbohD root,198)(rbohD shoot,2)};
+\addplot+[draw=none] coordinates {(Col-0 root,-83)(Col-0 shoot,-12)(cax2-2 root,0)(cax2-2 shoot,-2)(rbohD root,-82)(rbohD shoot,-31)};
+\legend{Induced (up in flight), Repressed (down in flight)}
+\end{axis}
+\end{tikzpicture}
 \caption{\textbf{Spaceflight differential expression across genotypes.} DESeq2 DEG
-counts (induced/repressed) per genotype \(\times\) tissue on the corrected matrix;
-Col-0 and \textit{rbohD} respond strongly, \textit{cax2-2} almost not at all.}
+counts (induced, positive; repressed, negative) per genotype \(\times\) tissue on the
+corrected matrix (FDR \(< 0.05\), \(|\log_2\text{FC}| > 1\)); Col-0 and \textit{rbohD}
+respond strongly, \textit{cax2-2} almost not at all. Rendered from
+\texttt{results/tables/deseq2/apex05\_deseq2\_DEG\_counts.csv}.}
 \label{fig:2}
 \end{figure}
 
@@ -333,21 +351,23 @@ cell--cell communication mapping will require single-cell data.
     the RNA-seq\(\leftrightarrow\)RSML bridge are resolved from the ALSDA sequencing
     S-numbers.
   \item \textbf{RNA-seq \& differential expression.} Reads aligned with HISAT
-    \texttt{[TO CONFIRM: versions/genome]}; differential expression with DESeq2
-    (pydeseq2), contrast FL vs GC per genotype \(\times\) tissue, flight-referenced;
-    DEGs at FDR \(< 0.05\) and \(|\log_2\text{FC}| > 1\).
-  \item \textbf{LASSO.} L1-penalised logistic regression on log2-CPM,
+    \cite{kim2015hisat} \texttt{[TO CONFIRM: versions/genome]}; differential
+    expression with DESeq2 (pydeseq2) \cite{love2014,muzellec2023}, contrast FL vs
+    GC per genotype \(\times\) tissue, flight-referenced; DEGs at FDR \(< 0.05\) and
+    \(|\log_2\text{FC}| > 1\).
+  \item \textbf{LASSO.} L1-penalised logistic regression \cite{tibshirani1996} on log2-CPM,
     most-parsimonious penalty by leave-one-out CV, stability-selected signature
     (\(\geq 75\%\) of LOO refits); DEG overlap by hypergeometric test.
-  \item \textbf{Cell-type projection.} PCMDB (Zenodo 10.5281/zenodo.5101271)
-    cell-type-specific markers; hypergeometric DEG enrichment + per-sample signature
-    scoring; ggPlantmap anatomy.
+  \item \textbf{Cell-type projection.} PCMDB \cite{jin2022pcmdb} (Zenodo
+    10.5281/zenodo.5101271) cell-type-specific markers; hypergeometric DEG enrichment
+    + per-sample signature scoring; ggPlantmap \cite{jo2024ggplantmap} anatomy.
   \item \textbf{Morphometrics \& integration.} RSML day-4 primary-root traits;
     FL-vs-GC effect sizes (Cohen's \textit{d}, Mann--Whitney); well-level join to the
     transcriptome.
-  \item \textbf{Stress resemblance \& pathways.} g:Profiler GO ``response to'' axes
-    computed per organ and (via PCMDB markers) per cell type; KEGG pathway membership
-    (KEGG REST) and ggkegg maps.
+  \item \textbf{Stress resemblance \& pathways.} g:Profiler \cite{raudvere2019} GO
+    ``response to'' axes computed per organ and (via PCMDB markers) per cell type;
+    KEGG \cite{kanehisa2000} pathway membership (KEGG REST) and ggkegg
+    \cite{sato2023ggkegg} maps.
   \item \textbf{Reproducibility.} Python + R pipeline in \texttt{analysis/};
     dependencies in \texttt{analysis/ml/requirements.txt}; single random seed; outputs
     in \texttt{results/}.
@@ -358,7 +378,7 @@ cell--cell communication mapping will require single-cell data.
 \bmhead{Data and code availability}
 Data \& code: \url{https://github.com/dr-richard-barker/APEX05_results_and_code}
 (FAIR; MIT-licensed). Reference resources: PCMDB (Zenodo 10.5281/zenodo.5101271);
-KEGG; g:Profiler; Plant Reactome (Gramene). Sequencing archive and Zenodo DOI:
+KEGG; g:Profiler; Plant Reactome (Gramene) \cite{naithani2020}. Sequencing archive and Zenodo DOI:
 \texttt{[TO CONFIRM]}.
 
 \bmhead{Acknowledgements}
@@ -366,11 +386,10 @@ KEGG; g:Profiler; Plant Reactome (Gramene). Sequencing archive and Zenodo DOI:
 funding.]}
 
 \bmhead{References}
-\texttt{[TO CONFIRM]} --- the source manuscript has no citations yet. Add entries to
-\texttt{references.bib}, insert \texttt{\textbackslash cite\{\}} at the
-\texttt{[TO CONFIRM: citations]} points above, then uncomment the
-\texttt{\textbackslash bibliography} line below.
-% \bibliography{references}
+%% Tool/database citations (named in Methods) are included below. Background /
+%% scientific citations for the Introduction and Discussion are still to be added
+%% at the [TO CONFIRM: citations] points once the reference set is finalised.
+\bibliography{references}
 
 \section*{Supplementary figures}
 \setcounter{figure}{0}

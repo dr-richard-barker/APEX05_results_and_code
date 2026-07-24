@@ -38,9 +38,11 @@ faithfully from the source, not invented:
       cited in the Introduction: spaceflight transcriptomics (Paul et al. 2013),
       CAX2 calcium signalling (Shigaki 2003; Pittman 2005), RBOHD/ROS (Torres 2002;
       Miller 2009). Further references may be added as the scaffold prose is expanded.
-- [ ] **Author block, Acknowledgements, and many Methods fields** are `[TO CONFIRM]`
-      in the source (hardware, media, allele identifiers, OSDR accession, DOI).
-- [ ] **Introduction & Discussion** are bullet scaffolds marked `[Scaffold — expand]`.
+- [x] **Introduction & Discussion** — expanded from the bullet scaffolds into full
+      prose, with all citations wired (draft for author review/refinement).
+- [ ] **Author block, Acknowledgements, and remaining Methods fields** are still
+      `[TO CONFIRM]` in the source (hardware, media, allele identifiers, OSDR
+      accession, DOI) — factual fields for the author to supply.
 - [ ] **Not compile-tested** — authored without a local TeX install; build once on
       Overleaf and fix any stragglers.
 - [ ] **Figures** — repo PNGs; npj prefers vector/≥300 dpi for final submission.

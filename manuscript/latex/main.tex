@@ -63,25 +63,47 @@ quantitative results are reproducible from the repository's \texttt{analysis/} a
 
 \section{Introduction}\label{sec:intro}
 
-\textit{[Scaffold --- expand with citations.]}
-\begin{itemize}
-  \item \textbf{The problem.} Plants are candidate life-support organisms for
-    long-duration spaceflight, but microgravity perturbs gravitropism,
-    hydrotropism, oxidative balance and cell-wall processes. Prior spaceflight
-    transcriptomics (GeneLab / OSDR corpus) established broad reprogramming
-    \cite{paul2013}; the causal signalling nodes remain debated.
-  \item \textbf{Candidate pathways.} Calcium signalling --- including vacuolar
-    Ca\textsuperscript{2+}/H\textsuperscript{+} exchange by \textit{CAX2}
-    \cite{shigaki2003,pittman2005} --- and reactive-oxygen production by the NADPH
-    oxidase \textit{RBOHD} \cite{torres2002,miller2009} are central to plant
-    environmental sensing and proposed as early relays of the spaceflight response.
-    APEX-05 tested their contribution by flying \textit{cax2-2} and \textit{rbohD}
-    against Col-0. \texttt{[TO CONFIRM: allele line identifiers.]}
-  \item \textbf{This study.} We report the paired root/shoot transcriptome and
-    root-architecture response of the three genotypes, integrate them through a
-    well-level multi-omics join and a machine-learning analysis layer, and package
-    the analysis to FAIR standards.
-\end{itemize}
+Plants are strong candidates for the bioregenerative life-support systems that will
+make long-duration and deep-space human exploration feasible, contributing food,
+oxygen, water recycling and psychological benefit. Realising that role requires
+understanding how plants develop away from Earth, yet the spaceflight environment
+perturbs several of the processes most central to plant growth at once ---
+gravitropism and the gravity-sensing apparatus \cite{morita2026}, hydrotropism and
+water relations, cellular redox balance, and cell-wall remodelling. Two decades of
+orbital experiments, consolidated in the NASA GeneLab / Open Science Data Repository
+(OSDR) corpus, have established that spaceflight drives broad, organ-specific
+transcriptional reprogramming in \textit{Arabidopsis} and other species
+\cite{paul2013,barker2023}. What remains far less clear is \textit{which} molecular
+events are causally required to translate the orbital environment into altered gene
+expression and growth: most studies catalogue what changes in a given experiment, but
+few test what is necessary for the response to occur at all.
+
+Two signalling systems are strong a priori candidates for such early relays.
+Cytosolic calcium is among the fastest and most general second messengers in plant
+environmental and mechanical sensing, and its homeostasis depends on vacuolar
+sequestration by Ca\textsuperscript{2+}/H\textsuperscript{+} exchangers; CAX2 is one
+such tonoplast antiporter, characterised biochemically as a low-affinity
+Ca\textsuperscript{2+} (and broader metal)/H\textsuperscript{+} exchanger with a
+distinct pH-dependent regulation from its paralogue CAX1 \cite{shigaki2003,pittman2005}.
+In parallel, apoplastic reactive-oxygen production by the NADPH oxidase RBOHD is a hub
+for stress and defence signalling and mediates rapid, systemic responses to diverse
+stimuli \cite{torres2002,miller2009}. Both calcium signalling and RBOHD-derived ROS
+have been proposed as early components of the plant response to microgravity, but
+their contributions have not been tested directly in flight by loss-of-function
+genetics.
+
+The Advanced Plant Experiment-05 (APEX-05) was designed to make that test. We flew
+wild-type \textit{Arabidopsis thaliana} (Col-0) alongside null mutants in \textit{CAX2}
+(\textit{cax2-2}) and \textit{RBOHD} (\textit{rbohD}) \texttt{[TO CONFIRM: allele line
+identifiers]} on the International Space Station with matched ground controls, and
+profiled, from the same plate wells, both the root and shoot transcriptome (RNA-seq)
+and root system architecture (RSML morphometrics). Integrating the two modalities
+through a well-level, position-paired join and a machine-learning analysis layer, we
+ask: (i) does removing CAX2 or RBOHD alter the magnitude or structure of the
+spaceflight transcriptional response; (ii) where --- in which organs and cell types ---
+is that response localised; and (iii) does the transcriptional response track the
+morphological one at the resolution of individual wells? We release the full analysis
+as a FAIR, reproducible data-and-code package.
 
 \section{Results}\label{sec:results}
 
@@ -318,27 +340,65 @@ cell--cell communication mapping will require single-cell data.
 
 \section{Discussion}\label{sec:discussion}
 
-\textit{[Scaffold --- expand.]}
-\begin{itemize}
-  \item \textbf{CAX2 gates the transcriptional flight response.} The near-complete
-    loss of flight-induced differential expression in \textit{cax2-2}, against a
-    robust wild-type and \textit{rbohD} response, places vacuolar
-    Ca\textsuperscript{2+}/H\textsuperscript{+} exchange upstream of the
-    transcriptional spaceflight programme --- consistent with calcium signalling as
-    an early relay of the microgravity signal. \texttt{[TO CONFIRM: mechanistic
-    interpretation / citations.]}
-  \item \textbf{Transcription--morphology uncoupling.} That \textit{cax2-2} roots
-    still shorten under flight despite a silent transcriptome implies a substantial
-    transcription-independent (or pre-existing / post-transcriptional) component to
-    the root-growth response, and cautions against reading morphological phenotypes
-    directly from DEG counts.
-  \item \textbf{Cell-type context.} Localisation to epidermis, cortex and columella
-    points to gravity-sensing and environmental-interface tissues as the locus of
-    the response. \texttt{[TO CONFIRM.]}
-  \item \textbf{Limitations.} Bulk RNA-seq; cell-type resolution is
-    marker-projection, not single-cell; the ligand--receptor analysis is
-    exploratory; morphometrics are day-4 primary roots. \texttt{[TO CONFIRM.]}
-\end{itemize}
+\textbf{CAX2, but not RBOHD, is required for the transcriptional spaceflight
+response.} The central result of APEX-05 is a genetic dissociation between two
+candidate signalling nodes. Wild-type Col-0 mounted a substantial, reproducible flight
+response (284 root and 168 shoot DEGs), corroborated by an independent LASSO
+classifier, and this response was largely intact in \textit{rbohD} (280 root DEGs; a
+shared 180-gene root flight core with wild type). In sharp contrast, \textit{cax2-2}
+was almost transcriptionally silent under flight (5 root and 3 shoot DEGs), with a
+flight axis roughly five-fold smaller than wild type in morphometric-blind PCA. Because
+sample quality was uniformly high, this is a genuine biological attenuation rather than
+a technical artefact. The asymmetry is informative: RBOHD-derived ROS is largely
+dispensable for establishing the transcriptional programme, whereas vacuolar
+Ca\textsuperscript{2+}/H\textsuperscript{+} exchange through CAX2 is required for it ---
+placing calcium homeostasis upstream of the bulk of the spaceflight transcriptional
+response and consistent with a model in which calcium signalling is an early relay of
+the microgravity signal \cite{shigaki2003,pittman2005}.
+
+\textbf{The transcriptional and morphological responses are uncoupled.} Despite its
+near-silent transcriptome, \textit{cax2-2} still shortened its roots under spaceflight
+to an extent comparable with wild type, and across the 12 position-paired
+primary-genotype root wells the per-well transcriptomic flight magnitude and per-well
+root-shortening were uncorrelated (Spearman \(\rho = -0.30\), \(p = 0.34\)), with no
+individual flight-DEG tracking root-shortening after correction. Thus the spaceflight
+root-growth response can proceed largely without the measured transcriptional one. This
+dissociation implies a substantial transcription-independent component to
+root-architecture remodelling --- whether pre-existing, post-transcriptional, or
+mediated by rapid ionic and mechanical signalling that does not require new
+transcription --- and cautions against inferring morphological phenotypes directly from
+DEG counts.
+
+\textbf{The response is anchored in gravity-sensing and environmental-interface
+tissues.} Projecting the bulk signal onto a single-cell marker reference localised the
+wild-type and \textit{rbohD} root response to the outer root --- non-hair epidermis,
+cortex and, notably, the gravity-sensing columella --- with the shoot response enriched
+in leaf mesophyll. That a microgravity experiment should converge on the columella, the
+statolith-bearing tissue of graviperception, is striking and consistent with the loss
+of a unit-gravity reference being a primary cue. Functionally, the flight response most
+resembled hypoxia, oxidative/ROS and defence stress programmes and converged at the
+pathway level on glutathione metabolism and phenylpropanoid biosynthesis --- programmes
+repeatedly reported in plant spaceflight \cite{barker2023} --- with an organ split
+between a root hypoxia/oxidative signature and a shoot defence/hormone signature. The
+prominent glutathione-transferase and oxidoreductase signature in \textit{rbohD} is
+consistent with its role in redox homeostasis, and may reflect compensation for altered
+ROS production.
+
+\textbf{Limitations.} Several caveats bound these conclusions. The transcriptome is
+bulk RNA-seq, so cell-type localisation rests on marker projection rather than
+single-cell measurement; the ligand--receptor analysis is explicitly exploratory and
+under-powered in bulk tissue; morphometrics are day-4 primary-root traits from a single
+timepoint; and the datasets, while position-paired, remain modest in replication. The
+mechanistic ordering we infer is a genetic-requirement argument, not a direct
+measurement of calcium or ROS dynamics in flight.
+
+\textbf{Outlook.} APEX-05 identifies CAX2-dependent calcium handling as a required node
+for the \textit{Arabidopsis} transcriptional response to spaceflight while showing that
+root-growth remodelling is at least partly transcription-independent. Testing this model
+will require complementary proteomic and metabolomic measurements, time-resolved and
+single-cell transcriptomics, and direct calcium/ROS reporters in flight or in
+ground-based analogues, together with an assessment of whether modulating calcium
+signalling can tune plant performance in space.
 
 \section{Methods}\label{sec:methods}
 \begin{itemize}
